@@ -1,0 +1,7 @@
+**/.vscode
+**/.vs
+**/*.csproj
+**/*.sln
+Errors/
+Logs/
+Screeshots/
