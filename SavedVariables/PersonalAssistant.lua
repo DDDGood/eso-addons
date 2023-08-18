@@ -12,51 +12,8 @@ PersonalAssistant_SavedVariables =
                 {
                 },
             },
-            ["Douli D"] = 
-            {
-                ["debug"] = false,
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
-                ["General"] = 
-                {
-                    ["jumpOutside"] = false,
-                    ["welcomeMessage"] = true,
-                },
-            },
             ["D Ruba"] = 
             {
-                ["debug"] = false,
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
                 ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
@@ -66,27 +23,57 @@ PersonalAssistant_SavedVariables =
                     ["activeProfile"] = 1,
                 },
                 ["version"] = 1,
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
+                },
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+            },
+            ["Douli D"] = 
+            {
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
+                },
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
                 },
             },
             ["D Good"] = 
             {
-                ["debug"] = false,
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
                 ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
@@ -96,10 +83,23 @@ PersonalAssistant_SavedVariables =
                     ["activeProfile"] = 1,
                 },
                 ["version"] = 1,
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["debug"] = false,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
+                },
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
                 },
             },
         },

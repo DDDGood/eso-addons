@@ -8,30 +8,30 @@ AdvancedFilters_Settings =
             {
                 ["Settings"] = 
                 {
-                    ["debugSpamExcludeDropdownBoxFilters"] = true,
-                    ["hideItemCount"] = false,
                     ["doDebugOutput"] = false,
-                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
-                    ["showDropdownSelectedReminderAnimation"] = true,
-                    ["debugSpam"] = false,
-                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
+                    ["version"] = 1.5110000000,
+                    ["hideItemCount"] = false,
                     ["itemCountLabelColor"] = 
                     {
-                        ["g"] = 1,
-                        ["r"] = 1,
                         ["b"] = 1,
                         ["a"] = 1,
+                        ["r"] = 1,
+                        ["g"] = 1,
                     },
-                    ["showDropdownLastSelectedEntries"] = true,
+                    ["showDropdownSelectedReminderAnimation"] = true,
+                    ["debugSpamExcludeDropdownBoxFilters"] = true,
+                    ["debugSpam"] = false,
+                    ["grayOutSubFiltersWithNoItems"] = true,
+                    ["showIconsInFilterDropdowns"] = true,
                     ["subfilterBarDropdownLastSelectedEntries"] = 
                     {
                     },
-                    ["grayOutSubFiltersWithNoItems"] = true,
-                    ["showIconsInFilterDropdowns"] = true,
-                    ["hideCharBoundAtBankDeposit"] = false,
                     ["rememberFilterDropdownsLastSelection"] = true,
-                    ["version"] = 1.5110000000,
+                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
+                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
                     ["hideSubFilterLabel"] = false,
+                    ["showDropdownLastSelectedEntries"] = true,
+                    ["hideCharBoundAtBankDeposit"] = false,
                 },
             },
         },

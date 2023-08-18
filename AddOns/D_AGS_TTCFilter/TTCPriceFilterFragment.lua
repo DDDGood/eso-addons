@@ -4,7 +4,7 @@ function AGSTTCFilter.InitTTCPriceFilterFragmentClass()
     local ValueRangeFilterFragmentBase = AGS.class.ValueRangeFilterFragmentBase
     local SimpleIconButton = AGS.class.SimpleIconButton
 
-    local BUTTON_SIZE = 36
+    local BUTTON_SIZE = 32
     local BUTTON_OFFSET_X = -6
     local BUTTON_OFFSET_Y = 2
 

@@ -2,7 +2,7 @@
 #AcknowledgedOutOfDateAddonsVersion 101038
 #AddOnsEnabled 1
 #Default
-HarvestMapAD 0
+GS06Data 0
 GS13Data 0
 GS08Data 0
 LibTextFilter 0
@@ -113,10 +113,10 @@ LibCharacterKnowledge 0
 CombatMetronome 0
 GS14Data 0
 GS12Data 0
-GS06Data 0
+HarvestMapAD 0
 GS01Data 0
-LibLootSummary 0
 CraftStoreFixedAndImproved 0
+LibLootSummary 0
 #NA Megaserver-Douli D
 LibUnits2 1
 WeaveDelays 1
@@ -200,7 +200,7 @@ CraftStoreFixedAndImproved 1
 GroupLootNotifier 1
 CustomCompassPins 0
 LibLootSummary 1
-GS01Data 0
+LibMotif 0
 GS13Data 0
 GS08Data 0
 LibRunebox 0
@@ -241,14 +241,14 @@ MapPins 1
 pChat 0
 LibMediaProvider-1.0 0
 LibExecutionQueue 0
-QuestMap 0
+QuestMap 1
 DefaultGuildBank 1
 LibDebugLogger 1
 LibSFUtils 1
 PotionMaker 0
 LibCustomMenu 1
 LibAsync 0
-LibQuestData 0
+LibQuestData 1
 LibHistoire 0
 AdvancedFilters 1
 WizardsWardrobe 1
@@ -275,7 +275,7 @@ CrutchAlerts 1
 LibExtendedJournal 1
 D_TTC 0
 LibTableFunctions-1.0 0
-LibMapPins-1.0 0
+LibMapPins-1.0 1
 GS17Data 0
 GS02Data 0
 GS04Data 0
@@ -324,7 +324,7 @@ LibPromises 1
 DryzlerElderGeekNetBetterRezz 0
 AwesomeGuildStore 1
 OdySupportIcons 1
-LibMapData 0
+LibMapData 1
 LibMainMenu-2.0 1
 LibMapPing 1
 LibCharacterKnowledge 1
@@ -333,6 +333,6 @@ GS14Data 0
 AgsInvididualItemPriceFilter 0
 GS12Data 0
 GS06Data 0
-CraftStoreFixedAndImproved 1
+GS01Data 0
 HarvestMapAD 0
-LibMotif 0
+CraftStoreFixedAndImproved 1

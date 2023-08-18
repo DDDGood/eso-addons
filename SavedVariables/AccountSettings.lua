@@ -6,6 +6,8 @@ AccountSettings_SV =
         {
             ["$AccountWide"] = 
             {
+                ["tracked"] = true,
+                ["sync"] = true,
                 ["chatColors"] = 
                 {
                     [1] = 
@@ -285,7 +287,6 @@ AccountSettings_SV =
                         [3] = 0.6196078658,
                     },
                 },
-                ["showChatIcon"] = true,
                 ["settingsBool"] = 
                 {
                     [0] = 
@@ -490,7 +491,6 @@ AccountSettings_SV =
                         [43] = true,
                     },
                 },
-                ["debug"] = false,
                 ["settings"] = 
                 {
                     [0] = 
@@ -695,10 +695,10 @@ AccountSettings_SV =
                         [43] = "0",
                     },
                 },
-                ["tracked"] = true,
-                ["sync"] = true,
-                ["version"] = 2,
+                ["showChatIcon"] = true,
                 ["log"] = false,
+                ["version"] = 2,
+                ["debug"] = false,
             },
         },
     },

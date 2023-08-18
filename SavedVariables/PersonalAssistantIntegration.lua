@@ -6,7 +6,6 @@ PersonalAssistantIntegration_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["profileCounter"] = 1,
                 [1] = 
                 {
                     ["name"] = "Profile 1",
@@ -16,19 +15,20 @@ PersonalAssistantIntegration_SavedVariables =
                     },
                     ["FCOItemSaver"] = 
                     {
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
-                        },
-                        ["DynamicIcons"] = 
-                        {
-                        },
                         ["Locked"] = 
                         {
                             ["preventMoving"] = false,
                             ["preventAutoSell"] = false,
                         },
-                        ["Research"] = 
+                        ["SellGuildStore"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -43,11 +43,11 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
-                        ["SellGuildStore"] = 
+                        ["Sell"] = 
                         {
-                            ["itemMoveMode"] = 0,
+                            ["autoSellMarked"] = false,
                         },
-                        ["Improvement"] = 
+                        ["Research"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -55,13 +55,13 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["Deconstruction"] = 
+                        ["DynamicIcons"] = 
                         {
-                            ["itemMoveMode"] = 0,
                         },
                     },
                 },
                 ["version"] = 1,
+                ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,
             },
         },

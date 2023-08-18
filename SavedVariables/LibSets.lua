@@ -6,29 +6,29 @@ LibSets_SV_Data =
         {
             ["$AccountWide"] = 
             {
-                ["addSetCollectionsCurrentZoneButton"] = true,
                 ["useCustomTooltipPattern"] = "",
                 ["tooltipModifications"] = 
                 {
-                    ["tooltipTextures"] = true,
-                    ["addDropMechanic"] = true,
                     ["addDLC"] = true,
-                    ["addDropLocation"] = true,
-                    ["addNeededTraits"] = true,
-                    ["addReconstructionCost"] = true,
                     ["addSetType"] = true,
+                    ["addNeededTraits"] = true,
+                    ["addDropMechanic"] = true,
+                    ["addReconstructionCost"] = true,
                     ["addBossName"] = true,
+                    ["tooltipTextures"] = true,
+                    ["addDropLocation"] = true,
                 },
-                ["modifyTooltips"] = false,
                 ["version"] = 0.3800000000,
+                ["modifyTooltips"] = false,
                 ["setPreviewTooltips"] = 
                 {
                     ["quality"] = 370,
-                    ["sendToChatToo"] = true,
                     ["equipType"] = 3,
                     ["enchantSearchCategoryType"] = 0,
                     ["traitType"] = 18,
+                    ["sendToChatToo"] = true,
                 },
+                ["addSetCollectionsCurrentZoneButton"] = true,
             },
         },
     },
@@ -38,13 +38,10 @@ LibSets_SV_Data =
         {
             ["$AccountWide"] = 
             {
-                ["setItemIdsNoSetId"] = 
+                ["setItemIds_Compressed"] = 
                 {
                 },
-                ["setNames"] = 
-                {
-                },
-                ["wayshrineNames"] = 
+                ["dungeonFinderData"] = 
                 {
                 },
                 ["maps"] = 
@@ -53,23 +50,26 @@ LibSets_SV_Data =
                 ["collectible_DLCNames"] = 
                 {
                 },
-                ["collectibleNames"] = 
+                ["setNames"] = 
                 {
                 },
-                ["dungeonFinderData"] = 
-                {
-                },
-                ["setItemIds_Compressed"] = 
-                {
-                },
-                ["setItemIds"] = 
+                ["zoneData"] = 
                 {
                 },
                 ["NewSetIDs"] = 
                 {
                 },
+                ["collectibleNames"] = 
+                {
+                },
+                ["wayshrineNames"] = 
+                {
+                },
                 ["version"] = 0.3600000000,
-                ["zoneData"] = 
+                ["setItemIds"] = 
+                {
+                },
+                ["setItemIdsNoSetId"] = 
                 {
                 },
             },
@@ -84,13 +84,10 @@ LibSets_SV_DEBUG_Data =
         {
             ["$AccountWide"] = 
             {
-                ["setItemIdsNoSetId"] = 
+                ["setItemIds_Compressed"] = 
                 {
                 },
-                ["setNames"] = 
-                {
-                },
-                ["wayshrineNames"] = 
+                ["dungeonFinderData"] = 
                 {
                 },
                 ["maps"] = 
@@ -99,23 +96,26 @@ LibSets_SV_DEBUG_Data =
                 ["collectible_DLCNames"] = 
                 {
                 },
-                ["collectibleNames"] = 
+                ["setNames"] = 
                 {
                 },
-                ["dungeonFinderData"] = 
-                {
-                },
-                ["setItemIds_Compressed"] = 
-                {
-                },
-                ["setItemIds"] = 
+                ["zoneData"] = 
                 {
                 },
                 ["NewSetIDs"] = 
                 {
                 },
+                ["collectibleNames"] = 
+                {
+                },
+                ["wayshrineNames"] = 
+                {
+                },
                 ["version"] = 1,
-                ["zoneData"] = 
+                ["setItemIds"] = 
+                {
+                },
+                ["setItemIdsNoSetId"] = 
                 {
                 },
             },

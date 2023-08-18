@@ -4,331 +4,90 @@ WizardsWardrobeSV =
     {
         ["@forever9409"] = 
         {
-            ["8796093067519895"] = 
-            {
-                ["prebuffs"] = 
-                {
-                    [1] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [2] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [3] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [4] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [5] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                },
-                ["setups"] = 
-                {
-                },
-                ["autoEquipSetups"] = true,
-                ["pages"] = 
-                {
-                    ["GEN"] = 
-                    {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
-                        [1] = 
-                        {
-                            ["name"] = "Page 1",
-                        },
-                    },
-                },
-                ["version"] = 1,
-                ["$LastCharacterName"] = "D Ruba",
-            },
-            ["8796093073962423"] = 
-            {
-                ["prebuffs"] = 
-                {
-                    [1] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [2] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [3] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [4] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [5] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                },
-                ["setups"] = 
-                {
-                },
-                ["autoEquipSetups"] = true,
-                ["pages"] = 
-                {
-                    ["GEN"] = 
-                    {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
-                        [1] = 
-                        {
-                            ["name"] = "Page 1",
-                        },
-                    },
-                },
-                ["version"] = 1,
-                ["$LastCharacterName"] = "Douli D",
-            },
-            ["8796093073961853"] = 
-            {
-                ["prebuffs"] = 
-                {
-                    [1] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [2] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [3] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [4] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [5] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                },
-                ["setups"] = 
-                {
-                },
-                ["autoEquipSetups"] = true,
-                ["pages"] = 
-                {
-                    ["GEN"] = 
-                    {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
-                        [1] = 
-                        {
-                            ["name"] = "Page 1",
-                        },
-                    },
-                },
-                ["version"] = 1,
-                ["$LastCharacterName"] = "Douli D",
-            },
             ["$AccountWide"] = 
             {
+                ["version"] = 1,
+                ["unequipEmpty"] = false,
+                ["printMessages"] = "chat",
+                ["auto"] = 
+                {
+                    ["cp"] = false,
+                    ["skills"] = true,
+                    ["food"] = false,
+                    ["gear"] = true,
+                },
+                ["eatBuffFood"] = false,
+                ["fillPoisons"] = false,
+                ["autoEquipSetups"] = true,
+                ["inventoryMarker"] = true,
+                ["changelogs"] = 
+                {
+                    ["v1.8.0"] = true,
+                },
+                ["panel"] = 
+                {
+                    ["top"] = 1010,
+                    ["left"] = 2251.5000000000,
+                    ["mini"] = false,
+                    ["hidden"] = false,
+                    ["locked"] = false,
+                    ["setup"] = true,
+                },
+                ["overwriteWarning"] = true,
+                ["window"] = 
+                {
+                    ["wizard"] = 
+                    {
+                        ["height"] = 680,
+                        ["scale"] = 1,
+                        ["width"] = 360,
+                        ["locked"] = false,
+                    },
+                    ["inventory"] = 
+                    {
+                        ["top"] = 232,
+                        ["hidden"] = true,
+                        ["left"] = 1585,
+                    },
+                    ["skills"] = 
+                    {
+                        ["top"] = 198,
+                        ["hidden"] = true,
+                        ["left"] = 1097,
+                    },
+                    ["hud"] = 
+                    {
+                        ["top"] = 151.5000000000,
+                        ["hidden"] = true,
+                        ["left"] = 1120,
+                    },
+                    ["hudui"] = 
+                    {
+                        ["top"] = 146.5000000000,
+                        ["hidden"] = true,
+                        ["left"] = 1093,
+                    },
+                },
+                ["ignoreTabards"] = true,
                 ["fixes"] = 
                 {
                     ["surfingWeapons"] = false,
                 },
-                ["chargeWeapons"] = false,
-                ["eatBuffFood"] = false,
-                ["panel"] = 
-                {
-                    ["mini"] = false,
-                    ["setup"] = true,
-                    ["top"] = 1010,
-                    ["left"] = 2251.5000000000,
-                    ["locked"] = false,
-                    ["hidden"] = false,
-                },
-                ["unequipEmpty"] = false,
+                ["initialized"] = true,
                 ["substitute"] = 
                 {
                     ["dungeons"] = false,
                     ["overland"] = false,
                 },
-                ["version"] = 1,
-                ["inventoryMarker"] = true,
-                ["auto"] = 
-                {
-                    ["food"] = false,
-                    ["gear"] = true,
-                    ["cp"] = false,
-                    ["skills"] = true,
-                },
-                ["window"] = 
-                {
-                    ["hud"] = 
-                    {
-                        ["top"] = 151.5000000000,
-                        ["left"] = 1120,
-                        ["hidden"] = true,
-                    },
-                    ["inventory"] = 
-                    {
-                        ["top"] = 232,
-                        ["left"] = 1585,
-                        ["hidden"] = true,
-                    },
-                    ["wizard"] = 
-                    {
-                        ["height"] = 680,
-                        ["width"] = 360,
-                        ["scale"] = 1,
-                        ["locked"] = false,
-                    },
-                    ["hudui"] = 
-                    {
-                        ["top"] = 146.5000000000,
-                        ["left"] = 1093,
-                        ["hidden"] = true,
-                    },
-                    ["skills"] = 
-                    {
-                        ["top"] = 198,
-                        ["left"] = 1097,
-                        ["hidden"] = true,
-                    },
-                },
-                ["ignoreTabards"] = true,
-                ["changelogs"] = 
-                {
-                    ["v1.8.0"] = true,
-                },
-                ["fillPoisons"] = false,
+                ["chargeWeapons"] = false,
                 ["repairArmor"] = false,
-                ["autoEquipSetups"] = true,
-                ["printMessages"] = "chat",
-                ["overwriteWarning"] = true,
-                ["initialized"] = true,
             },
-            ["8796093067501469"] = 
+            ["8796093073962423"] = 
             {
-                ["prebuffs"] = 
-                {
-                    [1] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [2] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [3] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [4] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                    [5] = 
-                    {
-                        [0] = 
-                        {
-                            ["toggle"] = false,
-                            ["delay"] = 500,
-                        },
-                    },
-                },
+                ["$LastCharacterName"] = "Douli D",
                 ["setups"] = 
                 {
                 },
-                ["autoEquipSetups"] = true,
                 ["pages"] = 
                 {
                     ["GEN"] = 
@@ -343,11 +102,6 @@ WizardsWardrobeSV =
                         },
                     },
                 },
-                ["version"] = 1,
-                ["$LastCharacterName"] = "D D Good",
-            },
-            ["8796093067296067"] = 
-            {
                 ["prebuffs"] = 
                 {
                     [1] = 
@@ -391,141 +145,218 @@ WizardsWardrobeSV =
                         },
                     },
                 },
+                ["version"] = 1,
+                ["autoEquipSetups"] = true,
+            },
+            ["8796093067501469"] = 
+            {
+                ["$LastCharacterName"] = "D D Good",
                 ["setups"] = 
                 {
-                    ["SS"] = 
+                },
+                ["pages"] = 
+                {
+                    ["GEN"] = 
                     {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
                         [1] = 
                         {
-                            [4] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Nahviintaas",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Nahviintaas",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
-                            [1] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Trash",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Trash",
-                                    ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
-                            [2] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Lokkestiiz",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Lokkestiiz",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
-                            [3] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Yolnahkriin",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Yolnahkriin",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
+                            ["name"] = "Page 1",
                         },
                     },
+                },
+                ["prebuffs"] = 
+                {
+                    [1] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [2] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [3] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [4] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [5] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                },
+                ["version"] = 1,
+                ["autoEquipSetups"] = true,
+            },
+            ["8796093073961853"] = 
+            {
+                ["$LastCharacterName"] = "Douli D",
+                ["setups"] = 
+                {
+                },
+                ["pages"] = 
+                {
+                    ["GEN"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                },
+                ["prebuffs"] = 
+                {
+                    [1] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [2] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [3] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [4] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [5] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                },
+                ["version"] = 1,
+                ["autoEquipSetups"] = true,
+            },
+            ["8796093067519895"] = 
+            {
+                ["$LastCharacterName"] = "D Ruba",
+                ["setups"] = 
+                {
+                },
+                ["pages"] = 
+                {
+                    ["GEN"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                },
+                ["prebuffs"] = 
+                {
+                    [1] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [2] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [3] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [4] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [5] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                },
+                ["version"] = 1,
+                ["autoEquipSetups"] = true,
+            },
+            ["8796093067296067"] = 
+            {
+                ["$LastCharacterName"] = "D Good",
+                ["setups"] = 
+                {
                     ["GEN"] = 
                     {
                         [1] = 
                         {
                             [4] = 
                             {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Quest Running",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                },
                                 ["cp"] = 
                                 {
                                     [1] = 79,
@@ -540,6 +371,10 @@ WizardsWardrobeSV =
                                     [10] = 35,
                                     [11] = 34,
                                     [12] = 47,
+                                },
+                                ["name"] = "Quest Running",
+                                ["condition"] = 
+                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -630,7 +465,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 12,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -652,19 +489,11 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [1] = 
                             {
-                                ["food"] = 
-                                {
-                                    ["link"] = "|H0:item:87695:4:1:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0|h|h",
-                                    ["id"] = 87695,
-                                },
-                                ["name"] = "Trash",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                },
                                 ["cp"] = 
                                 {
                                     [1] = 79,
@@ -679,6 +508,10 @@ WizardsWardrobeSV =
                                     [10] = 35,
                                     [11] = 34,
                                     [12] = 46,
+                                },
+                                ["name"] = "Trash",
+                                ["condition"] = 
+                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -768,7 +601,11 @@ WizardsWardrobeSV =
                                         ["id"] = "0",
                                     },
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                    ["link"] = "|H0:item:87695:4:1:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0|h|h",
+                                    ["id"] = 87695,
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -790,17 +627,11 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [2] = 
                             {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Parse Boss",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                },
                                 ["cp"] = 
                                 {
                                     [1] = 79,
@@ -815,6 +646,10 @@ WizardsWardrobeSV =
                                     [10] = 35,
                                     [11] = 34,
                                     [12] = 46,
+                                },
+                                ["name"] = "Parse Boss",
+                                ["condition"] = 
+                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -904,7 +739,9 @@ WizardsWardrobeSV =
                                         ["id"] = "0",
                                     },
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -926,17 +763,11 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [3] = 
                             {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Monkey Boss",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                },
                                 ["cp"] = 
                                 {
                                     [1] = 79,
@@ -951,6 +782,10 @@ WizardsWardrobeSV =
                                     [10] = 35,
                                     [11] = 34,
                                     [12] = 46,
+                                },
+                                ["name"] = "Monkey Boss",
+                                ["condition"] = 
+                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -1041,7 +876,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -1063,578 +900,8 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
-                            },
-                        },
-                    },
-                    ["KA"] = 
-                    {
-                        [1] = 
-                        {
-                            [4] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Lord Falgravn",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Lord Falgravn",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:7932:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:9232:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:405:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:7020:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
                                 ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 39186,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [1] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Trash",
                                 ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Trash",
-                                    ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:9373:0|h|h",
-                                        ["id"] = "4634143101043144303",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4629392205788833110",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:9360:0|h|h",
-                                        ["id"] = "4634143101043143083",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:96:0|h|h",
-                                        ["id"] = "4634143101043133974",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8462:0|h|h",
-                                        ["id"] = "4616883439957195326",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043133537",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4877513402781847566",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 36891,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 39186,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [2] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Yandir the Butcher",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Yandir the Butcher",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:7932:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:9232:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:405:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:7020:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 46356,
-                                        [5] = 34851,
-                                        [6] = 42028,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 103706,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [3] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Captain Vrol",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Captain Vrol",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:7932:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:9232:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:405:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:7020:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                        },
-                    },
-                    ["SUB"] = 
-                    {
-                        [1] = 
-                        {
-                            [2] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Substitute Boss",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Substitute Boss",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
-                            [1] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Substitute Trash",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Substitute Trash",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
                             },
                         },
                     },
@@ -1644,22 +911,20 @@ WizardsWardrobeSV =
                         {
                             [4] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Shade of Relequen",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Shade of Relequen",
                                 },
-                                ["cp"] = 
-                                {
-                                },
                                 ["gear"] = 
                                 {
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -1669,20 +934,11 @@ WizardsWardrobeSV =
                                     {
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [1] = 
                             {
-                                ["food"] = 
-                                {
-                                    ["link"] = "|H0:item:87695:4:1:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0|h|h",
-                                    ["id"] = 87695,
-                                },
-                                ["name"] = "Z'Maja",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Z'Maja",
-                                },
                                 ["cp"] = 
                                 {
                                     [1] = 79,
@@ -1697,6 +953,11 @@ WizardsWardrobeSV =
                                     [10] = 35,
                                     [11] = 34,
                                     [12] = 46,
+                                },
+                                ["name"] = "Z'Maja",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Z'Maja",
                                 },
                                 ["gear"] = 
                                 {
@@ -1787,7 +1048,11 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                    ["link"] = "|H0:item:87695:4:1:0:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0|h|h",
+                                    ["id"] = 87695,
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -1809,25 +1074,25 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [2] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Shade of Galenwe",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Shade of Galenwe",
                                 },
-                                ["cp"] = 
-                                {
-                                },
                                 ["gear"] = 
                                 {
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -1837,25 +1102,25 @@ WizardsWardrobeSV =
                                     {
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [3] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Shade of Siroria",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Shade of Siroria",
                                 },
-                                ["cp"] = 
-                                {
-                                },
                                 ["gear"] = 
                                 {
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -1865,157 +1130,88 @@ WizardsWardrobeSV =
                                     {
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                         },
                     },
-                    ["HRC"] = 
+                    ["SS"] = 
                     {
                         [1] = 
                         {
+                            [4] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Nahviintaas",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Nahviintaas",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
                             [1] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Trash",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
-                                    ["boss"] = "Trash",
                                     ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
+                                    ["boss"] = "Trash",
                                 },
                                 ["gear"] = 
                                 {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043144303",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4629392205788833110",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043143083",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:15:0|h|h",
-                                        ["id"] = "4634143101043133974",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4616883439957195326",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043133537",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4877513402781847566",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:4750:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
                                     {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 36891,
-                                        [7] = 40478,
                                     },
                                     [1] = 
                                     {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 61500,
-                                        [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [2] = 
                             {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Ra Kotu",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Ra Kotu",
-                                },
                                 ["cp"] = 
                                 {
+                                },
+                                ["name"] = "Lokkestiiz",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Lokkestiiz",
                                 },
                                 ["gear"] = 
                                 {
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -2025,25 +1221,25 @@ WizardsWardrobeSV =
                                     {
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [3] = 
                             {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Yokeda Rok'dun",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Yokeda Rok'dun",
-                                },
                                 ["cp"] = 
                                 {
+                                },
+                                ["name"] = "Yolnahkriin",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Yolnahkriin",
                                 },
                                 ["gear"] = 
                                 {
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -2053,1461 +1249,8 @@ WizardsWardrobeSV =
                                     {
                                     },
                                 },
-                            },
-                            [4] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Yokeda Kai",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Yokeda Kai",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
                                 ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
-                            [5] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "The Warrior",
                                 ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "The Warrior",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                    },
-                                    [1] = 
-                                    {
-                                    },
-                                },
-                            },
-                        },
-                    },
-                    ["MOL"] = 
-                    {
-                        [1] = 
-                        {
-                            [1] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Trash",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Trash",
-                                    ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043144303",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4629392205788833110",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043143083",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:484:0|h|h",
-                                        ["id"] = "4634143101043133974",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4616883439957195326",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043133537",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4877513402781847566",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 36891,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 61500,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [2] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Zhaj'hassa the Forgotten",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Zhaj'hassa the Forgotten",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:36:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 42028,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 103706,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [3] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Twins",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Twins",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:36:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [4] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Rakkhat",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Rakkhat",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:36:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [5] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Runner",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = 0,
-                                    ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4629392205788833110",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:484:0|h|h",
-                                        ["id"] = "4634143101043133974",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4877513402781847566",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043133537",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40452,
-                                        [7] = 25377,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                        },
-                    },
-                    ["HOF"] = 
-                    {
-                        [1] = 
-                        {
-                            [1] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Trash",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Trash",
-                                    ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043144303",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4629392205788833110",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043143083",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:15:0|h|h",
-                                        ["id"] = "4634143101043133974",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4616883439957195326",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043133537",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4877513402781847566",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:4750:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 36891,
-                                        [7] = 40478,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 61500,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [2] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Hunter-Killer",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Hunter-Killer Negatrix",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 42028,
-                                        [7] = 25377,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 103706,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [3] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Pinnacle Factotum",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Pinnacle Factotum",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4629392205788833110",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:15:0|h|h",
-                                        ["id"] = "4634143101043133974",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4877513402781847566",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043133537",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40452,
-                                        [7] = 25377,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [4] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Archcustodian",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Archcustodian",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 25377,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [5] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Commitee",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Reactor",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 39186,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
-                            },
-                            [6] = 
-                            {
-                                ["food"] = 
-                                {
-                                },
-                                ["name"] = "Assembly General",
-                                ["code"] = "",
-                                ["condition"] = 
-                                {
-                                    ["boss"] = "Assembly General",
-                                },
-                                ["cp"] = 
-                                {
-                                },
-                                ["gear"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:6675:0|h|h",
-                                        ["id"] = "4634143101043112600",
-                                    },
-                                    [1] = 
-                                    {
-                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191235",
-                                    },
-                                    [2] = 
-                                    {
-                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
-                                        ["id"] = "4634143101043203337",
-                                    },
-                                    [3] = 
-                                    {
-                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
-                                        ["id"] = "4634143101043210535",
-                                    },
-                                    [4] = 
-                                    {
-                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
-                                        ["id"] = "4634143101043191242",
-                                    },
-                                    [5] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [6] = 
-                                    {
-                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
-                                        ["id"] = "4634143101043210605",
-                                    },
-                                    [8] = 
-                                    {
-                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:3700:0|h|h",
-                                        ["id"] = "4634143101043169613",
-                                    },
-                                    [9] = 
-                                    {
-                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
-                                        ["id"] = "4660356652250735953",
-                                    },
-                                    [10] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [11] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191238",
-                                    },
-                                    [12] = 
-                                    {
-                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
-                                        ["id"] = "4634143101043191241",
-                                    },
-                                    [13] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [14] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    [16] = 
-                                    {
-                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:4750:0|h|h",
-                                        ["id"] = "4634143101043214741",
-                                    },
-                                    [20] = 
-                                    {
-                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
-                                        ["id"] = "4634143101043144635",
-                                    },
-                                    [21] = 
-                                    {
-                                        ["link"] = "",
-                                        ["id"] = "0",
-                                    },
-                                    ["mythic"] = 8,
-                                },
-                                ["disabled"] = false,
-                                ["skills"] = 
-                                {
-                                    [0] = 
-                                    {
-                                        [8] = 36508,
-                                        [3] = 61919,
-                                        [4] = 34835,
-                                        [5] = 34851,
-                                        [6] = 40382,
-                                        [7] = 39186,
-                                    },
-                                    [1] = 
-                                    {
-                                        [8] = 85126,
-                                        [3] = 39053,
-                                        [4] = 36049,
-                                        [5] = 42028,
-                                        [6] = 36935,
-                                        [7] = 35434,
-                                    },
-                                },
                             },
                         },
                     },
@@ -3517,18 +1260,14 @@ WizardsWardrobeSV =
                         {
                             [1] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Trash",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
-                                    ["boss"] = "Trash",
                                     ["trash"] = -1,
-                                },
-                                ["cp"] = 
-                                {
+                                    ["boss"] = "Trash",
                                 },
                                 ["gear"] = 
                                 {
@@ -3618,7 +1357,9 @@ WizardsWardrobeSV =
                                         ["id"] = "0",
                                     },
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -3640,20 +1381,18 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [2] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Oaxiltso",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Oaxiltso",
-                                },
-                                ["cp"] = 
-                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -3744,7 +1483,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -3766,20 +1507,18 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [3] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Flame-Herald Bahsei",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Flame-Herald Bahsei",
-                                },
-                                ["cp"] = 
-                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -3870,7 +1609,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -3892,20 +1633,18 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [4] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Xalvakka",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Xalvakka",
-                                },
-                                ["cp"] = 
-                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -3996,7 +1735,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -4018,20 +1759,18 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [5] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Basks-In-Snakes",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Basks-In-Snakes",
-                                },
-                                ["cp"] = 
-                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -4122,7 +1861,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -4144,20 +1885,18 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                             [6] = 
                             {
-                                ["food"] = 
+                                ["cp"] = 
                                 {
                                 },
                                 ["name"] = "Ash Titan",
-                                ["code"] = "",
                                 ["condition"] = 
                                 {
                                     ["boss"] = "Ash Titan",
-                                },
-                                ["cp"] = 
-                                {
                                 },
                                 ["gear"] = 
                                 {
@@ -4248,7 +1987,9 @@ WizardsWardrobeSV =
                                     },
                                     ["mythic"] = 8,
                                 },
-                                ["disabled"] = false,
+                                ["food"] = 
+                                {
+                                },
                                 ["skills"] = 
                                 {
                                     [0] = 
@@ -4270,47 +2011,2230 @@ WizardsWardrobeSV =
                                         [7] = 35434,
                                     },
                                 },
+                                ["disabled"] = false,
+                                ["code"] = "",
                             },
                         },
                     },
-                },
-                ["autoEquipSetups"] = true,
-                ["pages"] = 
-                {
-                    ["SS"] = 
+                    ["HRC"] = 
                     {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
                         [1] = 
                         {
-                            ["name"] = "Page 1",
-                        },
-                    },
-                    ["GEN"] = 
-                    {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
-                        [1] = 
-                        {
-                            ["name"] = "Page 1",
+                            [1] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Trash",
+                                ["condition"] = 
+                                {
+                                    ["trash"] = -1,
+                                    ["boss"] = "Trash",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043144303",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4629392205788833110",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043143083",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:15:0|h|h",
+                                        ["id"] = "4634143101043133974",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4616883439957195326",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043133537",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4877513402781847566",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:4750:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 36891,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 61500,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Ra Kotu",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Ra Kotu",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Yokeda Rok'dun",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Yokeda Rok'dun",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Yokeda Kai",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Yokeda Kai",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "The Warrior",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "The Warrior",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
                         },
                     },
                     ["KA"] = 
                     {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
                         [1] = 
                         {
-                            ["name"] = "Page 1",
+                            [4] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Lord Falgravn",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Lord Falgravn",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:7932:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:9232:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:405:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:7020:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 39186,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Trash",
+                                ["condition"] = 
+                                {
+                                    ["trash"] = -1,
+                                    ["boss"] = "Trash",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:9373:0|h|h",
+                                        ["id"] = "4634143101043144303",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4629392205788833110",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:9360:0|h|h",
+                                        ["id"] = "4634143101043143083",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:96:0|h|h",
+                                        ["id"] = "4634143101043133974",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8462:0|h|h",
+                                        ["id"] = "4616883439957195326",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043133537",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4877513402781847566",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 36891,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 39186,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Yandir the Butcher",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Yandir the Butcher",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:7932:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:9232:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:405:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:7020:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 46356,
+                                        [5] = 34851,
+                                        [6] = 42028,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 103706,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Captain Vrol",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Captain Vrol",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:7932:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:8012:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:9232:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:405:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6872:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:7020:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5249:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5517:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:454:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                        },
+                    },
+                    ["MOL"] = 
+                    {
+                        [1] = 
+                        {
+                            [1] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Trash",
+                                ["condition"] = 
+                                {
+                                    ["trash"] = -1,
+                                    ["boss"] = "Trash",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043144303",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4629392205788833110",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043143083",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:484:0|h|h",
+                                        ["id"] = "4634143101043133974",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4616883439957195326",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043133537",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4877513402781847566",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 36891,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 61500,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Zhaj'hassa the Forgotten",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Zhaj'hassa the Forgotten",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:36:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 42028,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 103706,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Twins",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Twins",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:36:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Rakkhat",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Rakkhat",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:36:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Runner",
+                                ["condition"] = 
+                                {
+                                    ["trash"] = -1,
+                                    ["boss"] = 0,
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4629392205788833110",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:484:0|h|h",
+                                        ["id"] = "4634143101043133974",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4877513402781847566",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043133537",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:178:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40452,
+                                        [7] = 25377,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
                         },
                     },
                     ["SUB"] = 
+                    {
+                        [1] = 
+                        {
+                            [2] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Substitute Boss",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Substitute Boss",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [1] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Substitute Trash",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Substitute Trash",
+                                },
+                                ["gear"] = 
+                                {
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                    },
+                                    [1] = 
+                                    {
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                        },
+                    },
+                    ["HOF"] = 
+                    {
+                        [1] = 
+                        {
+                            [1] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Trash",
+                                ["condition"] = 
+                                {
+                                    ["trash"] = -1,
+                                    ["boss"] = "Trash",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94804:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043144303",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4629392205788833110",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:94942:363:50:0:0:0:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043143083",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:15:0|h|h",
+                                        ["id"] = "4634143101043133974",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:174456:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4616883439957195326",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043133537",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4877513402781847566",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:4750:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 36891,
+                                        [7] = 40478,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 61500,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [2] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Hunter-Killer",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Hunter-Killer Negatrix",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 42028,
+                                        [7] = 25377,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 103706,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [3] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Pinnacle Factotum",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Pinnacle Factotum",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:106703:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4629392205788833110",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:106712:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:6:0:1:0:15:0|h|h",
+                                        ["id"] = "4634143101043133974",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4877513402781847566",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:106702:364:50:45884:370:50:31:0:0:0:0:0:0:0:1:6:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043133537",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40452,
+                                        [7] = 25377,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [4] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Archcustodian",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Archcustodian",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 25377,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [5] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Commitee",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Reactor",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:10000:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 39186,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                            [6] = 
+                            {
+                                ["cp"] = 
+                                {
+                                },
+                                ["name"] = "Assembly General",
+                                ["condition"] = 
+                                {
+                                    ["boss"] = "Assembly General",
+                                },
+                                ["gear"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        ["link"] = "|H0:item:94774:364:50:26582:370:50:18:0:0:0:0:0:0:0:1:67:0:1:0:6675:0|h|h",
+                                        ["id"] = "4634143101043112600",
+                                    },
+                                    [1] = 
+                                    {
+                                        ["link"] = "|H0:item:170405:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191235",
+                                    },
+                                    [2] = 
+                                    {
+                                        ["link"] = "|H0:item:174461:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
+                                        ["id"] = "4634143101043203337",
+                                    },
+                                    [3] = 
+                                    {
+                                        ["link"] = "|H0:item:174469:364:50:0:0:0:0:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
+                                        ["id"] = "4634143101043210535",
+                                    },
+                                    [4] = 
+                                    {
+                                        ["link"] = "|H0:item:170414:364:50:26848:370:50:3:0:0:0:0:0:0:0:2049:116:0:1:0:207:0|h|h",
+                                        ["id"] = "4634143101043191242",
+                                    },
+                                    [5] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [6] = 
+                                    {
+                                        ["link"] = "|H0:item:174484:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:6850:0|h|h",
+                                        ["id"] = "4634143101043210605",
+                                    },
+                                    [8] = 
+                                    {
+                                        ["link"] = "|H0:item:175524:364:50:26582:370:50:0:0:0:0:0:0:0:0:1:10:0:1:0:3700:0|h|h",
+                                        ["id"] = "4634143101043169613",
+                                    },
+                                    [9] = 
+                                    {
+                                        ["link"] = "|H0:item:174423:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:5800:0|h|h",
+                                        ["id"] = "4660356652250735953",
+                                    },
+                                    [10] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [11] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191238",
+                                    },
+                                    [12] = 
+                                    {
+                                        ["link"] = "|H0:item:170404:364:50:45884:370:50:31:0:0:0:0:0:0:0:2049:0:0:1:0:0:0|h|h",
+                                        ["id"] = "4634143101043191241",
+                                    },
+                                    [13] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [14] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    [16] = 
+                                    {
+                                        ["link"] = "|H0:item:174437:364:50:0:0:0:18:0:0:0:0:0:0:0:1:122:0:1:0:4750:0|h|h",
+                                        ["id"] = "4634143101043214741",
+                                    },
+                                    [20] = 
+                                    {
+                                        ["link"] = "|H0:item:166198:364:50:54484:370:50:0:0:0:0:0:0:0:0:1:14:0:1:0:461:0|h|h",
+                                        ["id"] = "4634143101043144635",
+                                    },
+                                    [21] = 
+                                    {
+                                        ["link"] = "",
+                                        ["id"] = "0",
+                                    },
+                                    ["mythic"] = 8,
+                                },
+                                ["food"] = 
+                                {
+                                },
+                                ["skills"] = 
+                                {
+                                    [0] = 
+                                    {
+                                        [8] = 36508,
+                                        [3] = 61919,
+                                        [4] = 34835,
+                                        [5] = 34851,
+                                        [6] = 40382,
+                                        [7] = 39186,
+                                    },
+                                    [1] = 
+                                    {
+                                        [8] = 85126,
+                                        [3] = 39053,
+                                        [4] = 36049,
+                                        [5] = 42028,
+                                        [6] = 36935,
+                                        [7] = 35434,
+                                    },
+                                },
+                                ["disabled"] = false,
+                                ["code"] = "",
+                            },
+                        },
+                    },
+                },
+                ["pages"] = 
+                {
+                    ["GEN"] = 
                     {
                         [0] = 
                         {
@@ -4332,29 +4256,7 @@ WizardsWardrobeSV =
                             ["name"] = "Page 1",
                         },
                     },
-                    ["HRC"] = 
-                    {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
-                        [1] = 
-                        {
-                            ["name"] = "Page 1",
-                        },
-                    },
-                    ["MOL"] = 
-                    {
-                        [0] = 
-                        {
-                            ["selected"] = 1,
-                        },
-                        [1] = 
-                        {
-                            ["name"] = "Page 1",
-                        },
-                    },
-                    ["HOF"] = 
+                    ["SS"] = 
                     {
                         [0] = 
                         {
@@ -4376,9 +4278,107 @@ WizardsWardrobeSV =
                             ["name"] = "Page 1",
                         },
                     },
+                    ["HRC"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                    ["KA"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                    ["MOL"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                    ["SUB"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                    ["HOF"] = 
+                    {
+                        [0] = 
+                        {
+                            ["selected"] = 1,
+                        },
+                        [1] = 
+                        {
+                            ["name"] = "Page 1",
+                        },
+                    },
+                },
+                ["prebuffs"] = 
+                {
+                    [1] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [2] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [3] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [4] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
+                    [5] = 
+                    {
+                        [0] = 
+                        {
+                            ["toggle"] = false,
+                            ["delay"] = 500,
+                        },
+                    },
                 },
                 ["version"] = 1,
-                ["$LastCharacterName"] = "D Good",
+                ["autoEquipSetups"] = true,
             },
         },
     },

@@ -6,37 +6,37 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["profileCounter"] = 1,
                 [1] = 
                 {
-                    ["RechargeWeapons"] = 
-                    {
-                        ["lowSoulGemWarning"] = false,
-                        ["defaultSoulGem"] = 1,
-                        ["lowSoulGemThreshold"] = 10,
-                        ["useSoulGems"] = true,
-                    },
+                    ["autoRepairEnabled"] = true,
                     ["name"] = "Profile 1",
                     ["RepairInventory"] = 
                     {
-                        ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithGold"] = true,
                     },
                     ["RepairEquipped"] = 
                     {
+                        ["repairWithGold"] = true,
+                        ["lowRepairKitWarning"] = true,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = false,
                         ["repairWithRepairKitThreshold"] = 10,
                         ["repairWithGoldDurabilityThreshold"] = 75,
-                        ["repairWithGold"] = true,
-                        ["lowRepairKitThreshold"] = 10,
                         ["defaultRepairKit"] = 0,
-                        ["lowRepairKitWarning"] = true,
-                        ["repairWithRepairKit"] = false,
+                    },
+                    ["RechargeWeapons"] = 
+                    {
+                        ["lowSoulGemWarning"] = false,
+                        ["useSoulGems"] = true,
+                        ["lowSoulGemThreshold"] = 10,
+                        ["defaultSoulGem"] = 1,
                     },
                     ["silentMode"] = false,
-                    ["autoRepairEnabled"] = true,
                     ["autoRepairInventoryEnabled"] = true,
                 },
                 ["version"] = 1,
+                ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,
             },
         },
