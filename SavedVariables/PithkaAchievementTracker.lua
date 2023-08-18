@@ -6,66 +6,22 @@ PithkaSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
-                ["state"] = 
-                {
-                    ["title"] = "",
-                    ["currentScreen"] = "dungeon",
-                    ["showWatermark"] = true,
-                    ["trifectaSummary"] = "~ Trifecta Summary ~",
-                    ["trialSummary"] = "~ Trial Summary ~",
-                    ["dungeonSummary"] = "~ Dungeon Summary ~",
-                    ["showExtra"] = true,
-                },
                 ["runOnce"] = 
                 {
                     ["arenaBug"] = true,
                 },
+                ["state"] = 
+                {
+                    ["trifectaSummary"] = "~ Trifecta Summary ~",
+                    ["dungeonSummary"] = "~ Dungeon Summary ~",
+                    ["title"] = "",
+                    ["trialSummary"] = "~ Trial Summary ~",
+                    ["currentScreen"] = "dungeon",
+                    ["showWatermark"] = true,
+                    ["showExtra"] = true,
+                },
                 ["options"] = 
                 {
-                },
-                ["scores"] = 
-                {
-                    ["DSA"] = 
-                    {
-                        ["D Good"] = 17580,
-                    },
-                    ["SO"] = 
-                    {
-                        ["D Good"] = 136235,
-                    },
-                    ["MOL"] = 
-                    {
-                        ["D Good"] = 65662,
-                    },
-                    ["CR"] = 
-                    {
-                        ["D Good"] = 47569,
-                    },
-                    ["HRC"] = 
-                    {
-                        ["D Good"] = 89324,
-                    },
-                    ["AS"] = 
-                    {
-                        ["D Good"] = 69952,
-                    },
-                    ["BRP"] = 
-                    {
-                        ["D Good"] = 29333,
-                    },
-                    ["AA"] = 
-                    {
-                        ["D Good"] = 134768,
-                    },
-                    ["MSA"] = 
-                    {
-                        ["D Good"] = 562991,
-                    },
-                    ["HOF"] = 
-                    {
-                        ["D Good"] = 134606,
-                    },
                 },
                 ["currentToons"] = 
                 {
@@ -77,6 +33,50 @@ PithkaSavedVariables =
                         [4] = "D Ruba",
                         [5] = "D-Good",
                         [6] = "Douli D",
+                    },
+                },
+                ["version"] = 1,
+                ["scores"] = 
+                {
+                    ["SO"] = 
+                    {
+                        ["D Good"] = 136235,
+                    },
+                    ["DSA"] = 
+                    {
+                        ["D Good"] = 17580,
+                    },
+                    ["HRC"] = 
+                    {
+                        ["D Good"] = 89324,
+                    },
+                    ["BRP"] = 
+                    {
+                        ["D Good"] = 29333,
+                    },
+                    ["MOL"] = 
+                    {
+                        ["D Good"] = 65662,
+                    },
+                    ["AA"] = 
+                    {
+                        ["D Good"] = 134768,
+                    },
+                    ["HOF"] = 
+                    {
+                        ["D Good"] = 134606,
+                    },
+                    ["MSA"] = 
+                    {
+                        ["D Good"] = 562991,
+                    },
+                    ["CR"] = 
+                    {
+                        ["D Good"] = 47569,
+                    },
+                    ["AS"] = 
+                    {
+                        ["D Good"] = 69952,
                     },
                 },
             },

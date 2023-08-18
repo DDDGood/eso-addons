@@ -6,9 +6,9 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
-                    ["autoRepairEnabled"] = true,
                     ["name"] = "Profile 1",
                     ["RepairInventory"] = 
                     {
@@ -19,25 +19,25 @@ PersonalAssistantRepair_SavedVariables =
                     {
                         ["repairWithGold"] = true,
                         ["lowRepairKitWarning"] = true,
-                        ["lowRepairKitThreshold"] = 10,
+                        ["defaultRepairKit"] = 0,
                         ["repairWithRepairKit"] = false,
                         ["repairWithRepairKitThreshold"] = 10,
+                        ["lowRepairKitThreshold"] = 10,
                         ["repairWithGoldDurabilityThreshold"] = 75,
-                        ["defaultRepairKit"] = 0,
                     },
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RechargeWeapons"] = 
                     {
-                        ["lowSoulGemWarning"] = false,
                         ["useSoulGems"] = true,
-                        ["lowSoulGemThreshold"] = 10,
                         ["defaultSoulGem"] = 1,
+                        ["lowSoulGemWarning"] = false,
+                        ["lowSoulGemThreshold"] = 10,
                     },
                     ["silentMode"] = false,
-                    ["autoRepairInventoryEnabled"] = true,
+                    ["autoRepairEnabled"] = true,
                 },
                 ["version"] = 1,
                 ["profileCounter"] = 1,
-                ["savedVarsVersion"] = 20524,
             },
         },
     },
