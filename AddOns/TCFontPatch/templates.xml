@@ -1,0 +1,9 @@
+<GuiXml>
+    <Controls>
+        <Control name="TCFontPatch_IMECandidateRow" inherits="ZO_IMECandidateRow" virtual="true">
+            <Controls>
+                <Label name="$(parent)Text" font="$(MEDIUM_FONT)|$(KB_18)|soft-shadow-thin" override="true"/>
+            </Controls>
+        </Control>
+    </Controls>
+</GuiXml>

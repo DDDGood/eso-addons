@@ -1,0 +1,152 @@
+[Font:ZoFontGamepad61] = "TCFontPatch/fonts/C_B_cjk.otf|50|soft-shadow-thick"
+[Font:ZoFontGamepad54] = "TCFontPatch/fonts/C_B_cjk.otf|45|soft-shadow-thick"
+[Font:ZoFontGamepad42] = "TCFontPatch/fonts/C_B_cjk.otf|35|soft-shadow-thick"
+[Font:ZoFontGamepad36] = "TCFontPatch/fonts/C_B_cjk.otf|30|soft-shadow-thick"
+[Font:ZoFontGamepad34] = "TCFontPatch/fonts/C_B_cjk.otf|28|soft-shadow-thick"
+[Font:ZoFontGamepad27] = "TCFontPatch/fonts/C_B_cjk.otf|22|soft-shadow-thick"
+[Font:ZoFontGamepad25] = "TCFontPatch/fonts/C_B_cjk.otf|21|soft-shadow-thick"
+[Font:ZoFontGamepad22] = "TCFontPatch/fonts/C_B_cjk.otf|18|soft-shadow-thick"
+[Font:ZoFontGamepad20] = "TCFontPatch/fonts/C_B_cjk.otf|17|soft-shadow-thick"
+[Font:ZoFontGamepad18] = "TCFontPatch/fonts/C_B_cjk.otf|15|soft-shadow-thick"
+
+[Font:ZoFontGamepad27NoShadow] = "TCFontPatch/fonts/C_B_cjk.otf|22"
+[Font:ZoFontGamepad42NoShadow] = "TCFontPatch/fonts/C_B_cjk.otf|35"
+
+[Font:ZoFontGamepad36ThickOutline] = "TCFontPatch/fonts/C_B_cjk.otf|30|thick-outline"
+
+[Font:ZoFontGamepadCondensed61] = "TCFontPatch/fonts/C_R_cjk.otf|50|soft-shadow-thick"
+[Font:ZoFontGamepadCondensed54] = "TCFontPatch/fonts/C_R_cjk.otf|45|soft-shadow-thick"
+[Font:ZoFontGamepadCondensed42] = "TCFontPatch/fonts/C_R_cjk.otf|35|soft-shadow-thick"
+[Font:ZoFontGamepadCondensed36] = "TCFontPatch/fonts/C_R_cjk.otf|30|soft-shadow-thick"
+[Font:ZoFontGamepadCondensed34] = "TCFontPatch/fonts/C_R_cjk.otf|28|soft-shadow-thick"
+[Font:ZoFontGamepadCondensed27] = "TCFontPatch/fonts/C_R_cjk.otf|22|soft-shadow-thick"
+[Font:ZoFontGamepadCondensed25] = "TCFontPatch/fonts/C_R_cjk.otf|21|soft-shadow-thick"
+
+[Font:ZoFontGamepadBold54] = "TCFontPatch/fonts/C_M_cjk.otf|45|soft-shadow-thick"
+[Font:ZoFontGamepadBold48] = "TCFontPatch/fonts/C_M_cjk.otf|41|soft-shadow-thick"
+[Font:ZoFontGamepadBold34] = "TCFontPatch/fonts/C_M_cjk.otf|28|soft-shadow-thick"
+[Font:ZoFontGamepadBold27] = "TCFontPatch/fonts/C_M_cjk.otf|22|soft-shadow-thick"
+[Font:ZoFontGamepadBold25] = "TCFontPatch/fonts/C_M_cjk.otf|21|soft-shadow-thick"
+[Font:ZoFontGamepadBold22] = "TCFontPatch/fonts/C_M_cjk.otf|18|soft-shadow-thick"
+[Font:ZoFontGamepadBold20] = "TCFontPatch/fonts/C_M_cjk.otf|17|soft-shadow-thick"
+[Font:ZoFontGamepadBold18] = "TCFontPatch/fonts/C_M_cjk.otf|15|soft-shadow-thick"
+
+[Font:ZoFontGamepadBookPaper] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontGamepadBookSkin] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontGamepadBookRubbing] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontGamepadBookLetter] = "TCFontPatch/fonts/W.ttf|29"
+[Font:ZoFontGamepadBookNote] = "TCFontPatch/fonts/W.ttf|31"
+[Font:ZoFontGamepadBookScroll] = "TCFontPatch/fonts/W.ttf|37"
+[Font:ZoFontGamepadBookTablet] = "TCFontPatch/fonts/W.ttf|30|soft-shadow-thick"
+[Font:ZoFontGamepadBookMetal] = "TCFontPatch/fonts/A.ttf|26|soft-shadow-thick"
+
+[Font:ZoFontGamepadBookPaperTitle] = "TCFontPatch/fonts/A.ttf|34"
+[Font:ZoFontGamepadBookSkinTitle] = "TCFontPatch/fonts/A.ttf|34"
+[Font:ZoFontGamepadBookRubbingTitle] = "TCFontPatch/fonts/A.ttf|34"
+[Font:ZoFontGamepadBookLetterTitle] = "TCFontPatch/fonts/W.ttf|41"
+[Font:ZoFontGamepadBookNoteTitle] = "TCFontPatch/fonts/W.ttf|43"
+[Font:ZoFontGamepadBookScrollTitle] = "TCFontPatch/fonts/W.ttf|45"
+[Font:ZoFontGamepadBookTabletTitle] = "TCFontPatch/fonts/W.ttf|40|soft-shadow-thick"
+[Font:ZoFontGamepadBookMetalTitle] = "TCFontPatch/fonts/A.ttf|34|soft-shadow-thick"
+
+[Font:ZoFontTributeAntique20NoShadow] = "TCFontPatch/fonts/A.ttf|17"
+[Font:ZoFontTributeAntique20] = "TCFontPatch/fonts/A.ttf|17|soft-shadow-thick"
+[Font:ZoFontTributeAntique30NoShadow] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontTributeAntique30] = "TCFontPatch/fonts/A.ttf|26|soft-shadow-thick"
+[Font:ZoFontTributeAntique40] = "TCFontPatch/fonts/A.ttf|34|soft-shadow-thick"
+[Font:ZoFontTributeAntique52] = "TCFontPatch/fonts/A.ttf|44|soft-shadow-thick"
+
+[Font:ZoFontGamepadHeaderDataValue] = "TCFontPatch/fonts/C_B_cjk.otf|35|soft-shadow-thick"
+
+[Font:ZoMarketGamepadCalloutFont] = "TCFontPatch/fonts/C_B_cjk.otf|35|soft-shadow-thin"
+
+[Font:ZoFontWinH1] = "TCFontPatch/fonts/M.otf|27|soft-shadow-thick"
+[Font:ZoFontWinH2] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+[Font:ZoFontWinH3] = "TCFontPatch/fonts/M.otf|18|soft-shadow-thick"
+[Font:ZoFontWinH4] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thick"
+[Font:ZoFontWinH5] = "TCFontPatch/fonts/M.otf|15|soft-shadow-thick"
+
+[Font:ZoFontWinH3SoftShadowThin] = "TCFontPatch/fonts/M.otf|18|soft-shadow-thin"
+
+[Font:ZoFontWinT1] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thin"
+[Font:ZoFontWinT2] = "TCFontPatch/fonts/M.otf|15|soft-shadow-thin"
+
+[Font:ZoFontGame] = "TCFontPatch/fonts/R.otf|17|soft-shadow-thin"
+[Font:ZoFontGameMedium] = "TCFontPatch/fonts/R.otf|17|soft-shadow-thin"
+[Font:ZoFontGameBold] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thin"
+[Font:ZoFontGameOutline] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thin"
+[Font:ZoFontGameShadow] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thin"
+
+[Font:ZoFontKeyboard28ThickOutline] = "TCFontPatch/fonts/M.otf|25|thick-outline"
+[Font:ZoFontKeyboard24ThickOutline] = "TCFontPatch/fonts/M.otf|22|thick-outline"
+[Font:ZoFontKeyboard18ThickOutline] = "TCFontPatch/fonts/M.otf|17|thick-outline"
+
+[Font:ZoFontGameSmall] = "TCFontPatch/fonts/M.otf|12|soft-shadow-thin"
+[Font:ZoFontGameLarge] = "TCFontPatch/fonts/R.otf|17|soft-shadow-thin"
+[Font:ZoFontGameLargeBold] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thick"
+[Font:ZoFontGameLargeBoldShadow] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thick"
+
+[Font:ZoFontHeader] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thick"
+[Font:ZoFontHeader2] = "TCFontPatch/fonts/M.otf|18|soft-shadow-thick"
+[Font:ZoFontHeader3] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+[Font:ZoFontHeader4] = "TCFontPatch/fonts/M.otf|23|soft-shadow-thick"
+
+[Font:ZoFontHeaderNoShadow] = "TCFontPatch/fonts/M.otf|17"
+
+[Font:ZoFontCallout] = "TCFontPatch/fonts/M.otf|33|soft-shadow-thick"
+[Font:ZoFontCallout2] = "TCFontPatch/fonts/M.otf|44|soft-shadow-thick"
+[Font:ZoFontCallout3] = "TCFontPatch/fonts/M.otf|48|soft-shadow-thick"
+
+[Font:ZoFontWindowTitle] = "TCFontPatch/fonts/M.otf|27|soft-shadow-thick"
+[Font:ZoFontWindowSubtitle] = "TCFontPatch/fonts/M.otf|17|soft-shadow-thick"
+
+[Font:ZoFontTooltipTitle] = "TCFontPatch/fonts/M.otf|20"
+[Font:ZoFontTooltipSubtitle] = "TCFontPatch/fonts/R.otf|17"
+
+[Font:ZoFontAnnounce] = "TCFontPatch/fonts/M.otf|25|soft-shadow-thick"
+[Font:ZoFontAnnounceMessage] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+[Font:ZoFontAnnounceMedium] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+[Font:ZoFontAnnounceLarge] = "TCFontPatch/fonts/M.otf|33|soft-shadow-thick"
+
+[Font:ZoFontAnnounceLargeNoShadow] = "TCFontPatch/fonts/M.otf|33"
+
+[Font:ZoFontCenterScreenAnnounceLarge] = "TCFontPatch/fonts/M.otf|36|soft-shadow-thick"
+[Font:ZoFontCenterScreenAnnounceSmall] = "TCFontPatch/fonts/M.otf|27|soft-shadow-thick"
+
+[Font:ZoFontAlert] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+
+[Font:ZoFontConversationName] = "TCFontPatch/fonts/M.otf|25|soft-shadow-thick"
+[Font:ZoFontConversationText] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+[Font:ZoFontConversationOption] = "TCFontPatch/fonts/M.otf|20|soft-shadow-thick"
+[Font:ZoFontConversationQuestReward] = "TCFontPatch/fonts/M.otf|18|soft-shadow-thick"
+
+[Font:ZoFontKeybindStripKey] = "TCFontPatch/fonts/R.otf|18|soft-shadow-thin"
+[Font:ZoFontKeybindStripDescription] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+[Font:ZoFontDialogKeybindDescription] = "TCFontPatch/fonts/M.otf|18|soft-shadow-thick"
+
+[Font:ZoInteractionPrompt] = "TCFontPatch/fonts/M.otf|22|soft-shadow-thick"
+
+[Font:ZoFontCreditsHeader] = "TCFontPatch/fonts/M.otf|22"
+[Font:ZoFontCreditsText] = "TCFontPatch/fonts/M.otf|17"
+
+[Font:ZoFontSubtitleText] = "TCFontPatch/fonts/R.otf|25|soft-shadow-thick"
+
+[Font:ZoMarketAnnouncementCalloutFont] = "TCFontPatch/fonts/M.otf|29|soft-shadow-thin"
+
+[Font:ZoFontBookPaper] = "TCFontPatch/fonts/A.ttf|17"
+[Font:ZoFontBookSkin] = "TCFontPatch/fonts/A.ttf|17"
+[Font:ZoFontBookRubbing] = "TCFontPatch/fonts/A.ttf|17"
+[Font:ZoFontBookLetter] = "TCFontPatch/fonts/W.ttf|19"
+[Font:ZoFontBookNote] = "TCFontPatch/fonts/W.ttf|21"
+[Font:ZoFontBookScroll] = "TCFontPatch/fonts/W.ttf|24"
+[Font:ZoFontBookTablet] = "TCFontPatch/fonts/W.ttf|30|soft-shadow-thick"
+[Font:ZoFontBookMetal] = "TCFontPatch/fonts/A.ttf|17|soft-shadow-thick"
+
+[Font:ZoFontBookPaperTitle] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontBookSkinTitle] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontBookRubbingTitle] = "TCFontPatch/fonts/A.ttf|26"
+[Font:ZoFontBookLetterTitle] = "TCFontPatch/fonts/W.ttf|29"
+[Font:ZoFontBookNoteTitle] = "TCFontPatch/fonts/W.ttf|31"
+[Font:ZoFontBookScrollTitle] = "TCFontPatch/fonts/W.ttf|34"
+[Font:ZoFontBookTabletTitle] = "TCFontPatch/fonts/W.ttf|48|soft-shadow-thick"
+[Font:ZoFontBookMetalTitle] = "TCFontPatch/fonts/A.ttf|26|soft-shadow-thick"

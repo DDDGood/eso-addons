@@ -1,0 +1,9 @@
+## Title: D - AGS TTC Filter
+## Author: D
+## Version: 1.0
+## APIVersion: 101038 101039
+## DependsOn: AwesomeGuildStore>=2635
+
+Startup.lua
+TTCPriceFilter.lua
+TTCPriceFilterFragment.lua

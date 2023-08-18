@@ -1,0 +1,16 @@
+## APIVersion: 101038 101037
+## Title: DefaultGuildBank
+## Author: Shadowfen
+## Version: 1.10
+## AddOnVersion: 11
+## Description: Start Guild Bank with your preferred default instead of the first one.
+## DependsOn: LibSFUtils>=45 LibAddonMenu-2.0>=32 LibLanguage
+## OptionalDependsOn: rChat
+## SavedVariables: DefaultGuildBankVars
+
+lang/en.lua
+lang/$(language).lua
+
+DefaultGuildBank_Global.lua
+DefaultGuildBank.lua
+Settings.lua
