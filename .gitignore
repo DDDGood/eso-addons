@@ -4,4 +4,6 @@
 **/*.sln
 Errors/
 Logs/
-Screeshots/
+Screenshots/
+ShaderCache.cooked
+UserSettings.txt
