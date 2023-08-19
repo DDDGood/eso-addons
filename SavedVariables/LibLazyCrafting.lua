@@ -1,6 +1,5 @@
 LibLazyCraftingSavedVars =
 {
-    ["lastScrapedAPIVersion"] = 101038,
     ["SetIds"] = 
     {
         [0] = 
@@ -3490,4 +3489,5 @@ LibLazyCraftingSavedVars =
             [370] = 191601,
         },
     },
+    ["lastScrapedAPIVersion"] = 101038,
 }

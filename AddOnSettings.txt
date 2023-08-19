@@ -2,7 +2,7 @@
 #AcknowledgedOutOfDateAddonsVersion 101038
 #AddOnsEnabled 1
 #Default
-LibLootSummary 0
+CraftStoreFixedAndImproved 0
 GS13Data 0
 GS08Data 0
 LibTextFilter 0
@@ -113,10 +113,10 @@ LibCharacterKnowledge 0
 CombatMetronome 0
 GS14Data 0
 GS12Data 0
-GS06Data 0
 HarvestMapAD 0
+GS06Data 0
 GS01Data 0
-CraftStoreFixedAndImproved 0
+LibLootSummary 0
 #NA Megaserver-Douli D
 LibUnits2 1
 WeaveDelays 1
@@ -199,9 +199,10 @@ CraftStoreFixedAndImproved 1
 #NA Megaserver-D Good
 GroupLootNotifier 1
 CustomCompassPins 0
-LibLootSummary 1
-CraftStoreFixedAndImproved 1
+HarvestMapAD 0
+LibMotif 0
 GS13Data 0
+EzStalking 1
 GS08Data 0
 LibRunebox 0
 LibSets 1
@@ -334,6 +335,6 @@ GS14Data 0
 AgsInvididualItemPriceFilter 0
 GS12Data 0
 GS06Data 0
-HarvestMapAD 0
-LibMotif 0
 GS01Data 0
+LibLootSummary 1
+CraftStoreFixedAndImproved 1

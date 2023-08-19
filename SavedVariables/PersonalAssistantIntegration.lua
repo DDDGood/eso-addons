@@ -9,24 +9,12 @@ PersonalAssistantIntegration_SavedVariables =
                 ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
-                    ["name"] = "Profile 1",
+                    ["LazyWritCrafter"] = 
+                    {
+                        ["compatibility"] = true,
+                    },
                     ["FCOItemSaver"] = 
                     {
-                        ["Improvement"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["DynamicIcons"] = 
-                        {
-                        },
                         ["GearSets"] = 
                         {
                             ["itemMoveMode"] = 
@@ -38,31 +26,43 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
-                        ["Intricate"] = 
+                        ["DynamicIcons"] = 
                         {
-                            ["itemMoveMode"] = 0,
+                        },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
                         },
                         ["Locked"] = 
                         {
                             ["preventMoving"] = false,
                             ["preventAutoSell"] = false,
                         },
-                        ["Sell"] = 
+                        ["Intricate"] = 
                         {
-                            ["autoSellMarked"] = false,
+                            ["itemMoveMode"] = 0,
                         },
                         ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Improvement"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                     },
-                    ["LazyWritCrafter"] = 
-                    {
-                        ["compatibility"] = true,
-                    },
+                    ["name"] = "Profile 1",
                 },
-                ["version"] = 1,
                 ["profileCounter"] = 1,
+                ["version"] = 1,
             },
         },
     },

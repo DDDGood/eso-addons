@@ -4,56 +4,31 @@ PersonalAssistant_SavedVariables =
     {
         ["@forever9409"] = 
         {
-            ["D Good"] = 
-            {
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
-                ["debug"] = false,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-            },
             ["$AccountWide"] = 
             {
+                ["savedVarsVersion"] = 20501,
                 ["Debug"] = 
                 {
                 },
                 ["version"] = 1,
-                ["savedVarsVersion"] = 20501,
             },
             ["D Ruba"] = 
             {
-                ["Banking"] = 
+                ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
                 },
-                ["Integration"] = 
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["debug"] = false,
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -61,29 +36,29 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["version"] = 1,
-                ["debug"] = false,
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
             },
             ["Douli D"] = 
             {
-                ["Banking"] = 
+                ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
                 },
-                ["Integration"] = 
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["debug"] = false,
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -91,16 +66,41 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Repair"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["version"] = 1,
-                ["debug"] = false,
+            },
+            ["D Good"] = 
+            {
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
+                },
                 ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
+                ["debug"] = false,
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
             },
         },
     },

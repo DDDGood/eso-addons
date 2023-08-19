@@ -10,34 +10,34 @@ PersonalAssistantRepair_SavedVariables =
                 [1] = 
                 {
                     ["name"] = "Profile 1",
+                    ["silentMode"] = false,
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairInventory"] = 
                     {
-                        ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithGold"] = true,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
+                    },
+                    ["RechargeWeapons"] = 
+                    {
+                        ["lowSoulGemWarning"] = false,
+                        ["useSoulGems"] = true,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemThreshold"] = 10,
                     },
                     ["RepairEquipped"] = 
                     {
-                        ["repairWithGold"] = true,
-                        ["lowRepairKitWarning"] = true,
-                        ["defaultRepairKit"] = 0,
-                        ["repairWithRepairKit"] = false,
-                        ["repairWithRepairKitThreshold"] = 10,
                         ["lowRepairKitThreshold"] = 10,
+                        ["defaultRepairKit"] = 0,
                         ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithGold"] = true,
+                        ["repairWithRepairKit"] = false,
                     },
-                    ["autoRepairInventoryEnabled"] = true,
-                    ["RechargeWeapons"] = 
-                    {
-                        ["useSoulGems"] = true,
-                        ["defaultSoulGem"] = 1,
-                        ["lowSoulGemWarning"] = false,
-                        ["lowSoulGemThreshold"] = 10,
-                    },
-                    ["silentMode"] = false,
                     ["autoRepairEnabled"] = true,
                 },
-                ["version"] = 1,
                 ["profileCounter"] = 1,
+                ["version"] = 1,
             },
         },
     },

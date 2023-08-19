@@ -8,30 +8,30 @@ AdvancedFilters_Settings =
             {
                 ["Settings"] = 
                 {
-                    ["itemCountLabelColor"] = 
-                    {
-                        ["g"] = 1,
-                        ["r"] = 1,
-                        ["a"] = 1,
-                        ["b"] = 1,
-                    },
-                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
-                    ["hideSubFilterLabel"] = false,
                     ["hideCharBoundAtBankDeposit"] = false,
-                    ["showIconsInFilterDropdowns"] = true,
-                    ["version"] = 1.5110000000,
                     ["rememberFilterDropdownsLastSelection"] = true,
-                    ["doDebugOutput"] = false,
+                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
+                    ["showIconsInFilterDropdowns"] = true,
                     ["subfilterBarDropdownLastSelectedEntries"] = 
                     {
                     },
-                    ["hideItemCount"] = false,
                     ["grayOutSubFiltersWithNoItems"] = true,
-                    ["showDropdownSelectedReminderAnimation"] = true,
-                    ["debugSpamExcludeDropdownBoxFilters"] = true,
-                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
-                    ["showDropdownLastSelectedEntries"] = true,
+                    ["itemCountLabelColor"] = 
+                    {
+                        ["g"] = 1,
+                        ["a"] = 1,
+                        ["r"] = 1,
+                        ["b"] = 1,
+                    },
+                    ["version"] = 1.5110000000,
                     ["debugSpam"] = false,
+                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
+                    ["debugSpamExcludeDropdownBoxFilters"] = true,
+                    ["showDropdownLastSelectedEntries"] = true,
+                    ["doDebugOutput"] = false,
+                    ["hideItemCount"] = false,
+                    ["showDropdownSelectedReminderAnimation"] = true,
+                    ["hideSubFilterLabel"] = false,
                 },
             },
         },
