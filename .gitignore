@@ -10,3 +10,6 @@ UserSettings.txt
 AddOns/EssentialHousingTools
 AddOns/TamrielTradeCentre
 SavedVariables/TamrielTradeCentre.lua
+SavedVariables/ZO_Ingame.lua
+SavedVariables/ZO_InternalIngame.lua
+SavedVariables/ZO_Pregame.lua
