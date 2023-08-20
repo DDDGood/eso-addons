@@ -6,11 +6,9 @@ GrimFocusCounterVariables =
         {
             ["$AccountWide"] = 
             {
-                ["fadeInactive"] = false,
-                ["positionLeft"] = 800,
+                ["fadeAmount"] = 90,
+                ["hideOutOfCombat"] = true,
                 ["size"] = 70,
-                ["version"] = 1,
-                ["positionTop"] = 600,
                 ["overlay"] = 
                 {
                     ["four"] = false,
@@ -18,43 +16,45 @@ GrimFocusCounterVariables =
                     ["proc"] = false,
                     ["inactive"] = false,
                 },
-                ["selectedTexture"] = 7,
-                ["hideOutOfCombat"] = true,
-                ["showEmptyStacks"] = false,
-                ["fadeAmount"] = 90,
                 ["debugMode"] = 0,
+                ["version"] = 1,
+                ["lockedToReticle"] = true,
+                ["fadeInactive"] = false,
+                ["showEmptyStacks"] = false,
+                ["positionTop"] = 600,
+                ["positionLeft"] = 800,
                 ["colors"] = 
                 {
                     ["four"] = 
                     {
+                        ["r"] = 1,
                         ["g"] = 1,
                         ["a"] = 1,
-                        ["r"] = 1,
                         ["b"] = 1,
                     },
                     ["default"] = 
                     {
+                        ["r"] = 1,
                         ["g"] = 1,
                         ["a"] = 1,
-                        ["r"] = 1,
                         ["b"] = 1,
                     },
                     ["proc"] = 
                     {
+                        ["r"] = 1,
                         ["g"] = 1,
                         ["a"] = 1,
-                        ["r"] = 1,
                         ["b"] = 1,
                     },
                     ["inactive"] = 
                     {
+                        ["r"] = 1,
                         ["g"] = 1,
                         ["a"] = 1,
-                        ["r"] = 1,
                         ["b"] = 1,
                     },
                 },
-                ["lockedToReticle"] = true,
+                ["selectedTexture"] = 7,
                 ["unlocked"] = true,
             },
         },

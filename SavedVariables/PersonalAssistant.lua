@@ -14,16 +14,25 @@ PersonalAssistant_SavedVariables =
             },
             ["D Ruba"] = 
             {
-                ["Integration"] = 
+                ["version"] = 1,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
                 },
-                ["Junk"] = 
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -32,28 +41,28 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
             },
             ["Douli D"] = 
             {
-                ["Integration"] = 
+                ["version"] = 1,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
                 },
-                ["Junk"] = 
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -62,28 +71,28 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
             },
             ["D Good"] = 
             {
-                ["Integration"] = 
+                ["version"] = 1,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
                 },
-                ["Junk"] = 
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -92,15 +101,6 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
             },
         },
     },

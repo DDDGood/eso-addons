@@ -4,7 +4,7 @@
 local l = {} -- #L private table for local use
 local m = {l=l} -- #M public table for module use
 local NAME = 'ActionDurationReminder'
-local VERSION = '3.95'
+local VERSION = '3.96'
 local TITLE = 'Action Duration Reminder'
 
 --========================================

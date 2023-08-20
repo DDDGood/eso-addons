@@ -2,20 +2,31 @@ CharacterKnowledgeSavedVariables =
 {
     ["Default"] = 
     {
+        ["NA"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["version"] = 1,
+                ["tooltips"] = 
+                {
+                    ["pinnedCharsForChapters"] = 1,
+                },
+            },
+        },
         ["$InstallationWide"] = 
         {
             ["$AccountWide"] = 
             {
-                ["featureRev"] = 1,
+                ["version"] = 1,
                 ["tooltips"] = 
                 {
+                    ["enabled"] = true,
                     ["charColors"] = 
                     {
                         [0] = 3355443,
                         [1] = 3381759,
                         [2] = 7829350,
                     },
-                    ["enabled"] = true,
                     ["itemColors"] = 
                     {
                         [2] = 16711680,
@@ -23,18 +34,7 @@ CharacterKnowledgeSavedVariables =
                     },
                 },
                 ["filterId"] = 3,
-                ["version"] = 1,
-            },
-        },
-        ["NA"] = 
-        {
-            ["$AccountWide"] = 
-            {
-                ["tooltips"] = 
-                {
-                    ["pinnedCharsForChapters"] = 1,
-                },
-                ["version"] = 1,
+                ["featureRev"] = 1,
             },
         },
     },

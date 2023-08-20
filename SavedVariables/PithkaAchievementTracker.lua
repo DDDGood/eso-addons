@@ -6,60 +6,13 @@ PithkaSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["scores"] = 
-                {
-                    ["BRP"] = 
-                    {
-                        ["D Good"] = 29333,
-                    },
-                    ["SO"] = 
-                    {
-                        ["D Good"] = 136235,
-                    },
-                    ["DSA"] = 
-                    {
-                        ["D Good"] = 17580,
-                    },
-                    ["CR"] = 
-                    {
-                        ["D Good"] = 47569,
-                    },
-                    ["MSA"] = 
-                    {
-                        ["D Good"] = 562991,
-                    },
-                    ["AS"] = 
-                    {
-                        ["D Good"] = 69952,
-                    },
-                    ["AA"] = 
-                    {
-                        ["D Good"] = 134768,
-                    },
-                    ["HOF"] = 
-                    {
-                        ["D Good"] = 134606,
-                    },
-                    ["HRC"] = 
-                    {
-                        ["D Good"] = 89324,
-                    },
-                    ["MOL"] = 
-                    {
-                        ["D Good"] = 65662,
-                    },
-                },
-                ["runOnce"] = 
-                {
-                    ["arenaBug"] = true,
-                },
                 ["state"] = 
                 {
-                    ["title"] = "",
-                    ["trifectaSummary"] = "~ Trifecta Summary ~",
                     ["dungeonSummary"] = "~ Dungeon Summary ~",
-                    ["showExtra"] = true,
+                    ["title"] = "",
                     ["trialSummary"] = "~ Trial Summary ~",
+                    ["trifectaSummary"] = "~ Trifecta Summary ~",
+                    ["showExtra"] = true,
                     ["showWatermark"] = true,
                     ["currentScreen"] = "dungeon",
                 },
@@ -78,7 +31,54 @@ PithkaSavedVariables =
                 ["options"] = 
                 {
                 },
+                ["runOnce"] = 
+                {
+                    ["arenaBug"] = true,
+                },
                 ["version"] = 1,
+                ["scores"] = 
+                {
+                    ["CR"] = 
+                    {
+                        ["D Good"] = 47569,
+                    },
+                    ["HOF"] = 
+                    {
+                        ["D Good"] = 134606,
+                    },
+                    ["HRC"] = 
+                    {
+                        ["D Good"] = 89324,
+                    },
+                    ["SO"] = 
+                    {
+                        ["D Good"] = 136235,
+                    },
+                    ["AS"] = 
+                    {
+                        ["D Good"] = 69952,
+                    },
+                    ["BRP"] = 
+                    {
+                        ["D Good"] = 29333,
+                    },
+                    ["DSA"] = 
+                    {
+                        ["D Good"] = 17580,
+                    },
+                    ["MSA"] = 
+                    {
+                        ["D Good"] = 562991,
+                    },
+                    ["MOL"] = 
+                    {
+                        ["D Good"] = 65662,
+                    },
+                    ["AA"] = 
+                    {
+                        ["D Good"] = 134768,
+                    },
+                },
             },
         },
     },

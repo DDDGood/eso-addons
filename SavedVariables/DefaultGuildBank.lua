@@ -4,23 +4,32 @@ DefaultGuildBankVars =
     {
         ["@forever9409"] = 
         {
-            ["8796093073962423"] = 
+            ["8796093067519895"] = 
             {
                 ["NA Megaserver"] = 
                 {
                     ["dgb_enabled"] = true,
+                    ["version"] = 1,
                     ["accountWide"] = true,
+                },
+                ["$LastCharacterName"] = "D Ruba",
+            },
+            ["$AccountWide"] = 
+            {
+                ["NA Megaserver"] = 
+                {
+                    ["dgb_enabled"] = true,
+                    ["defaultGuildId"] = 836891,
                     ["version"] = 1,
                 },
-                ["$LastCharacterName"] = "Douli D",
             },
             ["8796093073961853"] = 
             {
                 ["NA Megaserver"] = 
                 {
                     ["dgb_enabled"] = true,
-                    ["accountWide"] = true,
                     ["version"] = 1,
+                    ["accountWide"] = true,
                 },
                 ["$LastCharacterName"] = "Douli D",
             },
@@ -29,29 +38,20 @@ DefaultGuildBankVars =
                 ["NA Megaserver"] = 
                 {
                     ["dgb_enabled"] = true,
-                    ["accountWide"] = true,
                     ["version"] = 1,
+                    ["accountWide"] = true,
                 },
                 ["$LastCharacterName"] = "D Good",
             },
-            ["8796093067519895"] = 
+            ["8796093073962423"] = 
             {
                 ["NA Megaserver"] = 
                 {
                     ["dgb_enabled"] = true,
+                    ["version"] = 1,
                     ["accountWide"] = true,
-                    ["version"] = 1,
                 },
-                ["$LastCharacterName"] = "D Ruba",
-            },
-            ["$AccountWide"] = 
-            {
-                ["NA Megaserver"] = 
-                {
-                    ["defaultGuildId"] = 836891,
-                    ["dgb_enabled"] = true,
-                    ["version"] = 1,
-                },
+                ["$LastCharacterName"] = "Douli D",
             },
         },
     },

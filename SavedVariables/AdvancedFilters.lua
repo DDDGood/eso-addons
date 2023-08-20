@@ -8,14 +8,10 @@ AdvancedFilters_Settings =
             {
                 ["Settings"] = 
                 {
-                    ["hideCharBoundAtBankDeposit"] = false,
-                    ["rememberFilterDropdownsLastSelection"] = true,
-                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
-                    ["showIconsInFilterDropdowns"] = true,
-                    ["subfilterBarDropdownLastSelectedEntries"] = 
-                    {
-                    },
-                    ["grayOutSubFiltersWithNoItems"] = true,
+                    ["version"] = 1.5110000000,
+                    ["doDebugOutput"] = false,
+                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
+                    ["debugSpamExcludeDropdownBoxFilters"] = true,
                     ["itemCountLabelColor"] = 
                     {
                         ["g"] = 1,
@@ -23,15 +19,19 @@ AdvancedFilters_Settings =
                         ["r"] = 1,
                         ["b"] = 1,
                     },
-                    ["version"] = 1.5110000000,
-                    ["debugSpam"] = false,
-                    ["debugSpamExcludeRefreshSubfilterBar"] = true,
-                    ["debugSpamExcludeDropdownBoxFilters"] = true,
+                    ["showFilterDropdownMenuOnRightMouseAtSubFilterButton"] = false,
                     ["showDropdownLastSelectedEntries"] = true,
-                    ["doDebugOutput"] = false,
                     ["hideItemCount"] = false,
+                    ["subfilterBarDropdownLastSelectedEntries"] = 
+                    {
+                    },
+                    ["grayOutSubFiltersWithNoItems"] = true,
+                    ["debugSpam"] = false,
+                    ["hideCharBoundAtBankDeposit"] = false,
                     ["showDropdownSelectedReminderAnimation"] = true,
+                    ["rememberFilterDropdownsLastSelection"] = true,
                     ["hideSubFilterLabel"] = false,
+                    ["showIconsInFilterDropdowns"] = true,
                 },
             },
         },

@@ -9,10 +9,6 @@ PersonalAssistantIntegration_SavedVariables =
                 ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
-                    ["LazyWritCrafter"] = 
-                    {
-                        ["compatibility"] = true,
-                    },
                     ["FCOItemSaver"] = 
                     {
                         ["GearSets"] = 
@@ -26,6 +22,10 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
+                        ["Intricate"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                         ["DynamicIcons"] = 
                         {
                         },
@@ -33,12 +33,16 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["autoSellMarked"] = false,
                         },
+                        ["Improvement"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                         ["Locked"] = 
                         {
-                            ["preventMoving"] = false,
                             ["preventAutoSell"] = false,
+                            ["preventMoving"] = false,
                         },
-                        ["Intricate"] = 
+                        ["Deconstruction"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -50,16 +54,12 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["Improvement"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
                     },
                     ["name"] = "Profile 1",
+                    ["LazyWritCrafter"] = 
+                    {
+                        ["compatibility"] = true,
+                    },
                 },
                 ["profileCounter"] = 1,
                 ["version"] = 1,

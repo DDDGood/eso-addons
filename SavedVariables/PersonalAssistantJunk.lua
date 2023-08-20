@@ -9,854 +9,861 @@ PersonalAssistantJunk_SavedVariables =
                 ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
-                    ["Miscellaneous"] = 
+                    ["name"] = "Profile 1",
+                    ["Weapons"] = 
                     {
-                        ["autoMarkGlyphQualityThreshold"] = 3,
-                        ["autoMarkTreasure"] = true,
-                    },
-                    ["ignoreCraftedItems"] = true,
-                    ["autoSellJunk"] = true,
-                    ["Armor"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
                         ["autoMarkOrnate"] = true,
-                        ["autoMarkKnownTraits"] = true,
                         ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkUnknownTraits"] = false,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkKnownTraits"] = true,
                         ["autoMarkQualityThreshold"] = 3,
+                        ["autoMarkUnknownTraits"] = false,
                     },
-                    ["AutoDestroy"] = 
-                    {
-                        ["destroyStolenJunk"] = false,
-                        ["destroyJunk"] = false,
-                        ["destroyMaxQualityThreshold"] = 0,
-                        ["destroyMaxStolenValueThreshold"] = 0,
-                        ["destroyMaxStolenQualityThreshold"] = 0,
-                        ["destroyMaxValueThreshold"] = 0,
-                    },
-                    ["KeyBindings"] = 
-                    {
-                        ["showDestroyItemKeybind"] = true,
-                        ["showMarkUnmarkAsJunkKeybind"] = true,
-                        ["enableMarkUnmarkAsJunkKeybind"] = true,
-                        ["destroyExcludeUnknownItems"] = false,
-                        ["enableMarkUnmarkAsPermJunkKeybind"] = true,
-                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
-                        ["enableDestroyItemKeybind"] = false,
-                        ["destroyItemQualityThreshold"] = 5,
-                    },
-                    ["silentMode"] = false,
                     ["QuestProtection"] = 
                     {
-                        ["ThievesGuild"] = 
-                        {
-                            ["excludeTheCovetousCountess"] = false,
-                        },
-                        ["ClockworkCity"] = 
-                        {
-                            ["excludeMorselsAndPecks"] = false,
-                            ["excludeNibblesAndBits"] = false,
-                            ["excludeAMatterOfLeisure"] = false,
-                            ["excludeAMatterOfRespect"] = false,
-                            ["excludeAMatterOfTributes"] = false,
-                        },
                         ["NewLifeFestival"] = 
                         {
                             ["excludeRareFish"] = true,
                         },
+                        ["ClockworkCity"] = 
+                        {
+                            ["excludeMorselsAndPecks"] = false,
+                            ["excludeAMatterOfLeisure"] = false,
+                            ["excludeAMatterOfTributes"] = false,
+                            ["excludeNibblesAndBits"] = false,
+                            ["excludeAMatterOfRespect"] = false,
+                        },
+                        ["ThievesGuild"] = 
+                        {
+                            ["excludeTheCovetousCountess"] = false,
+                        },
                     },
                     ["Stolen"] = 
                     {
-                        ["jewelries"] = false,
-                        ["traitItems"] = false,
-                        ["treasures"] = false,
-                        ["weapons"] = false,
-                        ["styleMaterials"] = false,
-                        ["ingredients"] = false,
                         ["food"] = false,
-                        ["apparels"] = false,
-                        ["trash"] = false,
-                        ["solvents"] = false,
                         ["drinks"] = false,
+                        ["trash"] = false,
+                        ["styleMaterials"] = false,
                         ["lures"] = false,
+                        ["solvents"] = false,
+                        ["traitItems"] = false,
+                        ["ingredients"] = false,
+                        ["apparels"] = false,
+                        ["treasures"] = false,
+                        ["jewelries"] = false,
+                        ["weapons"] = false,
                     },
-                    ["name"] = "Profile 1",
-                    ["ignoreMailboxItems"] = true,
-                    ["autoSellJunkPirharri"] = false,
-                    ["Weapons"] = 
+                    ["KeyBindings"] = 
                     {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkOrnate"] = true,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkUnknownTraits"] = false,
-                        ["autoMarkQualityThreshold"] = 3,
+                        ["destroyItemQualityThreshold"] = 5,
+                        ["enableDestroyItemKeybind"] = false,
+                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
+                        ["showMarkUnmarkAsJunkKeybind"] = true,
+                        ["destroyExcludeUnknownItems"] = false,
+                        ["enableMarkUnmarkAsPermJunkKeybind"] = true,
+                        ["enableMarkUnmarkAsJunkKeybind"] = true,
+                        ["showDestroyItemKeybind"] = true,
                     },
-                    ["autoMarkAsJunkEnabled"] = true,
-                    ["Collectibles"] = 
+                    ["AutoDestroy"] = 
                     {
-                        ["autoMarkSellToMerchant"] = true,
-                    },
-                    ["Jewelry"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkOrnate"] = true,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkUnknownTraits"] = false,
-                        ["autoMarkQualityThreshold"] = 2,
-                    },
-                    ["Trash"] = 
-                    {
-                        ["autoMarkTrash"] = true,
+                        ["destroyMaxStolenValueThreshold"] = 0,
+                        ["destroyMaxStolenQualityThreshold"] = 0,
+                        ["destroyStolenJunk"] = false,
+                        ["destroyMaxQualityThreshold"] = 0,
+                        ["destroyMaxValueThreshold"] = 0,
+                        ["destroyJunk"] = false,
                     },
                     ["Custom"] = 
                     {
                         ["customItemsEnabled"] = true,
                         ["PAItemIds"] = 
                         {
-                            ["45840"] = 
-                            {
-                                ["ruleAdded"] = 1691677051,
-                                ["lastJunk"] = 1692316072,
-                                ["junkCount"] = 4,
-                                ["itemLink"] = "|H0:item:45840:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45842"] = 
-                            {
-                                ["ruleAdded"] = 1691582336,
-                                ["lastJunk"] = 1691682866,
-                                ["junkCount"] = 3,
-                                ["itemLink"] = "|H0:item:45842:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23221"] = 
-                            {
-                                ["ruleAdded"] = 1691623740,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:23221:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["30219"] = 
-                            {
-                                ["ruleAdded"] = 1691673491,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 13,
-                                ["itemLink"] = "|H0:item:30219:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["33768"] = 
-                            {
-                                ["ruleAdded"] = 1691582409,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:33768:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["64508"] = 
-                            {
-                                ["ruleAdded"] = 1691582347,
-                                ["lastJunk"] = 1691734631,
-                                ["junkCount"] = 8,
-                                ["itemLink"] = "|H0:item:64508:308:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45836"] = 
-                            {
-                                ["ruleAdded"] = 1691627309,
-                                ["lastJunk"] = 1691734637,
-                                ["junkCount"] = 4,
-                                ["itemLink"] = "|H0:item:45836:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["27064"] = 
-                            {
-                                ["ruleAdded"] = 1691669745,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:27064:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23107"] = 
-                            {
-                                ["ruleAdded"] = 1691626062,
-                                ["lastJunk"] = 1692117260,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:23107:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["810"] = 
-                            {
-                                ["ruleAdded"] = 1691739893,
-                                ["lastJunk"] = 1692181406,
-                                ["junkCount"] = 5,
-                                ["itemLink"] = "|H0:item:810:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["46142"] = 
-                            {
-                                ["ruleAdded"] = 1692359833,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:46142:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45843"] = 
-                            {
-                                ["ruleAdded"] = 1691582367,
-                                ["lastJunk"] = 1691676753,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:45843:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["46139"] = 
-                            {
-                                ["ruleAdded"] = 1692030144,
-                                ["lastJunk"] = 1692359589,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:46139:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["6020"] = 
-                            {
-                                ["ruleAdded"] = 1692147666,
-                                ["lastJunk"] = 1692149559,
-                                ["junkCount"] = 2,
-                                ["itemLink"] = "|H0:item:6020:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["135138"] = 
-                            {
-                                ["ruleAdded"] = 1691677133,
-                                ["lastJunk"] = 1692147584,
-                                ["junkCount"] = 9,
-                                ["itemLink"] = "|H0:item:135138:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["34329"] = 
-                            {
-                                ["ruleAdded"] = 1691669738,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:34329:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["64713"] = 
-                            {
-                                ["ruleAdded"] = 1691583399,
-                                ["lastJunk"] = 1691736154,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:64713:30:1:0:0:0:0:0:0:0:0:0:0:0:0:26:0:0:0:0:0|h|h",
-                            },
-                            ["75358"] = 
-                            {
-                                ["ruleAdded"] = 1691583412,
-                                ["lastJunk"] = 1692402058,
-                                ["junkCount"] = 35,
-                                ["itemLink"] = "|H0:item:75358:30:10:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["27043"] = 
-                            {
-                                ["ruleAdded"] = 1691975821,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:27043:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23203"] = 
-                            {
-                                ["ruleAdded"] = 1691623735,
-                                ["lastJunk"] = 1692368765,
-                                ["junkCount"] = 6,
-                                ["itemLink"] = "|H0:item:23203:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["4442"] = 
-                            {
-                                ["ruleAdded"] = 1691673484,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 12,
-                                ["itemLink"] = "|H0:item:4442:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["33755"] = 
-                            {
-                                ["ruleAdded"] = 1691884818,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:33755:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45839"] = 
-                            {
-                                ["ruleAdded"] = 1691582328,
-                                ["lastJunk"] = 1691976297,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:45839:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["34330"] = 
-                            {
-                                ["ruleAdded"] = 1691884816,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:34330:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45818"] = 
-                            {
-                                ["ruleAdded"] = 1692406543,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:45818:20:10:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["28666"] = 
-                            {
-                                ["ruleAdded"] = 1691757065,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:28666:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45837"] = 
-                            {
-                                ["ruleAdded"] = 1691627312,
-                                ["lastJunk"] = 1692408276,
-                                ["junkCount"] = 3,
-                                ["itemLink"] = "|H0:item:45837:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["135140"] = 
-                            {
-                                ["ruleAdded"] = 1691626074,
-                                ["lastJunk"] = 1692231946,
-                                ["junkCount"] = 25,
-                                ["itemLink"] = "|H0:item:135140:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23219"] = 
-                            {
-                                ["ruleAdded"] = 1691623783,
-                                ["lastJunk"] = 1692316473,
-                                ["junkCount"] = 13,
-                                ["itemLink"] = "|H0:item:23219:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["64689"] = 
-                            {
-                                ["ruleAdded"] = 1692359862,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:64689:30:1:0:0:0:0:0:0:0:0:0:0:0:0:28:0:0:0:0:0|h|h",
-                            },
-                            ["30221"] = 
-                            {
-                                ["ruleAdded"] = 1691673460,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:30221:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["33752"] = 
-                            {
-                                ["ruleAdded"] = 1691673407,
-                                ["lastJunk"] = 1692203586,
-                                ["junkCount"] = 28,
-                                ["itemLink"] = "|H0:item:33752:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["33756"] = 
-                            {
-                                ["ruleAdded"] = 1691975818,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:33756:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["27100"] = 
-                            {
-                                ["ruleAdded"] = 1691669743,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:27100:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23149"] = 
-                            {
-                                ["ruleAdded"] = 1691673465,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 6,
-                                ["itemLink"] = "|H0:item:23149:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["71538"] = 
-                            {
-                                ["ruleAdded"] = 1691757084,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:71538:30:1:0:0:0:0:0:0:0:0:0:0:0:0:47:0:0:0:0:0|h|h",
-                            },
-                            ["71766"] = 
-                            {
-                                ["ruleAdded"] = 1691736261,
-                                ["lastJunk"] = 1692368765,
-                                ["junkCount"] = 4,
-                                ["itemLink"] = "|H0:item:71766:30:1:0:0:0:0:0:0:0:0:0:0:0:0:30:0:0:0:0:0|h|h",
-                            },
-                            ["33258"] = 
-                            {
-                                ["ruleAdded"] = 1691623694,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 4,
-                                ["itemLink"] = "|H0:item:33258:30:1:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h",
-                            },
-                            ["75360"] = 
-                            {
-                                ["ruleAdded"] = 1692147651,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:75360:30:30:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["46131"] = 
-                            {
-                                ["ruleAdded"] = 1692202158,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:46131:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23100"] = 
-                            {
-                                ["ruleAdded"] = 1692147664,
-                                ["lastJunk"] = 1692232755,
-                                ["junkCount"] = 24,
-                                ["itemLink"] = "|H0:item:23100:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23165"] = 
-                            {
-                                ["ruleAdded"] = 1691683771,
-                                ["lastJunk"] = 1692275378,
-                                ["junkCount"] = 5,
-                                ["itemLink"] = "|H0:item:23165:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45835"] = 
-                            {
-                                ["ruleAdded"] = 1691627299,
-                                ["lastJunk"] = 1691682556,
-                                ["junkCount"] = 2,
-                                ["itemLink"] = "|H0:item:45835:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["69556"] = 
-                            {
-                                ["ruleAdded"] = 1691684315,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:69556:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["5413"] = 
-                            {
-                                ["ruleAdded"] = 1691677107,
-                                ["lastJunk"] = 1692317198,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:5413:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["46137"] = 
-                            {
-                                ["ruleAdded"] = 1692181431,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:46137:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["132619"] = 
-                            {
-                                ["ruleAdded"] = 1691764292,
-                                ["lastJunk"] = 1691975950,
-                                ["junkCount"] = 9,
-                                ["itemLink"] = "|H0:item:132619:30:1:0:0:0:0:0:0:0:0:0:0:0:0:62:0:0:0:0:0|h|h",
-                            },
-                            ["76910"] = 
-                            {
-                                ["ruleAdded"] = 1691673424,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:76910:30:1:0:0:0:0:0:0:0:0:0:0:0:0:46:0:0:0:0:0|h|h",
-                            },
-                            ["45849"] = 
-                            {
-                                ["ruleAdded"] = 1691682055,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:45849:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["4456"] = 
-                            {
-                                ["ruleAdded"] = 1691623771,
-                                ["lastJunk"] = 1692368765,
-                                ["junkCount"] = 17,
-                                ["itemLink"] = "|H0:item:4456:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["4463"] = 
-                            {
-                                ["ruleAdded"] = 1692147668,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:4463:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["59922"] = 
-                            {
-                                ["ruleAdded"] = 1692359876,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:59922:30:1:0:0:0:0:0:0:0:0:0:0:0:0:29:0:0:0:0:0|h|h",
-                            },
-                            ["28610"] = 
-                            {
-                                ["ruleAdded"] = 1692147688,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:28610:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
                             ["46152"] = 
                             {
-                                ["ruleAdded"] = 1691623625,
-                                ["lastJunk"] = 1692368300,
                                 ["junkCount"] = 2,
+                                ["lastJunk"] = 1692368300,
                                 ["itemLink"] = "|H0:item:46152:30:1:0:0:0:0:0:0:0:0:0:0:0:0:15:0:0:0:0:0|h|h",
-                            },
-                            ["16291"] = 
-                            {
-                                ["ruleAdded"] = 1691683764,
-                                ["lastJunk"] = 1692200299,
-                                ["junkCount"] = 5,
-                                ["itemLink"] = "|H0:item:16291:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["79672"] = 
-                            {
-                                ["ruleAdded"] = 1691623685,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:79672:30:1:0:0:0:0:0:0:0:0:0:0:0:0:45:0:0:0:0:0|h|h",
-                            },
-                            ["23122"] = 
-                            {
-                                ["ruleAdded"] = 1692147648,
-                                ["lastJunk"] = 1692232755,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:23122:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["64690"] = 
-                            {
-                                ["ruleAdded"] = 1691582434,
-                                ["lastJunk"] = 1691735988,
-                                ["junkCount"] = 7,
-                                ["itemLink"] = "|H0:item:64690:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45834"] = 
-                            {
-                                ["ruleAdded"] = 1691627307,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:45834:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45990"] = 
-                            {
-                                ["ruleAdded"] = 1691677481,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:45990:3:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23127"] = 
-                            {
-                                ["ruleAdded"] = 1691884772,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:23127:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["75370"] = 
-                            {
-                                ["ruleAdded"] = 1692359880,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:75370:30:1:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:0:0|h|h",
-                            },
-                            ["4486"] = 
-                            {
-                                ["ruleAdded"] = 1691677278,
-                                ["lastJunk"] = 1692316473,
-                                ["junkCount"] = 7,
-                                ["itemLink"] = "|H0:item:4486:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["75357"] = 
-                            {
-                                ["ruleAdded"] = 1691582397,
-                                ["lastJunk"] = 1692402058,
-                                ["junkCount"] = 66,
-                                ["itemLink"] = "|H0:item:75357:30:3:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["883"] = 
-                            {
-                                ["ruleAdded"] = 1691582400,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:883:30:3:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["64509"] = 
-                            {
-                                ["ruleAdded"] = 1691596210,
-                                ["lastJunk"] = 1691734622,
-                                ["junkCount"] = 10,
-                                ["itemLink"] = "|H0:item:64509:308:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["4487"] = 
-                            {
-                                ["ruleAdded"] = 1692147660,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:4487:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["6000"] = 
-                            {
-                                ["ruleAdded"] = 1692030136,
-                                ["lastJunk"] = 1692359581,
-                                ["junkCount"] = 60,
-                                ["itemLink"] = "|H0:item:6000:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23126"] = 
-                            {
-                                ["ruleAdded"] = 1692147671,
-                                ["lastJunk"] = 1692232755,
-                                ["junkCount"] = 30,
-                                ["itemLink"] = "|H0:item:23126:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45856"] = 
-                            {
-                                ["ruleAdded"] = 1691582370,
-                                ["lastJunk"] = 1692365860,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:45856:20:10:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["33771"] = 
-                            {
-                                ["ruleAdded"] = 1692147689,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:33771:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45850"] = 
-                            {
-                                ["ruleAdded"] = 1691582379,
-                                ["lastJunk"] = 1692408783,
-                                ["junkCount"] = 11,
-                                ["itemLink"] = "|H0:item:45850:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623625,
                             },
                             ["27058"] = 
                             {
-                                ["ruleAdded"] = 1691669741,
                                 ["junkCount"] = 0,
                                 ["itemLink"] = "|H0:item:27058:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691669741,
                             },
-                            ["46141"] = 
+                            ["45842"] = 
                             {
-                                ["ruleAdded"] = 1692181438,
+                                ["junkCount"] = 3,
+                                ["lastJunk"] = 1691682866,
+                                ["itemLink"] = "|H0:item:45842:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582336,
+                            },
+                            ["45818"] = 
+                            {
                                 ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:46141:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45855"] = 
-                            {
-                                ["ruleAdded"] = 1691582353,
-                                ["lastJunk"] = 1692365860,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:45855:20:5:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["itemLink"] = "|H0:item:45818:20:10:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692406543,
                             },
                             ["45841"] = 
                             {
-                                ["ruleAdded"] = 1691677194,
-                                ["lastJunk"] = 1691734646,
                                 ["junkCount"] = 2,
+                                ["lastJunk"] = 1691734646,
                                 ["itemLink"] = "|H0:item:45841:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677194,
                             },
-                            ["160509"] = 
+                            ["4456"] = 
                             {
-                                ["ruleAdded"] = 1691757091,
+                                ["junkCount"] = 19,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:4456:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623771,
+                            },
+                            ["23127"] = 
+                            {
                                 ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:160509:30:1:0:0:0:0:0:0:0:0:0:0:0:0:100:0:0:0:0:0|h|h",
-                            },
-                            ["34305"] = 
-                            {
-                                ["ruleAdded"] = 1692181473,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:34305:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["27048"] = 
-                            {
-                                ["ruleAdded"] = 1692181464,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:27048:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["75365"] = 
-                            {
-                                ["ruleAdded"] = 1691623671,
-                                ["lastJunk"] = 1692401143,
-                                ["junkCount"] = 55,
-                                ["itemLink"] = "|H0:item:75365:308:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["176073"] = 
-                            {
-                                ["ruleAdded"] = 1691740303,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:176073:30:1:0:0:0:0:0:0:0:0:0:0:0:0:123:0:0:0:0:0|h|h",
-                            },
-                            ["33252"] = 
-                            {
-                                ["ruleAdded"] = 1691884832,
-                                ["lastJunk"] = 1692368765,
-                                ["junkCount"] = 6,
-                                ["itemLink"] = "|H0:item:33252:30:1:0:0:0:0:0:0:0:0:0:0:0:0:7:0:0:0:0:0|h|h",
-                            },
-                            ["45832"] = 
-                            {
-                                ["ruleAdded"] = 1691582356,
-                                ["lastJunk"] = 1692232605,
-                                ["junkCount"] = 7,
-                                ["itemLink"] = "|H0:item:45832:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23171"] = 
-                            {
-                                ["ruleAdded"] = 1691623765,
-                                ["lastJunk"] = 1692406508,
-                                ["junkCount"] = 22,
-                                ["itemLink"] = "|H0:item:23171:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["33753"] = 
-                            {
-                                ["ruleAdded"] = 1691583406,
-                                ["lastJunk"] = 1692227608,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:33753:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45851"] = 
-                            {
-                                ["ruleAdded"] = 1691582351,
-                                ["lastJunk"] = 1692408434,
-                                ["junkCount"] = 18,
-                                ["itemLink"] = "|H0:item:45851:21:6:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45833"] = 
-                            {
-                                ["ruleAdded"] = 1691582332,
-                                ["lastJunk"] = 1691734267,
-                                ["junkCount"] = 8,
-                                ["itemLink"] = "|H0:item:45833:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["itemLink"] = "|H0:item:23127:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884772,
                             },
                             ["81995"] = 
                             {
-                                ["ruleAdded"] = 1692181502,
                                 ["junkCount"] = 0,
                                 ["itemLink"] = "|H0:item:81995:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23173"] = 
-                            {
-                                ["ruleAdded"] = 1691677282,
-                                ["lastJunk"] = 1692368765,
-                                ["junkCount"] = 4,
-                                ["itemLink"] = "|H0:item:23173:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["34307"] = 
-                            {
-                                ["ruleAdded"] = 1691582418,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:34307:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45846"] = 
-                            {
-                                ["ruleAdded"] = 1691627301,
-                                ["lastJunk"] = 1691682531,
-                                ["junkCount"] = 1,
-                                ["itemLink"] = "|H0:item:45846:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["45852"] = 
-                            {
-                                ["ruleAdded"] = 1691627315,
-                                ["lastJunk"] = 1691734631,
-                                ["junkCount"] = 8,
-                                ["itemLink"] = "|H0:item:45852:22:11:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181502,
                             },
                             ["46140"] = 
                             {
-                                ["ruleAdded"] = 1691884775,
                                 ["junkCount"] = 0,
                                 ["itemLink"] = "|H0:item:46140:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884775,
                             },
-                            ["34323"] = 
+                            ["135138"] = 
                             {
-                                ["ruleAdded"] = 1691884820,
-                                ["lastJunk"] = 1692316445,
-                                ["junkCount"] = 2,
-                                ["itemLink"] = "|H0:item:34323:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["junkCount"] = 9,
+                                ["lastJunk"] = 1692147584,
+                                ["itemLink"] = "|H0:item:135138:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677133,
                             },
-                            ["46149"] = 
+                            ["34329"] = 
                             {
-                                ["ruleAdded"] = 1691884835,
                                 ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:46149:30:1:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:0:0|h|h",
+                                ["itemLink"] = "|H0:item:34329:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691669738,
                             },
-                            ["45847"] = 
+                            ["45851"] = 
                             {
-                                ["ruleAdded"] = 1691677080,
-                                ["lastJunk"] = 1691681999,
-                                ["junkCount"] = 2,
-                                ["itemLink"] = "|H0:item:45847:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["23121"] = 
-                            {
-                                ["ruleAdded"] = 1691626070,
-                                ["lastJunk"] = 1692117467,
-                                ["junkCount"] = 13,
-                                ["itemLink"] = "|H0:item:23121:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["34335"] = 
-                            {
-                                ["ruleAdded"] = 1691669748,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:34335:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["64687"] = 
-                            {
-                                ["ruleAdded"] = 1692406558,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:64687:30:1:0:0:0:0:0:0:0:0:0:0:0:0:33:0:0:0:0:0|h|h",
-                            },
-                            ["75359"] = 
-                            {
-                                ["ruleAdded"] = 1692147680,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:75359:30:20:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["813"] = 
-                            {
-                                ["ruleAdded"] = 1691673487,
-                                ["lastJunk"] = 1692317192,
-                                ["junkCount"] = 7,
-                                ["itemLink"] = "|H0:item:813:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["26954"] = 
-                            {
-                                ["ruleAdded"] = 1691582412,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:26954:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["27052"] = 
-                            {
-                                ["ruleAdded"] = 1691885570,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:27052:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["125476"] = 
-                            {
-                                ["ruleAdded"] = 1692029486,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:125476:30:1:0:0:0:0:0:0:0:0:0:0:0:0:54:0:0:0:0:0|h|h",
-                            },
-                            ["33251"] = 
-                            {
-                                ["ruleAdded"] = 1691677222,
-                                ["lastJunk"] = 1692316473,
-                                ["junkCount"] = 4,
-                                ["itemLink"] = "|H0:item:33251:30:1:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0|h|h",
-                            },
-                            ["69555"] = 
-                            {
-                                ["ruleAdded"] = 1691669794,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:69555:30:1:0:0:0:0:0:0:0:0:0:0:0:0:22:0:0:0:0:0|h|h",
+                                ["junkCount"] = 19,
+                                ["lastJunk"] = 1692452811,
+                                ["itemLink"] = "|H0:item:45851:21:6:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582351,
                             },
                             ["46130"] = 
                             {
-                                ["ruleAdded"] = 1692181427,
                                 ["junkCount"] = 0,
                                 ["itemLink"] = "|H0:item:46130:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181427,
                             },
-                            ["27035"] = 
+                            ["45855"] = 
                             {
-                                ["ruleAdded"] = 1691582415,
-                                ["junkCount"] = 0,
-                                ["itemLink"] = "|H0:item:27035:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["junkCount"] = 1,
+                                ["lastJunk"] = 1692365860,
+                                ["itemLink"] = "|H0:item:45855:20:5:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582353,
+                            },
+                            ["64508"] = 
+                            {
+                                ["junkCount"] = 8,
+                                ["lastJunk"] = 1691734631,
+                                ["itemLink"] = "|H0:item:64508:308:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582347,
                             },
                             ["135144"] = 
                             {
-                                ["ruleAdded"] = 1691884795,
-                                ["lastJunk"] = 1692317202,
                                 ["junkCount"] = 3,
+                                ["lastJunk"] = 1692317202,
                                 ["itemLink"] = "|H0:item:135144:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884795,
                             },
-                            ["23204"] = 
+                            ["23100"] = 
                             {
-                                ["ruleAdded"] = 1691625568,
-                                ["lastJunk"] = 1692368765,
-                                ["junkCount"] = 6,
-                                ["itemLink"] = "|H0:item:23204:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
-                            },
-                            ["811"] = 
-                            {
-                                ["ruleAdded"] = 1691677126,
-                                ["lastJunk"] = 1692359579,
                                 ["junkCount"] = 24,
-                                ["itemLink"] = "|H0:item:811:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["lastJunk"] = 1692232755,
+                                ["itemLink"] = "|H0:item:23100:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147664,
+                            },
+                            ["4442"] = 
+                            {
+                                ["junkCount"] = 15,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:4442:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673484,
+                            },
+                            ["33755"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:33755:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884818,
+                            },
+                            ["75365"] = 
+                            {
+                                ["junkCount"] = 58,
+                                ["lastJunk"] = 1692449894,
+                                ["itemLink"] = "|H0:item:75365:308:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623671,
+                            },
+                            ["23107"] = 
+                            {
+                                ["junkCount"] = 10,
+                                ["lastJunk"] = 1692117260,
+                                ["itemLink"] = "|H0:item:23107:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691626062,
+                            },
+                            ["45832"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692232605,
+                                ["itemLink"] = "|H0:item:45832:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582356,
+                            },
+                            ["75357"] = 
+                            {
+                                ["junkCount"] = 66,
+                                ["lastJunk"] = 1692402058,
+                                ["itemLink"] = "|H0:item:75357:30:3:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582397,
+                            },
+                            ["45846"] = 
+                            {
+                                ["junkCount"] = 1,
+                                ["lastJunk"] = 1691682531,
+                                ["itemLink"] = "|H0:item:45846:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691627301,
+                            },
+                            ["23165"] = 
+                            {
+                                ["junkCount"] = 5,
+                                ["lastJunk"] = 1692275378,
+                                ["itemLink"] = "|H0:item:23165:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691683771,
+                            },
+                            ["46131"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:46131:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692202158,
+                            },
+                            ["16291"] = 
+                            {
+                                ["junkCount"] = 6,
+                                ["lastJunk"] = 1692455807,
+                                ["itemLink"] = "|H0:item:16291:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691683764,
+                            },
+                            ["46141"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:46141:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181438,
+                            },
+                            ["28666"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:28666:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691757065,
+                            },
+                            ["125476"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:125476:30:1:0:0:0:0:0:0:0:0:0:0:0:0:54:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692029486,
                             },
                             ["46133"] = 
                             {
-                                ["ruleAdded"] = 1691626066,
                                 ["junkCount"] = 0,
                                 ["itemLink"] = "|H0:item:46133:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691626066,
+                            },
+                            ["23219"] = 
+                            {
+                                ["junkCount"] = 15,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:23219:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623783,
+                            },
+                            ["23126"] = 
+                            {
+                                ["junkCount"] = 40,
+                                ["lastJunk"] = 1692458061,
+                                ["itemLink"] = "|H0:item:23126:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147671,
+                            },
+                            ["75360"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:75360:30:30:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147651,
+                            },
+                            ["33756"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:33756:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691975818,
+                            },
+                            ["33752"] = 
+                            {
+                                ["junkCount"] = 28,
+                                ["lastJunk"] = 1692203586,
+                                ["itemLink"] = "|H0:item:33752:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673407,
+                            },
+                            ["5413"] = 
+                            {
+                                ["junkCount"] = 20,
+                                ["lastJunk"] = 1692458056,
+                                ["itemLink"] = "|H0:item:5413:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677107,
+                            },
+                            ["33251"] = 
+                            {
+                                ["junkCount"] = 4,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:33251:30:1:0:0:0:0:0:0:0:0:0:0:0:0:1:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677222,
+                            },
+                            ["76910"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:76910:30:1:0:0:0:0:0:0:0:0:0:0:0:0:46:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673424,
+                            },
+                            ["23173"] = 
+                            {
+                                ["junkCount"] = 4,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:23173:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677282,
+                            },
+                            ["69555"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:69555:30:1:0:0:0:0:0:0:0:0:0:0:0:0:22:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691669794,
+                            },
+                            ["45852"] = 
+                            {
+                                ["junkCount"] = 8,
+                                ["lastJunk"] = 1691734631,
+                                ["itemLink"] = "|H0:item:45852:22:11:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691627315,
+                            },
+                            ["4463"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:4463:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147668,
                             },
                             ["135142"] = 
                             {
-                                ["ruleAdded"] = 1692181445,
-                                ["lastJunk"] = 1692359583,
-                                ["junkCount"] = 3,
+                                ["junkCount"] = 6,
+                                ["lastJunk"] = 1692458060,
                                 ["itemLink"] = "|H0:item:135142:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181445,
+                            },
+                            ["45856"] = 
+                            {
+                                ["junkCount"] = 1,
+                                ["lastJunk"] = 1692365860,
+                                ["itemLink"] = "|H0:item:45856:20:10:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582370,
+                            },
+                            ["6000"] = 
+                            {
+                                ["junkCount"] = 60,
+                                ["lastJunk"] = 1692359581,
+                                ["itemLink"] = "|H0:item:6000:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692030136,
+                            },
+                            ["45837"] = 
+                            {
+                                ["junkCount"] = 3,
+                                ["lastJunk"] = 1692408276,
+                                ["itemLink"] = "|H0:item:45837:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691627312,
+                            },
+                            ["45840"] = 
+                            {
+                                ["junkCount"] = 4,
+                                ["lastJunk"] = 1692316072,
+                                ["itemLink"] = "|H0:item:45840:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677051,
+                            },
+                            ["79672"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:79672:30:1:0:0:0:0:0:0:0:0:0:0:0:0:45:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623685,
+                            },
+                            ["46139"] = 
+                            {
+                                ["junkCount"] = 10,
+                                ["lastJunk"] = 1692359589,
+                                ["itemLink"] = "|H0:item:46139:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692030144,
+                            },
+                            ["23149"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692458050,
+                                ["itemLink"] = "|H0:item:23149:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673465,
+                            },
+                            ["883"] = 
+                            {
+                                ["junkCount"] = 3,
+                                ["lastJunk"] = 1692452090,
+                                ["itemLink"] = "|H0:item:883:30:3:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582400,
+                            },
+                            ["46137"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:46137:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181431,
+                            },
+                            ["75358"] = 
+                            {
+                                ["junkCount"] = 37,
+                                ["lastJunk"] = 1692455268,
+                                ["itemLink"] = "|H0:item:75358:30:10:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691583412,
+                            },
+                            ["64713"] = 
+                            {
+                                ["junkCount"] = 1,
+                                ["lastJunk"] = 1691736154,
+                                ["itemLink"] = "|H0:item:64713:30:1:0:0:0:0:0:0:0:0:0:0:0:0:26:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691583399,
+                            },
+                            ["160509"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:160509:30:1:0:0:0:0:0:0:0:0:0:0:0:0:100:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691757091,
+                            },
+                            ["75370"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:75370:30:1:0:0:0:0:0:0:0:0:0:0:0:0:11:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692359880,
+                            },
+                            ["27052"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:27052:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691885570,
+                            },
+                            ["23203"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:23203:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623735,
+                            },
+                            ["33753"] = 
+                            {
+                                ["junkCount"] = 3,
+                                ["lastJunk"] = 1692449962,
+                                ["itemLink"] = "|H0:item:33753:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691583406,
+                            },
+                            ["45849"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:45849:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691682055,
+                            },
+                            ["811"] = 
+                            {
+                                ["junkCount"] = 24,
+                                ["lastJunk"] = 1692359579,
+                                ["itemLink"] = "|H0:item:811:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677126,
+                            },
+                            ["64690"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1691735988,
+                                ["itemLink"] = "|H0:item:64690:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582434,
+                            },
+                            ["26954"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:26954:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582412,
+                            },
+                            ["64509"] = 
+                            {
+                                ["junkCount"] = 15,
+                                ["lastJunk"] = 1692452811,
+                                ["itemLink"] = "|H0:item:64509:308:50:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691596210,
+                            },
+                            ["59922"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:59922:30:1:0:0:0:0:0:0:0:0:0:0:0:0:29:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692359876,
+                            },
+                            ["27048"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:27048:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181464,
+                            },
+                            ["64689"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:64689:30:1:0:0:0:0:0:0:0:0:0:0:0:0:28:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692359862,
+                            },
+                            ["132619"] = 
+                            {
+                                ["junkCount"] = 9,
+                                ["lastJunk"] = 1691975950,
+                                ["itemLink"] = "|H0:item:132619:30:1:0:0:0:0:0:0:0:0:0:0:0:0:62:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691764292,
+                            },
+                            ["45850"] = 
+                            {
+                                ["junkCount"] = 11,
+                                ["lastJunk"] = 1692408783,
+                                ["itemLink"] = "|H0:item:45850:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582379,
+                            },
+                            ["45835"] = 
+                            {
+                                ["junkCount"] = 2,
+                                ["lastJunk"] = 1691682556,
+                                ["itemLink"] = "|H0:item:45835:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691627299,
+                            },
+                            ["64687"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:64687:30:1:0:0:0:0:0:0:0:0:0:0:0:0:33:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692406558,
+                            },
+                            ["71538"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:71538:30:1:0:0:0:0:0:0:0:0:0:0:0:0:47:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691757084,
+                            },
+                            ["27043"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:27043:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691975821,
+                            },
+                            ["813"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:813:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673487,
+                            },
+                            ["27100"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:27100:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691669743,
+                            },
+                            ["135140"] = 
+                            {
+                                ["junkCount"] = 25,
+                                ["lastJunk"] = 1692231946,
+                                ["itemLink"] = "|H0:item:135140:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691626074,
+                            },
+                            ["33252"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:33252:30:1:0:0:0:0:0:0:0:0:0:0:0:0:7:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884832,
+                            },
+                            ["75359"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:75359:30:20:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147680,
+                            },
+                            ["30219"] = 
+                            {
+                                ["junkCount"] = 15,
+                                ["lastJunk"] = 1692458058,
+                                ["itemLink"] = "|H0:item:30219:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673491,
+                            },
+                            ["34330"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:34330:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884816,
+                            },
+                            ["4487"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:4487:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147660,
+                            },
+                            ["810"] = 
+                            {
+                                ["junkCount"] = 5,
+                                ["lastJunk"] = 1692181406,
+                                ["itemLink"] = "|H0:item:810:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691739893,
+                            },
+                            ["27064"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:27064:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691669745,
+                            },
+                            ["27035"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:27035:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582415,
+                            },
+                            ["30221"] = 
+                            {
+                                ["junkCount"] = 11,
+                                ["lastJunk"] = 1692458054,
+                                ["itemLink"] = "|H0:item:30221:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691673460,
+                            },
+                            ["33768"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:33768:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582409,
+                            },
+                            ["45843"] = 
+                            {
+                                ["junkCount"] = 1,
+                                ["lastJunk"] = 1691676753,
+                                ["itemLink"] = "|H0:item:45843:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582367,
+                            },
+                            ["23121"] = 
+                            {
+                                ["junkCount"] = 13,
+                                ["lastJunk"] = 1692117467,
+                                ["itemLink"] = "|H0:item:23121:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691626070,
+                            },
+                            ["45839"] = 
+                            {
+                                ["junkCount"] = 1,
+                                ["lastJunk"] = 1691976297,
+                                ["itemLink"] = "|H0:item:45839:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582328,
+                            },
+                            ["34346"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:34346:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692455843,
+                            },
+                            ["69556"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:69556:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691684315,
+                            },
+                            ["34307"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:34307:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582418,
+                            },
+                            ["33771"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:33771:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147689,
+                            },
+                            ["23171"] = 
+                            {
+                                ["junkCount"] = 22,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:23171:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623765,
+                            },
+                            ["34323"] = 
+                            {
+                                ["junkCount"] = 2,
+                                ["lastJunk"] = 1692316445,
+                                ["itemLink"] = "|H0:item:34323:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884820,
+                            },
+                            ["45833"] = 
+                            {
+                                ["junkCount"] = 8,
+                                ["lastJunk"] = 1691734267,
+                                ["itemLink"] = "|H0:item:45833:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691582332,
+                            },
+                            ["23204"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:23204:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691625568,
+                            },
+                            ["46142"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:46142:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692359833,
+                            },
+                            ["45990"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:45990:3:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677481,
+                            },
+                            ["71766"] = 
+                            {
+                                ["junkCount"] = 4,
+                                ["lastJunk"] = 1692368765,
+                                ["itemLink"] = "|H0:item:71766:30:1:0:0:0:0:0:0:0:0:0:0:0:0:30:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691736261,
+                            },
+                            ["46149"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:46149:30:1:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691884835,
+                            },
+                            ["34335"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:34335:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691669748,
+                            },
+                            ["45847"] = 
+                            {
+                                ["junkCount"] = 2,
+                                ["lastJunk"] = 1691681999,
+                                ["itemLink"] = "|H0:item:45847:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677080,
+                            },
+                            ["176073"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:176073:30:1:0:0:0:0:0:0:0:0:0:0:0:0:123:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691740303,
+                            },
+                            ["45834"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:45834:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691627307,
+                            },
+                            ["28610"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:28610:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147688,
+                            },
+                            ["34305"] = 
+                            {
+                                ["junkCount"] = 0,
+                                ["itemLink"] = "|H0:item:34305:25:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692181473,
+                            },
+                            ["6020"] = 
+                            {
+                                ["junkCount"] = 2,
+                                ["lastJunk"] = 1692149559,
+                                ["itemLink"] = "|H0:item:6020:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147666,
+                            },
+                            ["4486"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692316473,
+                                ["itemLink"] = "|H0:item:4486:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691677278,
+                            },
+                            ["33258"] = 
+                            {
+                                ["junkCount"] = 7,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:33258:30:1:0:0:0:0:0:0:0:0:0:0:0:0:2:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623694,
+                            },
+                            ["45836"] = 
+                            {
+                                ["junkCount"] = 4,
+                                ["lastJunk"] = 1691734637,
+                                ["itemLink"] = "|H0:item:45836:20:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691627309,
+                            },
+                            ["23122"] = 
+                            {
+                                ["junkCount"] = 10,
+                                ["lastJunk"] = 1692232755,
+                                ["itemLink"] = "|H0:item:23122:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1692147648,
+                            },
+                            ["23221"] = 
+                            {
+                                ["junkCount"] = 11,
+                                ["lastJunk"] = 1692455800,
+                                ["itemLink"] = "|H0:item:23221:30:1:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h",
+                                ["ruleAdded"] = 1691623740,
                             },
                         },
+                    },
+                    ["silentMode"] = false,
+                    ["autoMarkAsJunkEnabled"] = true,
+                    ["Jewelry"] = 
+                    {
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkKnownTraits"] = true,
+                        ["autoMarkQualityThreshold"] = 2,
+                        ["autoMarkUnknownTraits"] = false,
+                    },
+                    ["Trash"] = 
+                    {
+                        ["autoMarkTrash"] = true,
+                    },
+                    ["autoSellJunkPirharri"] = false,
+                    ["ignoreCraftedItems"] = true,
+                    ["ignoreMailboxItems"] = true,
+                    ["autoSellJunk"] = true,
+                    ["Miscellaneous"] = 
+                    {
+                        ["autoMarkTreasure"] = true,
+                        ["autoMarkGlyphQualityThreshold"] = 3,
+                    },
+                    ["Collectibles"] = 
+                    {
+                        ["autoMarkSellToMerchant"] = true,
+                    },
+                    ["Armor"] = 
+                    {
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkKnownTraits"] = true,
+                        ["autoMarkQualityThreshold"] = 3,
+                        ["autoMarkUnknownTraits"] = false,
                     },
                 },
                 ["profileCounter"] = 1,
