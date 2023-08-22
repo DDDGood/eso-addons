@@ -1,8 +1,8 @@
 ## Title: |cff00ffAccount|r|cff99ff Settings|r
 ## Description: Automatic settings
 ## Author: Jodynn, |c3CB371@Masteroshi430|r
-## Version: 2023.06.05
-## APIVersion: 101038
+## Version: 2023.08.21
+## APIVersion: 101039
 ## SavedVariables: AccountSettings_SV
 ## DependsOn: LibAddonMenu-2.0>=28
 

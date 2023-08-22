@@ -12,6 +12,7 @@ AccountSettings.Default.sync = true
 AccountSettings.Default.log = false
 AccountSettings.Default.debug = false
 AccountSettings.Default.settings = {}
+AccountSettings.Default.allSettings = {}
 AccountSettings.Default.settingsBool = {}
 AccountSettings.Default.chatColors = {}
 AccountSettings.Default.tracked = false
@@ -103,6 +104,38 @@ AccountSettings.SettingSystemType = { -- Acessibility, audio, gamepad, graphics 
 	--SETTING_TYPE_VOICE,
 }
 
+
+
+AccountSettings.AllSettingSystemType = { -- Used to save everything 
+
+    SETTING_TYPE_ACCESSIBILITY,
+	SETTING_TYPE_ACCOUNT,
+	SETTING_TYPE_ACTION_BARS,
+    SETTING_TYPE_ACTIVE_COMBAT_TIP,
+    SETTING_TYPE_AUDIO,
+    SETTING_TYPE_BUFFS,
+    SETTING_TYPE_CAMERA,
+    SETTING_TYPE_CHAT_BUBBLE,
+	--SETTING_TYPE_CHAT_GLOBALS,
+	--SETTING_TYPE_CHAT_TABS,
+    SETTING_TYPE_COMBAT,
+	SETTING_TYPE_CUSTOM,
+	--SETTING_TYPE_DEVELOPER_DEBUG,
+    SETTING_TYPE_GAMEPAD,
+    SETTING_TYPE_GRAPHICS,
+    SETTING_TYPE_IN_WORLD,
+    SETTING_TYPE_LANGUAGE,
+    SETTING_TYPE_LOOT,
+    SETTING_TYPE_NAMEPLATES,
+    SETTING_TYPE_SUBTITLES,
+    SETTING_TYPE_TUTORIAL,
+    SETTING_TYPE_UI,
+	--SETTING_TYPE_VOICE,
+}
+
+
+
+
 AccountSettings.SettingSystemTypeString = {
     [SETTING_TYPE_ACCESSIBILITY    ] = SI_SETTINGSYSTEMPANEL11,
 	[SETTING_TYPE_ACCOUNT          ] = SI_SETTINGSYSTEMPANEL10,
@@ -112,7 +145,7 @@ AccountSettings.SettingSystemTypeString = {
     [SETTING_TYPE_BUFFS            ] = SI_BUFFS_OPTIONS_SECTION_TITLE,
     [SETTING_TYPE_CAMERA           ] = SI_CAMERA_OPTIONS_GLOBAL,
     [SETTING_TYPE_CHAT_BUBBLE      ] = SI_INTERFACE_OPTIONS_CHAT_BUBBLES,
-	[SETTING_TYPE_CHAT_GLOBALS     ] = "SETTING_TYPE_CHAT_GLOBALS",
+	[SETTING_TYPE_CHAT_GLOBALS     ] = SI_CHAT_TAB_GENERAL,
 	[SETTING_TYPE_CHAT_TABS        ] = "SETTING_TYPE_CHAT_TABS",
     [SETTING_TYPE_COMBAT           ] = SI_SETTINGSYSTEMPANEL9,
 	[SETTING_TYPE_DEVELOPER_DEBUG  ] = SI_SETTINGSYSTEMPANEL6,
@@ -125,8 +158,8 @@ AccountSettings.SettingSystemTypeString = {
     [SETTING_TYPE_SUBTITLES        ] = SI_AUDIO_OPTIONS_SUBTITLES,
     [SETTING_TYPE_TUTORIAL         ] = SI_INTERFACE_OPTIONS_TOOLTIPS_TUTORIAL_ENABLED,
     [SETTING_TYPE_UI               ] = SI_INTERFACE_OPTIONS_HEADS_UP_DISPLAY,
-	[SETTING_TYPE_VOICE            ] = "SETTING_TYPE_VOICE",
-	[SETTING_TYPE_CUSTOM            ] = "SETTING_TYPE_CUSTOM",
+	[SETTING_TYPE_VOICE            ] = SI_MAIN_MENU_GAMEPAD_VOICECHAT,
+	[SETTING_TYPE_CUSTOM           ] = SI_GRAPHICSPRESETS7,
 }
 
 AccountSettings.SettingIds = {
@@ -142,7 +175,7 @@ AccountSettings.SettingIds = {
             settingId = 0, -- TODO: make an enum for this, or merge it with another setting type
             text = SI_INTERFACE_OPTIONS_ACT_SETTING_LABEL,
             tooltipText = SI_INTERFACE_OPTIONS_ACT_SETTING_LABEL_TOOLTIP,
-            --valid = {ACT_SETTING_OFF, ACT_SETTING_AUTO, ACT_SETTING_ALWAYS,},
+            valid = {ACT_SETTING_OFF, ACT_SETTING_AUTO, ACT_SETTING_ALWAYS,},
             valueStringPrefix = "SI_ACTIVECOMBATTIPSETTING",
         },
     },
@@ -161,7 +194,7 @@ AccountSettings.SettingIds = {
 
 
 
-    [SETTING_TYPE_ACCESSIBILITY] =
+[SETTING_TYPE_ACCESSIBILITY] =
     {
         -- Options_Accessibility_AccessibilityMode
         [ACCESSIBILITY_SETTING_ACCESSIBILITY_MODE] =
@@ -172,12 +205,12 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_ACCESSIBILITY_MODE,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_ACCESSIBILITY_MODE_TOOLTIP,
-            -- events =
-            -- {
-                -- [true] = "OnAccessibilityModeEnabled",
-                -- [false] = "OnAccessibilityModeDisabled",
-            -- },
-            -- gamepadHasEnabledDependencies = true,
+            events =
+            {
+                [true] = "OnAccessibilityModeEnabled",
+                [false] = "OnAccessibilityModeDisabled",
+            },
+            gamepadHasEnabledDependencies = true,
         },
         -- Options_Accessibility_VoiceChatAccessibility
         [ACCESSIBILITY_SETTING_VOICE_CHAT_ACCESSIBILITY] =
@@ -188,17 +221,17 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_VOICE_CHAT_ACCESSIBILITY,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_VOICE_CHAT_ACCESSIBILITY_TOOLTIP,
-            -- exists = IsConsoleUI,
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_SetOptionActive,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_SetOptionInactive,
-            -- },
-            -- enabled = IsAccessibilityModeEnabled,
-            -- gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_VOICE_CHAT_ACCESSIBILITY_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
-            -- end,
+            exists = IsConsoleUI,
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_SetOptionActive,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_SetOptionInactive,
+            },
+            enabled = IsAccessibilityModeEnabled,
+            gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_VOICE_CHAT_ACCESSIBILITY_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
+            end,
         },
         -- Options_Accessibility_TextChatNarration
         [ACCESSIBILITY_SETTING_TEXT_CHAT_NARRATION] =
@@ -209,23 +242,23 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_TEXT_CHAT_NARRATION,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_TEXT_CHAT_NARRATION_TOOLTIP,
-            -- events =
-            -- {
-                -- [true] = "OnTextChatNarrationEnabled",
-                -- [false] = "OnTextChatNarrationDisabled",
-            -- },
-            -- gamepadHasEnabledDependencies = true,
-            -- exists = IsChatSystemAvailableForCurrentPlatform,
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
-            -- },
-            -- enabled = IsAccessibilityModeEnabled,
-            -- gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_TEXT_CHAT_NARRATION_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
-            -- end,
+            events =
+            {
+                [true] = "OnTextChatNarrationEnabled",
+                [false] = "OnTextChatNarrationDisabled",
+            },
+            gamepadHasEnabledDependencies = true,
+            exists = IsChatSystemAvailableForCurrentPlatform,
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
+            },
+            enabled = IsAccessibilityModeEnabled,
+            gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_TEXT_CHAT_NARRATION_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
+            end,
         },
         -- Options_Accessibility_ZoneChatNarration
         [ACCESSIBILITY_SETTING_ZONE_CHAT_NARRATION] =
@@ -236,21 +269,21 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_ZONE_CHAT_NARRATION,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_ZONE_CHAT_NARRATION_TOOLTIP,
-            -- exists = IsChatSystemAvailableForCurrentPlatform,
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
-                -- ["OnTextChatNarrationEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnTextChatNarrationDisabled"] = ZO_Options_UpdateOption,
-            -- },
-            -- enabled = IsTextChatNarrationEnabled,
-            -- gamepadIsEnabledCallback = IsTextChatNarrationEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- local shouldDisplayWarning = not IsAccessibilityModeEnabled() or not IsTextChatNarrationEnabled()
-                -- local warningText = IsAccessibilityModeEnabled() and GetString(SI_OPTIONS_TEXT_CHAT_NARRATION_REQUIRED_WARNING) or GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_ZONE_CHAT_NARRATION_TOOLTIP), warningText, shouldDisplayWarning)
-            -- end,
+            exists = IsChatSystemAvailableForCurrentPlatform,
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
+                ["OnTextChatNarrationEnabled"] = ZO_Options_UpdateOption,
+                ["OnTextChatNarrationDisabled"] = ZO_Options_UpdateOption,
+            },
+            enabled = IsTextChatNarrationEnabled,
+            gamepadIsEnabledCallback = IsTextChatNarrationEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                local shouldDisplayWarning = not IsAccessibilityModeEnabled() or not IsTextChatNarrationEnabled()
+                local warningText = IsAccessibilityModeEnabled() and GetString(SI_OPTIONS_TEXT_CHAT_NARRATION_REQUIRED_WARNING) or GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_ZONE_CHAT_NARRATION_TOOLTIP), warningText, shouldDisplayWarning)
+            end,
         },
         -- Options_Accessibility_ScreenNarration
         [ACCESSIBILITY_SETTING_SCREEN_NARRATION] =
@@ -261,16 +294,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_SCREEN_NARRATION,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_SCREEN_NARRATION_TOOLTIP,
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
-            -- },
-            -- enabled = IsAccessibilityModeEnabled,
-            -- gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_SCREEN_NARRATION_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
-            -- end,
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
+            },
+            enabled = IsAccessibilityModeEnabled,
+            gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_SCREEN_NARRATION_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
+            end,
         },
         -- Options_Accessibility_NarrationVolume
         [ACCESSIBILITY_SETTING_NARRATION_VOLUME] =
@@ -281,19 +314,19 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_NARRATION_VOLUME,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_NARRATION_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
-            -- },
-            -- enabled = IsAccessibilityModeEnabled,
-            -- gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_NARRATION_VOLUME_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
-            -- end,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
+            },
+            enabled = IsAccessibilityModeEnabled,
+            gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_NARRATION_VOLUME_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
+            end,
         },
         -- Options_Accessibility_NarrationVoiceSpeed
         [ACCESSIBILITY_SETTING_NARRATION_VOICE_SPEED] =
@@ -304,18 +337,18 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_SPEED,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_SPEED_TOOLTIP,
-            -- valid = {NARRATION_VOICE_SPEED_NORMAL, NARRATION_VOICE_SPEED_FAST, NARRATION_VOICE_SPEED_EXTRA_FAST, },
-            -- valueStringPrefix = "SI_NARRATIONVOICESPEED",
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
-            -- },
-            -- enabled = IsAccessibilityModeEnabled,
-            -- gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_SPEED_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
-            -- end,
+            valid = {NARRATION_VOICE_SPEED_NORMAL, NARRATION_VOICE_SPEED_FAST, NARRATION_VOICE_SPEED_EXTRA_FAST, },
+            valueStringPrefix = "SI_NARRATIONVOICESPEED",
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
+            },
+            enabled = IsAccessibilityModeEnabled,
+            gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_SPEED_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
+            end,
         },
         -- Options_Accessibility_NarrationVoiceType
         [ACCESSIBILITY_SETTING_NARRATION_VOICE_TYPE] =
@@ -326,18 +359,18 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_TYPE,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_TYPE_TOOLTIP,
-            -- valid = { NARRATION_VOICE_TYPE_FEMALE, NARRATION_VOICE_TYPE_MALE, },
-            -- valueStringPrefix = "SI_NARRATIONVOICETYPE",
-            -- eventCallbacks =
-            -- {
-                -- ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
-                -- ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
-            -- },
-            -- enabled = IsAccessibilityModeEnabled,
-            -- gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
-            -- gamepadCustomTooltipFunction = function(tooltip)
-                -- GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_TYPE_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
-            -- end,
+            valid = { NARRATION_VOICE_TYPE_FEMALE, NARRATION_VOICE_TYPE_MALE, },
+            valueStringPrefix = "SI_NARRATIONVOICETYPE",
+            eventCallbacks =
+            {
+                ["OnAccessibilityModeEnabled"] = ZO_Options_UpdateOption,
+                ["OnAccessibilityModeDisabled"] = ZO_Options_UpdateOption,
+            },
+            enabled = IsAccessibilityModeEnabled,
+            gamepadIsEnabledCallback = IsAccessibilityModeEnabled,
+            gamepadCustomTooltipFunction = function(tooltip)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccessibilityTooltipWarning(tooltip, GetString(SI_ACCESSIBILITY_OPTIONS_NARRATION_VOICE_TYPE_TOOLTIP), GetString(SI_OPTIONS_ACCESSIBILITY_MODE_REQUIRED_WARNING), not IsAccessibilityModeEnabled())
+            end,
         },
         -- Options_Accessibility_AccessibleQuickwheels
         [ACCESSIBILITY_SETTING_ACCESSIBLE_QUICKWHEELS] =
@@ -358,9 +391,9 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_GAMEPAD_AIM_ASSIST_INTENSITY,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_GAMEPAD_AIM_ASSIST_INTENSITY_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
         },
         --Options_Accessibility_MouseAimAssistIntensity
         [ACCESSIBILITY_SETTING_MOUSE_AIM_ASSIST_INTENSITY] =
@@ -371,12 +404,77 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_ACCESSIBILITY,
             text = SI_ACCESSIBILITY_OPTIONS_MOUSE_AIM_ASSIST_INTENSITY,
             tooltipText = SI_ACCESSIBILITY_OPTIONS_MOUSE_AIM_ASSIST_INTENSITY_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- exists = function()
-                -- return not IsConsoleUI()
-            -- end,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            exists = function()
+                return not IsConsoleUI()
+            end,
+        },
+    },
+	
+    [SETTING_TYPE_ACCOUNT] =
+    {
+        [ACCOUNT_SETTING_ACCOUNT_EMAIL] =
+        {
+            controlType = OPTIONS_INVOKE_CALLBACK,
+            system = SETTING_TYPE_ACCOUNT,
+            settingId = ACCOUNT_SETTING_ACCOUNT_EMAIL,
+            panel = SETTING_PANEL_ACCOUNT,
+            text = SI_INTERFACE_OPTIONS_ACCOUNT_CHANGE_EMAIL,
+            gamepadCustomTooltipFunction = function(tooltip, text)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccountResendActivation(tooltip, HasActivatedEmail(), ZO_OptionsPanel_GetAccountEmail())
+            end,
+            -- If this setting doesn't exist, we won't attempt to load it, which would mean
+            -- OPTIONS_CUSTOM_SETTING_RESEND_EMAIL_ACTIVATION could never be able to show
+            exists = ZO_OptionsPanel_IsAccountManagementAvailable,
+            visible = false,
+            callback = function()
+                if IsInGamepadPreferredMode() then
+                    local data =
+                    {
+                        finishedCallback = function()
+                            GAMEPAD_OPTIONS:RefreshOptionsList()
+                        end,
+                    }
+                    ZO_Dialogs_ShowGamepadDialog("ZO_OPTIONS_GAMEPAD_EDIT_EMAIL_DIALOG", data)
+                else
+                    ZO_Dialogs_ShowDialog("ZO_OPTIONS_KEYBOARD_EDIT_EMAIL_DIALOG")
+                end
+            end,
+        },
+        [ACCOUNT_SETTING_GET_UPDATES] =
+        {
+            controlType = OPTIONS_CHECKBOX,
+            system = SETTING_TYPE_ACCOUNT,
+            settingId = ACCOUNT_SETTING_GET_UPDATES,
+            panel = SETTING_PANEL_ACCOUNT,
+            text = SI_INTERFACE_OPTIONS_ACCOUNT_GET_UPDATES,
+            tooltipText = function()
+                if not IsConsoleUI() then
+                    if HasActivatedEmail() then
+                        return GetString(SI_INTERFACE_OPTIONS_ACCOUNT_GET_UPDATES_TOOLTIP_TEXT)
+                    else
+                        return zo_strformat(SI_KEYBOARD_INTERFACE_OPTIONS_ACCOUNT_GET_UPDATES_TOOLTIP_WARNING_FORMAT, GetString(SI_INTERFACE_OPTIONS_ACCOUNT_GET_UPDATES_TOOLTIP_TEXT), GetString(SI_INTERFACE_OPTIONS_ACCOUNT_NEED_ACTIVE_ACCOUNT_WARNING))
+                    end
+                end
+            end,
+            exists = ZO_OptionsPanel_IsAccountManagementAvailable,
+            SetSettingOverride = function(control, value)
+                SetSecureSetting(control.data.system, control.data.settingId, tostring(value))
+            end,
+            GetSettingOverride = function(control)
+                return GetSecureSetting_Bool(control.data.system, control.data.settingId)
+            end,
+            gamepadCustomTooltipFunction = function(tooltip, text)
+                GAMEPAD_TOOLTIPS:LayoutSettingAccountGetUpdates(tooltip, HasActivatedEmail())
+            end,
+            enabled = function()
+                return HasActivatedEmail()
+            end,
+            gamepadIsEnabledCallback = function()
+                return HasActivatedEmail()
+            end,
         },
     },
 
@@ -391,10 +489,10 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_MASTER_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_MASTER_VOLUME_TOOLTIP,
-            --minValue = 0,
-            --maxValue = 100,
-            --showValue = true,
-            --onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_ALL) end,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_ALL) end,
         },
         --Options_Audio_MusicEnabled
         [AUDIO_SETTING_MUSIC_ENABLED] =
@@ -405,8 +503,8 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_MUSIC_ENABLED,
             tooltipText = SI_AUDIO_OPTIONS_MUSIC_ENABLED_TOOLTIP,
-            --events = {[true] = "MusicEnabled_On", [false] = "MusicEnabled_Off",},
-            --gamepadHasEnabledDependencies = true,
+            events = {[true] = "MusicEnabled_On", [false] = "MusicEnabled_Off",},
+            gamepadHasEnabledDependencies = true,
         },
         --Options_Audio_MusicVolume
         [AUDIO_SETTING_MUSIC_VOLUME] =
@@ -417,18 +515,18 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_MUSIC_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_MUSIC_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["MusicEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["MusicEnabled_Off"] = ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_MUSIC) end,
-            -- gamepadIsEnabledCallback = function() 
-                                            -- return tonumber(GetSetting(SETTING_TYPE_AUDIO, AUDIO_SETTING_MUSIC_ENABLED)) ~= 0
-                                        -- end,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["MusicEnabled_On"] = ZO_Options_SetOptionActive,
+                ["MusicEnabled_Off"] = ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_MUSIC) end,
+            gamepadIsEnabledCallback = function() 
+                                            return tonumber(GetSetting(SETTING_TYPE_AUDIO, AUDIO_SETTING_MUSIC_ENABLED)) ~= 0
+                                        end,
         },
         --Options_Audio_SoundEnabled
         [AUDIO_SETTING_SOUND_ENABLED] =
@@ -439,8 +537,8 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_SOUND_ENABLED,
             tooltipText = SI_AUDIO_OPTIONS_SOUND_ENABLED_TOOLTIP,
-            -- events = {[true] = "SoundEnabled_On", [false] = "SoundEnabled_Off",},
-            -- gamepadHasEnabledDependencies = true,
+            events = {[true] = "SoundEnabled_On", [false] = "SoundEnabled_Off",},
+            gamepadHasEnabledDependencies = true,
         },
         --Options_Audio_AmbientVolume
         [AUDIO_SETTING_AMBIENT_VOLUME] =
@@ -451,16 +549,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_AMBIENT_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_AMBIENT_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_AMBIENT) end,
-            -- gamepadIsEnabledCallback = IsSoundEnabled,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
+                ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_AMBIENT) end,
+            gamepadIsEnabledCallback = IsSoundEnabled,
         },
         --Options_Audio_SFXVolume
         [AUDIO_SETTING_SFX_VOLUME] =
@@ -471,16 +569,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_SFX_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_SFX_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_SFX) end,
-            -- gamepadIsEnabledCallback = IsSoundEnabled,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
+                ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_SFX) end,
+            gamepadIsEnabledCallback = IsSoundEnabled,
         },
         --Options_Audio_FootstepsVolume
         [AUDIO_SETTING_FOOTSTEPS_VOLUME] =
@@ -491,16 +589,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_FOOTSTEPS_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_FOOTSTEPS_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_FOOTSTEPS) end,
-            -- gamepadIsEnabledCallback = IsSoundEnabled,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
+                ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_FOOTSTEPS) end,
+            gamepadIsEnabledCallback = IsSoundEnabled,
         },
         --Options_Audio_VOVolume
         [AUDIO_SETTING_VO_VOLUME] =
@@ -511,16 +609,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_VO_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_VO_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_VO) end,
-            -- gamepadIsEnabledCallback = IsSoundEnabled,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
+                ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_VO) end,
+            gamepadIsEnabledCallback = IsSoundEnabled,
         },
         --Options_Audio_UISoundVolume
         [AUDIO_SETTING_UI_VOLUME] =
@@ -531,16 +629,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_UI_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_UI_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_UI) end,
-            -- gamepadIsEnabledCallback = IsSoundEnabled,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
+                ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_UI) end,
+            gamepadIsEnabledCallback = IsSoundEnabled,
         },
         --Options_Audio_VideoSoundVolume
         [AUDIO_SETTING_VIDEO_VOLUME] =
@@ -551,16 +649,16 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_VIDEO_VOLUME,
             tooltipText = SI_AUDIO_OPTIONS_VIDEO_VOLUME_TOOLTIP,
-            -- minValue = 0,
-            -- maxValue = 100,
-            -- showValue = true,
-            -- eventCallbacks =
-            -- {
-                -- ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
-                -- ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
-            -- },
-            -- onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_VIDEO) end,
-            -- gamepadIsEnabledCallback = IsSoundEnabled,
+            minValue = 0,
+            maxValue = 100,
+            showValue = true,
+            eventCallbacks =
+            {
+                ["SoundEnabled_On"] = ZO_Options_SetOptionActive,
+                ["SoundEnabled_Off"]= ZO_Options_SetOptionInactive,
+            },
+            onReleasedHandler = function() PlaySound(SOUNDS.VOLUME_DING_VIDEO) end,
+            gamepadIsEnabledCallback = IsSoundEnabled,
         },
         --Options_Audio_BackgroundAudio
         [AUDIO_SETTING_BACKGROUND_AUDIO] =
@@ -571,7 +669,7 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_BACKGROUND_AUDIO,
             tooltipText = SI_AUDIO_OPTIONS_BACKGROUND_AUDIO_TOOLTIP,
-            -- exists = ZO_IsPCOrHeronUI,
+            exists = ZO_IsPCUI,
         },
         --Options_Audio_VoiceChatVolume
         [AUDIO_SETTING_VOICE_CHAT_VOLUME] =
@@ -581,9 +679,9 @@ AccountSettings.SettingIds = {
             controlType = OPTIONS_SLIDER,
             panel = SETTING_PANEL_DEBUG,
             text = SI_GAMEPAD_AUDIO_OPTIONS_VOICECHAT_VOLUME,
-            -- minValue = 40,
-            -- maxValue = 75,
-            -- exists = IsConsoleUI,
+            minValue = 40,
+            maxValue = 75,
+            exists = IsConsoleUI,
         },
         --Options_Audio_CombatMusicMode
         [AUDIO_SETTING_COMBAT_MUSIC_MODE] =
@@ -594,8 +692,8 @@ AccountSettings.SettingIds = {
             panel = SETTING_PANEL_AUDIO,
             text = SI_AUDIO_OPTIONS_COMBAT_MUSIC,
             tooltipText = SI_AUDIO_OPTIONS_COMBAT_MUSIC_TOOLTIP,
-            -- valid = { COMBAT_MUSIC_MODE_SETTING_ALL, COMBAT_MUSIC_MODE_SETTING_NONE, COMBAT_MUSIC_MODE_SETTING_BOSSES_ONLY },
-            -- valueStringPrefix = "SI_COMBATMUSICMODESETTING"
+            valid = { COMBAT_MUSIC_MODE_SETTING_ALL, COMBAT_MUSIC_MODE_SETTING_NONE, COMBAT_MUSIC_MODE_SETTING_BOSSES_ONLY },
+            valueStringPrefix = "SI_COMBATMUSICMODESETTING"
         },
         [AUDIO_SETTING_INTRO_MUSIC] = 
         {
@@ -785,7 +883,7 @@ AccountSettings.SettingIds = {
         }
     },
 
-   --Camera
+    --Camera
     [SETTING_TYPE_CAMERA] =
     {
         --Options_Camera_Smoothing
@@ -1453,9 +1551,7 @@ AccountSettings.SettingIds = {
             text = SI_GRAPHICS_OPTIONS_VIDEO_RENDER_THREAD,
             tooltipText = SI_GRAPHICS_OPTIONS_VIDEO_RENDER_THREAD_TOOLTIP,
             mustRestartToApply = true,
-            exists = function()
-                return ZO_IsPCUI() and not IsMacUI()
-            end
+            exists = ZO_IsWindowsUI,
         },
         --Options_Video_AntiAliasing_Type
         [GRAPHICS_SETTING_ANTIALIASING_TYPE] =
@@ -1764,6 +1860,18 @@ AccountSettings.SettingIds = {
                     or {AMBIENT_OCCLUSION_TYPE_NONE, AMBIENT_OCCLUSION_TYPE_SSAO, AMBIENT_OCCLUSION_TYPE_HBAO, AMBIENT_OCCLUSION_TYPE_LSAO, AMBIENT_OCCLUSION_TYPE_SSGI},
             valueStringPrefix = "SI_AMBIENTOCCLUSIONTYPE",
             exists = ZO_IsPCUI,
+        },
+        --Options_Video_Occlusion_Culling_Enabled
+        [GRAPHICS_SETTING_OCCLUSION_CULLING_ENABLED] =
+        {
+            controlType = OPTIONS_CHECKBOX,
+            system = SETTING_TYPE_GRAPHICS,
+            settingId = GRAPHICS_SETTING_OCCLUSION_CULLING_ENABLED,
+            panel = SETTING_PANEL_VIDEO,
+            text = SI_GRAPHICS_OPTIONS_VIDEO_OCCLUSION_CULLING_ENABLED,
+            tooltipText = SI_GRAPHICS_OPTIONS_VIDEO_OCCLUSION_CULLING_ENABLED_TOOLTIP,
+            mustPushApply = true,
+            exists = ZO_IsWindowsUI,
         },
         --Options_Video_Clutter_2D_Quality
         [GRAPHICS_SETTING_CLUTTER_2D_QUALITY] =
@@ -2934,6 +3042,16 @@ AccountSettings.SettingIds = {
                 ["AvANotifications_On"]    = ZO_Options_SetOptionActive,
             },
         },
+        --Options_Social_PvPKillFeedNotifications
+        [UI_SETTING_SHOW_PVP_KILL_FEED_NOTIFICATIONS] =
+        {
+            controlType = OPTIONS_CHECKBOX,
+            system = SETTING_TYPE_UI,
+            panel = SETTING_PANEL_SOCIAL,
+            settingId = UI_SETTING_SHOW_PVP_KILL_FEED_NOTIFICATIONS,
+            text = SI_SOCIAL_OPTIONS_SHOW_PVP_KILL_FEED_NOTIFICATIONS,
+            tooltipText = SI_SOCIAL_OPTIONS_SHOW_PVP_KILL_FEED_NOTIFICATIONS_TOOLTIP,
+        },
         [UI_SETTING_GAMEPAD_CHAT_HUD_ENABLED] =
         {
             controlType = OPTIONS_CHECKBOX,
@@ -3448,6 +3566,12 @@ for _,x in pairs(AccountSettings.SettingSystemType) do
     AccountSettings.Default.settings[x] = {}
 end
 
+for _,x in pairs(AccountSettings.AllSettingSystemType) do
+    AccountSettings.Default.allSettings[x] = {}
+end
+
+
+
 for _,x in pairs(AccountSettings.SettingSystemType) do
     AccountSettings.Default.settingsBool[x] = {}
     for _, y in pairs(AccountSettings.SettingIds[x]) do
@@ -3500,15 +3624,34 @@ function AccountSettings:CreateSettingsBool()
 
         [3] = {
             type = "button",
-            name = "Save these settings",
+            name = "Save character settings",
             func = function() AccountSettings:SaveSettings() end,
-            tooltip = "Once you click this it will save all the settings associated with this toon, then when you switch it will load all these settings.",
+            tooltip = "Once you click this, it will save all the character settings associated with this toon, then each time you switch toon, all these character settings will be auto loaded, making them account wide.",
             width = "full",
             isDangerous = true,
             warning = "This will fully update what you had previously saved. If this is your first time, no worries. If this is your second time be weary that the previous data will be lost."
         },
+		
+		[4] = {
+            type = "button",
+            name = "Save ALL settings",
+            func = function() AccountSettings:SaveAllSettings() end,
+            tooltip = "Once you click this, it will save all the settings associated with this toon, even the account wide ones, use [Restore All settings] to restore all settings.",
+            width = "full",
+            isDangerous = true,
+            warning = "This will fully update what you had previously saved. If this is your first time, no worries. If this is your second time be weary that the previous data will be lost."
+        },
+		[5] = {
+            type = "button",
+            name = "Restore ALL settings",
+            func = function() AccountSettings:RestoreAll() end,
+            tooltip = "Once you click this, it will restore all the settings you saved with the [Save ALL settings] button, even the accountwide ones including sound and graphics, USE AT YOUR OWN RISK.",
+            width = "full",
+            isDangerous = true,
+            warning = "This will will replace ALL your settings with the [Save ALL settings] button ones, USE AT YOUR OWN RISK."
+        },
 
-        [4] = {
+        [6] = {
             type = "checkbox",
             name = "Log",
             tooltip = "Log messages for syncing/if you need to save/saved.",
@@ -3519,7 +3662,7 @@ function AccountSettings:CreateSettingsBool()
             end,
         },
 
-        [5] = {
+        [7] = {
             type = "checkbox",
             name = "Debug",
             tooltip = "Show debug messages",
@@ -3529,19 +3672,19 @@ function AccountSettings:CreateSettingsBool()
                 AccountSettings.sv.debug = newValue
             end,
         },
-        [6] = {
+        [8] = {
             type = "divider",
         },
-        [7] = {
+        [9] = {
             type = "description",
-            text = "|c33ccccYou will find many on/off switches to enable saving each setting type. If you would like for it to sync across your account leave it on, otherwise, turn it off. \n\n|r|ccccc33By default everything is on.|r",
+            text = "|c33ccccYou will find many on/off switches to enable auto loading after changing toon each character setting type saved with the [Save character settings] button. If you would like for a setting to sync across your account, leave it on, otherwise, turn it off. \n\n|r|ccccc33By default everything is on.|r",
         },
-        [8] = {
+        [10] = {
             type = "divider",
         },
     }
 
-    local index = 9
+    local index = 11
 
     for _,x in pairs(AccountSettings.SettingSystemType) do
         local sub = {
@@ -3577,7 +3720,7 @@ end
 
 
 
-function AccountSettings:SaveSettings() 
+function AccountSettings:SaveSettings() -- save selected non accountwide
     for t,x in pairs(AccountSettings.SettingSystemType) do
         for _, y in pairs(AccountSettings.SettingIds[x]) do
             local value = GetSetting(y.system, y.settingId) 
@@ -3597,6 +3740,69 @@ function AccountSettings:SaveSettings()
     AccountSettings:Log ( AccountSettings.OKAY_COLOR, "Saved." )
 end
 
+
+
+function AccountSettings:SaveAllSettings() -- save All settings
+    for t,x in pairs(AccountSettings.AllSettingSystemType) do
+        for _, y in pairs(AccountSettings.SettingIds[x]) do
+            local value = GetSetting(y.system, y.settingId) 
+			if value and y.system and y.settingId then
+               AccountSettings.sv.allSettings[y.system][y.settingId] = value
+			   AccountSettings:Log ( AccountSettings.DEBUG_COLOR, "Saving ".. GetString(y.text).." to "..value)
+			end
+        end
+    end
+
+    for _,x in ipairs(AccountSettings.ChatColors) do
+        local r,g,b = GetChatCategoryColor (x)
+        local value = { r, g, b }
+
+        AccountSettings.sv.chatColors[x] = value
+    end
+
+    AccountSettings.sv.allTracked = true
+    AccountSettings:Log ( AccountSettings.OKAY_COLOR, "All Saved." )
+end
+
+
+function AccountSettings:RestoreAll() -- restore ALL settings
+    if AccountSettings.sv.allTracked then
+        for _,x in pairs(AccountSettings.AllSettingSystemType) do
+            for _, y in pairs(AccountSettings.SettingIds[x]) do
+                if y.system and y.settingId and GetSetting(y.system ,y.settingId) ~= nil and AccountSettings.sv.allSettings[y.system][y.settingId] then --avoid loading removed settings
+            		SetSetting(y.system, y.settingId, AccountSettings.sv.allSettings[y.system][y.settingId])
+					if y.text and y.system and y.settingId and AccountSettings.sv.allSettings[y.system][y.settingId] then AccountSettings:Log ( AccountSettings.DEBUG_COLOR, "Setting " .. GetString(y.text).." to "..AccountSettings.sv.allSettings[y.system][y.settingId]) end
+                else
+                   if y.text and type(y.text) ~= "function" then AccountSettings:Log ( AccountSettings.DEBUG_COLOR, "Ignoring " .. GetString(y.text) ) end
+                end
+            end
+        end
+
+        for _,x in ipairs(AccountSettings.ChatColors) do
+            SetChatCategoryColor ( x,
+                AccountSettings.sv.chatColors[x][1],
+                AccountSettings.sv.chatColors[x][2],
+                AccountSettings.sv.chatColors[x][3]
+            )
+        end
+
+        if ZO_ChatWindow and ZO_ChatWindow.container and not PP then -- Avoid chat window mess with Perfect Pixel
+            local settings = AccountSettings.sv.chatWindowSettings
+            if settings and ZO_ChatWindow and ZO_ChatWindow.container then
+                ZO_ChatWindow:ClearAnchors()
+                ZO_ChatWindow:SetAnchor(settings.point, nil, settings.relPoint, settings.x, settings.y)
+                ZO_ChatWindow:SetDimensions(settings.width, settings.height)
+                SharedChatContainer.LoadSettings(ZO_ChatWindow.container, settings)
+            end
+        end
+
+
+        AccountSettings:Log ( AccountSettings.OKAY_COLOR, "All Restored" )
+    else
+        AccountSettings:Log ( AccountSettings.ERROR_COLOR, "You must save all settings first before you can restore all" )
+    end
+	EVENT_MANAGER:UnregisterForEvent(AccountSettings.name, EVENT_PLAYER_ACTIVATED)
+end
 
 
 

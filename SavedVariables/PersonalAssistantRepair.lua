@@ -6,38 +6,38 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 [1] = 
                 {
-                    ["autoRepairInventoryEnabled"] = true,
+                    ["silentMode"] = false,
                     ["name"] = "Profile 1",
-                    ["RechargeWeapons"] = 
-                    {
-                        ["lowSoulGemThreshold"] = 10,
-                        ["lowSoulGemWarning"] = false,
-                        ["useSoulGems"] = true,
-                        ["defaultSoulGem"] = 1,
-                    },
                     ["RepairEquipped"] = 
                     {
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = false,
+                        ["lowRepairKitThreshold"] = 10,
                         ["lowRepairKitWarning"] = true,
                         ["repairWithGold"] = true,
-                        ["repairWithRepairKit"] = false,
-                        ["repairWithRepairKitThreshold"] = 10,
                         ["defaultRepairKit"] = 0,
                         ["repairWithGoldDurabilityThreshold"] = 75,
-                        ["lowRepairKitThreshold"] = 10,
                     },
-                    ["silentMode"] = false,
-                    ["autoRepairEnabled"] = true,
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithGold"] = true,
                     },
+                    ["RechargeWeapons"] = 
+                    {
+                        ["useSoulGems"] = true,
+                        ["lowSoulGemWarning"] = false,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemThreshold"] = 10,
+                    },
+                    ["autoRepairEnabled"] = true,
                 },
                 ["profileCounter"] = 1,
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
             },
         },
     },

@@ -1,6 +1,6 @@
 HodorReflexes = {
 	name = "HodorReflexes",
-	version = "1.13.0",
+	version = "1.13.1",
 
 	-- Default settings
 	default = {
@@ -51,6 +51,7 @@ local GAMEPAD_STYLES =  {
 local incompatibleDependencyWarningTriggered = false
 
 -- Add some toxicity
+local text = {}
 local mockText = {}
 local mockZones = {
 	[636] = true, -- hrc

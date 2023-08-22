@@ -1,7 +1,7 @@
 ## Title: LibChatMessage
 ## Author: sirinsidiator
 ## Version: 1.2.0
-## APIVersion: 100034 100035 100036 100037 100038 100039
+## APIVersion: 100034 100035
 ## AddOnVersion: 105
 ## IsLibrary: true
 ## SavedVariables: LibChatMessageSettings LibChatMessageHistory

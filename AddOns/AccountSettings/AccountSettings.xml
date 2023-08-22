@@ -1,9 +1,11 @@
-<GuiXml>
+<?xml version='1.0' encoding='utf-8'?>
+
+<GuiXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sir.insidi.at/or/schema/esoui.xsd">
     <Controls>
 
         <!-- Save Chat Settings -->
 
-        <Button name="AccountSettings_SaveChat_Button" topmost="true">
+        <Button name="AccountSettings_SaveChat_Button" >
             <Anchor relativeTo="ZO_ChatWindowOptions" relativePoint="TOPLEFT" point="TOPLEFT" offsetX="-32"/>
             <Dimensions y="32" x="32"/>
             <OnInitialized>self:SetParent(ZO_ChatWindowOptions)</OnInitialized>
