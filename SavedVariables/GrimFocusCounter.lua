@@ -6,56 +6,56 @@ GrimFocusCounterVariables =
         {
             ["$AccountWide"] = 
             {
-                ["debugMode"] = 0,
-                ["positionTop"] = 600,
-                ["fadeInactive"] = false,
-                ["fadeAmount"] = 90,
                 ["colors"] = 
                 {
-                    ["default"] = 
+                    ["inactive"] = 
                     {
-                        ["a"] = 1,
                         ["r"] = 1,
+                        ["a"] = 1,
                         ["b"] = 1,
                         ["g"] = 1,
                     },
                     ["four"] = 
                     {
-                        ["a"] = 1,
                         ["r"] = 1,
+                        ["a"] = 1,
                         ["b"] = 1,
                         ["g"] = 1,
                     },
                     ["proc"] = 
                     {
-                        ["a"] = 1,
                         ["r"] = 1,
+                        ["a"] = 1,
                         ["b"] = 1,
                         ["g"] = 1,
                     },
-                    ["inactive"] = 
+                    ["default"] = 
                     {
-                        ["a"] = 1,
                         ["r"] = 1,
+                        ["a"] = 1,
                         ["b"] = 1,
                         ["g"] = 1,
                     },
                 },
-                ["hideOutOfCombat"] = true,
-                ["version"] = 1,
                 ["selectedTexture"] = 7,
                 ["unlocked"] = true,
+                ["fadeInactive"] = false,
+                ["debugMode"] = 0,
                 ["lockedToReticle"] = true,
+                ["version"] = 1,
                 ["overlay"] = 
                 {
-                    ["default"] = false,
+                    ["inactive"] = false,
                     ["four"] = false,
                     ["proc"] = false,
-                    ["inactive"] = false,
+                    ["default"] = false,
                 },
-                ["positionLeft"] = 800,
                 ["showEmptyStacks"] = false,
+                ["positionLeft"] = 800,
                 ["size"] = 70,
+                ["positionTop"] = 600,
+                ["hideOutOfCombat"] = true,
+                ["fadeAmount"] = 90,
             },
         },
     },

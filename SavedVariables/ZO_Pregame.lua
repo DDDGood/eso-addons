@@ -6,15 +6,15 @@ ZO_Pregame_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["ChapterUpgrade"] = 
-                {
-                    ["version"] = 1,
-                    ["chapterUpgradeSeenVersion"] = 7,
-                },
                 ["CharacterSelect_Manager"] = 
                 {
                     ["version"] = 1,
                     ["eventBannerLastSeenTimestamp"] = 1692315317,
+                },
+                ["ChapterUpgrade"] = 
+                {
+                    ["version"] = 1,
+                    ["chapterUpgradeSeenVersion"] = 7,
                 },
             },
         },

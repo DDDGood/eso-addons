@@ -4,35 +4,13 @@ PersonalAssistant_SavedVariables =
     {
         ["@forever9409"] = 
         {
-            ["D Good"] = 
+            ["$AccountWide"] = 
             {
                 ["version"] = 1,
-                ["Junk"] = 
+                ["Debug"] = 
                 {
-                    ["activeProfile"] = 1,
                 },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["debug"] = false,
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
+                ["savedVarsVersion"] = 20501,
             },
             ["Douli D"] = 
             {
@@ -45,21 +23,51 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
                 ["General"] = 
                 {
                     ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
                 },
                 ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["debug"] = false,
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+            },
+            ["D Good"] = 
+            {
+                ["version"] = 1,
+                ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
                 ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["General"] = 
+                {
+                    ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
+                },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["debug"] = false,
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -75,32 +83,24 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
                 ["General"] = 
                 {
                     ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
                 },
                 ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
                 ["debug"] = false,
-                ["Integration"] = 
+                ["Banking"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-            },
-            ["$AccountWide"] = 
-            {
-                ["version"] = 1,
-                ["Debug"] = 
-                {
-                },
-                ["savedVarsVersion"] = 20501,
             },
         },
     },

@@ -6,38 +6,38 @@ LibSets_SV_Data =
         {
             ["$AccountWide"] = 
             {
-                ["zoneData"] = 
-                {
-                },
-                ["wayshrineNames"] = 
+                ["setItemIds_Compressed"] = 
                 {
                 },
                 ["maps"] = 
                 {
                 },
-                ["setItemIds_Compressed"] = 
-                {
-                },
-                ["setItemIds"] = 
-                {
-                },
-                ["collectibleNames"] = 
-                {
-                },
                 ["setNames"] = 
-                {
-                },
-                ["version"] = 0.3600000000,
-                ["setItemIdsNoSetId"] = 
-                {
-                },
-                ["dungeonFinderData"] = 
                 {
                 },
                 ["NewSetIDs"] = 
                 {
                 },
+                ["dungeonFinderData"] = 
+                {
+                },
+                ["setItemIdsNoSetId"] = 
+                {
+                },
+                ["setItemIds"] = 
+                {
+                },
                 ["collectible_DLCNames"] = 
+                {
+                },
+                ["wayshrineNames"] = 
+                {
+                },
+                ["version"] = 0.3600000000,
+                ["zoneData"] = 
+                {
+                },
+                ["collectibleNames"] = 
                 {
                 },
             },
@@ -49,7 +49,6 @@ LibSets_SV_Data =
         {
             ["$AccountWide"] = 
             {
-                ["addSetCollectionsCurrentZoneButton"] = true,
                 ["version"] = 0.3800000000,
                 ["setPreviewTooltips"] = 
                 {
@@ -59,19 +58,20 @@ LibSets_SV_Data =
                     ["quality"] = 370,
                     ["equipType"] = 3,
                 },
-                ["modifyTooltips"] = false,
+                ["addSetCollectionsCurrentZoneButton"] = true,
                 ["useCustomTooltipPattern"] = "",
                 ["tooltipModifications"] = 
                 {
-                    ["addSetType"] = true,
-                    ["addDLC"] = true,
-                    ["tooltipTextures"] = true,
-                    ["addDropLocation"] = true,
-                    ["addReconstructionCost"] = true,
                     ["addBossName"] = true,
-                    ["addNeededTraits"] = true,
+                    ["tooltipTextures"] = true,
                     ["addDropMechanic"] = true,
+                    ["addDLC"] = true,
+                    ["addReconstructionCost"] = true,
+                    ["addNeededTraits"] = true,
+                    ["addSetType"] = true,
+                    ["addDropLocation"] = true,
                 },
+                ["modifyTooltips"] = false,
             },
         },
     },
@@ -84,38 +84,38 @@ LibSets_SV_DEBUG_Data =
         {
             ["$AccountWide"] = 
             {
-                ["zoneData"] = 
-                {
-                },
-                ["wayshrineNames"] = 
+                ["setItemIds_Compressed"] = 
                 {
                 },
                 ["maps"] = 
                 {
                 },
-                ["setItemIds_Compressed"] = 
-                {
-                },
-                ["setItemIds"] = 
-                {
-                },
-                ["collectibleNames"] = 
-                {
-                },
                 ["setNames"] = 
-                {
-                },
-                ["version"] = 1,
-                ["setItemIdsNoSetId"] = 
-                {
-                },
-                ["dungeonFinderData"] = 
                 {
                 },
                 ["NewSetIDs"] = 
                 {
                 },
+                ["dungeonFinderData"] = 
+                {
+                },
+                ["setItemIdsNoSetId"] = 
+                {
+                },
+                ["setItemIds"] = 
+                {
+                },
                 ["collectible_DLCNames"] = 
+                {
+                },
+                ["wayshrineNames"] = 
+                {
+                },
+                ["version"] = 1,
+                ["zoneData"] = 
+                {
+                },
+                ["collectibleNames"] = 
                 {
                 },
             },

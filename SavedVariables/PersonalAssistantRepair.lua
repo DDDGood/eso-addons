@@ -9,19 +9,17 @@ PersonalAssistantRepair_SavedVariables =
                 ["version"] = 1,
                 [1] = 
                 {
-                    ["silentMode"] = false,
                     ["name"] = "Profile 1",
                     ["RepairEquipped"] = 
                     {
                         ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithRepairKit"] = false,
                         ["lowRepairKitThreshold"] = 10,
-                        ["lowRepairKitWarning"] = true,
                         ["repairWithGold"] = true,
                         ["defaultRepairKit"] = 0,
                         ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithRepairKit"] = false,
+                        ["lowRepairKitWarning"] = true,
                     },
-                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGoldDurabilityThreshold"] = 75,
@@ -34,7 +32,9 @@ PersonalAssistantRepair_SavedVariables =
                         ["defaultSoulGem"] = 1,
                         ["lowSoulGemThreshold"] = 10,
                     },
+                    ["silentMode"] = false,
                     ["autoRepairEnabled"] = true,
+                    ["autoRepairInventoryEnabled"] = true,
                 },
                 ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,

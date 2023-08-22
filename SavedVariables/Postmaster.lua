@@ -17,11 +17,11 @@ Postmaster_Account =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 7,
                 ["chatContentsSummary"] = 
                 {
                     ["sorted"] = false,
                 },
+                ["version"] = 7,
             },
         },
     },
