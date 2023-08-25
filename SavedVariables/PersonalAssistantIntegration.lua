@@ -6,17 +6,22 @@ PersonalAssistantIntegration_SavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 [1] = 
                 {
                     ["name"] = "Profile 1",
                     ["FCOItemSaver"] = 
                     {
-                        ["Improvement"] = 
+                        ["Sell"] = 
                         {
-                            ["itemMoveMode"] = 0,
+                            ["autoSellMarked"] = false,
                         },
-                        ["Deconstruction"] = 
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Intricate"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -31,29 +36,26 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
-                        ["SellGuildStore"] = 
+                        ["Locked"] = 
                         {
-                            ["itemMoveMode"] = 0,
+                            ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
                         },
                         ["Research"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["Intricate"] = 
+                        ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["Sell"] = 
+                        ["SellGuildStore"] = 
                         {
-                            ["autoSellMarked"] = false,
+                            ["itemMoveMode"] = 0,
                         },
-                        ["DynamicIcons"] = 
+                        ["Deconstruction"] = 
                         {
-                        },
-                        ["Locked"] = 
-                        {
-                            ["preventMoving"] = false,
-                            ["preventAutoSell"] = false,
+                            ["itemMoveMode"] = 0,
                         },
                     },
                     ["LazyWritCrafter"] = 
@@ -61,8 +63,6 @@ PersonalAssistantIntegration_SavedVariables =
                         ["compatibility"] = true,
                     },
                 },
-                ["profileCounter"] = 1,
-                ["version"] = 1,
             },
         },
     },

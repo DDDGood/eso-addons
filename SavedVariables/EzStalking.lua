@@ -6,23 +6,6 @@ EzStalking_SavedVars =
         {
             ["8796093067296067"] = 
             {
-                ["$LastCharacterName"] = "D Good",
-                ["log"] = 
-                {
-                    ["use_dialog"] = false,
-                    ["battlegrounds"] = false,
-                    ["dungeons"] = true,
-                    ["trials"] = true,
-                    ["imperial_city"] = false,
-                    ["housing"] = false,
-                    ["remember_zone"] = false,
-                    ["arenas"] = false,
-                    ["cyrodiil"] = false,
-                    ["enabled"] = true,
-                    ["normal_difficulty"] = false,
-                },
-                ["account_wide"] = false,
-                ["upload_reminder"] = false,
                 ["zone_id"] = 
                 {
                     [1] = 
@@ -35,8 +18,25 @@ EzStalking_SavedVars =
                     {
                     },
                 },
+                ["log"] = 
+                {
+                    ["battlegrounds"] = false,
+                    ["normal_difficulty"] = false,
+                    ["imperial_city"] = false,
+                    ["housing"] = false,
+                    ["enabled"] = true,
+                    ["use_dialog"] = false,
+                    ["arenas"] = false,
+                    ["trials"] = true,
+                    ["dungeons"] = true,
+                    ["remember_zone"] = false,
+                    ["cyrodiil"] = false,
+                },
+                ["account_wide"] = false,
                 ["indicator"] = 
                 {
+                    ["enabled"] = true,
+                    ["locked"] = true,
                     ["unlocked_color"] = 
                     {
                         [4] = 0.7000000000,
@@ -44,13 +44,6 @@ EzStalking_SavedVars =
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["position"] = 
-                    {
-                        ["y"] = 500,
-                        ["x"] = 500,
-                    },
-                    ["locked"] = true,
-                    ["enabled"] = true,
                     ["color"] = 
                     {
                         [4] = 0.7000000000,
@@ -58,27 +51,18 @@ EzStalking_SavedVars =
                         [2] = 0,
                         [3] = 0,
                     },
+                    ["position"] = 
+                    {
+                        ["y"] = 500,
+                        ["x"] = 500,
+                    },
                 },
                 ["version"] = 2,
+                ["$LastCharacterName"] = "D Good",
+                ["upload_reminder"] = false,
             },
             ["$AccountWide"] = 
             {
-                ["log"] = 
-                {
-                    ["use_dialog"] = true,
-                    ["battlegrounds"] = false,
-                    ["dungeons"] = true,
-                    ["trials"] = true,
-                    ["imperial_city"] = false,
-                    ["housing"] = false,
-                    ["remember_zone"] = false,
-                    ["arenas"] = true,
-                    ["cyrodiil"] = false,
-                    ["enabled"] = true,
-                    ["normal_difficulty"] = false,
-                },
-                ["account_wide"] = true,
-                ["upload_reminder"] = false,
                 ["zone_id"] = 
                 {
                     [1] = 
@@ -90,11 +74,30 @@ EzStalking_SavedVars =
                     },
                     [3] = 
                     {
+                        [380] = true,
                         [1010] = true,
+                        [11] = true,
                     },
                 },
+                ["log"] = 
+                {
+                    ["battlegrounds"] = false,
+                    ["normal_difficulty"] = false,
+                    ["imperial_city"] = false,
+                    ["housing"] = false,
+                    ["enabled"] = true,
+                    ["use_dialog"] = true,
+                    ["arenas"] = true,
+                    ["trials"] = true,
+                    ["dungeons"] = true,
+                    ["remember_zone"] = false,
+                    ["cyrodiil"] = false,
+                },
+                ["account_wide"] = true,
                 ["indicator"] = 
                 {
+                    ["enabled"] = false,
+                    ["locked"] = true,
                     ["unlocked_color"] = 
                     {
                         [4] = 0.7000000000,
@@ -102,13 +105,6 @@ EzStalking_SavedVars =
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["position"] = 
-                    {
-                        ["y"] = 500,
-                        ["x"] = 500,
-                    },
-                    ["locked"] = true,
-                    ["enabled"] = false,
                     ["color"] = 
                     {
                         [4] = 0.7000000000,
@@ -116,7 +112,13 @@ EzStalking_SavedVars =
                         [2] = 0,
                         [3] = 0,
                     },
+                    ["position"] = 
+                    {
+                        ["y"] = 500,
+                        ["x"] = 500,
+                    },
                 },
+                ["upload_reminder"] = false,
                 ["version"] = 2,
             },
         },

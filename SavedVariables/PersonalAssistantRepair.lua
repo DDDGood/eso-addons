@@ -6,38 +6,38 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 [1] = 
                 {
-                    ["autoRepairEnabled"] = true,
-                    ["name"] = "Profile 1",
-                    ["autoRepairInventoryEnabled"] = true,
-                    ["RepairEquipped"] = 
-                    {
-                        ["lowRepairKitWarning"] = true,
-                        ["lowRepairKitThreshold"] = 10,
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithGoldDurabilityThreshold"] = 75,
-                        ["repairWithRepairKit"] = false,
-                        ["repairWithGold"] = true,
-                        ["defaultRepairKit"] = 0,
-                    },
                     ["RepairInventory"] = 
                     {
                         ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 75,
                     },
+                    ["name"] = "Profile 1",
+                    ["RepairEquipped"] = 
+                    {
+                        ["defaultRepairKit"] = 0,
+                        ["repairWithGold"] = true,
+                        ["repairWithRepairKit"] = false,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
+                    },
                     ["RechargeWeapons"] = 
                     {
                         ["useSoulGems"] = true,
-                        ["lowSoulGemThreshold"] = 10,
-                        ["defaultSoulGem"] = 1,
                         ["lowSoulGemWarning"] = false,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemThreshold"] = 10,
                     },
+                    ["autoRepairEnabled"] = true,
                     ["silentMode"] = false,
+                    ["autoRepairInventoryEnabled"] = true,
                 },
-                ["profileCounter"] = 1,
-                ["version"] = 1,
             },
         },
     },

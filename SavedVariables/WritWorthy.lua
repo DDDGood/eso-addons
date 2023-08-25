@@ -4,25 +4,7 @@ WritWorthyVars =
     {
         ["@forever9409"] = 
         {
-            ["$AccountWide"] = 
-            {
-                ["position"] = 
-                {
-                    [4] = 599,
-                    [1] = 50,
-                    [2] = 49,
-                    [3] = 1175,
-                },
-                ["version"] = 1,
-            },
             ["D Ruba"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["D D Good"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
@@ -31,17 +13,35 @@ WritWorthyVars =
             },
             ["D Good"] = 
             {
-                ["enable_mat_list_chat"] = "Off",
-                ["lang"] = false,
                 ["version"] = 1,
-                ["enable_banked_vouchers"] = false,
-                ["enable_mm_fallback"] = false,
-                ["enable_station_colors"] = false,
-                ["enable_mat_list_tooltip"] = "Off",
                 ["enable_mat_price_tooltip"] = true,
-                ["enable_lib_price"] = true,
+                ["enable_mm_fallback"] = false,
+                ["enable_banked_vouchers"] = false,
+                ["enable_mat_list_chat"] = "Off",
                 ["writ_unique_id"] = 
                 {
+                },
+                ["lang"] = false,
+                ["enable_lib_price"] = true,
+                ["enable_mat_list_tooltip"] = "Off",
+                ["enable_station_colors"] = false,
+            },
+            ["D D Good"] = 
+            {
+                ["version"] = 1,
+                ["writ_unique_id"] = 
+                {
+                },
+            },
+            ["$AccountWide"] = 
+            {
+                ["version"] = 1,
+                ["position"] = 
+                {
+                    [4] = 599,
+                    [1] = 50,
+                    [2] = 49,
+                    [3] = 1175,
                 },
             },
         },

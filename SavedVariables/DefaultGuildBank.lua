@@ -4,54 +4,54 @@ DefaultGuildBankVars =
     {
         ["@forever9409"] = 
         {
-            ["8796093067519895"] = 
+            ["8796093067296067"] = 
             {
+                ["$LastCharacterName"] = "D Good",
                 ["NA Megaserver"] = 
                 {
+                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["accountWide"] = true,
-                    ["version"] = 1,
                 },
-                ["$LastCharacterName"] = "D Ruba",
+            },
+            ["8796093073961853"] = 
+            {
+                ["$LastCharacterName"] = "Douli D",
+                ["NA Megaserver"] = 
+                {
+                    ["version"] = 1,
+                    ["dgb_enabled"] = true,
+                    ["accountWide"] = true,
+                },
             },
             ["8796093073962423"] = 
             {
+                ["$LastCharacterName"] = "Douli D",
                 ["NA Megaserver"] = 
                 {
+                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["accountWide"] = true,
-                    ["version"] = 1,
                 },
-                ["$LastCharacterName"] = "Douli D",
             },
             ["$AccountWide"] = 
             {
                 ["NA Megaserver"] = 
                 {
-                    ["dgb_enabled"] = true,
+                    ["version"] = 1,
                     ["defaultGuildId"] = 836891,
-                    ["version"] = 1,
+                    ["dgb_enabled"] = true,
                 },
             },
-            ["8796093067296067"] = 
+            ["8796093067519895"] = 
             {
+                ["$LastCharacterName"] = "D Ruba",
                 ["NA Megaserver"] = 
                 {
+                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["accountWide"] = true,
-                    ["version"] = 1,
                 },
-                ["$LastCharacterName"] = "D Good",
-            },
-            ["8796093073961853"] = 
-            {
-                ["NA Megaserver"] = 
-                {
-                    ["dgb_enabled"] = true,
-                    ["accountWide"] = true,
-                    ["version"] = 1,
-                },
-                ["$LastCharacterName"] = "Douli D",
             },
         },
     },
