@@ -8,9 +8,9 @@ DefaultGuildBankVars =
             {
                 ["NA Megaserver"] = 
                 {
-                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["accountWide"] = true,
+                    ["version"] = 1,
                 },
                 ["$LastCharacterName"] = "D Ruba",
             },
@@ -18,9 +18,9 @@ DefaultGuildBankVars =
             {
                 ["NA Megaserver"] = 
                 {
-                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["accountWide"] = true,
+                    ["version"] = 1,
                 },
                 ["$LastCharacterName"] = "Douli D",
             },
@@ -28,30 +28,30 @@ DefaultGuildBankVars =
             {
                 ["NA Megaserver"] = 
                 {
-                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["defaultGuildId"] = 836891,
-                },
-            },
-            ["8796093073961853"] = 
-            {
-                ["NA Megaserver"] = 
-                {
                     ["version"] = 1,
-                    ["dgb_enabled"] = true,
-                    ["accountWide"] = true,
                 },
-                ["$LastCharacterName"] = "Douli D",
             },
             ["8796093067296067"] = 
             {
                 ["NA Megaserver"] = 
                 {
-                    ["version"] = 1,
                     ["dgb_enabled"] = true,
                     ["accountWide"] = true,
+                    ["version"] = 1,
                 },
                 ["$LastCharacterName"] = "D Good",
+            },
+            ["8796093073961853"] = 
+            {
+                ["NA Megaserver"] = 
+                {
+                    ["dgb_enabled"] = true,
+                    ["accountWide"] = true,
+                    ["version"] = 1,
+                },
+                ["$LastCharacterName"] = "Douli D",
             },
         },
     },

@@ -6,56 +6,57 @@ GrimFocusCounterVariables =
         {
             ["$AccountWide"] = 
             {
-                ["colors"] = 
-                {
-                    ["inactive"] = 
-                    {
-                        ["r"] = 1,
-                        ["a"] = 1,
-                        ["b"] = 1,
-                        ["g"] = 1,
-                    },
-                    ["four"] = 
-                    {
-                        ["r"] = 1,
-                        ["a"] = 1,
-                        ["b"] = 1,
-                        ["g"] = 1,
-                    },
-                    ["proc"] = 
-                    {
-                        ["r"] = 1,
-                        ["a"] = 1,
-                        ["b"] = 1,
-                        ["g"] = 1,
-                    },
-                    ["default"] = 
-                    {
-                        ["r"] = 1,
-                        ["a"] = 1,
-                        ["b"] = 1,
-                        ["g"] = 1,
-                    },
-                },
-                ["selectedTexture"] = 7,
                 ["unlocked"] = true,
-                ["fadeInactive"] = false,
                 ["debugMode"] = 0,
-                ["lockedToReticle"] = true,
-                ["version"] = 1,
+                ["hideOutOfCombat"] = true,
+                ["size"] = 70,
                 ["overlay"] = 
                 {
-                    ["inactive"] = false,
                     ["four"] = false,
                     ["proc"] = false,
                     ["default"] = false,
+                    ["inactive"] = false,
                 },
-                ["showEmptyStacks"] = false,
+                ["selectedTexture"] = 7,
+                ["version"] = 1,
                 ["positionLeft"] = 800,
-                ["size"] = 70,
                 ["positionTop"] = 600,
-                ["hideOutOfCombat"] = true,
+                ["lockedToReticle"] = true,
+                ["colors"] = 
+                {
+                    ["four"] = 
+                    {
+                        ["g"] = 1,
+                        ["a"] = 1,
+                        ["r"] = 1,
+                        ["b"] = 1,
+                    },
+                    ["proc"] = 
+                    {
+                        ["g"] = 1,
+                        ["a"] = 1,
+                        ["r"] = 1,
+                        ["b"] = 1,
+                    },
+                    ["default"] = 
+                    {
+                        ["g"] = 1,
+                        ["a"] = 1,
+                        ["r"] = 1,
+                        ["b"] = 1,
+                    },
+                    ["inactive"] = 
+                    {
+                        ["g"] = 1,
+                        ["a"] = 1,
+                        ["r"] = 1,
+                        ["b"] = 1,
+                    },
+                },
                 ["fadeAmount"] = 90,
+                ["alwaysShow"] = false,
+                ["fadeInactive"] = false,
+                ["showEmptyStacks"] = false,
             },
         },
     },

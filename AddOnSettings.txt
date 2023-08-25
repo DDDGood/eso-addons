@@ -2,7 +2,7 @@
 #AcknowledgedOutOfDateAddonsVersion 101039
 #AddOnsEnabled 1
 #Default
-HarvestMapAD 0
+GS01Data 0
 GS13Data 0
 GS08Data 0
 LibTextFilter 0
@@ -112,9 +112,9 @@ CombatMetronome 0
 GS14Data 0
 GS12Data 0
 GS06Data 0
-GS01Data 0
-LibLootSummary 0
 CraftStoreFixedAndImproved 0
+HarvestMapAD 0
+LibLootSummary 0
 #NA Megaserver-Douli D
 LibUnits2 1
 WeaveDelays 1
@@ -199,11 +199,11 @@ CraftStoreFixedAndImproved 1
 #NA Megaserver-D Good
 GroupLootNotifier 1
 CustomCompassPins 0
+LibLootSummary 1
 HarvestMapAD 0
-GS01Data 0
 AccountSettings 1
 GS13Data 0
-EzStalking 0
+EzStalking 1
 TCFontPatch 1
 GS08Data 0
 PersonalAssistantLoot 1
@@ -215,7 +215,7 @@ YetAnotherCompass 0
 VotansImprovedQuests 0
 LibGuildStore 0
 GS10Data 0
-LibUnits2 0
+LibUnits2 1
 Untaunted 0
 FancyActionBar 0
 GS15Data 0
@@ -234,17 +234,20 @@ Postmaster 1
 EnglishTooltips 1
 LibFilters-3.0 0
 HousingHub 0
+LibHandler 1
 LibPrice 1
 LibSlashCommander 0
 LibMotifCategories 0
 Recharge 0
 AlphaGear 0
+LibDelayedHandler 1
 DariansUtilities 1
 LightAttackHelper 0
 LibTypeRegistry 0
 HarvestMapDLC 0
 NodeDetection 0
 TheQuestingGuide 0
+LibUnitTracker 1
 MapPins 1
 pChat 0
 LibMediaProvider-1.0 0
@@ -325,7 +328,7 @@ GS00Data 0
 QcellRockgroveHelper 0
 EssentialHousingTools 0
 CharacterKnowledge 0
-RaidNotifier 0
+RaidNotifier 1
 SpentSkillPoints 0
 LibUespQuestData 0
 PersonalAssistantJunk 1
@@ -355,9 +358,9 @@ LibCharacterKnowledge 1
 CombatMetronome 1
 GS14Data 0
 AgsInvididualItemPriceFilter 0
-BSCs-HowToKynesAegis 0
+BSCs-HowToKynesAegis 1
 GS12Data 0
 LibMotif 0
-CraftStoreFixedAndImproved 0
-LibLootSummary 1
+GS01Data 0
 GS06Data 0
+CraftStoreFixedAndImproved 0

@@ -2,7 +2,7 @@ Postmaster_Account =
 {
     ["NA Megaserver"] = 
     {
-        ["@forever9409d"] = 
+        ["@forever9409"] = 
         {
             ["$AccountWide"] = 
             {
@@ -13,7 +13,7 @@ Postmaster_Account =
                 },
             },
         },
-        ["@forever9409"] = 
+        ["@forever9409d"] = 
         {
             ["$AccountWide"] = 
             {

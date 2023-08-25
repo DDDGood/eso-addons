@@ -590,12 +590,15 @@ function CS.Queue()
 
     if CS.Inspiration ~= ''
     then
-      local c,x = CSLOOT:AcquireObject()
-      c:SetHidden(false)
-      c:SetAnchor(128,CraftStoreFixed_QuestFrame,128,0,0)
-      c:GetChild(1):SetText(CS.Inspiration)
-      CS.Slide(c,0,20,0,(GuiRoot:GetHeight()/2)-180,3500)
-      zo_callLater(function() CSLOOT:ReleaseObject(x) end,3510)
+      -- Inspiration gain indicator can be disabled, but default behavior remains is that it is enabled
+      if CS.Account.options.inspirationgain or CS.Account.options.inspirationgain == nil then
+        local c,x = CSLOOT:AcquireObject()
+        c:SetHidden(false)
+        c:SetAnchor(128,CraftStoreFixed_QuestFrame,128,0,0)
+        c:GetChild(1):SetText(CS.Inspiration)
+        CS.Slide(c,0,20,0,(GuiRoot:GetHeight()/2)-180,3500)
+        zo_callLater(function() CSLOOT:ReleaseObject(x) end,3510)
+      end
       CS.Inspiration = ''
     end
   end
@@ -1069,6 +1072,36 @@ function CS.UpdateRecipeKnowledge()
       end
     end
     local fm,fs,fh = statcheck(CS.MagickaName), statcheck(CS.StaminaName), statcheck(CS.HealthName)
+
+    -- Check for alternative resource names in the description
+    -- Some languages may have different spellings of the resource between the description and
+    -- when only mentioning the resource alone. This is currently only known for russian clients.
+    if CS.Loc.alternativeResourceNames then
+      if not fh then
+        for i, alternativeName in pairs(CS.Loc.alternativeResourceNames[SI_ATTRIBUTES1]) do
+          if statcheck(alternativeName) then
+            fh = true
+          end
+        end
+      end
+      
+      if not fm then
+        for i, alternativeName in pairs(CS.Loc.alternativeResourceNames[SI_ATTRIBUTES2]) do
+          if statcheck(alternativeName) then
+            fm = true
+          end
+        end
+      end
+      
+      if not fs then
+        for i, alternativeName in pairs(CS.Loc.alternativeResourceNames[SI_ATTRIBUTES3]) do
+          if statcheck(alternativeName) then
+            fs = true
+          end
+        end
+      end
+    end 
+    
     if fm and fh and fs then
       stat = 7
     elseif fs and fh then
@@ -1850,6 +1883,29 @@ function CS.CookSearchRecipe()
     CraftStoreFixed_CookFoodSectionScrollChild:SetHeight(inc * 23 - 10)
     CraftStoreFixed_CookHeadline:SetText(CS.Loc.searchfor)
     CraftStoreFixed_CookInfo:SetText(search)
+  end
+end
+
+
+function CS.CookShowVanilla()
+  -- CS Cook can remain open in gamepad mode as both remain side by side
+  if not IsInGamepadPreferredMode() then
+    CraftStoreFixed_Cook:SetHidden(true)
+    CS.Cook.job = {amount=0}
+    for x = 1,CraftStoreFixed_CookFoodSectionScrollChild:GetNumChildren() do CS.HideControl('CraftStoreFixed_CookFoodSectionScrollChildButton'..x) end
+  end
+  for x = 2, ZO_ProvisionerTopLevel:GetNumChildren() do ZO_ProvisionerTopLevel:GetChild(x):SetAlpha(1) end
+  ZO_KeybindStripControl:SetHidden(false)
+end
+
+function CS.CookShow()
+  CraftStoreFixed_CookAmount:SetText('')
+  CraftStoreFixed_CookSearch:SetText(GetString(SI_GAMEPAD_HELP_SEARCH)..'...')
+  CraftStoreFixed_Cook:SetHidden(false)
+  -- Vanilla UI remains active alongside CS Cook in gamepad mode
+  if not IsInGamepadPreferredMode() then
+    for x = 2, ZO_ProvisionerTopLevel:GetNumChildren() do ZO_ProvisionerTopLevel:GetChild(x):SetAlpha(0) end
+    ZO_KeybindStripControl:SetHidden(true)
   end
 end
 
@@ -3790,6 +3846,7 @@ function CS.PanelInitialize()
   CraftStoreFixed_CookCategoryButtonWrit.data = { info = CS.Loc.TT[23] }
   CraftStoreFixed_CookCategoryButtonFurniture.data = { info = CS.Loc.TT[24] }
   CraftStoreFixed_CookCategoryButtonFurnitureFavorites.data = { info = CS.Loc.TT[24] .. ' ' .. CS.Loc.TT[11] }
+  CraftStoreFixed_CookCategoryButtonFillet.data = { info = CS.Loc.TT[35] }
   CraftStoreFixed_BlueprintCategoryButton1.data = {info = GetString(SI_RECIPECRAFTINGSYSTEM1)}
   CraftStoreFixed_BlueprintCategoryButton2.data = {info = GetString(SI_RECIPECRAFTINGSYSTEM2)}
   CraftStoreFixed_BlueprintCategoryButton3.data = {info = GetString(SI_RECIPECRAFTINGSYSTEM3)}
@@ -4573,6 +4630,7 @@ if CS.Debug then
   SLASH_COMMANDS["/langfr"] = function() SetCVar("language.2", "fr") end
   SLASH_COMMANDS["/langen"] = function() SetCVar("language.2", "en") end
   SLASH_COMMANDS["/langde"] = function() SetCVar("language.2", "de") end
+  SLASH_COMMANDS["/langru"] = function() SetCVar("language.2", "ru") end
 end
 
 SLASH_COMMANDS["/cs"] = CS.ShowMain

@@ -17,9 +17,14 @@ CharacterKnowledgeSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["featureRev"] = 1,
                 ["tooltips"] = 
                 {
+                    ["itemColors"] = 
+                    {
+                        [2] = 16711680,
+                        [1] = 65280,
+                    },
                     ["enabled"] = true,
                     ["charColors"] = 
                     {
@@ -27,14 +32,9 @@ CharacterKnowledgeSavedVariables =
                         [1] = 3381759,
                         [2] = 7829350,
                     },
-                    ["itemColors"] = 
-                    {
-                        [2] = 16711680,
-                        [1] = 65280,
-                    },
                 },
+                ["version"] = 1,
                 ["filterId"] = 3,
-                ["featureRev"] = 1,
             },
         },
     },

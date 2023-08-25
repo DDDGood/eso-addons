@@ -6,34 +6,17 @@ PersonalAssistantIntegration_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
                     ["name"] = "Profile 1",
-                    ["LazyWritCrafter"] = 
-                    {
-                        ["compatibility"] = true,
-                    },
                     ["FCOItemSaver"] = 
                     {
-                        ["Locked"] = 
-                        {
-                            ["preventMoving"] = false,
-                            ["preventAutoSell"] = false,
-                        },
                         ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["SellGuildStore"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
                         ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -48,6 +31,14 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
+                        ["SellGuildStore"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                         ["Intricate"] = 
                         {
                             ["itemMoveMode"] = 0,
@@ -59,10 +50,19 @@ PersonalAssistantIntegration_SavedVariables =
                         ["DynamicIcons"] = 
                         {
                         },
+                        ["Locked"] = 
+                        {
+                            ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
+                        },
+                    },
+                    ["LazyWritCrafter"] = 
+                    {
+                        ["compatibility"] = true,
                     },
                 },
                 ["profileCounter"] = 1,
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
             },
         },
     },

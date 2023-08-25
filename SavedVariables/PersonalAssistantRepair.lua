@@ -6,38 +6,38 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
                 [1] = 
                 {
+                    ["autoRepairEnabled"] = true,
                     ["name"] = "Profile 1",
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairEquipped"] = 
                     {
-                        ["repairWithRepairKitThreshold"] = 10,
+                        ["lowRepairKitWarning"] = true,
                         ["lowRepairKitThreshold"] = 10,
-                        ["repairWithGold"] = true,
-                        ["defaultRepairKit"] = 0,
+                        ["repairWithRepairKitThreshold"] = 10,
                         ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithRepairKit"] = false,
-                        ["lowRepairKitWarning"] = true,
+                        ["repairWithGold"] = true,
+                        ["defaultRepairKit"] = 0,
                     },
                     ["RepairInventory"] = 
                     {
-                        ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithGold"] = true,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
                     },
                     ["RechargeWeapons"] = 
                     {
                         ["useSoulGems"] = true,
-                        ["lowSoulGemWarning"] = false,
-                        ["defaultSoulGem"] = 1,
                         ["lowSoulGemThreshold"] = 10,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemWarning"] = false,
                     },
                     ["silentMode"] = false,
-                    ["autoRepairEnabled"] = true,
-                    ["autoRepairInventoryEnabled"] = true,
                 },
                 ["profileCounter"] = 1,
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
             },
         },
     },

@@ -8,13 +8,13 @@ ZO_Pregame_SavedVariables =
             {
                 ["CharacterSelect_Manager"] = 
                 {
-                    ["version"] = 1,
                     ["eventBannerLastSeenTimestamp"] = 1692315317,
+                    ["version"] = 1,
                 },
                 ["ChapterUpgrade"] = 
                 {
-                    ["version"] = 1,
                     ["chapterUpgradeSeenVersion"] = 7,
+                    ["version"] = 1,
                 },
             },
         },

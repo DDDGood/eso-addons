@@ -6,15 +6,20 @@ PithkaSavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["runOnce"] = 
+                {
+                    ["arenaBug"] = true,
+                },
+                ["version"] = 1,
                 ["state"] = 
                 {
+                    ["trifectaSummary"] = "~ Trifecta Summary ~",
+                    ["showWatermark"] = true,
                     ["dungeonSummary"] = "~ Dungeon Summary ~",
+                    ["currentScreen"] = "dungeon",
                     ["title"] = "",
                     ["trialSummary"] = "~ Trial Summary ~",
-                    ["trifectaSummary"] = "~ Trifecta Summary ~",
                     ["showExtra"] = true,
-                    ["showWatermark"] = true,
-                    ["currentScreen"] = "dungeon",
                 },
                 ["currentToons"] = 
                 {
@@ -31,52 +36,47 @@ PithkaSavedVariables =
                 ["options"] = 
                 {
                 },
-                ["runOnce"] = 
-                {
-                    ["arenaBug"] = true,
-                },
-                ["version"] = 1,
                 ["scores"] = 
                 {
-                    ["CR"] = 
+                    ["AS"] = 
                     {
-                        ["D Good"] = 47569,
-                    },
-                    ["HOF"] = 
-                    {
-                        ["D Good"] = 134606,
-                    },
-                    ["HRC"] = 
-                    {
-                        ["D Good"] = 89324,
+                        ["D Good"] = 69952,
                     },
                     ["SO"] = 
                     {
                         ["D Good"] = 136235,
                     },
-                    ["AS"] = 
+                    ["CR"] = 
                     {
-                        ["D Good"] = 69952,
-                    },
-                    ["BRP"] = 
-                    {
-                        ["D Good"] = 29333,
-                    },
-                    ["DSA"] = 
-                    {
-                        ["D Good"] = 17580,
-                    },
-                    ["MSA"] = 
-                    {
-                        ["D Good"] = 562991,
+                        ["D Good"] = 47569,
                     },
                     ["MOL"] = 
                     {
                         ["D Good"] = 65662,
                     },
+                    ["HRC"] = 
+                    {
+                        ["D Good"] = 89324,
+                    },
+                    ["MSA"] = 
+                    {
+                        ["D Good"] = 562991,
+                    },
                     ["AA"] = 
                     {
                         ["D Good"] = 134768,
+                    },
+                    ["DSA"] = 
+                    {
+                        ["D Good"] = 17580,
+                    },
+                    ["BRP"] = 
+                    {
+                        ["D Good"] = 29333,
+                    },
+                    ["HOF"] = 
+                    {
+                        ["D Good"] = 134606,
                     },
                 },
             },
