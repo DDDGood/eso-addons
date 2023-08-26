@@ -2,18 +2,18 @@ Postmaster_Account =
 {
     ["NA Megaserver"] = 
     {
-        ["@forever9409d"] = 
+        ["@forever9409"] = 
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 7,
                 ["chatContentsSummary"] = 
                 {
                     ["sorted"] = false,
                 },
+                ["version"] = 7,
             },
         },
-        ["@forever9409"] = 
+        ["@forever9409d"] = 
         {
             ["$AccountWide"] = 
             {

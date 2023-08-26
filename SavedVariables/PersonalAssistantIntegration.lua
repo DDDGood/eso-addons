@@ -7,19 +7,17 @@ PersonalAssistantIntegration_SavedVariables =
             ["$AccountWide"] = 
             {
                 ["profileCounter"] = 1,
-                ["savedVarsVersion"] = 20524,
-                ["version"] = 1,
                 [1] = 
                 {
-                    ["name"] = "Profile 1",
                     ["FCOItemSaver"] = 
                     {
-                        ["Sell"] = 
+                        ["Research"] = 
                         {
-                            ["autoSellMarked"] = false,
+                            ["itemMoveMode"] = 0,
                         },
-                        ["DynamicIcons"] = 
+                        ["SellGuildStore"] = 
                         {
+                            ["itemMoveMode"] = 0,
                         },
                         ["Intricate"] = 
                         {
@@ -36,20 +34,7 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
-                        ["Locked"] = 
-                        {
-                            ["preventMoving"] = false,
-                            ["preventAutoSell"] = false,
-                        },
-                        ["Research"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
                         ["Improvement"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -57,12 +42,27 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Locked"] = 
+                        {
+                            ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
+                        },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
+                        },
                     },
+                    ["name"] = "Profile 1",
                     ["LazyWritCrafter"] = 
                     {
                         ["compatibility"] = true,
                     },
                 },
+                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
             },
         },
     },

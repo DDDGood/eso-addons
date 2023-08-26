@@ -1,224 +1,560 @@
 LibQuestData_SavedVariables =
 {
-    ["version"] = 4,
-    ["quest_names"] = 
-    {
-        [5249] = "铁匠资格认证",
-        [5636] = "誓约任务：谜城遗迹",
-        [6789] = "失落的象征",
-        [4296] = "冷港的靈魂懺悔者",
-        [4681] = "蛇魔大君",
-        [5450] = "來自奧辛紐姆的邀請",
-        [4301] = "拯救圣物",
-        [6350] = "誓约任务：月墓神庙",
-        [5071] = "庫裡紐爾的邀請函",
-        [4816] = "对死者的祝福",
-        [6097] = "穿過黑暗的面紗",
-        [6743] = "誓约任务：船工之憾地牢",
-        [6170] = "神聖委託",
-        [6171] = "珠宝制作资格认证",
-        [4767] = "闯世者的一员",
-        [5409] = "厨师委托",
-        [5412] = "厨师委托",
-        [5413] = "厨师委托",
-        [6503] = "凯恩之盾战役",
-        [5289] = "厨师认证",
-        [5418] = "炼金术士的委托",
-        [4523] = "血荆棘阴谋",
-        [5935] = "失蹤的預言",
-        [6512] = "平息苦痛風暴",
-        [3953] = "贪婪魔鼠的城堡",
-        [2730] = "侦察王冠农场",
-        [2957] = "攻占艾丽斯维尔农场",
-        [2749] = "侦察王冠锯木厂",
-        [2504] = "阿祖拉的圣物",
-        [3035] = "命运女巫和女巫集会",
-        [6628] = "遗物与流言",
-        [6648] = "粉碎和分散",
-        [4967] = "無畏者公會的一員",
-        [2682] = "侦察法拉格特要塞",
-        [4219] = "巨蛇灯塔",
-        [5737] = "石落的锻莫圣物",
-        [5949] = "為了榮耀",
-        [3006] = "血荆棘刺客",
-        [6783] = "礁石掠夺者",
-    },
     ["quests"] = 
     {
-        ["stonefalls/dhalmora_base_0"] = 
+        ["bangkorai/evermore_base_0"] = 
         {
         },
-        ["stonefalls/bleakrock_base_0"] = 
+        ["stormhaven/farangelsdelve_base_0"] = 
         {
         },
-        ["vvardenfell/ui_map_hofabriccaves_base_0"] = 
+        ["bangkorai/hallofheroes_base_0"] = 
         {
         },
-        ["craglorn/helracitadelentry_base_0"] = 
+        ["alikr/alkiroutlawrefuge_base_0"] = 
         {
         },
-        ["murkmire/ui_map_blackroseprison01_base_0"] = 
+        ["alikr/sentinel_base_0"] = 
+        {
+        },
+        ["wrothgar/arenaslobbyexterior_base_0"] = 
         {
         },
         ["stormhaven/stormhaven_base_0"] = 
         {
             [1] = 
             {
-                ["y"] = 0.2978657186,
+                ["zone_index"] = 4,
                 ["name"] = "未答覆的問題",
-                ["poi_index"] = 294967291,
-                ["gpsx"] = 0.1906552043,
-                ["api"] = 101032,
+                ["giver"] = "拿瑟奈爾公爵",
+                ["repeat_type"] = 0,
                 ["lang"] = "zh",
                 ["gpsy"] = 0.2953732045,
-                ["zone_index"] = 4,
-                ["questID"] = -1,
-                ["x"] = 0.3316885829,
-                ["repeat_type"] = 0,
-                ["giver"] = "拿瑟奈爾公爵",
                 ["zone_name"] = "風暴港",
+                ["y"] = 0.2978657186,
+                ["gpsx"] = 0.1906552043,
+                ["questID"] = -1,
+                ["api"] = 101032,
+                ["poi_index"] = 294967291,
+                ["x"] = 0.3316885829,
                 ["quest_type"] = 0,
             },
+        },
+        ["stonefalls/bleakrock_base_0"] = 
+        {
+        },
+        ["elsweyr/sunspirehall001_base_0"] = 
+        {
+            [1] = 
+            {
+                ["zone_index"] = 712,
+                ["name"] = "阿爾柯什的回歸",
+                ["giver"] = "Armory Station",
+                ["repeat_type"] = 1,
+                ["lang"] = "zh",
+                ["gpsy"] = 0.6876095752,
+                ["zone_name"] = "陽尖城",
+                ["y"] = 0.1435562819,
+                ["gpsx"] = 0.5069664028,
+                ["questID"] = -1,
+                ["api"] = 101032,
+                ["poi_index"] = 294967291,
+                ["x"] = 0.4828711152,
+                ["quest_type"] = 6,
+            },
+        },
+        ["rivenspire/hoarfrost_base_0"] = 
+        {
+        },
+        ["grahtwood/eldenrootgroundfloor_base_0"] = 
+        {
+            [8] = 
+            {
+                ["zone_index"] = 500,
+                ["name"] = "Pledge: Bloodroot Forge",
+                ["lang"] = "en",
+                ["gpsx"] = 0.4361952089,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7354416237,
+                ["giver"] = "Urgarlag Chief-bane",
+                ["zone_name"] = "Craglorn",
+                ["y"] = 0.6476821303,
+                ["poi_index"] = 74,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5600480437,
+                ["quest_type"] = 15,
+            },
+            [1] = 
+            {
+                ["zone_index"] = 18,
+                ["name"] = "契約：灰燼之城 I",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.4361744095,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7358596230,
+                ["giver"] = "紅鬍子格里容",
+                ["zone_name"] = "綠蔭",
+                ["y"] = 0.6614718437,
+                ["poi_index"] = 39,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5593618751,
+                ["quest_type"] = 15,
+            },
+            [2] = 
+            {
+                ["zone_index"] = 2,
+                ["name"] = "契約：紡錘迷宮 I",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.4365816080,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7358952234,
+                ["giver"] = "瑪吉·奧-拉伽斯",
+                ["zone_name"] = "格林納巴",
+                ["y"] = 0.6626462936,
+                ["poi_index"] = 42,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5727952719,
+                ["quest_type"] = 15,
+            },
+            [3] = 
+            {
+                ["zone_index"] = 681,
+                ["name"] = "契約：月墓神殿",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.4361728087,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7355072236,
+                ["giver"] = "首領災星烏爾伽拉格",
+                ["zone_name"] = "北艾斯維爾",
+                ["y"] = 0.6498462558,
+                ["poi_index"] = 48,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5593090653,
+                ["quest_type"] = 15,
+            },
+            [4] = 
+            {
+                ["zone_index"] = 467,
+                ["name"] = "Divine Conundrum",
+                ["lang"] = "en",
+                ["gpsx"] = 0.4393192087,
+                ["repeat_type"] = 0,
+                ["gpsy"] = 0.7319336242,
+                ["giver"] = "Ezabi the Banker",
+                ["zone_name"] = "Vvardenfell",
+                ["y"] = 0.5319539309,
+                ["poi_index"] = 75,
+                ["questID"] = -1,
+                ["quest_display_type"] = 10,
+                ["api"] = 101033,
+                ["x"] = 0.6631081700,
+                ["quest_type"] = 0,
+            },
+            [5] = 
+            {
+                ["zone_index"] = 15,
+                ["name"] = "契約：嚴霜堡壘",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.4362068083,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7358928240,
+                ["giver"] = "紅鬍子格里容",
+                ["zone_name"] = "東陲",
+                ["y"] = 0.6625671387,
+                ["poi_index"] = 41,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5604307055,
+                ["quest_type"] = 15,
+            },
+            [6] = 
+            {
+                ["zone_index"] = 2,
+                ["name"] = "契約：紡錘迷宮 II",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.4366012077,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7359100244,
+                ["giver"] = "瑪吉·奧-拉伽斯",
+                ["zone_name"] = "格林納巴",
+                ["y"] = 0.6631345749,
+                ["poi_index"] = 66,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5734418631,
+                ["quest_type"] = 15,
+            },
+            [7] = 
+            {
+                ["zone_index"] = 834,
+                ["name"] = "契約：恐懼地窖",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.4362464089,
+                ["repeat_type"] = 2,
+                ["gpsy"] = 0.7355060239,
+                ["giver"] = "首領災星烏爾伽拉格",
+                ["zone_name"] = "黑森林",
+                ["y"] = 0.6498066783,
+                ["poi_index"] = 67,
+                ["questID"] = -1,
+                ["quest_display_type"] = 2,
+                ["api"] = 101033,
+                ["x"] = 0.5617371202,
+                ["quest_type"] = 15,
+            },
+        },
+        ["rivenspire/northpoint_base_0"] = 
+        {
         },
         ["rivenspire/shornhelm_base_0"] = 
         {
         },
-        ["wrothgar/arenaslobbyexterior_base_0"] = 
+        ["alikr/coldrockdiggings_base_0"] = 
         {
         },
-        ["stormhaven/portdunwatch_base_0"] = 
+        ["summerset/alinor_base_0"] = 
+        {
+        },
+        ["stormhaven/bonesnapruinssecret_base_0"] = 
+        {
+        },
+        ["auridon/vulkhelguard_base_0"] = 
+        {
+        },
+        ["reapersmarch/rawlkha_base_0"] = 
+        {
+        },
+        ["blackwood/u30_rg_map_outside_001_0"] = 
+        {
+        },
+        ["rivenspire/hildunessecretrefuge_base_0"] = 
+        {
+        },
+        ["deshaan/deshaan_base_0"] = 
+        {
+            [1] = 
+            {
+                ["zone_index"] = 10,
+                ["name"] = "寻求治疗",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.7170187991,
+                ["repeat_type"] = 0,
+                ["api"] = 101039,
+                ["questID"] = -1,
+                ["zone_name"] = "迪沙安",
+                ["y"] = 0.4341270626,
+                ["giver"] = "埃罗纳·贝伦达",
+                ["gpsy"] = 0.4985856167,
+                ["quest_display_type"] = 10,
+                ["poi_index"] = 294967291,
+                ["x"] = 0.1464407146,
+                ["quest_type"] = 0,
+            },
+        },
+        ["stonefalls/crowswood_base_0"] = 
+        {
+        },
+        ["alikr/shorecave_base_0"] = 
+        {
+        },
+        ["alikr/divadschagrinmine_base_0"] = 
+        {
+        },
+        ["bangkorai/bangkorai_base_0"] = 
+        {
+        },
+        ["craglorn/shadaburialgrounds_base_0"] = 
+        {
+        },
+        ["alikr/lostcity_base_0"] = 
+        {
+        },
+        ["bleakrock/bleakrockvillage_base_0"] = 
+        {
+        },
+        ["skyrim/kynesaegismap001_0"] = 
+        {
+        },
+        ["craglorn/helracitadelentry_base_0"] = 
+        {
+        },
+        ["bangkorai/trollstoothpick_base_0"] = 
+        {
+        },
+        ["reach/reach_base_0"] = 
+        {
+        },
+        ["summerset/ui_map_cloudresttrial_base_0"] = 
+        {
+            [2] = 
+            {
+                ["zone_index"] = 653,
+                ["name"] = "Woe of the Welkynars",
+                ["gpsx"] = 0.1125256001,
+                ["repeat_type"] = 1,
+                ["lang"] = "en",
+                ["gpsy"] = 0.6869512053,
+                ["zone_name"] = "Cloudrest",
+                ["y"] = 0.2710317671,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["api"] = 101033,
+                ["quest_display_type"] = 3,
+                ["x"] = 0.3823831379,
+                ["quest_type"] = 6,
+            },
+            [1] = 
+            {
+                ["zone_index"] = 653,
+                ["name"] = "威爾肯納爾之殤",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.1127404001,
+                ["repeat_type"] = 1,
+                ["gpsy"] = 0.6861900059,
+                ["giver"] = "",
+                ["zone_name"] = "雲息城",
+                ["y"] = 0.2504568100,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 3,
+                ["api"] = 101033,
+                ["x"] = 0.3881891072,
+                ["quest_type"] = 6,
+            },
+        },
+        ["alikr/sandblownmine_base_0"] = 
+        {
+        },
+        ["bangkorai/bisnensel_base_0"] = 
+        {
+        },
+        ["vvardenfell/vivechoj01a_base_0"] = 
+        {
+        },
+        ["alikr/salasen_base_0"] = 
+        {
+        },
+        ["systres/u34_systreszone_base_0"] = 
+        {
+        },
+        ["alikr/alikr_base_0"] = 
+        {
+        },
+        ["summerset/coralaerie_beach_001_0"] = 
+        {
+        },
+        ["rivenspire/crestshademine_base_0"] = 
+        {
+        },
+        ["vvardenfell/vvardenfell_base_0"] = 
+        {
+        },
+        ["stonefalls/balfoyen_base_0"] = 
+        {
+        },
+        ["alikr/bergama_base_0"] = 
+        {
+        },
+        ["summerset/dreamingcave02_base_0"] = 
+        {
+        },
+        ["vvardenfell/viviccity_base_0"] = 
+        {
+        },
+        ["deadlands/u32_fargrave_base_0"] = 
+        {
+        },
+        ["glenumbra/daggerfall_base_0"] = 
+        {
+        },
+        ["reapersmarch/maw_of_lorkaj_base_0"] = 
+        {
+        },
+        ["stonefalls/kragenmoor_base_0"] = 
+        {
+        },
+        ["craglorn/craglorn_base_0"] = 
+        {
+        },
+        ["skyrim/westernskryim_base_0"] = 
+        {
+        },
+        ["stormhaven/norvulkruins_base_0"] = 
+        {
+        },
+        ["stonefalls/davonswatch_base_0"] = 
+        {
+        },
+        ["craglorn/trl_so_map01_base_0"] = 
         {
         },
         ["elsweyr/rimmen_base_0"] = 
         {
             [1] = 
             {
-                ["y"] = 0.4239867628,
-                ["name"] = "製衣師日常令狀",
-                ["gpsx"] = 0.5671559730,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182783960,
-                ["questID"] = -1,
-                ["giver"] = "裝備製造日常",
-                ["x"] = 0.2834613621,
+                ["name"] = "製衣師日常令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5671559730,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182783960,
+                ["giver"] = "裝備製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4239867628,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2834613621,
                 ["quest_type"] = 4,
             },
             [2] = 
             {
-                ["y"] = 0.4239867628,
-                ["name"] = "鍛造師令狀",
-                ["gpsx"] = 0.5671559730,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182783960,
-                ["questID"] = -1,
-                ["giver"] = "裝備製造日常",
-                ["x"] = 0.2834613621,
+                ["name"] = "鍛造師令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5671559730,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182783960,
+                ["giver"] = "裝備製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4239867628,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2834613621,
                 ["quest_type"] = 4,
             },
             [3] = 
             {
-                ["y"] = 0.4239867628,
-                ["name"] = "木工師令狀",
-                ["gpsx"] = 0.5671559730,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182783960,
-                ["questID"] = -1,
-                ["giver"] = "裝備製造日常",
-                ["x"] = 0.2834613621,
+                ["name"] = "木工師令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5671559730,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182783960,
+                ["giver"] = "裝備製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4239867628,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2834613621,
                 ["quest_type"] = 4,
             },
             [4] = 
             {
-                ["y"] = 0.4239867628,
-                ["name"] = "首飾製作令狀",
-                ["gpsx"] = 0.5671559730,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182783960,
-                ["questID"] = -1,
-                ["giver"] = "裝備製造日常",
-                ["x"] = 0.2834613621,
+                ["name"] = "首飾製作令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5671559730,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182783960,
+                ["giver"] = "裝備製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4239867628,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2834613621,
                 ["quest_type"] = 4,
             },
             [5] = 
             {
-                ["y"] = 0.4245178998,
-                ["name"] = "烹飪師令狀",
-                ["gpsx"] = 0.5673495726,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182887961,
-                ["questID"] = -1,
-                ["giver"] = "消耗品製造日常",
-                ["x"] = 0.2933485806,
+                ["name"] = "烹飪師令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5673495726,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182887961,
+                ["giver"] = "消耗品製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4245178998,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2933485806,
                 ["quest_type"] = 4,
             },
             [6] = 
             {
-                ["y"] = 0.4245178998,
-                ["name"] = "附魔師令狀",
-                ["gpsx"] = 0.5673495726,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182887961,
-                ["questID"] = -1,
-                ["giver"] = "消耗品製造日常",
-                ["x"] = 0.2933485806,
+                ["name"] = "附魔師令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5673495726,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182887961,
+                ["giver"] = "消耗品製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4245178998,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2933485806,
                 ["quest_type"] = 4,
             },
             [7] = 
             {
-                ["y"] = 0.4245178998,
-                ["name"] = "鍊金師令狀",
-                ["gpsx"] = 0.5673495726,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 294967291,
-                ["gpsy"] = 0.6182887961,
-                ["questID"] = -1,
-                ["giver"] = "消耗品製造日常",
-                ["x"] = 0.2933485806,
+                ["name"] = "鍊金師令狀",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.5673495726,
                 ["repeat_type"] = 2,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.6182887961,
+                ["giver"] = "消耗品製造日常",
                 ["zone_name"] = "",
+                ["y"] = 0.4245178998,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2933485806,
                 ["quest_type"] = 4,
             },
         },
-        ["summerset/alinor_base_0"] = 
+        ["vvardenfell/ui_map_hofabriccaves_base_0"] = 
+        {
+        },
+        ["murkmire/ui_map_blackroseprison01_base_0"] = 
+        {
+        },
+        ["stormhaven/portdunwatch_base_0"] = 
+        {
+        },
+        ["guildmaps/fortvirakruin_base_0"] = 
+        {
+        },
+        ["thievesguild/hewsbane_base_0"] = 
+        {
+        },
+        ["bangkorai/hallinsstand_base_0"] = 
+        {
+        },
+        ["systres/u34_gonfalonbaycity_base_0"] = 
+        {
+        },
+        ["stonefalls/tormented_spire_base_0"] = 
+        {
+        },
+        ["bangkorai/cryptoftheexiles_base_0"] = 
+        {
+        },
+        ["stormhaven/bearclawmine_base_0"] = 
         {
         },
         ["stormhaven/wayrest_base_0"] = 
@@ -230,494 +566,124 @@ LibQuestData_SavedVariables =
         ["bangkorai/rubblebutte_base_0"] = 
         {
         },
-        ["systres/u34_gonfalonbaycity_base_0"] = 
-        {
-        },
-        ["alikr/shorecave_base_0"] = 
-        {
-        },
-        ["bangkorai/bisnensel_base_0"] = 
-        {
-        },
-        ["stonefalls/ebonheart_base_0"] = 
-        {
-        },
-        ["craglorn/trl_so_map01_base_0"] = 
-        {
-        },
-        ["reach/reach_base_0"] = 
-        {
-        },
-        ["stormhaven/farangelsdelve_base_0"] = 
-        {
-        },
-        ["summerset/dreamingcave02_base_0"] = 
-        {
-        },
-        ["stonefalls/crowswood_base_0"] = 
-        {
-        },
-        ["systres/u34_systreszone_base_0"] = 
-        {
-        },
-        ["stormhaven/alcairecastle_base_0"] = 
-        {
-        },
-        ["rivenspire/crestshademine_base_0"] = 
-        {
-        },
-        ["deadlands/u32_fargrave_base_0"] = 
-        {
-        },
-        ["alikr/alikr_base_0"] = 
-        {
-        },
-        ["alikr/coldrockdiggings_base_0"] = 
-        {
-        },
-        ["rivenspire/northpoint_base_0"] = 
-        {
-        },
-        ["stonefalls/davonswatch_base_0"] = 
-        {
-        },
-        ["craglorn/aetherianarchivebottom_base_0"] = 
-        {
-        },
-        ["bangkorai/trollstoothpick_base_0"] = 
+        ["skyrim/solitudecity_base_0"] = 
         {
         },
         ["rivenspire/rivenspire_base_0"] = 
         {
             [1] = 
             {
-                ["y"] = 0.6473621130,
-                ["name"] = "揭開面紗",
-                ["gpsx"] = 0.1445415988,
-                ["poi_index"] = 15,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 5,
-                ["gpsy"] = 0.2602067985,
-                ["questID"] = -1,
-                ["giver"] = "葛溫迪斯",
-                ["x"] = 0.2145559490,
+                ["name"] = "揭開面紗",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.1445415988,
                 ["repeat_type"] = 0,
-                ["quest_display_type"] = 10,
+                ["gpsy"] = 0.2602067985,
+                ["giver"] = "葛溫迪斯",
                 ["zone_name"] = "碎裂山峰",
+                ["y"] = 0.6473621130,
+                ["poi_index"] = 15,
+                ["questID"] = -1,
+                ["quest_display_type"] = 10,
+                ["api"] = 101033,
+                ["x"] = 0.2145559490,
                 ["quest_type"] = 0,
             },
             [2] = 
             {
-                ["y"] = 0.7398974895,
-                ["name"] = "時來運轉",
-                ["gpsx"] = 0.1896711975,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 5,
-                ["gpsy"] = 0.2714484031,
-                ["questID"] = -1,
-                ["giver"] = "奈德拉斯的日記",
-                ["x"] = 0.5860406756,
+                ["name"] = "時來運轉",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.1896711975,
                 ["repeat_type"] = 0,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.2714484031,
+                ["giver"] = "奈德拉斯的日記",
                 ["zone_name"] = "碎裂山峰",
+                ["y"] = 0.7398974895,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.5860406756,
                 ["quest_type"] = 0,
             },
             [3] = 
             {
-                ["y"] = 0.5168268681,
-                ["name"] = "古代遺物",
-                ["gpsx"] = 0.1896855999,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 5,
-                ["gpsy"] = 0.2443488027,
-                ["questID"] = -1,
-                ["giver"] = "阿爾瓦倫·蓋洛特",
-                ["x"] = 0.5861592293,
+                ["name"] = "古代遺物",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.1896855999,
                 ["repeat_type"] = 0,
-                ["quest_display_type"] = 0,
+                ["gpsy"] = 0.2443488027,
+                ["giver"] = "阿爾瓦倫·蓋洛特",
                 ["zone_name"] = "碎裂山峰",
+                ["y"] = 0.5168268681,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.5861592293,
                 ["quest_type"] = 0,
             },
         },
-        ["stormhaven/bonesnapruinssecret_base_0"] = 
+        ["reach/markarthcity_base_0"] = 
         {
         },
-        ["thievesguild/hewsbane_base_0"] = 
+        ["clockwork/ui_map_asylumsanctorum001_base_0"] = 
         {
         },
-        ["stormhaven/norvulkruins_base_0"] = 
+        ["stonefalls/dhalmora_base_0"] = 
         {
         },
-        ["reapersmarch/rawlkha_base_0"] = 
+        ["stonefalls/stonefalls_base_0"] = 
         {
         },
-        ["alikr/sentinel_base_0"] = 
+        ["craglorn/aetherianarchivebottom_base_0"] = 
+        {
+        },
+        ["rivenspire/flyleafcatacombs_base_0"] = 
+        {
+        },
+        ["alikr/imperviousvault_base_0"] = 
         {
         },
         ["rivenspire/tribulationcrypt_base_0"] = 
         {
             [1] = 
             {
-                ["y"] = 0.1987951845,
-                ["name"] = "過去的記憶",
-                ["gpsx"] = 0.2004047931,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
                 ["zone_index"] = 5,
+                ["name"] = "過去的記憶",
+                ["lang"] = "zh",
+                ["gpsx"] = 0.2004047931,
+                ["repeat_type"] = 0,
                 ["gpsy"] = 0.2545500032,
-                ["questID"] = -1,
                 ["giver"] = "遠古長劍",
-                ["x"] = 0.2951807082,
-                ["repeat_type"] = 0,
-                ["quest_display_type"] = 0,
                 ["zone_name"] = "碎裂山峰",
+                ["y"] = 0.1987951845,
+                ["poi_index"] = 294967291,
+                ["questID"] = -1,
+                ["quest_display_type"] = 0,
+                ["api"] = 101033,
+                ["x"] = 0.2951807082,
                 ["quest_type"] = 0,
             },
         },
-        ["bangkorai/hallofheroes_base_0"] = 
-        {
-        },
-        ["stonefalls/tormented_spire_base_0"] = 
-        {
-        },
-        ["reapersmarch/maw_of_lorkaj_base_0"] = 
-        {
-        },
-        ["bangkorai/hallinsstand_base_0"] = 
-        {
-        },
-        ["bangkorai/evermore_base_0"] = 
-        {
-        },
-        ["reach/markarthcity_base_0"] = 
-        {
-        },
-        ["summerset/ui_map_cloudresttrial_base_0"] = 
-        {
-            [2] = 
-            {
-                ["y"] = 0.2710317671,
-                ["name"] = "Woe of the Welkynars",
-                ["poi_index"] = 294967291,
-                ["gpsx"] = 0.1125256001,
-                ["api"] = 101033,
-                ["lang"] = "en",
-                ["gpsy"] = 0.6869512053,
-                ["zone_index"] = 653,
-                ["questID"] = -1,
-                ["x"] = 0.3823831379,
-                ["repeat_type"] = 1,
-                ["quest_display_type"] = 3,
-                ["zone_name"] = "Cloudrest",
-                ["quest_type"] = 6,
-            },
-            [1] = 
-            {
-                ["y"] = 0.2504568100,
-                ["name"] = "威爾肯納爾之殤",
-                ["gpsx"] = 0.1127404001,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 653,
-                ["gpsy"] = 0.6861900059,
-                ["questID"] = -1,
-                ["giver"] = "",
-                ["x"] = 0.3881891072,
-                ["repeat_type"] = 1,
-                ["quest_display_type"] = 3,
-                ["zone_name"] = "雲息城",
-                ["quest_type"] = 6,
-            },
-        },
-        ["reapersmarch/reapersmarch_base_0"] = 
-        {
-        },
-        ["rivenspire/flyleafcatacombs_base_0"] = 
-        {
-        },
-        ["stonefalls/kragenmoor_base_0"] = 
-        {
-        },
-        ["vvardenfell/vivechoj01a_base_0"] = 
-        {
-        },
-        ["guildmaps/fortvirakruin_base_0"] = 
-        {
-        },
-        ["bangkorai/bangkorai_base_0"] = 
-        {
-        },
-        ["blackwood/u30_rg_map_outside_001_0"] = 
-        {
-        },
-        ["grahtwood/eldenrootgroundfloor_base_0"] = 
-        {
-            [8] = 
-            {
-                ["y"] = 0.6476821303,
-                ["name"] = "Pledge: Bloodroot Forge",
-                ["gpsx"] = 0.4361952089,
-                ["poi_index"] = 74,
-                ["lang"] = "en",
-                ["api"] = 101033,
-                ["zone_index"] = 500,
-                ["gpsy"] = 0.7354416237,
-                ["questID"] = -1,
-                ["giver"] = "Urgarlag Chief-bane",
-                ["x"] = 0.5600480437,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "Craglorn",
-                ["quest_type"] = 15,
-            },
-            [1] = 
-            {
-                ["y"] = 0.6614718437,
-                ["name"] = "契約：灰燼之城 I",
-                ["gpsx"] = 0.4361744095,
-                ["poi_index"] = 39,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 18,
-                ["gpsy"] = 0.7358596230,
-                ["questID"] = -1,
-                ["giver"] = "紅鬍子格里容",
-                ["x"] = 0.5593618751,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "綠蔭",
-                ["quest_type"] = 15,
-            },
-            [2] = 
-            {
-                ["y"] = 0.6626462936,
-                ["name"] = "契約：紡錘迷宮 I",
-                ["gpsx"] = 0.4365816080,
-                ["poi_index"] = 42,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 2,
-                ["gpsy"] = 0.7358952234,
-                ["questID"] = -1,
-                ["giver"] = "瑪吉·奧-拉伽斯",
-                ["x"] = 0.5727952719,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "格林納巴",
-                ["quest_type"] = 15,
-            },
-            [3] = 
-            {
-                ["y"] = 0.6498462558,
-                ["name"] = "契約：月墓神殿",
-                ["gpsx"] = 0.4361728087,
-                ["poi_index"] = 48,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 681,
-                ["gpsy"] = 0.7355072236,
-                ["questID"] = -1,
-                ["giver"] = "首領災星烏爾伽拉格",
-                ["x"] = 0.5593090653,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "北艾斯維爾",
-                ["quest_type"] = 15,
-            },
-            [4] = 
-            {
-                ["y"] = 0.5319539309,
-                ["name"] = "Divine Conundrum",
-                ["gpsx"] = 0.4393192087,
-                ["poi_index"] = 75,
-                ["lang"] = "en",
-                ["api"] = 101033,
-                ["zone_index"] = 467,
-                ["gpsy"] = 0.7319336242,
-                ["questID"] = -1,
-                ["giver"] = "Ezabi the Banker",
-                ["x"] = 0.6631081700,
-                ["repeat_type"] = 0,
-                ["quest_display_type"] = 10,
-                ["zone_name"] = "Vvardenfell",
-                ["quest_type"] = 0,
-            },
-            [5] = 
-            {
-                ["y"] = 0.6625671387,
-                ["name"] = "契約：嚴霜堡壘",
-                ["gpsx"] = 0.4362068083,
-                ["poi_index"] = 41,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 15,
-                ["gpsy"] = 0.7358928240,
-                ["questID"] = -1,
-                ["giver"] = "紅鬍子格里容",
-                ["x"] = 0.5604307055,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "東陲",
-                ["quest_type"] = 15,
-            },
-            [6] = 
-            {
-                ["y"] = 0.6631345749,
-                ["name"] = "契約：紡錘迷宮 II",
-                ["gpsx"] = 0.4366012077,
-                ["poi_index"] = 66,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 2,
-                ["gpsy"] = 0.7359100244,
-                ["questID"] = -1,
-                ["giver"] = "瑪吉·奧-拉伽斯",
-                ["x"] = 0.5734418631,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "格林納巴",
-                ["quest_type"] = 15,
-            },
-            [7] = 
-            {
-                ["y"] = 0.6498066783,
-                ["name"] = "契約：恐懼地窖",
-                ["gpsx"] = 0.4362464089,
-                ["poi_index"] = 67,
-                ["lang"] = "zh",
-                ["api"] = 101033,
-                ["zone_index"] = 834,
-                ["gpsy"] = 0.7355060239,
-                ["questID"] = -1,
-                ["giver"] = "首領災星烏爾伽拉格",
-                ["x"] = 0.5617371202,
-                ["repeat_type"] = 2,
-                ["quest_display_type"] = 2,
-                ["zone_name"] = "黑森林",
-                ["quest_type"] = 15,
-            },
-        },
-        ["clockwork/ui_map_asylumsanctorum001_base_0"] = 
-        {
-        },
-        ["alikr/salasen_base_0"] = 
-        {
-        },
-        ["rivenspire/hildunessecretrefuge_base_0"] = 
-        {
-        },
-        ["stonefalls/balfoyen_base_0"] = 
-        {
-        },
-        ["alikr/alkiroutlawrefuge_base_0"] = 
-        {
-        },
-        ["bangkorai/murciensclaim_base_0"] = 
-        {
-        },
-        ["alikr/divadschagrinmine_base_0"] = 
-        {
-        },
-        ["vvardenfell/viviccity_base_0"] = 
-        {
-        },
-        ["skyrim/westernskryim_base_0"] = 
-        {
-        },
-        ["stonefalls/stonefalls_base_0"] = 
-        {
-            [1] = 
-            {
-                ["y"] = 0.7030622363,
-                ["name"] = "给迪沙安的信",
-                ["gpsx"] = 0.7101179931,
-                ["poi_index"] = 294967291,
-                ["lang"] = "zh",
-                ["api"] = 101039,
-                ["zone_index"] = 10,
-                ["gpsy"] = 0.4806847956,
-                ["questID"] = -1,
-                ["giver"] = "戈尔文·德兰",
-                ["x"] = 0.3465928137,
-                ["repeat_type"] = 0,
-                ["quest_display_type"] = 10,
-                ["zone_name"] = "迪沙安",
-                ["quest_type"] = 0,
-            },
-        },
-        ["vvardenfell/vvardenfell_base_0"] = 
-        {
-        },
-        ["bangkorai/cryptoftheexiles_base_0"] = 
-        {
-        },
-        ["coldharbor/coldharbour_base_0"] = 
-        {
-        },
-        ["summerset/coralaerie_beach_001_0"] = 
-        {
-        },
-        ["glenumbra/daggerfall_base_0"] = 
-        {
-        },
-        ["skyrim/solitudecity_base_0"] = 
-        {
-        },
-        ["skyrim/kynesaegismap001_0"] = 
-        {
-        },
-        ["stormhaven/bearclawmine_base_0"] = 
-        {
-        },
-        ["alikr/sandblownmine_base_0"] = 
+        ["stormhaven/alcairecastle_base_0"] = 
         {
         },
         ["blackwood/u30_leyawiincity_base_0"] = 
         {
         },
-        ["auridon/vulkhelguard_base_0"] = 
+        ["reapersmarch/reapersmarch_base_0"] = 
         {
         },
-        ["elsweyr/sunspirehall001_base_0"] = 
-        {
-            [1] = 
-            {
-                ["y"] = 0.1435562819,
-                ["name"] = "阿爾柯什的回歸",
-                ["poi_index"] = 294967291,
-                ["gpsx"] = 0.5069664028,
-                ["api"] = 101032,
-                ["lang"] = "zh",
-                ["gpsy"] = 0.6876095752,
-                ["zone_index"] = 712,
-                ["questID"] = -1,
-                ["x"] = 0.4828711152,
-                ["repeat_type"] = 1,
-                ["giver"] = "Armory Station",
-                ["zone_name"] = "陽尖城",
-                ["quest_type"] = 6,
-            },
-        },
-        ["rivenspire/hoarfrost_base_0"] = 
+        ["bangkorai/murciensclaim_base_0"] = 
         {
         },
-        ["bleakrock/bleakrockvillage_base_0"] = 
+        ["coldharbor/coldharbour_base_0"] = 
         {
         },
-        ["alikr/bergama_base_0"] = 
-        {
-        },
-        ["alikr/lostcity_base_0"] = 
-        {
-        },
-        ["alikr/imperviousvault_base_0"] = 
+        ["stonefalls/ebonheart_base_0"] = 
         {
         },
     },
@@ -794,8 +760,10 @@ LibQuestData_SavedVariables =
         [5246] = "瑪吉·奧-拉伽斯",
         [5247] = "瑪吉·奧-拉伽斯",
         [5248] = "瑪吉·奧-拉伽斯",
+        [5762] = "尼哈兰",
         [6789] = "伊索贝尔·维罗伊斯",
         [2184] = "王座守护者法瓦德",
+        [5770] = "远征者达拉玛尔",
         [2187] = "拉马提·阿特-噶尔",
         [5260] = "瑪吉·奧-拉伽斯",
         [4751] = "杰罗梅克·拉马尔",
@@ -845,13 +813,17 @@ LibQuestData_SavedVariables =
         [728] = "泰瑞·馬倫斯",
         [3806] = "修士塞米尔",
         [3296] = "王座守护者法瓦德",
+        [5772] = "梅德里克·维格",
+        [5057] = "埃罗纳·贝伦达",
+        [6495] = "丁贊",
         [3303] = "克拉丽斯·劳伦特夫人",
+        [4894] = "戈尔文·德兰",
         [3305] = "古拉克",
-        [6813] = "德鲁伊皮斯卡",
+        [2047] = "大師穆族格",
         [4843] = "學者康提爾",
         [6380] = "瑞'希爾",
-        [2047] = "大師穆族格",
         [2046] = "佩裡修道士",
+        [6813] = "德鲁伊皮斯卡",
         [6780] = "致玛塞尔",
         [3281] = "奇怪的乌鸦",
         [6299] = "阿内丝·德沃克斯",
@@ -859,8 +831,8 @@ LibQuestData_SavedVariables =
         [6756] = "露娜·乔尔万尼",
         [4852] = "历史学家玛加的来信",
         [3317] = "克拉丽斯·劳伦特夫人",
-        [3697] = "罗·萨瓦尼",
         [6648] = "Sleek Creek House Courtyard",
+        [3697] = "罗·萨瓦尼",
         [5368] = "裝備製作日常",
         [4839] = "娜达法的日记",
         [4858] = "阿杜莎-達洛",
@@ -877,21 +849,21 @@ LibQuestData_SavedVariables =
         [5381] = "紅鬍子格裡容",
         [5382] = "首領災星烏爾伽拉格",
         [1799] = "安提夫中士",
-        [3353] = "安詹",
+        [3752] = "七腹长老",
         [1294] = "瓦尔丹姆·安多伦",
         [1802] = "赫拉德·基莎蒂",
-        [3752] = "七腹长老",
+        [5102] = "貝爾卡斯指路祭壇",
         [5388] = "裝備製作日常",
         [5389] = "裝備製作日常",
         [3854] = "瓦尔丹姆·安多伦",
-        [5102] = "貝爾卡斯指路祭壇",
+        [4841] = "拉杰什",
         [3344] = "哈亚津",
         [4881] = "命运女巫迪玛拉",
         [5394] = "裝備製作日常",
         [5395] = "裝備製作日常",
         [5396] = "裝備製作日常",
-        [4841] = "拉杰什",
         [3594] = "伊克西·乌萨",
+        [3353] = "安詹",
         [3863] = "纳里尔·赫勒兰",
         [5400] = "消耗品製作日常",
         [3865] = "莎莉·库伦",
@@ -941,18 +913,18 @@ LibQuestData_SavedVariables =
         [1804] = "赫拉德·基莎蒂",
         [4934] = "納薩爾耶·艾文",
         [1835] = "命运女巫莎妮娅",
-        [2408] = "法哈拉杰德王",
+        [5413] = "消耗品製作日常",
         [4937] = "斯伽格副隊長",
         [5450] = "斯圖嘉",
         [3915] = "鸦中恶棍",
-        [4970] = "卡瑟尼亚",
+        [3333] = "阿尔伯特·玛尔克队长",
         [3917] = "诺亚西亚",
         [4942] = "拜恩",
-        [5413] = "消耗品製作日常",
-        [4944] = "巨魔社會化研究筆記",
-        [3333] = "阿尔伯特·玛尔克队长",
         [4959] = "至高王埃默里克",
+        [4944] = "巨魔社會化研究筆記",
         [5987] = "Sealed Alchemy Writ",
+        [2408] = "法哈拉杰德王",
+        [4970] = "卡瑟尼亚",
         [5972] = "Sealed Blacksmithing Writ",
         [5973] = "Sealed Enchanting Writ",
         [5974] = "Sealed Blacksmithing Writ",
@@ -978,51 +950,51 @@ LibQuestData_SavedVariables =
         [6506] = "首領災星烏爾伽拉格",
         [5958] = "崔蘭·歐莫里爾",
         [5865] = "貝拉露·歐莫里爾",
-        [4938] = "命运女巫林奈尔",
-        [3438] = "赫尔敏努斯·索法斯",
         [4565] = "瑞米·貝拉德",
+        [3438] = "赫尔敏努斯·索法斯",
+        [4938] = "命运女巫林奈尔",
         [6512] = "劍衛婕爾塔",
-        [5921] = "小丑女王艾琳",
-        [4978] = "至高王埃默里克",
         [6099] = "消耗品製作日常",
+        [4978] = "至高王埃默里克",
+        [5921] = "小丑女王艾琳",
         [4980] = "洛萨·内尔瓦尼",
         [4981] = "扎格",
         [6518] = "希達瓦",
-        [4988] = "至高王埃默里克",
+        [465] = "維蘭迪斯·鴉望伯爵",
         [4472] = "派爾睿·南內爾",
         [4473] = "警衛隊長埃納德",
         [4986] = "华杜什队长",
         [3963] = "达玛尔",
-        [3964] = "帕尔丁",
+        [4988] = "至高王埃默里克",
         [4989] = "吉安雅克·奥里斯",
-        [465] = "維蘭迪斯·鴉望伯爵",
+        [3964] = "帕尔丁",
         [6503] = "Unknown Target",
         [2404] = "索达将军",
         [6017] = "Sealed Enchanting Writ",
-        [2344] = "莱塔",
         [3533] = "掘墓者洛特",
+        [2344] = "莱塔",
         [6020] = "Sealed Woodworking Writ",
         [6021] = "Sealed Clothier Writ",
         [1834] = "命运女巫芙蕾达",
         [6023] = "先眼教团快信",
-        [5392] = "裝備製作日常",
         [6090] = "木工工作台",
+        [5392] = "裝備製作日常",
         [3280] = "阿哲菈女王",
         [4817] = "斥候亚努",
-        [3988] = "布拉-那图",
         [4443] = "達比安公爵",
         [4816] = "穆拉",
         [2436] = "弗洛蒂伯特·豐博納的遺願和遺囑",
-        [2450] = "薩奇·阿廓勒",
+        [5976] = "Sealed Woodworking Writ",
+        [3988] = "布拉-那图",
         [3985] = "霍克尼尔",
-        [3986] = "莫拉",
+        [2450] = "薩奇·阿廓勒",
         [3987] = "中士塞娜",
         [5012] = "巴姆諾格",
         [5991] = "Sealed Alchemy Writ",
         [5014] = "馬瑞斯賽特",
-        [5020] = "薩耶隊長",
-        [3992] = "猎人达尔吉",
         [2496] = "希拉莉·安特圖拉女士",
+        [3992] = "猎人达尔吉",
+        [5020] = "薩耶隊長",
         [3482] = "伽罗德",
         [3995] = "萝伦达",
         [3996] = "强盗字条",
@@ -1030,31 +1002,31 @@ LibQuestData_SavedVariables =
         [5022] = "薩耶隊長",
         [3999] = "哈尔梅拉",
         [1591] = "法莉絲·曼諾伊特",
-        [5040] = "观万路",
-        [4002] = "队长拉纳",
-        [2481] = "穆賈德哈",
-        [4516] = "隨葬甕",
         [5021] = "薩耶隊長",
+        [4002] = "队长拉纳",
+        [6498] = "赫盧娜玩偶",
+        [4516] = "隨葬甕",
+        [5980] = "Sealed Alchemy Writ",
         [6054] = "首領災星烏爾伽拉格",
         [4519] = "馬泰斯·德隆尼",
         [3496] = "甲虫马兹拉赫",
         [6569] = "布拉薩豪",
-        [6498] = "赫盧娜玩偶",
         [4026] = "猎人达尔吉",
-        [2998] = "安塞·哈勒拉",
+        [2481] = "穆賈德哈",
+        [4024] = "埃斯库奥",
         [5037] = "达西琳",
         [5038] = "哈吉尔",
         [5039] = "卡罗恩",
-        [4016] = "中士塞娜",
+        [5040] = "观万路",
         [6577] = "首領災星烏爾伽拉格",
-        [4024] = "埃斯库奥",
-        [5045] = "苏尔德拉什",
         [6582] = "格溫尼菲",
-        [2997] = "塔莉亚亚特·马利玛",
         [4022] = "文纳西",
+        [5045] = "苏尔德拉什",
+        [2997] = "塔莉亚亚特·马利玛",
+        [2998] = "安塞·哈勒拉",
         [4023] = "队长拉纳",
         [2488] = "贓物",
-        [5980] = "Sealed Alchemy Writ",
+        [4016] = "中士塞娜",
         [6586] = "麥杜恩",
         [5051] = "剑圣卡里阿",
         [5052] = "奧爾加中士",
@@ -1063,7 +1035,7 @@ LibQuestData_SavedVariables =
         [2495] = "霍斯尼·安特圖拉伯爵",
         [3520] = "术士武纳尔",
         [2497] = "希拉莉·安特圖拉女士",
-        [5976] = "Sealed Woodworking Writ",
+        [3986] = "莫拉",
         [6083] = "法罗薇尔法官",
         [6084] = "仲裁者法羅維爾",
         [3029] = "大祭司祖拉德尔",
@@ -1072,7 +1044,7 @@ LibQuestData_SavedVariables =
         [2504] = "塔巴卡修女",
         [4041] = "艾拉·恩斯塔纳",
         [3530] = "命运女巫黛尔菲克",
-        [6495] = "丁贊",
+        [5067] = "妮莱茵·赫罗尔",
         [4659] = "史迪彭斯",
         [1485] = "雅迪爾·查尼斯",
         [6452] = "Sealed Jewelry Crafter Writ",
@@ -1106,9 +1078,9 @@ LibQuestData_SavedVariables =
         [2538] = "愛麗絲·曼提歐伯爵夫人",
         [4721] = "达留斯",
         [3647] = "鲁瓦利·马诺施莱尔",
-        [3598] = "里莎",
-        [3566] = "法哈拉杰德王",
         [3860] = "纳里尔·赫勒兰",
+        [3566] = "法哈拉杰德王",
+        [3598] = "里莎",
         [6640] = "笑-聲-朗",
         [3602] = "德雷尔登·奥恩",
         [3667] = "侍祭马德拉纳",
@@ -1126,2994 +1098,175 @@ LibQuestData_SavedVariables =
         [2558] = "瑪格特·奧山特",
         [3583] = "霍姆队长",
     },
-    ["libVersion"] = 260,
-    ["quest_info"] = 
+    ["reward_info"] = 
     {
-        [3584] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10016,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3585] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10005,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3587] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10006,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3588] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10007,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3589] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10008,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3590] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13590,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3591] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13583,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3592] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3594] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6668] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6157] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4622] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3602] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4638] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3615] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10010,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3616] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10011,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3617] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10012,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3618] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10012,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3621] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3622] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13520,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3626] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13626,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3627] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13626,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3631] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6192] = 
-        {
-            [1] = 6,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 3,
-        },
-        [3633] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10019,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3634] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10020,
-            [6] = 1,
-            [7] = 10,
-        },
-        [5171] = 
-        {
-            [1] = 6,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 3,
-        },
-        [6196] = 
-        {
-            [1] = 3,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3639] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6712] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3642] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13642,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3643] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13642,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3645] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3646] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13646,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3647] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13646,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4672] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10078,
-            [6] = 0,
-            [7] = 10,
-        },
-        [6218] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3662] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2130] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10075,
-            [6] = 1,
-            [7] = 10,
-        },
-        [6227] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6228] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6741] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
-        },
-        [3670] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6743] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
-        },
-        [2146] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10076,
-            [6] = 1,
-            [7] = 10,
-        },
-        [6756] = 
+        [5057] = 
         {
             [1] = 1,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
+            [2] = 7,
         },
-        [6250] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
-        },
-        [6763] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6252] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-        },
-        [3695] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10022,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3696] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10023,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4721] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3698] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10024,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3187] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3190] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10080,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4731] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6780] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6269] = 
-        {
-            [1] = 5,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
-        },
-        [6789] = 
-        {
-            [1] = 16,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 11,
-        },
-        [2184] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10081,
-            [6] = 1,
-            [7] = 10,
-        },
-        [2187] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4751] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2192] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10082,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4754] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3734] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10013,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3735] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10014,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4760] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3737] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10015,
-            [6] = 0,
-            [7] = 10,
-        },
-        [6299] = 
-        {
-            [1] = 14,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6813] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4766] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6816] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6818] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6821] = 
+        [5762] = 
         {
             [1] = 1,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
+            [2] = 7,
         },
-        [3751] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13751,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3752] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13751,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6825] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2222] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10086,
-            [6] = 1,
-            [7] = 10,
-        },
-        [2240] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10087,
-            [6] = 0,
-            [7] = 10,
-        },
-        [2251] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10084,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3788] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10024,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3789] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10023,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6350] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
-        },
-        [2255] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3280] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10096,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4817] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3794] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13699,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6359] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3806] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13699,
-            [5] = 10003,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3296] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10089,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3303] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4841] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6380] = 
+        [5067] = 
         {
             [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3826] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10025,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4852] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3317] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5368] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3837] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10026,
-            [6] = 1,
-            [7] = 10,
-        },
-        [5374] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4863] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4864] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5377] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3333] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10074,
-            [6] = 0,
-            [7] = 10,
-        },
-        [5894] = 
-        {
-            [1] = 6,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 3,
-        },
-        [1799] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10095,
-            [6] = 1,
-            [7] = 10,
-        },
-        [1802] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 11802,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [1804] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 11802,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5389] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [1294] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5392] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4881] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5394] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5395] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5396] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4887] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3865] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4891] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10101,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3868] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10027,
-            [6] = 1,
-            [7] = 10,
-        },
-        [5409] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101034,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4898] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4899] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10098,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4900] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3367] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2344] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [1834] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10100,
-            [6] = 1,
-            [7] = 10,
-        },
-        [1835] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5935] = 
-        {
-            [1] = 14,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4912] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10103,
-            [6] = 1,
-            [7] = 10,
-        },
-        [6451] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2356] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10088,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3381] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4918] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10107,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3383] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3385] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2364] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4926] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14945,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4927] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14945,
-            [5] = 10003,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4928] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14945,
-            [5] = 10004,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4929] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14945,
-            [5] = 10005,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5958] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4938] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3915] = 
-        {
-            [1] = 5,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3917] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5972] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5974] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5975] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5976] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5977] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5978] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5979] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5980] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5981] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5982] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4959] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10105,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4960] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10106,
-            [6] = 1,
-            [7] = 10,
-        },
-        [5985] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6498] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5987] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5988] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5989] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5990] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6503] = 
-        {
-            [1] = 6,
-            [2] = 1,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 3,
-        },
-        [2408] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10077,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4969] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4970] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3438] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6512] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4978] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10104,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4980] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4981] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6518] = 
-        {
-            [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4986] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3963] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4988] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10102,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4989] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6017] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3970] = 
-        {
-            [1] = 5,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6020] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6021] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101032,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-        },
-        [6023] = 
-        {
-            [1] = 14,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3985] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3986] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3987] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13990,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3988] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3991] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13990,
-            [5] = 10005,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3992] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13990,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3482] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5531] = 
-        {
-            [1] = 3,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 15531,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3996] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3999] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4002] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13990,
-            [5] = 10004,
-            [6] = 0,
-            [7] = 10,
-        },
-        [6352] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
-        },
-        [3496] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6569] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3281] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10097,
-            [6] = 0,
-            [7] = 10,
-        },
-        [6582] = 
-        {
-            [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3598] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13590,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5037] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5038] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5039] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4016] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13990,
-            [5] = 10003,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4816] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4026] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10003,
-            [6] = 0,
-            [7] = 10,
-        },
-        [5282] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 5,
-            [7] = 2,
-        },
-        [6452] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2997] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10092,
-            [6] = 1,
-            [7] = 10,
-        },
-        [4022] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4023] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4024] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5983] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6586] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5051] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5052] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3699] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13699,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3697] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4982] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3520] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13520,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5991] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3172] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6083] = 
-        {
-            [1] = 1,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6084] = 
-        {
-            [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [2403] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10090,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4038] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5984] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6495] = 
-        {
-            [1] = 0,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4041] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3530] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10099,
-            [6] = 0,
-            [7] = 10,
-        },
-        [3566] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10094,
-            [6] = 0,
-            [7] = 10,
-        },
-        [5986] = 
-        {
-            [1] = 4,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3533] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4956] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3335] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4686] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10079,
-            [6] = 0,
-            [7] = 10,
-        },
-        [1489] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3671] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10017,
-            [6] = 0,
-            [7] = 10,
-        },
-        [6099] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6100] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3029] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5388] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101039,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6103] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3854] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6105] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3667] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3344] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3860] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3648] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6718] = 
-        {
-            [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5087] = 
-        {
-            [1] = 0,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 15033,
-            [5] = 10004,
-            [6] = 0,
-            [7] = 3,
-        },
-        [2016] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10104,
-            [6] = 0,
-            [7] = 10,
-        },
-        [2017] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10105,
-            [6] = 0,
-            [7] = 10,
-        },
-        [2018] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10106,
-            [6] = 0,
-            [7] = 10,
-        },
-        [4067] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3863] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6199] = 
-        {
-            [1] = 3,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3353] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4659] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3632] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10018,
-            [6] = 1,
-            [7] = 10,
-        },
-        [3902] = 
-        {
-            [1] = 5,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
         },
         [6740] = 
         {
-            [1] = 5,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 2,
+            [1] = 1,
+            [2] = 7,
+            [3] = 9,
         },
-        [3964] = 
-        {
-            [1] = 5,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6101] = 
-        {
-            [1] = 4,
-            [2] = 2,
-            [3] = 101034,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [4051] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 14023,
-            [5] = 10004,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5102] = 
-        {
-            [1] = 0,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 15033,
-            [5] = 10004,
-            [6] = 0,
-            [7] = 3,
-        },
-        [2161] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6090] = 
-        {
-            [1] = 6,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 3,
-        },
-        [3736] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3995] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13990,
-            [5] = 10002,
-            [6] = 0,
-            [7] = 10,
-        },
-        [2404] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10091,
-            [6] = 0,
-            [7] = 0,
-        },
-        [5865] = 
+        [5772] = 
         {
             [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
+            [2] = 7,
         },
-        [5040] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 10,
-        },
-        [5288] = 
-        {
-            [1] = 15,
-            [2] = 2,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 3,
-            [7] = 2,
-        },
-        [4839] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6648] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3305] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6650] = 
+        [4894] = 
         {
             [1] = 1,
-            [2] = 2,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
         },
-        [2998] = 
+        [5770] = 
         {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101038,
-            [4] = 14466,
-            [5] = 10093,
-            [6] = 0,
-            [7] = 10,
-        },
-        [5045] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [3581] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 10001,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 0,
-        },
-        [6654] = 
-        {
-            [1] = 6,
-            [2] = 1,
-            [3] = 101033,
-            [4] = 10000,
-            [5] = 10000,
-            [6] = 0,
-            [7] = 3,
-        },
-        [3583] = 
-        {
-            [1] = 0,
-            [2] = 0,
-            [3] = 101039,
-            [4] = 13583,
-            [5] = 10001,
-            [6] = 0,
-            [7] = 0,
+            [1] = 1,
+            [2] = 7,
         },
     },
     ["location_info"] = 
     {
-        ["stonefalls/dhalmora_base_0"] = 
+        ["bangkorai/evermore_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.5322914124,
-                [2] = 0.5421718955,
-                [3] = 0.8126759784,
-                [4] = 0.4469732085,
-                [5] = 4041,
-                [6] = "艾拉·恩斯塔纳",
+                [1] = 0.2416020036,
+                [2] = 0.5965569615,
+                [3] = 0.2783859992,
+                [4] = 0.3180636050,
+                [5] = 1799,
+                [6] = "安提夫中士",
             },
             [2] = 
             {
-                [1] = 0.5750920773,
-                [2] = 0.4461061656,
-                [3] = 0.8130571783,
-                [4] = 0.4461176087,
-                [5] = 4024,
-                [6] = "埃斯库奥",
-            },
-        },
-        ["rivenspire/northpoint_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.3136259317,
-                [2] = 0.5176460743,
-                [3] = 0.2115007964,
-                [4] = 0.2077179995,
-                [5] = 5051,
-                [6] = "剑圣卡里阿",
-            },
-        },
-        ["stonefalls/davonswatch_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2583375275,
-                [2] = 0.3931089342,
-                [3] = 0.7764491997,
-                [4] = 0.4263968087,
-                [5] = 3588,
-                [6] = "霍尔根",
-            },
-            [2] = 
-            {
-                [1] = 0.7637373209,
-                [2] = 0.7755022049,
-                [3] = 0.7909003992,
-                [4] = 0.4373308088,
-                [5] = 6299,
-                [6] = "阿内丝·德沃克斯",
+                [1] = 0.3357416689,
+                [2] = 0.5022745728,
+                [3] = 0.2804967988,
+                [4] = 0.3159496052,
+                [5] = 3280,
+                [6] = "阿哲菈女王",
             },
             [3] = 
             {
-                [1] = 0.6554054022,
-                [2] = 0.6518801451,
-                [3] = 0.7878027996,
-                [4] = 0.4337960091,
-                [5] = 3585,
-                [6] = "霍尔根",
+                [1] = 0.5372223854,
+                [2] = 0.6199268699,
+                [3] = 0.2850143996,
+                [4] = 0.3185876051,
+                [5] = 3281,
+                [6] = "奇怪的乌鸦",
             },
             [4] = 
             {
-                [1] = 0.6079262495,
-                [2] = 0.3274159133,
-                [3] = 0.7864451997,
-                [4] = 0.4245184087,
-                [5] = 3587,
-                [6] = "坦瓦尔·因多里尔",
+                [1] = 0.6569440961,
+                [2] = 0.2152885497,
+                [3] = 0.2876987999,
+                [4] = 0.3095148043,
+                [5] = 4980,
+                [6] = "洛萨·内尔瓦尼",
             },
             [5] = 
             {
-                [1] = 0.5798080564,
-                [2] = 0.3463432491,
-                [3] = 0.7856411994,
-                [4] = 0.4250596094,
-                [5] = 3589,
-                [6] = "坦瓦尔·因多里尔",
+                [1] = 0.5304790139,
+                [2] = 0.3551690280,
+                [3] = 0.2848631997,
+                [4] = 0.3126512045,
+                [5] = 4981,
+                [6] = "扎格",
             },
             [6] = 
             {
-                [1] = 0.4697974324,
-                [2] = 0.4093363583,
-                [3] = 0.7824955996,
-                [4] = 0.4268608092,
-                [5] = 1294,
-                [6] = "瓦尔丹姆·安多伦",
-            },
-            [7] = 
-            {
-                [1] = 0.4980415106,
-                [2] = 0.6556991935,
-                [3] = 0.7833031995,
-                [4] = 0.4339052095,
-                [5] = 3860,
-                [6] = "纳里尔·赫勒兰",
+                [1] = 0.6474355459,
+                [2] = 0.7267504930,
+                [3] = 0.2874855992,
+                [4] = 0.3209828044,
+                [5] = 4988,
+                [6] = "至高王埃默里克",
             },
         },
-        ["stonefalls/bleakrock_base_0"] = 
+        ["alikr/lostcity_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.6961977482,
-                [2] = 0.2818335593,
-                [3] = 0.6858011730,
-                [4] = 0.2603504005,
-                [5] = 3996,
-                [6] = "强盗字条",
+                [1] = 0.4923375845,
+                [2] = 0.9047833681,
+                [3] = 0.2235263925,
+                [4] = 0.3847279997,
+                [5] = 3964,
+                [6] = "帕尔丁",
+            },
+        },
+        ["bleakrock/bleakrockvillage_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.7847324014,
+                [2] = 0.4688437581,
+                [3] = 0.6827136056,
+                [4] = 0.2661460009,
+                [5] = 4002,
+                [6] = "队长拉纳",
             },
             [2] = 
             {
-                [1] = 0.6653358936,
-                [2] = 0.3737008870,
-                [3] = 0.6852167729,
-                [4] = 0.2620900003,
-                [5] = 3992,
-                [6] = "猎人达尔吉",
-            },
-            [3] = 
-            {
-                [1] = 0.6257498860,
-                [2] = 0.5972750187,
-                [3] = 0.6844671722,
-                [4] = 0.2663236002,
-                [5] = 3985,
-                [6] = "霍克尼尔",
-            },
-            [4] = 
-            {
-                [1] = 0.4900718331,
-                [2] = 0.3861850500,
-                [3] = 0.6818979725,
-                [4] = 0.2623264004,
-                [5] = 3986,
-                [6] = "莫拉",
-            },
-            [5] = 
-            {
-                [1] = 0.2585973740,
-                [2] = 0.3971271515,
-                [3] = 0.6775147720,
-                [4] = 0.2625336000,
-                [5] = 4016,
-                [6] = "中士塞娜",
-            },
-            [6] = 
-            {
-                [1] = 0.2739754915,
-                [2] = 0.5166243911,
-                [3] = 0.6778059720,
-                [4] = 0.2647963999,
-                [5] = 3987,
-                [6] = "中士塞娜",
-            },
-            [7] = 
-            {
-                [1] = 0.3061259091,
-                [2] = 0.2492606640,
-                [3] = 0.6784147723,
-                [4] = 0.2597336001,
-                [5] = 3988,
-                [6] = "布拉-那图",
-            },
-            [8] = 
-            {
-                [1] = 0.4927334189,
-                [2] = 0.2271440625,
-                [3] = 0.6819483723,
-                [4] = 0.2593148001,
-                [5] = 3995,
-                [6] = "萝伦达",
+                [1] = 0.1472332776,
+                [2] = 0.4288605154,
+                [3] = 0.6790592057,
+                [4] = 0.2659168009,
+                [5] = 3999,
+                [6] = "哈尔梅拉",
             },
         },
-        ["craglorn/aetherianarchivebottom_base_0"] = 
+        ["skyrim/kynesaegismap001_0"] = 
         {
             [1] = 
             {
-                [1] = 0.6628019214,
-                [2] = 0.7961352468,
-                [3] = 0.4593699973,
-                [4] = 0.3704364014,
-                [5] = 5102,
-                [6] = "貝爾卡斯指路祭壇",
+                [1] = 0.7064903975,
+                [2] = 0.6754787564,
+                [3] = 0.4066003969,
+                [4] = 0.1486724006,
+                [5] = 6503,
+                [6] = "Armory Station",
+            },
+        },
+        ["stormhaven/koeglinvillage_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.6257067323,
+                [2] = 0.4999878705,
+                [3] = 0.1696896059,
+                [4] = 0.3101951967,
+                [5] = 2558,
+                [6] = "瑪格特·奧山特",
+            },
+            [2] = 
+            {
+                [1] = 0.3911091685,
+                [2] = 0.3329208195,
+                [3] = 0.1658224057,
+                [4] = 0.3074411966,
+                [5] = 2556,
+                [6] = "達比安公爵",
+            },
+            [3] = 
+            {
+                [1] = 0.3602678776,
+                [2] = 0.3403460383,
+                [3] = 0.1653140055,
+                [4] = 0.3075635968,
+                [5] = 4443,
+                [6] = "達比安公爵",
             },
         },
         ["bangkorai/trollstoothpick_base_0"] = 
@@ -4128,16 +1281,490 @@ LibQuestData_SavedVariables =
                 [6] = "格鲁内斯",
             },
         },
-        ["craglorn/helracitadelentry_base_0"] = 
+        ["stonefalls/crowswood_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.6737004519,
-                [2] = 0.4719505906,
-                [3] = 0.3749040097,
-                [4] = 0.3723452021,
-                [5] = 5087,
-                [6] = "純淨水",
+                [1] = 0.5139418244,
+                [2] = 0.7904714346,
+                [3] = 0.5465219964,
+                [4] = -0.1843016000,
+                [5] = 3902,
+                [6] = "泰尔巴里·奥兰",
+            },
+            [2] = 
+            {
+                [1] = 0.2831494510,
+                [2] = 0.7255767584,
+                [3] = 0.5456015964,
+                [4] = -0.1845603999,
+                [5] = 3915,
+                [6] = "鸦中恶棍",
+            },
+        },
+        ["bangkorai/hallofheroes_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.7249435186,
+                [2] = 0.5995638967,
+                [3] = 0.2963148141,
+                [4] = 0.3926948079,
+                [5] = 4960,
+                [6] = "大厅守护者",
+            },
+        },
+        ["alikr/alkiroutlawrefuge_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4034890234,
+                [2] = 0.6274620295,
+                [3] = 0.1477283958,
+                [4] = 0.3954175942,
+                [5] = 5531,
+                [6] = "葵恩",
+            },
+        },
+        ["craglorn/shadaburialgrounds_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.7421686649,
+                [2] = 0.2834337354,
+                [3] = 0.3704932108,
+                [4] = 0.3537619975,
+                [5] = 5762,
+                [6] = "尼哈兰",
+            },
+        },
+        ["bangkorai/bisnensel_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.3172216117,
+                [2] = 0.6017901897,
+                [3] = 0.2933600084,
+                [4] = 0.2854452009,
+                [5] = 1804,
+                [6] = "赫拉德·基莎蒂",
+            },
+        },
+        ["alikr/salasen_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2256141603,
+                [2] = 0.7108792663,
+                [3] = 0.1357967966,
+                [4] = 0.4357267987,
+                [5] = 3305,
+                [6] = "古拉克",
+            },
+        },
+        ["stonefalls/kragenmoor_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.5359903574,
+                [2] = 0.6595556140,
+                [3] = 0.6932823978,
+                [4] = 0.4744396026,
+                [5] = 3697,
+                [6] = "罗·萨瓦尼",
+            },
+            [2] = 
+            {
+                [1] = 0.5038818121,
+                [2] = 0.3610748649,
+                [3] = 0.6925147981,
+                [4] = 0.4673040023,
+                [5] = 3695,
+                [6] = "族长奥明·德雷斯",
+            },
+            [3] = 
+            {
+                [1] = 0.4667202234,
+                [2] = 0.4524478912,
+                [3] = 0.6916263982,
+                [4] = 0.4694884024,
+                [5] = 3789,
+                [6] = "一笑而过",
+            },
+            [4] = 
+            {
+                [1] = 0.4400327802,
+                [2] = 0.4194692671,
+                [3] = 0.6909883975,
+                [4] = 0.4687000022,
+                [5] = 3696,
+                [6] = "戴钮·法仁",
+            },
+            [5] = 
+            {
+                [1] = 0.5069270134,
+                [2] = 0.3544992208,
+                [3] = 0.6925875979,
+                [4] = 0.4671468023,
+                [5] = 3788,
+                [6] = "族长奥明·德雷斯",
+            },
+            [6] = 
+            {
+                [1] = 0.5069270134,
+                [2] = 0.3544992208,
+                [3] = 0.6925875979,
+                [4] = 0.4671468023,
+                [5] = 3698,
+                [6] = "森·德雷斯",
+            },
+        },
+        ["alikr/alikr_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2965372205,
+                [2] = 0.6581105590,
+                [3] = 0.1515276025,
+                [4] = 0.4266251978,
+                [5] = 4686,
+                [6] = "马利玛",
+            },
+            [2] = 
+            {
+                [1] = 0.2974533141,
+                [2] = 0.6582449675,
+                [3] = 0.1516748004,
+                [4] = 0.4266467946,
+                [5] = 3190,
+                [6] = "塔莉亚亚特·马利玛",
+            },
+            [3] = 
+            {
+                [1] = 0.4095369577,
+                [2] = 0.5532188416,
+                [3] = 0.1696843998,
+                [4] = 0.4097711971,
+                [5] = 2187,
+                [6] = "拉马提·阿特-噶尔",
+            },
+            [4] = 
+            {
+                [1] = 0.2926786244,
+                [2] = 0.6541423798,
+                [3] = 0.1509076033,
+                [4] = 0.4259875908,
+                [5] = 4672,
+                [6] = "塔莉亚亚特·马利玛",
+            },
+            [5] = 
+            {
+                [1] = 0.5147821903,
+                [2] = 0.5162584186,
+                [3] = 0.1865952034,
+                [4] = 0.4038323965,
+                [5] = 2255,
+                [6] = "卡萨尔",
+            },
+            [6] = 
+            {
+                [1] = 0.5637067556,
+                [2] = 0.5163679123,
+                [3] = 0.1944564023,
+                [4] = 0.4038499899,
+                [5] = 3385,
+                [6] = "慕斯",
+            },
+            [7] = 
+            {
+                [1] = 0.5783893466,
+                [2] = 0.5049614310,
+                [3] = 0.1968156010,
+                [4] = 0.4020171965,
+                [5] = 4754,
+                [6] = "勒奇门徒",
+            },
+            [8] = 
+            {
+                [1] = 0.6632810831,
+                [2] = 0.5202862620,
+                [3] = 0.2104560049,
+                [4] = 0.4044795903,
+                [5] = 3367,
+                [6] = "哈东",
+            },
+            [9] = 
+            {
+                [1] = 0.6557381153,
+                [2] = 0.4412198067,
+                [3] = 0.2092440008,
+                [4] = 0.3917751926,
+                [5] = 4731,
+                [6] = "厄里",
+            },
+            [10] = 
+            {
+                [1] = 0.5566218495,
+                [2] = 0.4338436723,
+                [3] = 0.1933179997,
+                [4] = 0.3905899954,
+                [5] = 4760,
+                [6] = "亵渎者阿夸比",
+            },
+            [11] = 
+            {
+                [1] = 0.2664700150,
+                [2] = 0.5344510674,
+                [3] = 0.1466964041,
+                [4] = 0.4067555912,
+                [5] = 4841,
+                [6] = "拉杰什",
+            },
+            [12] = 
+            {
+                [1] = 0.2755787969,
+                [2] = 0.6751655340,
+                [3] = 0.1481600031,
+                [4] = 0.4293655911,
+                [5] = 3303,
+                [6] = "克拉丽斯·劳伦特夫人",
+            },
+            [13] = 
+            {
+                [1] = 0.2461140156,
+                [2] = 0.6599029303,
+                [3] = 0.1434256021,
+                [4] = 0.4269131960,
+                [5] = 4659,
+                [6] = "史迪彭斯",
+            },
+            [14] = 
+            {
+                [1] = 0.3203161657,
+                [2] = 0.6004829407,
+                [3] = 0.1553484033,
+                [4] = 0.4173655923,
+                [5] = 3353,
+                [6] = "安詹",
+            },
+            [15] = 
+            {
+                [1] = 0.3243191540,
+                [2] = 0.5348494053,
+                [3] = 0.1559916035,
+                [4] = 0.4068195961,
+                [5] = 3383,
+                [6] = "萨穆西·亚夫巴兹拉",
+            },
+            [16] = 
+            {
+                [1] = 0.1430570036,
+                [2] = 0.4990241528,
+                [3] = 0.1268664019,
+                [4] = 0.4010631947,
+                [5] = 3438,
+                [6] = "赫尔敏努斯·索法斯",
+            },
+            [17] = 
+            {
+                [1] = 0.3958775103,
+                [2] = 0.6413965821,
+                [3] = 0.1674895999,
+                [4] = 0.4239395961,
+                [5] = 3344,
+                [6] = "哈亚津",
+            },
+            [18] = 
+            {
+                [1] = 0.7577271461,
+                [2] = 0.4131142497,
+                [3] = 0.2256315979,
+                [4] = 0.3872591918,
+                [5] = 2364,
+                [6] = "黄金海岸斥候",
+            },
+            [19] = 
+            {
+                [1] = 0.7335449457,
+                [2] = 0.5135524273,
+                [3] = 0.2217460020,
+                [4] = 0.4033975978,
+                [5] = 2356,
+                [6] = "王座守护者法瓦德",
+            },
+            [20] = 
+            {
+                [1] = 0.7546178699,
+                [2] = 0.5681528449,
+                [3] = 0.2251319994,
+                [4] = 0.4121707927,
+                [5] = 3296,
+                [6] = "王座守护者法瓦德",
+            },
+            [21] = 
+            {
+                [1] = 0.4959945381,
+                [2] = 0.6113542318,
+                [3] = 0.1835764035,
+                [4] = 0.4191123914,
+                [5] = 3381,
+                [6] = "昂温",
+            },
+            [22] = 
+            {
+                [1] = 0.5707692504,
+                [2] = 0.3355065882,
+                [3] = 0.1955912040,
+                [4] = 0.3747891931,
+                [5] = 4751,
+                [6] = "杰罗梅克·拉马尔",
+            },
+            [23] = 
+            {
+                [1] = 0.5604630113,
+                [2] = 0.3594423831,
+                [3] = 0.1939351975,
+                [4] = 0.3786351965,
+                [5] = 4816,
+                [6] = "穆拉",
+            },
+            [24] = 
+            {
+                [1] = 0.8408090472,
+                [2] = 0.3912920058,
+                [3] = 0.2389811975,
+                [4] = 0.3837527938,
+                [5] = 2404,
+                [6] = "索达将军",
+            },
+            [25] = 
+            {
+                [1] = 0.8087577820,
+                [2] = 0.3396091759,
+                [3] = 0.2338312003,
+                [4] = 0.3754483969,
+                [5] = 3029,
+                [6] = "大祭司祖拉德尔",
+            },
+            [26] = 
+            {
+                [1] = 0.8020886183,
+                [2] = 0.3552178144,
+                [3] = 0.2327595991,
+                [4] = 0.3779563928,
+                [5] = 4817,
+                [6] = "斥候亚努",
+            },
+            [27] = 
+            {
+                [1] = 0.3987976015,
+                [2] = 0.5748170018,
+                [3] = 0.1679588001,
+                [4] = 0.4132415894,
+                [5] = 2184,
+                [6] = "王座守护者法瓦德",
+            },
+            [28] = 
+            {
+                [1] = 0.4026064277,
+                [2] = 0.5305153131,
+                [3] = 0.1685708023,
+                [4] = 0.4061231942,
+                [5] = 2192,
+                [6] = "王座守护者法瓦德",
+            },
+            [29] = 
+            {
+                [1] = 0.6242195964,
+                [2] = 0.3388100564,
+                [3] = 0.2041796054,
+                [4] = 0.3753199943,
+                [5] = 2222,
+                [6] = "塔莉亚亚特·马利玛",
+            },
+            [30] = 
+            {
+                [1] = 0.5657555461,
+                [2] = 0.3563928306,
+                [3] = 0.1947856020,
+                [4] = 0.3781451944,
+                [5] = 2240,
+                [6] = "希里",
+            },
+            [31] = 
+            {
+                [1] = 0.8303609490,
+                [2] = 0.5660418272,
+                [3] = 0.2373023971,
+                [4] = 0.4118315944,
+                [5] = 4721,
+                [6] = "达留斯",
+            },
+            [32] = 
+            {
+                [1] = 0.7367488146,
+                [2] = 0.5091311932,
+                [3] = 0.2222607997,
+                [4] = 0.4026871939,
+                [5] = 2403,
+                [6] = "拉万队长",
+            },
+            [33] = 
+            {
+                [1] = 0.8020213842,
+                [2] = 0.3544958830,
+                [3] = 0.2327487959,
+                [4] = 0.3778403929,
+                [5] = 2997,
+                [6] = "塔莉亚亚特·马利玛",
+            },
+            [34] = 
+            {
+                [1] = 0.7736195922,
+                [2] = 0.2953846157,
+                [3] = 0.2281851961,
+                [4] = 0.3683423947,
+                [5] = 2998,
+                [6] = "安塞·哈勒拉",
+            },
+        },
+        ["rivenspire/rivenspire_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2951753438,
+                [2] = 0.4598911405,
+                [3] = 0.1543355975,
+                [4] = 0.2374320001,
+                [5] = 4927,
+                [6] = "安杜萨·达罗",
+            },
+            [2] = 
+            {
+                [1] = 0.2863215506,
+                [2] = 0.4677736461,
+                [3] = 0.1532599997,
+                [4] = 0.2383896015,
+                [5] = 4928,
+                [6] = "安杜萨·达罗",
+            },
+            [3] = 
+            {
+                [1] = 0.2854983807,
+                [2] = 0.4694330990,
+                [3] = 0.1531599974,
+                [4] = 0.2385911992,
+                [5] = 4929,
+                [6] = "安杜萨·达罗",
+            },
+            [4] = 
+            {
+                [1] = 0.5250221491,
+                [2] = 0.2143221647,
+                [3] = 0.1822583984,
+                [4] = 0.2075992007,
+                [5] = 4956,
+                [6] = "克兰多尔的日记",
             },
         },
         ["stormhaven/stormhaven_base_0"] = 
@@ -4233,741 +1860,6 @@ LibQuestData_SavedVariables =
                 [6] = "亞卡迪·查尼斯",
             },
         },
-        ["bangkorai/evermore_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2416020036,
-                [2] = 0.5965569615,
-                [3] = 0.2783859992,
-                [4] = 0.3180636050,
-                [5] = 1799,
-                [6] = "安提夫中士",
-            },
-            [2] = 
-            {
-                [1] = 0.3357416689,
-                [2] = 0.5022745728,
-                [3] = 0.2804967988,
-                [4] = 0.3159496052,
-                [5] = 3280,
-                [6] = "阿哲菈女王",
-            },
-            [3] = 
-            {
-                [1] = 0.5372223854,
-                [2] = 0.6199268699,
-                [3] = 0.2850143996,
-                [4] = 0.3185876051,
-                [5] = 3281,
-                [6] = "奇怪的乌鸦",
-            },
-            [4] = 
-            {
-                [1] = 0.6569440961,
-                [2] = 0.2152885497,
-                [3] = 0.2876987999,
-                [4] = 0.3095148043,
-                [5] = 4980,
-                [6] = "洛萨·内尔瓦尼",
-            },
-            [5] = 
-            {
-                [1] = 0.5304790139,
-                [2] = 0.3551690280,
-                [3] = 0.2848631997,
-                [4] = 0.3126512045,
-                [5] = 4981,
-                [6] = "扎格",
-            },
-            [6] = 
-            {
-                [1] = 0.6474355459,
-                [2] = 0.7267504930,
-                [3] = 0.2874855992,
-                [4] = 0.3209828044,
-                [5] = 4988,
-                [6] = "至高王埃默里克",
-            },
-        },
-        ["reapersmarch/rawlkha_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.6133454442,
-                [2] = 0.5338660479,
-                [3] = 0.4541216059,
-                [4] = 0.6174803947,
-                [5] = 6228,
-                [6] = "裝備製作日常",
-            },
-            [2] = 
-            {
-                [1] = 0.7663468719,
-                [2] = 0.3928990066,
-                [3] = 0.4566796061,
-                [4] = 0.6151235950,
-                [5] = 5406,
-                [6] = "消耗品製作日常",
-            },
-            [3] = 
-            {
-                [1] = 0.7663468719,
-                [2] = 0.3928990066,
-                [3] = 0.4566796061,
-                [4] = 0.6151235950,
-                [5] = 6105,
-                [6] = "消耗品製作日常",
-            },
-            [4] = 
-            {
-                [1] = 0.7663468719,
-                [2] = 0.3928990066,
-                [3] = 0.4566796061,
-                [4] = 0.6151235950,
-                [5] = 5412,
-                [6] = "消耗品製作日常",
-            },
-            [5] = 
-            {
-                [1] = 0.6133454442,
-                [2] = 0.5338660479,
-                [3] = 0.4541216059,
-                [4] = 0.6174803947,
-                [5] = 5377,
-                [6] = "裝備製作日常",
-            },
-            [6] = 
-            {
-                [1] = 0.6133454442,
-                [2] = 0.5338660479,
-                [3] = 0.4541216059,
-                [4] = 0.6174803947,
-                [5] = 5395,
-                [6] = "裝備製作日常",
-            },
-            [7] = 
-            {
-                [1] = 0.6133454442,
-                [2] = 0.5338660479,
-                [3] = 0.4541216059,
-                [4] = 0.6174803947,
-                [5] = 5388,
-                [6] = "裝備製作日常",
-            },
-        },
-        ["alikr/sentinel_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2916399539,
-                [2] = 0.1576981246,
-                [3] = 0.1404695925,
-                [4] = 0.3835368037,
-                [5] = 3333,
-                [6] = "阿尔伯特·玛尔克队长",
-            },
-            [2] = 
-            {
-                [1] = 0.2121259719,
-                [2] = 0.5206794143,
-                [3] = 0.1378387931,
-                [4] = 0.3955464020,
-                [5] = 2130,
-                [6] = "巡卫队长扎菲拉",
-            },
-            [3] = 
-            {
-                [1] = 0.6790787578,
-                [2] = 0.6943843365,
-                [3] = 0.1532883921,
-                [4] = 0.4012936027,
-                [5] = 2408,
-                [6] = "法哈拉杰德王",
-            },
-            [4] = 
-            {
-                [1] = 0.2009429932,
-                [2] = 0.5806443691,
-                [3] = 0.1374687931,
-                [4] = 0.3975304024,
-                [5] = 3187,
-                [6] = "伊尔达尼",
-            },
-            [5] = 
-            {
-                [1] = 0.3669830263,
-                [2] = 0.5294203162,
-                [3] = 0.1429623933,
-                [4] = 0.3958356035,
-                [5] = 2161,
-                [6] = "可疑的猴子",
-            },
-        },
-        ["alikr/bergama_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.7871129513,
-                [2] = 0.2588266134,
-                [3] = 0.1955292030,
-                [4] = 0.4200608113,
-                [5] = 3482,
-                [6] = "伽罗德",
-            },
-            [2] = 
-            {
-                [1] = 0.5982815027,
-                [2] = 0.4475831985,
-                [3] = 0.1914944037,
-                [4] = 0.4240940110,
-                [5] = 3172,
-                [6] = "贾尼阿斯",
-            },
-            [3] = 
-            {
-                [1] = 0.6545546651,
-                [2] = 0.2142910659,
-                [3] = 0.1926968036,
-                [4] = 0.4191092114,
-                [5] = 2251,
-                [6] = "卡迪姆",
-            },
-            [4] = 
-            {
-                [1] = 0.8777003884,
-                [2] = 0.2991313934,
-                [3] = 0.1974648029,
-                [4] = 0.4209220116,
-                [5] = 2344,
-                [6] = "莱塔",
-            },
-        },
-        ["bangkorai/bangkorai_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4596019089,
-                [2] = 0.3013931513,
-                [3] = 0.2904156053,
-                [4] = 0.3084543969,
-                [5] = 3530,
-                [6] = "命运女巫黛尔菲克",
-            },
-            [2] = 
-            {
-                [1] = 0.4604485631,
-                [2] = 0.3052508533,
-                [3] = 0.2905256043,
-                [4] = 0.3089555973,
-                [5] = 4899,
-                [6] = "尤吉恩·盖尔克罗夫特队长",
-            },
-            [3] = 
-            {
-                [1] = 0.6989516616,
-                [2] = 0.1782176942,
-                [3] = 0.3215124044,
-                [4] = 0.2924511948,
-                [5] = 1834,
-                [6] = "命运女巫芙蕾达",
-            },
-            [4] = 
-            {
-                [1] = 0.6584350467,
-                [2] = 0.1491479576,
-                [3] = 0.3162484047,
-                [4] = 0.2886743965,
-                [5] = 1835,
-                [6] = "命运女巫莎妮娅",
-            },
-            [5] = 
-            {
-                [1] = 0.6611474752,
-                [2] = 0.2284016609,
-                [3] = 0.3166008088,
-                [4] = 0.2989711963,
-                [5] = 4766,
-                [6] = "雷诺瓦·里昂席勒",
-            },
-            [6] = 
-            {
-                [1] = 0.6028355360,
-                [2] = 0.1464540213,
-                [3] = 0.3090248049,
-                [4] = 0.2883243949,
-                [5] = 4891,
-                [6] = "命运女巫拉善",
-            },
-            [7] = 
-            {
-                [1] = 0.4388910234,
-                [2] = 0.5437939763,
-                [3] = 0.2877248055,
-                [4] = 0.3399475975,
-                [5] = 4938,
-                [6] = "命运女巫林奈尔",
-            },
-            [8] = 
-            {
-                [1] = 0.2906697989,
-                [2] = 0.6293098927,
-                [3] = 0.2684676072,
-                [4] = 0.3510579966,
-                [5] = 4970,
-                [6] = "卡瑟尼亚",
-            },
-            [9] = 
-            {
-                [1] = 0.3259648085,
-                [2] = 0.6414741278,
-                [3] = 0.2730532055,
-                [4] = 0.3526383984,
-                [5] = 4969,
-                [6] = "纳詹",
-            },
-            [10] = 
-            {
-                [1] = 0.5602807999,
-                [2] = 0.7213035226,
-                [3] = 0.3034960084,
-                [4] = 0.3630099932,
-                [5] = 4989,
-                [6] = "吉安雅克·奥里斯",
-            },
-            [11] = 
-            {
-                [1] = 0.6534320712,
-                [2] = 0.4902757108,
-                [3] = 0.3155984081,
-                [4] = 0.3329943973,
-                [5] = 4982,
-                [6] = "图尔珊·戴尔",
-            },
-            [12] = 
-            {
-                [1] = 0.5836763382,
-                [2] = 0.6518064737,
-                [3] = 0.3065356036,
-                [4] = 0.3539807975,
-                [5] = 3963,
-                [6] = "达玛尔",
-            },
-            [13] = 
-            {
-                [1] = 0.6484598517,
-                [2] = 0.6205538511,
-                [3] = 0.3149524074,
-                [4] = 0.3499203942,
-                [5] = 3496,
-                [6] = "甲虫马兹拉赫",
-            },
-            [14] = 
-            {
-                [1] = 0.6300703287,
-                [2] = 0.6557934880,
-                [3] = 0.3125632037,
-                [4] = 0.3544987984,
-                [5] = 4986,
-                [6] = "华杜什队长",
-            },
-            [15] = 
-            {
-                [1] = 0.5273040533,
-                [2] = 0.5828789473,
-                [3] = 0.2992116034,
-                [4] = 0.3450255952,
-                [5] = 6023,
-                [6] = "先眼教团快信",
-            },
-            [16] = 
-            {
-                [1] = 0.4721509814,
-                [2] = 0.5493049622,
-                [3] = 0.2920460059,
-                [4] = 0.3406635958,
-                [5] = 4912,
-                [6] = "至高王埃默里克",
-            },
-            [17] = 
-            {
-                [1] = 0.5171195269,
-                [2] = 0.4915841818,
-                [3] = 0.2978884094,
-                [4] = 0.3331643965,
-                [5] = 4900,
-                [6] = "疯眼",
-            },
-            [18] = 
-            {
-                [1] = 0.3916072845,
-                [2] = 0.8554701805,
-                [3] = 0.2815816075,
-                [4] = 0.3804411941,
-                [5] = 4898,
-                [6] = "拉汉纳尔",
-            },
-            [19] = 
-            {
-                [1] = 0.3806714714,
-                [2] = 0.7323747873,
-                [3] = 0.2801608047,
-                [4] = 0.3644483941,
-                [5] = 3317,
-                [6] = "克拉丽斯·劳伦特夫人",
-            },
-            [20] = 
-            {
-                [1] = 0.5459491014,
-                [2] = 0.6022228599,
-                [3] = 0.3016340054,
-                [4] = 0.3475387951,
-                [5] = 4978,
-                [6] = "至高王埃默里克",
-            },
-            [21] = 
-            {
-                [1] = 0.4417327344,
-                [2] = 0.8388263583,
-                [3] = 0.2880940063,
-                [4] = 0.3782787954,
-                [5] = 4959,
-                [6] = "至高王埃默里克",
-            },
-            [22] = 
-            {
-                [1] = 0.4886716604,
-                [2] = 0.1401056051,
-                [3] = 0.2941924056,
-                [4] = 0.2874995959,
-                [5] = 1802,
-                [6] = "赫拉德·基莎蒂",
-            },
-            [23] = 
-            {
-                [1] = 0.4564307928,
-                [2] = 0.1702098250,
-                [3] = 0.2900036075,
-                [4] = 0.2914107965,
-                [5] = 3335,
-                [6] = "尤贝拉·布吕尔中士",
-            },
-            [24] = 
-            {
-                [1] = 0.4532719553,
-                [2] = 0.4246517122,
-                [3] = 0.2895932050,
-                [4] = 0.3244683960,
-                [5] = 3533,
-                [6] = "掘墓者洛特",
-            },
-            [25] = 
-            {
-                [1] = 0.5162451267,
-                [2] = 0.3996428549,
-                [3] = 0.2977748055,
-                [4] = 0.3212191951,
-                [5] = 4881,
-                [6] = "命运女巫迪玛拉",
-            },
-        },
-        ["elsweyr/rimmen_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2790080011,
-                [2] = 0.4242931902,
-                [3] = 0.5670687726,
-                [4] = 0.6182843961,
-                [5] = 5394,
-                [6] = "裝備製作日常",
-            },
-            [2] = 
-            {
-                [1] = 0.2790080011,
-                [2] = 0.4242931902,
-                [3] = 0.5670687726,
-                [4] = 0.6182843961,
-                [5] = 5368,
-                [6] = "裝備製作日常",
-            },
-            [3] = 
-            {
-                [1] = 0.2790080011,
-                [2] = 0.4242931902,
-                [3] = 0.5670687726,
-                [4] = 0.6182843961,
-                [5] = 5374,
-                [6] = "裝備製作日常",
-            },
-            [4] = 
-            {
-                [1] = 0.2790080011,
-                [2] = 0.4242931902,
-                [3] = 0.5670687726,
-                [4] = 0.6182843961,
-                [5] = 6227,
-                [6] = "裝備製作日常",
-            },
-            [5] = 
-            {
-                [1] = 0.2911832035,
-                [2] = 0.4230470657,
-                [3] = 0.5673071728,
-                [4] = 0.6182599960,
-                [5] = 5409,
-                [6] = "消耗品製作日常",
-            },
-            [6] = 
-            {
-                [1] = 0.2911832035,
-                [2] = 0.4230470657,
-                [3] = 0.5673071728,
-                [4] = 0.6182599960,
-                [5] = 5400,
-                [6] = "消耗品製作日常",
-            },
-            [7] = 
-            {
-                [1] = 0.2911832035,
-                [2] = 0.4230470657,
-                [3] = 0.5673071728,
-                [4] = 0.6182599960,
-                [5] = 6104,
-                [6] = "消耗品製作日常",
-            },
-            [8] = 
-            {
-                [1] = 0.2793961465,
-                [2] = 0.4244770408,
-                [3] = 0.5670763728,
-                [4] = 0.6182879960,
-                [5] = 5396,
-                [6] = "裝備製作日常",
-            },
-            [9] = 
-            {
-                [1] = 0.2793961465,
-                [2] = 0.4244770408,
-                [3] = 0.5670763728,
-                [4] = 0.6182879960,
-                [5] = 5392,
-                [6] = "裝備製作日常",
-            },
-            [10] = 
-            {
-                [1] = 0.2793961465,
-                [2] = 0.4244770408,
-                [3] = 0.5670763728,
-                [4] = 0.6182879960,
-                [5] = 5389,
-                [6] = "裝備製作日常",
-            },
-            [11] = 
-            {
-                [1] = 0.2793961465,
-                [2] = 0.4244770408,
-                [3] = 0.5670763728,
-                [4] = 0.6182879960,
-                [5] = 6218,
-                [6] = "裝備製作日常",
-            },
-            [12] = 
-            {
-                [1] = 0.2931034565,
-                [2] = 0.4245178998,
-                [3] = 0.5673447729,
-                [4] = 0.6182887961,
-                [5] = 5413,
-                [6] = "消耗品製作日常",
-            },
-            [13] = 
-            {
-                [1] = 0.2931034565,
-                [2] = 0.4245178998,
-                [3] = 0.5673447729,
-                [4] = 0.6182887961,
-                [5] = 5407,
-                [6] = "消耗品製作日常",
-            },
-            [14] = 
-            {
-                [1] = 0.2931034565,
-                [2] = 0.4245178998,
-                [3] = 0.5673447729,
-                [4] = 0.6182887961,
-                [5] = 6098,
-                [6] = "消耗品製作日常",
-            },
-            [15] = 
-            {
-                [1] = 0.2942270041,
-                [2] = 0.4233943522,
-                [3] = 0.5673667728,
-                [4] = 0.6182667961,
-                [5] = 6099,
-                [6] = "消耗品製作日常",
-            },
-            [16] = 
-            {
-                [1] = 0.2797842920,
-                [2] = 0.4244565964,
-                [3] = 0.5670839730,
-                [4] = 0.6182875957,
-                [5] = 5395,
-                [6] = "裝備製作日常",
-            },
-            [17] = 
-            {
-                [1] = 0.2797842920,
-                [2] = 0.4244565964,
-                [3] = 0.5670839730,
-                [4] = 0.6182875957,
-                [5] = 5377,
-                [6] = "裝備製作日常",
-            },
-            [18] = 
-            {
-                [1] = 0.2797842920,
-                [2] = 0.4244565964,
-                [3] = 0.5670839730,
-                [4] = 0.6182875957,
-                [5] = 5388,
-                [6] = "裝備製作日常",
-            },
-            [19] = 
-            {
-                [1] = 0.2797842920,
-                [2] = 0.4244565964,
-                [3] = 0.5670839730,
-                [4] = 0.6182875957,
-                [5] = 6228,
-                [6] = "裝備製作日常",
-            },
-            [20] = 
-            {
-                [1] = 0.2945538461,
-                [2] = 0.4226385057,
-                [3] = 0.5673731727,
-                [4] = 0.6182519961,
-                [5] = 5412,
-                [6] = "消耗品製作日常",
-            },
-            [21] = 
-            {
-                [1] = 0.2945538461,
-                [2] = 0.4226385057,
-                [3] = 0.5673731727,
-                [4] = 0.6182519961,
-                [5] = 5406,
-                [6] = "消耗品製作日常",
-            },
-            [22] = 
-            {
-                [1] = 0.2945538461,
-                [2] = 0.4226385057,
-                [3] = 0.5673731727,
-                [4] = 0.6182519961,
-                [5] = 6100,
-                [6] = "消耗品製作日常",
-            },
-            [23] = 
-            {
-                [1] = 0.2932055891,
-                [2] = 0.4245178998,
-                [3] = 0.5673467727,
-                [4] = 0.6182887961,
-                [5] = 6101,
-                [6] = "消耗品製作日常",
-            },
-            [24] = 
-            {
-                [1] = 0.2946559787,
-                [2] = 0.4235373437,
-                [3] = 0.5673751725,
-                [4] = 0.6182695960,
-                [5] = 6102,
-                [6] = "消耗品製作日常",
-            },
-            [25] = 
-            {
-                [1] = 0.2933690250,
-                [2] = 0.4245178998,
-                [3] = 0.5673499729,
-                [4] = 0.6182887961,
-                [5] = 6105,
-                [6] = "消耗品製作日常",
-            },
-        },
-        ["bangkorai/hallofheroes_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.7249435186,
-                [2] = 0.5995638967,
-                [3] = 0.2963148141,
-                [4] = 0.3926948079,
-                [5] = 4960,
-                [6] = "大厅守护者",
-            },
-        },
-        ["stonefalls/tormented_spire_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2801007330,
-                [2] = 0.4363852143,
-                [3] = 0.7145999736,
-                [4] = 0.4724388070,
-                [5] = 3837,
-                [6] = "坦瓦尔·因多里尔",
-            },
-            [2] = 
-            {
-                [1] = 0.3779008090,
-                [2] = 0.5111036897,
-                [3] = 0.7164795738,
-                [4] = 0.4738748065,
-                [5] = 3868,
-                [6] = "坦瓦尔·因多里尔",
-            },
-        },
-        ["alikr/imperviousvault_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.7380447984,
-                [2] = 0.5244148374,
-                [3] = 0.1571475999,
-                [4] = 0.3986387921,
-                [5] = 3566,
-                [6] = "法哈拉杰德王",
-            },
-        },
-        ["summerset/alinor_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4330449402,
-                [2] = 0.5943607688,
-                [3] = 0.0721892025,
-                [4] = 0.7671435799,
-                [5] = 6083,
-                [6] = "法罗薇尔法官",
-            },
-        },
-        ["skyrim/kynesaegismap001_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.7064903975,
-                [2] = 0.6754787564,
-                [3] = 0.4066003969,
-                [4] = 0.1486724006,
-                [5] = 6503,
-                [6] = "Armory Station",
-            },
-        },
         ["vvardenfell/vvardenfell_base_0"] = 
         {
             [1] = 
@@ -4987,297 +1879,6 @@ LibQuestData_SavedVariables =
                 [4] = 0.3419616107,
                 [5] = 5975,
                 [6] = "Sealed Woodworking Writ",
-            },
-        },
-        ["stormhaven/wayrest_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2345678955,
-                [2] = 0.0539402328,
-                [3] = 0.2153336022,
-                [4] = 0.3254024068,
-                [5] = 1485,
-                [6] = "雅迪爾·查尼斯",
-            },
-        },
-        ["reapersmarch/reapersmarch_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4409461021,
-                [2] = 0.4965234101,
-                [3] = 0.4494051850,
-                [4] = 0.6098704054,
-                [5] = 6648,
-                [6] = "Sleek Creek House Courtyard",
-            },
-        },
-        ["stormhaven/koeglinvillage_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.6257067323,
-                [2] = 0.4999878705,
-                [3] = 0.1696896059,
-                [4] = 0.3101951967,
-                [5] = 2558,
-                [6] = "瑪格特·奧山特",
-            },
-            [2] = 
-            {
-                [1] = 0.3911091685,
-                [2] = 0.3329208195,
-                [3] = 0.1658224057,
-                [4] = 0.3074411966,
-                [5] = 2556,
-                [6] = "達比安公爵",
-            },
-            [3] = 
-            {
-                [1] = 0.3602678776,
-                [2] = 0.3403460383,
-                [3] = 0.1653140055,
-                [4] = 0.3075635968,
-                [5] = 4443,
-                [6] = "達比安公爵",
-            },
-        },
-        ["bangkorai/rubblebutte_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.8261288404,
-                [2] = 0.2899636328,
-                [3] = 0.2626356039,
-                [4] = 0.3550015988,
-                [5] = 4887,
-                [6] = "加格达",
-            },
-        },
-        ["systres/u34_gonfalonbaycity_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4478468895,
-                [2] = 0.3124401867,
-                [3] = 0.0694444027,
-                [4] = 0.6025108052,
-                [5] = 6818,
-                [6] = "韦尔德",
-            },
-            [2] = 
-            {
-                [1] = 0.4457535744,
-                [2] = 0.3049043119,
-                [3] = 0.0694304026,
-                [4] = 0.6024604053,
-                [5] = 6816,
-                [6] = "帕里斯·普劳夫",
-            },
-            [3] = 
-            {
-                [1] = 0.4556220174,
-                [2] = 0.3349282444,
-                [3] = 0.0694964027,
-                [4] = 0.6026612053,
-                [5] = 6813,
-                [6] = "德鲁伊皮斯卡",
-            },
-            [4] = 
-            {
-                [1] = 0.4502392411,
-                [2] = 0.3142942488,
-                [3] = 0.0694604027,
-                [4] = 0.6025232052,
-                [5] = 6825,
-                [6] = "韦尔德",
-            },
-            [5] = 
-            {
-                [1] = 0.4461722374,
-                [2] = 0.3029306233,
-                [3] = 0.0694332026,
-                [4] = 0.6024472052,
-                [5] = 6821,
-                [6] = "帕里斯·普劳夫",
-            },
-            [6] = 
-            {
-                [1] = 0.4379186630,
-                [2] = 0.3107655644,
-                [3] = 0.0693780027,
-                [4] = 0.6024996053,
-                [5] = 6789,
-                [6] = "伊索贝尔·维罗伊斯",
-            },
-        },
-        ["alikr/shorecave_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5990512967,
-                [2] = 0.6290189028,
-                [3] = 0.1531432011,
-                [4] = 0.3937312063,
-                [5] = 2146,
-                [6] = "阿扎王子",
-            },
-        },
-        ["bangkorai/bisnensel_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.3172216117,
-                [2] = 0.6017901897,
-                [3] = 0.2933600084,
-                [4] = 0.2854452009,
-                [5] = 1804,
-                [6] = "赫拉德·基莎蒂",
-            },
-        },
-        ["thievesguild/hewsbane_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.6501249075,
-                [2] = 0.7761983871,
-                [3] = 0.2485984071,
-                [4] = 0.5333128193,
-                [5] = 6021,
-                [6] = "Sealed Clothier Writ",
-            },
-        },
-        ["stonefalls/ebonheart_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4742273390,
-                [2] = 0.7549706101,
-                [3] = 0.7385404056,
-                [4] = 0.4561360121,
-                [5] = 3662,
-                [6] = "赫拉尔加·斯通克鲁什",
-            },
-            [2] = 
-            {
-                [1] = 0.5416041613,
-                [2] = 0.6169497967,
-                [3] = 0.7405696068,
-                [4] = 0.4519792115,
-                [5] = 3863,
-                [6] = "纳里尔·赫勒兰",
-            },
-            [3] = 
-            {
-                [1] = 0.5242320299,
-                [2] = 0.4148327112,
-                [3] = 0.7400464069,
-                [4] = 0.4458920107,
-                [5] = 3645,
-                [6] = "扎沙-加",
-            },
-            [4] = 
-            {
-                [1] = 0.4820766747,
-                [2] = 0.8545415998,
-                [3] = 0.7387768056,
-                [4] = 0.4591348115,
-                [5] = 3667,
-                [6] = "侍祭马德拉纳",
-            },
-            [5] = 
-            {
-                [1] = 0.3844846189,
-                [2] = 0.7945094705,
-                [3] = 0.7358376060,
-                [4] = 0.4573268118,
-                [5] = 3639,
-                [6] = "尼尔西斯",
-            },
-            [6] = 
-            {
-                [1] = 0.5833610296,
-                [2] = 0.8350178599,
-                [3] = 0.7418272068,
-                [4] = 0.4585468111,
-                [5] = 3865,
-                [6] = "莎莉·库伦",
-            },
-        },
-        ["elsweyr/sunspirehall001_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4828711152,
-                [2] = 0.1435562819,
-                [3] = 0.5069664028,
-                [4] = 0.6876095752,
-                [5] = 6353,
-                [6] = "Jena Calvus",
-            },
-        },
-        ["craglorn/trl_so_map01_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4607354105,
-                [2] = 0.8321031928,
-                [3] = 0.3957120020,
-                [4] = 0.3218116036,
-                [5] = 5171,
-                [6] = "費澤斯，隨身商人助手",
-            },
-        },
-        ["alikr/salasen_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2256141603,
-                [2] = 0.7108792663,
-                [3] = 0.1357967966,
-                [4] = 0.4357267987,
-                [5] = 3305,
-                [6] = "古拉克",
-            },
-        },
-        ["bangkorai/hallinsstand_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5275855064,
-                [2] = 0.3876014054,
-                [3] = 0.2657388008,
-                [4] = 0.3639003973,
-                [5] = 2017,
-                [6] = "娅菈",
-            },
-            [2] = 
-            {
-                [1] = 0.4494809210,
-                [2] = 0.6385658383,
-                [3] = 0.2635360015,
-                [4] = 0.3709783975,
-                [5] = 2018,
-                [6] = "红角蝰乌法",
-            },
-            [3] = 
-            {
-                [1] = 0.3031854630,
-                [2] = 0.4932206273,
-                [3] = 0.2594100014,
-                [4] = 0.3668791974,
-                [5] = 4918,
-                [6] = "红角蝰乌法",
-            },
-            [4] = 
-            {
-                [1] = 0.5483775139,
-                [2] = 0.4927242398,
-                [3] = 0.2663252020,
-                [4] = 0.3668651976,
-                [5] = 2016,
-                [6] = "艾玛",
             },
         },
         ["stonefalls/balfoyen_base_0"] = 
@@ -5337,738 +1938,6 @@ LibQuestData_SavedVariables =
                 [6] = "猎人达尔吉",
             },
         },
-        ["stormhaven/portdunwatch_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4575012922,
-                [2] = 0.3020993471,
-                [3] = 0.1874740037,
-                [4] = 0.2996040044,
-                [5] = 4565,
-                [6] = "瑞米·貝拉德",
-            },
-        },
-        ["alikr/alkiroutlawrefuge_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.4034890234,
-                [2] = 0.6274620295,
-                [3] = 0.1477283958,
-                [4] = 0.3954175942,
-                [5] = 5531,
-                [6] = "葵恩",
-            },
-        },
-        ["stonefalls/kragenmoor_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5359903574,
-                [2] = 0.6595556140,
-                [3] = 0.6932823978,
-                [4] = 0.4744396026,
-                [5] = 3697,
-                [6] = "罗·萨瓦尼",
-            },
-            [2] = 
-            {
-                [1] = 0.5038818121,
-                [2] = 0.3610748649,
-                [3] = 0.6925147981,
-                [4] = 0.4673040023,
-                [5] = 3695,
-                [6] = "族长奥明·德雷斯",
-            },
-            [3] = 
-            {
-                [1] = 0.4667202234,
-                [2] = 0.4524478912,
-                [3] = 0.6916263982,
-                [4] = 0.4694884024,
-                [5] = 3789,
-                [6] = "一笑而过",
-            },
-            [4] = 
-            {
-                [1] = 0.4400327802,
-                [2] = 0.4194692671,
-                [3] = 0.6909883975,
-                [4] = 0.4687000022,
-                [5] = 3696,
-                [6] = "戴钮·法仁",
-            },
-            [5] = 
-            {
-                [1] = 0.5069270134,
-                [2] = 0.3544992208,
-                [3] = 0.6925875979,
-                [4] = 0.4671468023,
-                [5] = 3788,
-                [6] = "族长奥明·德雷斯",
-            },
-            [6] = 
-            {
-                [1] = 0.5069270134,
-                [2] = 0.3544992208,
-                [3] = 0.6925875979,
-                [4] = 0.4671468023,
-                [5] = 3698,
-                [6] = "森·德雷斯",
-            },
-        },
-        ["vvardenfell/viviccity_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2431764901,
-                [2] = 0.3384788036,
-                [3] = 0.7669107723,
-                [4] = 0.3759495984,
-                [5] = 6654,
-                [6] = "Xalvakka's Head",
-            },
-        },
-        ["bleakrock/bleakrockvillage_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.7847324014,
-                [2] = 0.4688437581,
-                [3] = 0.6827136056,
-                [4] = 0.2661460009,
-                [5] = 4002,
-                [6] = "队长拉纳",
-            },
-            [2] = 
-            {
-                [1] = 0.1472332776,
-                [2] = 0.4288605154,
-                [3] = 0.6790592057,
-                [4] = 0.2659168009,
-                [5] = 3999,
-                [6] = "哈尔梅拉",
-            },
-        },
-        ["stonefalls/stonefalls_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.8049607277,
-                [2] = 0.5092484355,
-                [3] = 0.7754995899,
-                [4] = 0.4530391961,
-                [5] = 3602,
-                [6] = "德雷尔登·奥恩",
-            },
-            [2] = 
-            {
-                [1] = 0.8406982422,
-                [2] = 0.4842035770,
-                [3] = 0.7805971888,
-                [4] = 0.4494667976,
-                [5] = 3592,
-                [6] = "古拉夫·赫罗森",
-            },
-            [3] = 
-            {
-                [1] = 0.8501822948,
-                [2] = 0.4077061117,
-                [3] = 0.7819499940,
-                [4] = 0.4385551996,
-                [5] = 3590,
-                [6] = "罗拉克中士",
-            },
-            [4] = 
-            {
-                [1] = 0.8164890409,
-                [2] = 0.4350476861,
-                [3] = 0.7771439884,
-                [4] = 0.4424552016,
-                [5] = 3598,
-                [6] = "里莎",
-            },
-            [5] = 
-            {
-                [1] = 0.8654010296,
-                [2] = 0.4246438444,
-                [3] = 0.7841207942,
-                [4] = 0.4409711977,
-                [5] = 3594,
-                [6] = "伊克西·乌萨",
-            },
-            [6] = 
-            {
-                [1] = 0.7452663779,
-                [2] = 0.5797700286,
-                [3] = 0.7669847882,
-                [4] = 0.4630983958,
-                [5] = 3615,
-                [6] = "欧努加",
-            },
-            [7] = 
-            {
-                [1] = 0.7731519938,
-                [2] = 0.6441643238,
-                [3] = 0.7709623922,
-                [4] = 0.4722835977,
-                [5] = 3616,
-                [6] = "马沃斯·西洛雷斯",
-            },
-            [8] = 
-            {
-                [1] = 0.7727369666,
-                [2] = 0.6403084397,
-                [3] = 0.7709031928,
-                [4] = 0.4717335944,
-                [5] = 3618,
-                [6] = "欧努加",
-            },
-            [9] = 
-            {
-                [1] = 0.7044980526,
-                [2] = 0.5330370069,
-                [3] = 0.7611695944,
-                [4] = 0.4564323978,
-                [5] = 3736,
-                [6] = "中士贾吉尔",
-            },
-            [10] = 
-            {
-                [1] = 0.7265563607,
-                [2] = 0.5499439240,
-                [3] = 0.7643159914,
-                [4] = 0.4588440004,
-                [5] = 3734,
-                [6] = "加林·因多里尔",
-            },
-            [11] = 
-            {
-                [1] = 0.7338530421,
-                [2] = 0.4102860391,
-                [3] = 0.7653567900,
-                [4] = 0.4389232004,
-                [5] = 3735,
-                [6] = "踏灰",
-            },
-            [12] = 
-            {
-                [1] = 0.7661581635,
-                [2] = 0.6221817136,
-                [3] = 0.7699647923,
-                [4] = 0.4691479983,
-                [5] = 3617,
-                [6] = "巴拉",
-            },
-            [13] = 
-            {
-                [1] = 0.6658216715,
-                [2] = 0.5650196075,
-                [3] = 0.7556527957,
-                [4] = 0.4609943958,
-                [5] = 3670,
-                [6] = "尼波什",
-            },
-            [14] = 
-            {
-                [1] = 0.6343662143,
-                [2] = 0.6385950446,
-                [3] = 0.7511659894,
-                [4] = 0.4714891957,
-                [5] = 3583,
-                [6] = "霍姆队长",
-            },
-            [15] = 
-            {
-                [1] = 0.6326977015,
-                [2] = 0.6914890409,
-                [3] = 0.7509279927,
-                [4] = 0.4790339951,
-                [5] = 3591,
-                [6] = "拉里队长",
-            },
-            [16] = 
-            {
-                [1] = 0.5176331997,
-                [2] = 0.6519489884,
-                [3] = 0.7345151928,
-                [4] = 0.4733940022,
-                [5] = 3520,
-                [6] = "术士武纳尔",
-            },
-            [17] = 
-            {
-                [1] = 0.4988979101,
-                [2] = 0.6360459924,
-                [3] = 0.7318427912,
-                [4] = 0.4711255989,
-                [5] = 3622,
-                [6] = "术士尼莱",
-            },
-            [18] = 
-            {
-                [1] = 0.3377509713,
-                [2] = 0.5931379795,
-                [3] = 0.7088567927,
-                [4] = 0.4650052002,
-                [5] = 1489,
-                [6] = "加仑德罗坦",
-            },
-            [19] = 
-            {
-                [1] = 0.3264470100,
-                [2] = 0.6040297151,
-                [3] = 0.7072443958,
-                [4] = 0.4665587973,
-                [5] = 3854,
-                [6] = "瓦尔丹姆·安多伦",
-            },
-            [20] = 
-            {
-                [1] = 0.8233118057,
-                [2] = 0.4570779502,
-                [3] = 0.7781171876,
-                [4] = 0.4455975984,
-                [5] = 5045,
-                [6] = "苏尔德拉什",
-            },
-            [21] = 
-            {
-                [1] = 0.2736847997,
-                [2] = 0.5621789098,
-                [3] = 0.6997183944,
-                [4] = 0.4605891987,
-                [5] = 5037,
-                [6] = "达西琳",
-            },
-            [22] = 
-            {
-                [1] = 0.1872966886,
-                [2] = 0.5319573879,
-                [3] = 0.6873959947,
-                [4] = 0.4562784010,
-                [5] = 5039,
-                [6] = "卡罗恩",
-            },
-            [23] = 
-            {
-                [1] = 0.1604851335,
-                [2] = 0.5520975590,
-                [3] = 0.6835715946,
-                [4] = 0.4591511948,
-                [5] = 3646,
-                [6] = "费尔德西·马伦",
-            },
-            [24] = 
-            {
-                [1] = 0.1389988810,
-                [2] = 0.5704851151,
-                [3] = 0.6805067956,
-                [4] = 0.4617739957,
-                [5] = 3647,
-                [6] = "鲁瓦利·马诺施莱尔",
-            },
-            [25] = 
-            {
-                [1] = 0.1411441416,
-                [2] = 0.5839203596,
-                [3] = 0.6808127956,
-                [4] = 0.4636903990,
-                [5] = 3648,
-                [6] = "卡提斯",
-            },
-            [26] = 
-            {
-                [1] = 0.1687521040,
-                [2] = 0.5209338069,
-                [3] = 0.6847507952,
-                [4] = 0.4547059974,
-                [5] = 3699,
-                [6] = "斥候加尔萨尔",
-            },
-            [27] = 
-            {
-                [1] = 0.1116432995,
-                [2] = 0.5066937804,
-                [3] = 0.6766047956,
-                [4] = 0.4526748001,
-                [5] = 3794,
-                [6] = "布雷斯策祭者",
-            },
-            [28] = 
-            {
-                [1] = 0.1113881096,
-                [2] = 0.5068676472,
-                [3] = 0.6765683954,
-                [4] = 0.4526996005,
-                [5] = 3806,
-                [6] = "修士塞米尔",
-            },
-            [29] = 
-            {
-                [1] = 0.2264638245,
-                [2] = 0.4244671762,
-                [3] = 0.6929827947,
-                [4] = 0.4409459977,
-                [5] = 3642,
-                [6] = "贝隆·泰尔瓦尼",
-            },
-            [30] = 
-            {
-                [1] = 0.2312422842,
-                [2] = 0.4774565399,
-                [3] = 0.6936643942,
-                [4] = 0.4485044003,
-                [5] = 3643,
-                [6] = "梅拉丽·泰尔瓦尼",
-            },
-            [31] = 
-            {
-                [1] = 0.2958581150,
-                [2] = 0.4567414522,
-                [3] = 0.7028811959,
-                [4] = 0.4455496003,
-                [5] = 3631,
-                [6] = "亨努斯",
-            },
-            [32] = 
-            {
-                [1] = 0.3636371195,
-                [2] = 0.5032866001,
-                [3] = 0.7125491928,
-                [4] = 0.4521887999,
-                [5] = 3621,
-                [6] = "克萝娅",
-            },
-            [33] = 
-            {
-                [1] = 0.4163011909,
-                [2] = 0.4381968677,
-                [3] = 0.7200611956,
-                [4] = 0.4429044009,
-                [5] = 3581,
-                [6] = "女祭司贝瑞拉",
-            },
-            [34] = 
-            {
-                [1] = 0.7263348103,
-                [2] = 0.5506870151,
-                [3] = 0.7642843894,
-                [4] = 0.4589499949,
-                [5] = 3737,
-                [6] = "踏灰",
-            },
-            [35] = 
-            {
-                [1] = 0.4719293416,
-                [2] = 0.5237548947,
-                [3] = 0.7279959948,
-                [4] = 0.4551083974,
-                [5] = 3584,
-                [6] = "诺里斯队长",
-            },
-            [36] = 
-            {
-                [1] = 0.2904963493,
-                [2] = 0.4184828997,
-                [3] = 0.7021163937,
-                [4] = 0.4400924006,
-                [5] = 3626,
-                [6] = "乌格贡",
-            },
-            [37] = 
-            {
-                [1] = 0.3187100291,
-                [2] = 0.3643465936,
-                [3] = 0.7061407929,
-                [4] = 0.4323703982,
-                [5] = 3627,
-                [6] = "法夫尼尔",
-            },
-            [38] = 
-            {
-                [1] = 0.3602383733,
-                [2] = 0.4469265342,
-                [3] = 0.7120643956,
-                [4] = 0.4441496004,
-                [5] = 5038,
-                [6] = "哈吉尔",
-            },
-            [39] = 
-            {
-                [1] = 0.2501009405,
-                [2] = 0.4166601300,
-                [3] = 0.6963543928,
-                [4] = 0.4398324007,
-                [5] = 3751,
-                [6] = "奇塔库斯",
-            },
-            [40] = 
-            {
-                [1] = 0.2466180623,
-                [2] = 0.3743999004,
-                [3] = 0.6958575951,
-                [4] = 0.4338044018,
-                [5] = 3917,
-                [6] = "诺亚西亚",
-            },
-            [41] = 
-            {
-                [1] = 0.2348065078,
-                [2] = 0.3694924414,
-                [3] = 0.6941727950,
-                [4] = 0.4331044019,
-                [5] = 3752,
-                [6] = "七腹长老",
-            },
-            [42] = 
-            {
-                [1] = 0.4655524492,
-                [2] = 0.5361637473,
-                [3] = 0.7270863949,
-                [4] = 0.4568783960,
-                [5] = 3671,
-                [6] = "霍尔根",
-            },
-            [43] = 
-            {
-                [1] = 0.3637436926,
-                [2] = 0.6133875251,
-                [3] = 0.7125643944,
-                [4] = 0.4678935953,
-                [5] = 5040,
-                [6] = "观万路",
-            },
-            [44] = 
-            {
-                [1] = 0.2401654571,
-                [2] = 0.2602271438,
-                [3] = 0.6949371955,
-                [4] = 0.4175188004,
-                [5] = 3632,
-                [6] = "中士约林",
-            },
-            [45] = 
-            {
-                [1] = 0.1816573143,
-                [2] = 0.2482641637,
-                [3] = 0.6865915943,
-                [4] = 0.4158124010,
-                [5] = 3634,
-                [6] = "坦瓦尔·因多里尔",
-            },
-            [46] = 
-            {
-                [1] = 0.3639820516,
-                [2] = 0.6140801907,
-                [3] = 0.7125983939,
-                [4] = 0.4679923971,
-                [5] = 3826,
-                [6] = "霍尔根",
-            },
-        },
-        ["stonefalls/crowswood_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5139418244,
-                [2] = 0.7904714346,
-                [3] = 0.5465219964,
-                [4] = -0.1843016000,
-                [5] = 3902,
-                [6] = "泰尔巴里·奥兰",
-            },
-            [2] = 
-            {
-                [1] = 0.2831494510,
-                [2] = 0.7255767584,
-                [3] = 0.5456015964,
-                [4] = -0.1845603999,
-                [5] = 3915,
-                [6] = "鸦中恶棍",
-            },
-        },
-        ["bangkorai/cryptoftheexiles_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.8421117067,
-                [2] = 0.6721915007,
-                [3] = 0.2894988041,
-                [4] = 0.3342280001,
-                [5] = 4864,
-                [6] = "来自骑士指挥官瓦莱尼的命令",
-            },
-        },
-        ["coldharbor/coldharbour_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5671658516,
-                [2] = 0.5430122614,
-                [3] = -0.0880320029,
-                [4] = 0.2364804044,
-                [5] = 6451,
-                [6] = "Sealed Jewelry Crafter Writ",
-            },
-        },
-        ["blackwood/u30_rg_map_outside_001_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.3208208084,
-                [2] = 0.1458958983,
-                [3] = 0.6917836282,
-                [4] = 0.7429579912,
-                [5] = 6654,
-                [6] = "神光井",
-            },
-            [2] = 
-            {
-                [1] = 0.3763763905,
-                [2] = 0.1231231242,
-                [3] = 0.6918724282,
-                [4] = 0.7429215912,
-                [5] = 6654,
-                [6] = "達比安公爵",
-            },
-        },
-        ["systres/u34_systreszone_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.6043914557,
-                [2] = 0.3576588035,
-                [3] = 0.0727640035,
-                [4] = 0.5804672019,
-                [5] = 6756,
-                [6] = "露娜·乔尔万尼",
-            },
-            [2] = 
-            {
-                [1] = 0.6077876687,
-                [2] = 0.5634256005,
-                [3] = 0.0729248034,
-                [4] = 0.5902096014,
-                [5] = 6780,
-                [6] = "致玛塞尔",
-            },
-            [3] = 
-            {
-                [1] = 0.4793312252,
-                [2] = 0.4842059016,
-                [3] = 0.0668428017,
-                [4] = 0.5864588021,
-                [5] = 6763,
-                [6] = "泰特斯·斯特罗",
-            },
-        },
-        ["rivenspire/shornhelm_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5205863714,
-                [2] = 0.3084767461,
-                [3] = 0.1709736032,
-                [4] = 0.2454172047,
-                [5] = 4926,
-                [6] = "安杜萨·达罗",
-            },
-        },
-        ["rivenspire/rivenspire_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.2951753438,
-                [2] = 0.4598911405,
-                [3] = 0.1543355975,
-                [4] = 0.2374320001,
-                [5] = 4927,
-                [6] = "安杜萨·达罗",
-            },
-            [2] = 
-            {
-                [1] = 0.2863215506,
-                [2] = 0.4677736461,
-                [3] = 0.1532599997,
-                [4] = 0.2383896015,
-                [5] = 4928,
-                [6] = "安杜萨·达罗",
-            },
-            [3] = 
-            {
-                [1] = 0.2854983807,
-                [2] = 0.4694330990,
-                [3] = 0.1531599974,
-                [4] = 0.2385911992,
-                [5] = 4929,
-                [6] = "安杜萨·达罗",
-            },
-            [4] = 
-            {
-                [1] = 0.5250221491,
-                [2] = 0.2143221647,
-                [3] = 0.1822583984,
-                [4] = 0.2075992007,
-                [5] = 4956,
-                [6] = "克兰多尔的日记",
-            },
-        },
-        ["rivenspire/hildunessecretrefuge_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.6918154359,
-                [2] = 0.3142472208,
-                [3] = 0.2035231984,
-                [4] = 0.2035607998,
-                [5] = 4839,
-                [6] = "娜达法的日记",
-            },
-        },
-        ["alikr/sandblownmine_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5547353625,
-                [2] = 0.4983508587,
-                [3] = 0.2384440065,
-                [4] = 0.4150304134,
-                [5] = 4638,
-                [6] = "给费德尔的信",
-            },
-        },
-        ["stormhaven/alcairecastle_base_0"] = 
-        {
-            [1] = 
-            {
-                [1] = 0.5173459053,
-                [2] = 0.6722764373,
-                [3] = 0.1678412055,
-                [4] = 0.2917124012,
-                [5] = 2552,
-                [6] = "法赫特夫人",
-            },
-            [2] = 
-            {
-                [1] = 0.4031224847,
-                [2] = 0.4347376823,
-                [3] = 0.1658512051,
-                [4] = 0.2875740011,
-                [5] = 2566,
-                [6] = "拉卡納公爵夫人",
-            },
-            [3] = 
-            {
-                [1] = 0.4044311643,
-                [2] = 0.4306049943,
-                [3] = 0.1658740049,
-                [4] = 0.2875020014,
-                [5] = 2576,
-                [6] = "拿瑟奈爾公爵",
-            },
-        },
         ["summerset/ui_map_cloudresttrial_base_0"] = 
         {
             [1] = 
@@ -6090,28 +1959,100 @@ LibQuestData_SavedVariables =
                 [6] = "Unknown Target",
             },
         },
-        ["vvardenfell/ui_map_hofabriccaves_base_0"] = 
+        ["alikr/sentinel_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.1011235937,
-                [2] = 0.7424902320,
-                [3] = 0.8185411990,
-                [4] = 0.3248668074,
-                [5] = 5894,
-                [6] = "Unknown Target",
+                [1] = 0.2916399539,
+                [2] = 0.1576981246,
+                [3] = 0.1404695925,
+                [4] = 0.3835368037,
+                [5] = 3333,
+                [6] = "阿尔伯特·玛尔克队长",
+            },
+            [2] = 
+            {
+                [1] = 0.2121259719,
+                [2] = 0.5206794143,
+                [3] = 0.1378387931,
+                [4] = 0.3955464020,
+                [5] = 2130,
+                [6] = "巡卫队长扎菲拉",
+            },
+            [3] = 
+            {
+                [1] = 0.6790787578,
+                [2] = 0.6943843365,
+                [3] = 0.1532883921,
+                [4] = 0.4012936027,
+                [5] = 2408,
+                [6] = "法哈拉杰德王",
+            },
+            [4] = 
+            {
+                [1] = 0.2009429932,
+                [2] = 0.5806443691,
+                [3] = 0.1374687931,
+                [4] = 0.3975304024,
+                [5] = 3187,
+                [6] = "伊尔达尼",
+            },
+            [5] = 
+            {
+                [1] = 0.3669830263,
+                [2] = 0.5294203162,
+                [3] = 0.1429623933,
+                [4] = 0.3958356035,
+                [5] = 2161,
+                [6] = "可疑的猴子",
             },
         },
-        ["guildmaps/fortvirakruin_base_0"] = 
+        ["alikr/sandblownmine_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.4738400877,
-                [2] = 0.8885488510,
-                [3] = 0.6848223958,
-                [4] = 0.4187555873,
-                [5] = 3633,
-                [6] = "踏灰",
+                [1] = 0.5547353625,
+                [2] = 0.4983508587,
+                [3] = 0.2384440065,
+                [4] = 0.4150304134,
+                [5] = 4638,
+                [6] = "给费德尔的信",
+            },
+        },
+        ["stormhaven/portdunwatch_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4575012922,
+                [2] = 0.3020993471,
+                [3] = 0.1874740037,
+                [4] = 0.2996040044,
+                [5] = 4565,
+                [6] = "瑞米·貝拉德",
+            },
+        },
+        ["elsweyr/sunspirehall001_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4828711152,
+                [2] = 0.1435562819,
+                [3] = 0.5069664028,
+                [4] = 0.6876095752,
+                [5] = 6353,
+                [6] = "Jena Calvus",
+            },
+        },
+        ["coldharbor/coldharbour_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.5671658516,
+                [2] = 0.5430122614,
+                [3] = -0.0880320029,
+                [4] = 0.2364804044,
+                [5] = 6451,
+                [6] = "Sealed Jewelry Crafter Writ",
             },
         },
         ["grahtwood/eldenrootgroundfloor_base_0"] = 
@@ -6576,6 +2517,393 @@ LibQuestData_SavedVariables =
                 [6] = 200045,
             },
         },
+        ["craglorn/craglorn_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2923291922,
+                [2] = 0.4207515419,
+                [3] = 0.3820920145,
+                [4] = 0.3464327944,
+                [5] = 5770,
+                [6] = "远征者达拉玛尔",
+            },
+            [2] = 
+            {
+                [1] = 0.3251211047,
+                [2] = 0.3352701962,
+                [3] = 0.3863156130,
+                [4] = 0.3354227967,
+                [5] = 5772,
+                [6] = "梅德里克·维格",
+            },
+        },
+        ["rivenspire/northpoint_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.3136259317,
+                [2] = 0.5176460743,
+                [3] = 0.2115007964,
+                [4] = 0.2077179995,
+                [5] = 5051,
+                [6] = "剑圣卡里阿",
+            },
+        },
+        ["summerset/alinor_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4330449402,
+                [2] = 0.5943607688,
+                [3] = 0.0721892025,
+                [4] = 0.7671435799,
+                [5] = 6083,
+                [6] = "法罗薇尔法官",
+            },
+        },
+        ["stonefalls/davonswatch_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2583375275,
+                [2] = 0.3931089342,
+                [3] = 0.7764491997,
+                [4] = 0.4263968087,
+                [5] = 3588,
+                [6] = "霍尔根",
+            },
+            [2] = 
+            {
+                [1] = 0.7637373209,
+                [2] = 0.7755022049,
+                [3] = 0.7909003992,
+                [4] = 0.4373308088,
+                [5] = 6299,
+                [6] = "阿内丝·德沃克斯",
+            },
+            [3] = 
+            {
+                [1] = 0.6554054022,
+                [2] = 0.6518801451,
+                [3] = 0.7878027996,
+                [4] = 0.4337960091,
+                [5] = 3585,
+                [6] = "霍尔根",
+            },
+            [4] = 
+            {
+                [1] = 0.6079262495,
+                [2] = 0.3274159133,
+                [3] = 0.7864451997,
+                [4] = 0.4245184087,
+                [5] = 3587,
+                [6] = "坦瓦尔·因多里尔",
+            },
+            [5] = 
+            {
+                [1] = 0.5798080564,
+                [2] = 0.3463432491,
+                [3] = 0.7856411994,
+                [4] = 0.4250596094,
+                [5] = 3589,
+                [6] = "坦瓦尔·因多里尔",
+            },
+            [6] = 
+            {
+                [1] = 0.4697974324,
+                [2] = 0.4093363583,
+                [3] = 0.7824955996,
+                [4] = 0.4268608092,
+                [5] = 1294,
+                [6] = "瓦尔丹姆·安多伦",
+            },
+            [7] = 
+            {
+                [1] = 0.4980415106,
+                [2] = 0.6556991935,
+                [3] = 0.7833031995,
+                [4] = 0.4339052095,
+                [5] = 3860,
+                [6] = "纳里尔·赫勒兰",
+            },
+        },
+        ["craglorn/helracitadelentry_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.6737004519,
+                [2] = 0.4719505906,
+                [3] = 0.3749040097,
+                [4] = 0.3723452021,
+                [5] = 5087,
+                [6] = "純淨水",
+            },
+        },
+        ["elsweyr/rimmen_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2790080011,
+                [2] = 0.4242931902,
+                [3] = 0.5670687726,
+                [4] = 0.6182843961,
+                [5] = 5394,
+                [6] = "裝備製作日常",
+            },
+            [2] = 
+            {
+                [1] = 0.2790080011,
+                [2] = 0.4242931902,
+                [3] = 0.5670687726,
+                [4] = 0.6182843961,
+                [5] = 5368,
+                [6] = "裝備製作日常",
+            },
+            [3] = 
+            {
+                [1] = 0.2790080011,
+                [2] = 0.4242931902,
+                [3] = 0.5670687726,
+                [4] = 0.6182843961,
+                [5] = 5374,
+                [6] = "裝備製作日常",
+            },
+            [4] = 
+            {
+                [1] = 0.2790080011,
+                [2] = 0.4242931902,
+                [3] = 0.5670687726,
+                [4] = 0.6182843961,
+                [5] = 6227,
+                [6] = "裝備製作日常",
+            },
+            [5] = 
+            {
+                [1] = 0.2911832035,
+                [2] = 0.4230470657,
+                [3] = 0.5673071728,
+                [4] = 0.6182599960,
+                [5] = 5409,
+                [6] = "消耗品製作日常",
+            },
+            [6] = 
+            {
+                [1] = 0.2911832035,
+                [2] = 0.4230470657,
+                [3] = 0.5673071728,
+                [4] = 0.6182599960,
+                [5] = 5400,
+                [6] = "消耗品製作日常",
+            },
+            [7] = 
+            {
+                [1] = 0.2911832035,
+                [2] = 0.4230470657,
+                [3] = 0.5673071728,
+                [4] = 0.6182599960,
+                [5] = 6104,
+                [6] = "消耗品製作日常",
+            },
+            [8] = 
+            {
+                [1] = 0.2793961465,
+                [2] = 0.4244770408,
+                [3] = 0.5670763728,
+                [4] = 0.6182879960,
+                [5] = 5396,
+                [6] = "裝備製作日常",
+            },
+            [9] = 
+            {
+                [1] = 0.2793961465,
+                [2] = 0.4244770408,
+                [3] = 0.5670763728,
+                [4] = 0.6182879960,
+                [5] = 5392,
+                [6] = "裝備製作日常",
+            },
+            [10] = 
+            {
+                [1] = 0.2793961465,
+                [2] = 0.4244770408,
+                [3] = 0.5670763728,
+                [4] = 0.6182879960,
+                [5] = 5389,
+                [6] = "裝備製作日常",
+            },
+            [11] = 
+            {
+                [1] = 0.2793961465,
+                [2] = 0.4244770408,
+                [3] = 0.5670763728,
+                [4] = 0.6182879960,
+                [5] = 6218,
+                [6] = "裝備製作日常",
+            },
+            [12] = 
+            {
+                [1] = 0.2931034565,
+                [2] = 0.4245178998,
+                [3] = 0.5673447729,
+                [4] = 0.6182887961,
+                [5] = 5413,
+                [6] = "消耗品製作日常",
+            },
+            [13] = 
+            {
+                [1] = 0.2931034565,
+                [2] = 0.4245178998,
+                [3] = 0.5673447729,
+                [4] = 0.6182887961,
+                [5] = 5407,
+                [6] = "消耗品製作日常",
+            },
+            [14] = 
+            {
+                [1] = 0.2931034565,
+                [2] = 0.4245178998,
+                [3] = 0.5673447729,
+                [4] = 0.6182887961,
+                [5] = 6098,
+                [6] = "消耗品製作日常",
+            },
+            [15] = 
+            {
+                [1] = 0.2942270041,
+                [2] = 0.4233943522,
+                [3] = 0.5673667728,
+                [4] = 0.6182667961,
+                [5] = 6099,
+                [6] = "消耗品製作日常",
+            },
+            [16] = 
+            {
+                [1] = 0.2797842920,
+                [2] = 0.4244565964,
+                [3] = 0.5670839730,
+                [4] = 0.6182875957,
+                [5] = 5395,
+                [6] = "裝備製作日常",
+            },
+            [17] = 
+            {
+                [1] = 0.2797842920,
+                [2] = 0.4244565964,
+                [3] = 0.5670839730,
+                [4] = 0.6182875957,
+                [5] = 5377,
+                [6] = "裝備製作日常",
+            },
+            [18] = 
+            {
+                [1] = 0.2797842920,
+                [2] = 0.4244565964,
+                [3] = 0.5670839730,
+                [4] = 0.6182875957,
+                [5] = 5388,
+                [6] = "裝備製作日常",
+            },
+            [19] = 
+            {
+                [1] = 0.2797842920,
+                [2] = 0.4244565964,
+                [3] = 0.5670839730,
+                [4] = 0.6182875957,
+                [5] = 6228,
+                [6] = "裝備製作日常",
+            },
+            [20] = 
+            {
+                [1] = 0.2945538461,
+                [2] = 0.4226385057,
+                [3] = 0.5673731727,
+                [4] = 0.6182519961,
+                [5] = 5412,
+                [6] = "消耗品製作日常",
+            },
+            [21] = 
+            {
+                [1] = 0.2945538461,
+                [2] = 0.4226385057,
+                [3] = 0.5673731727,
+                [4] = 0.6182519961,
+                [5] = 5406,
+                [6] = "消耗品製作日常",
+            },
+            [22] = 
+            {
+                [1] = 0.2945538461,
+                [2] = 0.4226385057,
+                [3] = 0.5673731727,
+                [4] = 0.6182519961,
+                [5] = 6100,
+                [6] = "消耗品製作日常",
+            },
+            [23] = 
+            {
+                [1] = 0.2932055891,
+                [2] = 0.4245178998,
+                [3] = 0.5673467727,
+                [4] = 0.6182887961,
+                [5] = 6101,
+                [6] = "消耗品製作日常",
+            },
+            [24] = 
+            {
+                [1] = 0.2946559787,
+                [2] = 0.4235373437,
+                [3] = 0.5673751725,
+                [4] = 0.6182695960,
+                [5] = 6102,
+                [6] = "消耗品製作日常",
+            },
+            [25] = 
+            {
+                [1] = 0.2933690250,
+                [2] = 0.4245178998,
+                [3] = 0.5673499729,
+                [4] = 0.6182887961,
+                [5] = 6105,
+                [6] = "消耗品製作日常",
+            },
+        },
+        ["rivenspire/shornhelm_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.5205863714,
+                [2] = 0.3084767461,
+                [3] = 0.1709736032,
+                [4] = 0.2454172047,
+                [5] = 4926,
+                [6] = "安杜萨·达罗",
+            },
+        },
+        ["vvardenfell/ui_map_hofabriccaves_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.1011235937,
+                [2] = 0.7424902320,
+                [3] = 0.8185411990,
+                [4] = 0.3248668074,
+                [5] = 5894,
+                [6] = "Unknown Target",
+            },
+        },
+        ["bangkorai/cryptoftheexiles_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.8421117067,
+                [2] = 0.6721915007,
+                [3] = 0.2894988041,
+                [4] = 0.3342280001,
+                [5] = 4864,
+                [6] = "来自骑士指挥官瓦莱尼的命令",
+            },
+        },
         ["bangkorai/murciensclaim_base_0"] = 
         {
             [1] = 
@@ -6588,360 +2916,4178 @@ LibQuestData_SavedVariables =
                 [6] = "历史学家玛加的来信",
             },
         },
-        ["alikr/lostcity_base_0"] = 
+        ["thievesguild/hewsbane_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.4923375845,
-                [2] = 0.9047833681,
-                [3] = 0.2235263925,
-                [4] = 0.3847279997,
-                [5] = 3964,
-                [6] = "帕尔丁",
+                [1] = 0.6501249075,
+                [2] = 0.7761983871,
+                [3] = 0.2485984071,
+                [4] = 0.5333128193,
+                [5] = 6021,
+                [6] = "Sealed Clothier Writ",
             },
         },
-        ["alikr/alikr_base_0"] = 
+        ["bangkorai/hallinsstand_base_0"] = 
         {
             [1] = 
             {
-                [1] = 0.2965372205,
-                [2] = 0.6581105590,
-                [3] = 0.1515276025,
-                [4] = 0.4266251978,
-                [5] = 4686,
-                [6] = "马利玛",
+                [1] = 0.5275855064,
+                [2] = 0.3876014054,
+                [3] = 0.2657388008,
+                [4] = 0.3639003973,
+                [5] = 2017,
+                [6] = "娅菈",
             },
             [2] = 
             {
-                [1] = 0.2974533141,
-                [2] = 0.6582449675,
-                [3] = 0.1516748004,
-                [4] = 0.4266467946,
-                [5] = 3190,
-                [6] = "塔莉亚亚特·马利玛",
+                [1] = 0.4494809210,
+                [2] = 0.6385658383,
+                [3] = 0.2635360015,
+                [4] = 0.3709783975,
+                [5] = 2018,
+                [6] = "红角蝰乌法",
             },
             [3] = 
             {
-                [1] = 0.4095369577,
-                [2] = 0.5532188416,
-                [3] = 0.1696843998,
-                [4] = 0.4097711971,
-                [5] = 2187,
-                [6] = "拉马提·阿特-噶尔",
+                [1] = 0.3031854630,
+                [2] = 0.4932206273,
+                [3] = 0.2594100014,
+                [4] = 0.3668791974,
+                [5] = 4918,
+                [6] = "红角蝰乌法",
             },
             [4] = 
             {
-                [1] = 0.2926786244,
-                [2] = 0.6541423798,
-                [3] = 0.1509076033,
-                [4] = 0.4259875908,
-                [5] = 4672,
-                [6] = "塔莉亚亚特·马利玛",
+                [1] = 0.5483775139,
+                [2] = 0.4927242398,
+                [3] = 0.2663252020,
+                [4] = 0.3668651976,
+                [5] = 2016,
+                [6] = "艾玛",
+            },
+        },
+        ["systres/u34_gonfalonbaycity_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4478468895,
+                [2] = 0.3124401867,
+                [3] = 0.0694444027,
+                [4] = 0.6025108052,
+                [5] = 6818,
+                [6] = "韦尔德",
+            },
+            [2] = 
+            {
+                [1] = 0.4457535744,
+                [2] = 0.3049043119,
+                [3] = 0.0694304026,
+                [4] = 0.6024604053,
+                [5] = 6816,
+                [6] = "帕里斯·普劳夫",
+            },
+            [3] = 
+            {
+                [1] = 0.4556220174,
+                [2] = 0.3349282444,
+                [3] = 0.0694964027,
+                [4] = 0.6026612053,
+                [5] = 6813,
+                [6] = "德鲁伊皮斯卡",
+            },
+            [4] = 
+            {
+                [1] = 0.4502392411,
+                [2] = 0.3142942488,
+                [3] = 0.0694604027,
+                [4] = 0.6025232052,
+                [5] = 6825,
+                [6] = "韦尔德",
             },
             [5] = 
             {
-                [1] = 0.5147821903,
-                [2] = 0.5162584186,
-                [3] = 0.1865952034,
-                [4] = 0.4038323965,
-                [5] = 2255,
-                [6] = "卡萨尔",
+                [1] = 0.4461722374,
+                [2] = 0.3029306233,
+                [3] = 0.0694332026,
+                [4] = 0.6024472052,
+                [5] = 6821,
+                [6] = "帕里斯·普劳夫",
             },
             [6] = 
             {
-                [1] = 0.5637067556,
-                [2] = 0.5163679123,
-                [3] = 0.1944564023,
-                [4] = 0.4038499899,
-                [5] = 3385,
-                [6] = "慕斯",
+                [1] = 0.4379186630,
+                [2] = 0.3107655644,
+                [3] = 0.0693780027,
+                [4] = 0.6024996053,
+                [5] = 6789,
+                [6] = "伊索贝尔·维罗伊斯",
+            },
+        },
+        ["stonefalls/tormented_spire_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2801007330,
+                [2] = 0.4363852143,
+                [3] = 0.7145999736,
+                [4] = 0.4724388070,
+                [5] = 3837,
+                [6] = "坦瓦尔·因多里尔",
+            },
+            [2] = 
+            {
+                [1] = 0.3779008090,
+                [2] = 0.5111036897,
+                [3] = 0.7164795738,
+                [4] = 0.4738748065,
+                [5] = 3868,
+                [6] = "坦瓦尔·因多里尔",
+            },
+        },
+        ["craglorn/trl_so_map01_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4607354105,
+                [2] = 0.8321031928,
+                [3] = 0.3957120020,
+                [4] = 0.3218116036,
+                [5] = 5171,
+                [6] = "費澤斯，隨身商人助手",
+            },
+        },
+        ["vvardenfell/viviccity_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2431764901,
+                [2] = 0.3384788036,
+                [3] = 0.7669107723,
+                [4] = 0.3759495984,
+                [5] = 6654,
+                [6] = "Xalvakka's Head",
+            },
+        },
+        ["stormhaven/wayrest_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2345678955,
+                [2] = 0.0539402328,
+                [3] = 0.2153336022,
+                [4] = 0.3254024068,
+                [5] = 1485,
+                [6] = "雅迪爾·查尼斯",
+            },
+        },
+        ["bangkorai/rubblebutte_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.8261288404,
+                [2] = 0.2899636328,
+                [3] = 0.2626356039,
+                [4] = 0.3550015988,
+                [5] = 4887,
+                [6] = "加格达",
+            },
+        },
+        ["reapersmarch/rawlkha_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.6133454442,
+                [2] = 0.5338660479,
+                [3] = 0.4541216059,
+                [4] = 0.6174803947,
+                [5] = 6228,
+                [6] = "裝備製作日常",
+            },
+            [2] = 
+            {
+                [1] = 0.7663468719,
+                [2] = 0.3928990066,
+                [3] = 0.4566796061,
+                [4] = 0.6151235950,
+                [5] = 5406,
+                [6] = "消耗品製作日常",
+            },
+            [3] = 
+            {
+                [1] = 0.7663468719,
+                [2] = 0.3928990066,
+                [3] = 0.4566796061,
+                [4] = 0.6151235950,
+                [5] = 6105,
+                [6] = "消耗品製作日常",
+            },
+            [4] = 
+            {
+                [1] = 0.7663468719,
+                [2] = 0.3928990066,
+                [3] = 0.4566796061,
+                [4] = 0.6151235950,
+                [5] = 5412,
+                [6] = "消耗品製作日常",
+            },
+            [5] = 
+            {
+                [1] = 0.6133454442,
+                [2] = 0.5338660479,
+                [3] = 0.4541216059,
+                [4] = 0.6174803947,
+                [5] = 5377,
+                [6] = "裝備製作日常",
+            },
+            [6] = 
+            {
+                [1] = 0.6133454442,
+                [2] = 0.5338660479,
+                [3] = 0.4541216059,
+                [4] = 0.6174803947,
+                [5] = 5395,
+                [6] = "裝備製作日常",
             },
             [7] = 
             {
-                [1] = 0.5783893466,
-                [2] = 0.5049614310,
-                [3] = 0.1968156010,
-                [4] = 0.4020171965,
-                [5] = 4754,
-                [6] = "勒奇门徒",
+                [1] = 0.6133454442,
+                [2] = 0.5338660479,
+                [3] = 0.4541216059,
+                [4] = 0.6174803947,
+                [5] = 5388,
+                [6] = "裝備製作日常",
+            },
+        },
+        ["blackwood/u30_rg_map_outside_001_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.3208208084,
+                [2] = 0.1458958983,
+                [3] = 0.6917836282,
+                [4] = 0.7429579912,
+                [5] = 6654,
+                [6] = "神光井",
+            },
+            [2] = 
+            {
+                [1] = 0.3763763905,
+                [2] = 0.1231231242,
+                [3] = 0.6918724282,
+                [4] = 0.7429215912,
+                [5] = 6654,
+                [6] = "達比安公爵",
+            },
+        },
+        ["rivenspire/hildunessecretrefuge_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.6918154359,
+                [2] = 0.3142472208,
+                [3] = 0.2035231984,
+                [4] = 0.2035607998,
+                [5] = 4839,
+                [6] = "娜达法的日记",
+            },
+        },
+        ["craglorn/aetherianarchivebottom_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.6628019214,
+                [2] = 0.7961352468,
+                [3] = 0.4593699973,
+                [4] = 0.3704364014,
+                [5] = 5102,
+                [6] = "貝爾卡斯指路祭壇",
+            },
+        },
+        ["guildmaps/fortvirakruin_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4738400877,
+                [2] = 0.8885488510,
+                [3] = 0.6848223958,
+                [4] = 0.4187555873,
+                [5] = 3633,
+                [6] = "踏灰",
+            },
+        },
+        ["stonefalls/dhalmora_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.5322914124,
+                [2] = 0.5421718955,
+                [3] = 0.8126759784,
+                [4] = 0.4469732085,
+                [5] = 4041,
+                [6] = "艾拉·恩斯塔纳",
+            },
+            [2] = 
+            {
+                [1] = 0.5750920773,
+                [2] = 0.4461061656,
+                [3] = 0.8130571783,
+                [4] = 0.4461176087,
+                [5] = 4024,
+                [6] = "埃斯库奥",
+            },
+        },
+        ["stonefalls/stonefalls_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.8049607277,
+                [2] = 0.5092484355,
+                [3] = 0.7754995899,
+                [4] = 0.4530391961,
+                [5] = 3602,
+                [6] = "德雷尔登·奥恩",
+            },
+            [2] = 
+            {
+                [1] = 0.8406982422,
+                [2] = 0.4842035770,
+                [3] = 0.7805971888,
+                [4] = 0.4494667976,
+                [5] = 3592,
+                [6] = "古拉夫·赫罗森",
+            },
+            [3] = 
+            {
+                [1] = 0.8501822948,
+                [2] = 0.4077061117,
+                [3] = 0.7819499940,
+                [4] = 0.4385551996,
+                [5] = 3590,
+                [6] = "罗拉克中士",
+            },
+            [4] = 
+            {
+                [1] = 0.8164890409,
+                [2] = 0.4350476861,
+                [3] = 0.7771439884,
+                [4] = 0.4424552016,
+                [5] = 3598,
+                [6] = "里莎",
+            },
+            [5] = 
+            {
+                [1] = 0.8654010296,
+                [2] = 0.4246438444,
+                [3] = 0.7841207942,
+                [4] = 0.4409711977,
+                [5] = 3594,
+                [6] = "伊克西·乌萨",
+            },
+            [6] = 
+            {
+                [1] = 0.7452663779,
+                [2] = 0.5797700286,
+                [3] = 0.7669847882,
+                [4] = 0.4630983958,
+                [5] = 3615,
+                [6] = "欧努加",
+            },
+            [7] = 
+            {
+                [1] = 0.7731519938,
+                [2] = 0.6441643238,
+                [3] = 0.7709623922,
+                [4] = 0.4722835977,
+                [5] = 3616,
+                [6] = "马沃斯·西洛雷斯",
             },
             [8] = 
             {
-                [1] = 0.6632810831,
-                [2] = 0.5202862620,
-                [3] = 0.2104560049,
-                [4] = 0.4044795903,
-                [5] = 3367,
-                [6] = "哈东",
+                [1] = 0.7727369666,
+                [2] = 0.6403084397,
+                [3] = 0.7709031928,
+                [4] = 0.4717335944,
+                [5] = 3618,
+                [6] = "欧努加",
             },
             [9] = 
             {
-                [1] = 0.6557381153,
-                [2] = 0.4412198067,
-                [3] = 0.2092440008,
-                [4] = 0.3917751926,
-                [5] = 4731,
-                [6] = "厄里",
+                [1] = 0.7044980526,
+                [2] = 0.5330370069,
+                [3] = 0.7611695944,
+                [4] = 0.4564323978,
+                [5] = 3736,
+                [6] = "中士贾吉尔",
             },
             [10] = 
             {
-                [1] = 0.5566218495,
-                [2] = 0.4338436723,
-                [3] = 0.1933179997,
-                [4] = 0.3905899954,
-                [5] = 4760,
-                [6] = "亵渎者阿夸比",
+                [1] = 0.7265563607,
+                [2] = 0.5499439240,
+                [3] = 0.7643159914,
+                [4] = 0.4588440004,
+                [5] = 3734,
+                [6] = "加林·因多里尔",
             },
             [11] = 
             {
-                [1] = 0.2664700150,
-                [2] = 0.5344510674,
-                [3] = 0.1466964041,
-                [4] = 0.4067555912,
-                [5] = 4841,
-                [6] = "拉杰什",
+                [1] = 0.7338530421,
+                [2] = 0.4102860391,
+                [3] = 0.7653567900,
+                [4] = 0.4389232004,
+                [5] = 3735,
+                [6] = "踏灰",
             },
             [12] = 
             {
-                [1] = 0.2755787969,
-                [2] = 0.6751655340,
-                [3] = 0.1481600031,
-                [4] = 0.4293655911,
-                [5] = 3303,
-                [6] = "克拉丽斯·劳伦特夫人",
+                [1] = 0.7661581635,
+                [2] = 0.6221817136,
+                [3] = 0.7699647923,
+                [4] = 0.4691479983,
+                [5] = 3617,
+                [6] = "巴拉",
             },
             [13] = 
             {
-                [1] = 0.2461140156,
-                [2] = 0.6599029303,
-                [3] = 0.1434256021,
-                [4] = 0.4269131960,
-                [5] = 4659,
-                [6] = "史迪彭斯",
+                [1] = 0.6658216715,
+                [2] = 0.5650196075,
+                [3] = 0.7556527957,
+                [4] = 0.4609943958,
+                [5] = 3670,
+                [6] = "尼波什",
             },
             [14] = 
             {
-                [1] = 0.3203161657,
-                [2] = 0.6004829407,
-                [3] = 0.1553484033,
-                [4] = 0.4173655923,
-                [5] = 3353,
-                [6] = "安詹",
+                [1] = 0.6343662143,
+                [2] = 0.6385950446,
+                [3] = 0.7511659894,
+                [4] = 0.4714891957,
+                [5] = 3583,
+                [6] = "霍姆队长",
             },
             [15] = 
             {
-                [1] = 0.3243191540,
-                [2] = 0.5348494053,
-                [3] = 0.1559916035,
-                [4] = 0.4068195961,
-                [5] = 3383,
-                [6] = "萨穆西·亚夫巴兹拉",
+                [1] = 0.6326977015,
+                [2] = 0.6914890409,
+                [3] = 0.7509279927,
+                [4] = 0.4790339951,
+                [5] = 3591,
+                [6] = "拉里队长",
             },
             [16] = 
             {
-                [1] = 0.1430570036,
-                [2] = 0.4990241528,
-                [3] = 0.1268664019,
-                [4] = 0.4010631947,
-                [5] = 3438,
-                [6] = "赫尔敏努斯·索法斯",
+                [1] = 0.5176331997,
+                [2] = 0.6519489884,
+                [3] = 0.7345151928,
+                [4] = 0.4733940022,
+                [5] = 3520,
+                [6] = "术士武纳尔",
             },
             [17] = 
             {
-                [1] = 0.3958775103,
-                [2] = 0.6413965821,
-                [3] = 0.1674895999,
-                [4] = 0.4239395961,
-                [5] = 3344,
-                [6] = "哈亚津",
+                [1] = 0.4988979101,
+                [2] = 0.6360459924,
+                [3] = 0.7318427912,
+                [4] = 0.4711255989,
+                [5] = 3622,
+                [6] = "术士尼莱",
             },
             [18] = 
             {
-                [1] = 0.7577271461,
-                [2] = 0.4131142497,
-                [3] = 0.2256315979,
-                [4] = 0.3872591918,
-                [5] = 2364,
-                [6] = "黄金海岸斥候",
+                [1] = 0.3377509713,
+                [2] = 0.5931379795,
+                [3] = 0.7088567927,
+                [4] = 0.4650052002,
+                [5] = 1489,
+                [6] = "加仑德罗坦",
             },
             [19] = 
             {
-                [1] = 0.7335449457,
-                [2] = 0.5135524273,
-                [3] = 0.2217460020,
-                [4] = 0.4033975978,
-                [5] = 2356,
-                [6] = "王座守护者法瓦德",
+                [1] = 0.3264470100,
+                [2] = 0.6040297151,
+                [3] = 0.7072443958,
+                [4] = 0.4665587973,
+                [5] = 3854,
+                [6] = "瓦尔丹姆·安多伦",
             },
             [20] = 
             {
-                [1] = 0.7546178699,
-                [2] = 0.5681528449,
-                [3] = 0.2251319994,
-                [4] = 0.4121707927,
-                [5] = 3296,
-                [6] = "王座守护者法瓦德",
+                [1] = 0.8233118057,
+                [2] = 0.4570779502,
+                [3] = 0.7781171876,
+                [4] = 0.4455975984,
+                [5] = 5045,
+                [6] = "苏尔德拉什",
             },
             [21] = 
             {
-                [1] = 0.4959945381,
-                [2] = 0.6113542318,
-                [3] = 0.1835764035,
-                [4] = 0.4191123914,
-                [5] = 3381,
-                [6] = "昂温",
+                [1] = 0.2736847997,
+                [2] = 0.5621789098,
+                [3] = 0.6997183944,
+                [4] = 0.4605891987,
+                [5] = 5037,
+                [6] = "达西琳",
             },
             [22] = 
             {
-                [1] = 0.5707692504,
-                [2] = 0.3355065882,
-                [3] = 0.1955912040,
-                [4] = 0.3747891931,
-                [5] = 4751,
-                [6] = "杰罗梅克·拉马尔",
+                [1] = 0.1872966886,
+                [2] = 0.5319573879,
+                [3] = 0.6873959947,
+                [4] = 0.4562784010,
+                [5] = 5039,
+                [6] = "卡罗恩",
             },
             [23] = 
             {
-                [1] = 0.5604630113,
-                [2] = 0.3594423831,
-                [3] = 0.1939351975,
-                [4] = 0.3786351965,
-                [5] = 4816,
-                [6] = "穆拉",
+                [1] = 0.1604851335,
+                [2] = 0.5520975590,
+                [3] = 0.6835715946,
+                [4] = 0.4591511948,
+                [5] = 3646,
+                [6] = "费尔德西·马伦",
             },
             [24] = 
             {
-                [1] = 0.8408090472,
-                [2] = 0.3912920058,
-                [3] = 0.2389811975,
-                [4] = 0.3837527938,
-                [5] = 2404,
-                [6] = "索达将军",
+                [1] = 0.1389988810,
+                [2] = 0.5704851151,
+                [3] = 0.6805067956,
+                [4] = 0.4617739957,
+                [5] = 3647,
+                [6] = "鲁瓦利·马诺施莱尔",
             },
             [25] = 
             {
-                [1] = 0.8087577820,
-                [2] = 0.3396091759,
-                [3] = 0.2338312003,
-                [4] = 0.3754483969,
-                [5] = 3029,
-                [6] = "大祭司祖拉德尔",
+                [1] = 0.1411441416,
+                [2] = 0.5839203596,
+                [3] = 0.6808127956,
+                [4] = 0.4636903990,
+                [5] = 3648,
+                [6] = "卡提斯",
             },
             [26] = 
             {
-                [1] = 0.8020886183,
-                [2] = 0.3552178144,
-                [3] = 0.2327595991,
-                [4] = 0.3779563928,
-                [5] = 4817,
-                [6] = "斥候亚努",
+                [1] = 0.1687521040,
+                [2] = 0.5209338069,
+                [3] = 0.6847507952,
+                [4] = 0.4547059974,
+                [5] = 3699,
+                [6] = "斥候加尔萨尔",
             },
             [27] = 
             {
-                [1] = 0.3987976015,
-                [2] = 0.5748170018,
-                [3] = 0.1679588001,
-                [4] = 0.4132415894,
-                [5] = 2184,
-                [6] = "王座守护者法瓦德",
+                [1] = 0.1116432995,
+                [2] = 0.5066937804,
+                [3] = 0.6766047956,
+                [4] = 0.4526748001,
+                [5] = 3794,
+                [6] = "布雷斯策祭者",
             },
             [28] = 
             {
-                [1] = 0.4026064277,
-                [2] = 0.5305153131,
-                [3] = 0.1685708023,
-                [4] = 0.4061231942,
-                [5] = 2192,
-                [6] = "王座守护者法瓦德",
+                [1] = 0.1113881096,
+                [2] = 0.5068676472,
+                [3] = 0.6765683954,
+                [4] = 0.4526996005,
+                [5] = 3806,
+                [6] = "修士塞米尔",
             },
             [29] = 
             {
-                [1] = 0.6242195964,
-                [2] = 0.3388100564,
-                [3] = 0.2041796054,
-                [4] = 0.3753199943,
-                [5] = 2222,
-                [6] = "塔莉亚亚特·马利玛",
+                [1] = 0.2264638245,
+                [2] = 0.4244671762,
+                [3] = 0.6929827947,
+                [4] = 0.4409459977,
+                [5] = 3642,
+                [6] = "贝隆·泰尔瓦尼",
             },
             [30] = 
             {
-                [1] = 0.5657555461,
-                [2] = 0.3563928306,
-                [3] = 0.1947856020,
-                [4] = 0.3781451944,
-                [5] = 2240,
-                [6] = "希里",
+                [1] = 0.2312422842,
+                [2] = 0.4774565399,
+                [3] = 0.6936643942,
+                [4] = 0.4485044003,
+                [5] = 3643,
+                [6] = "梅拉丽·泰尔瓦尼",
             },
             [31] = 
             {
-                [1] = 0.8303609490,
-                [2] = 0.5660418272,
-                [3] = 0.2373023971,
-                [4] = 0.4118315944,
-                [5] = 4721,
-                [6] = "达留斯",
+                [1] = 0.2958581150,
+                [2] = 0.4567414522,
+                [3] = 0.7028811959,
+                [4] = 0.4455496003,
+                [5] = 3631,
+                [6] = "亨努斯",
             },
             [32] = 
             {
-                [1] = 0.7367488146,
-                [2] = 0.5091311932,
-                [3] = 0.2222607997,
-                [4] = 0.4026871939,
-                [5] = 2403,
-                [6] = "拉万队长",
+                [1] = 0.3636371195,
+                [2] = 0.5032866001,
+                [3] = 0.7125491928,
+                [4] = 0.4521887999,
+                [5] = 3621,
+                [6] = "克萝娅",
             },
             [33] = 
             {
-                [1] = 0.8020213842,
-                [2] = 0.3544958830,
-                [3] = 0.2327487959,
-                [4] = 0.3778403929,
-                [5] = 2997,
-                [6] = "塔莉亚亚特·马利玛",
+                [1] = 0.4163011909,
+                [2] = 0.4381968677,
+                [3] = 0.7200611956,
+                [4] = 0.4429044009,
+                [5] = 3581,
+                [6] = "女祭司贝瑞拉",
             },
             [34] = 
             {
-                [1] = 0.7736195922,
-                [2] = 0.2953846157,
-                [3] = 0.2281851961,
-                [4] = 0.3683423947,
-                [5] = 2998,
-                [6] = "安塞·哈勒拉",
+                [1] = 0.7263348103,
+                [2] = 0.5506870151,
+                [3] = 0.7642843894,
+                [4] = 0.4589499949,
+                [5] = 3737,
+                [6] = "踏灰",
+            },
+            [35] = 
+            {
+                [1] = 0.4719293416,
+                [2] = 0.5237548947,
+                [3] = 0.7279959948,
+                [4] = 0.4551083974,
+                [5] = 3584,
+                [6] = "诺里斯队长",
+            },
+            [36] = 
+            {
+                [1] = 0.2904963493,
+                [2] = 0.4184828997,
+                [3] = 0.7021163937,
+                [4] = 0.4400924006,
+                [5] = 3626,
+                [6] = "乌格贡",
+            },
+            [37] = 
+            {
+                [1] = 0.3187100291,
+                [2] = 0.3643465936,
+                [3] = 0.7061407929,
+                [4] = 0.4323703982,
+                [5] = 3627,
+                [6] = "法夫尼尔",
+            },
+            [38] = 
+            {
+                [1] = 0.3602383733,
+                [2] = 0.4469265342,
+                [3] = 0.7120643956,
+                [4] = 0.4441496004,
+                [5] = 5038,
+                [6] = "哈吉尔",
+            },
+            [39] = 
+            {
+                [1] = 0.2501009405,
+                [2] = 0.4166601300,
+                [3] = 0.6963543928,
+                [4] = 0.4398324007,
+                [5] = 3751,
+                [6] = "奇塔库斯",
+            },
+            [40] = 
+            {
+                [1] = 0.2466180623,
+                [2] = 0.3743999004,
+                [3] = 0.6958575951,
+                [4] = 0.4338044018,
+                [5] = 3917,
+                [6] = "诺亚西亚",
+            },
+            [41] = 
+            {
+                [1] = 0.2348065078,
+                [2] = 0.3694924414,
+                [3] = 0.6941727950,
+                [4] = 0.4331044019,
+                [5] = 3752,
+                [6] = "七腹长老",
+            },
+            [42] = 
+            {
+                [1] = 0.4655524492,
+                [2] = 0.5361637473,
+                [3] = 0.7270863949,
+                [4] = 0.4568783960,
+                [5] = 3671,
+                [6] = "霍尔根",
+            },
+            [43] = 
+            {
+                [1] = 0.3637436926,
+                [2] = 0.6133875251,
+                [3] = 0.7125643944,
+                [4] = 0.4678935953,
+                [5] = 5040,
+                [6] = "观万路",
+            },
+            [44] = 
+            {
+                [1] = 0.2401654571,
+                [2] = 0.2602271438,
+                [3] = 0.6949371955,
+                [4] = 0.4175188004,
+                [5] = 3632,
+                [6] = "中士约林",
+            },
+            [45] = 
+            {
+                [1] = 0.1816573143,
+                [2] = 0.2482641637,
+                [3] = 0.6865915943,
+                [4] = 0.4158124010,
+                [5] = 3634,
+                [6] = "坦瓦尔·因多里尔",
+            },
+            [46] = 
+            {
+                [1] = 0.3639820516,
+                [2] = 0.6140801907,
+                [3] = 0.7125983939,
+                [4] = 0.4679923971,
+                [5] = 3826,
+                [6] = "霍尔根",
+            },
+            [47] = 
+            {
+                [1] = 0.3465928137,
+                [2] = 0.7030622363,
+                [3] = 0.7101179931,
+                [4] = 0.4806847956,
+                [5] = 4894,
+                [6] = "戈尔文·德兰",
             },
         },
+        ["systres/u34_systreszone_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.6043914557,
+                [2] = 0.3576588035,
+                [3] = 0.0727640035,
+                [4] = 0.5804672019,
+                [5] = 6756,
+                [6] = "露娜·乔尔万尼",
+            },
+            [2] = 
+            {
+                [1] = 0.6077876687,
+                [2] = 0.5634256005,
+                [3] = 0.0729248034,
+                [4] = 0.5902096014,
+                [5] = 6780,
+                [6] = "致玛塞尔",
+            },
+            [3] = 
+            {
+                [1] = 0.4793312252,
+                [2] = 0.4842059016,
+                [3] = 0.0668428017,
+                [4] = 0.5864588021,
+                [5] = 6763,
+                [6] = "泰特斯·斯特罗",
+            },
+        },
+        ["deshaan/deshaan_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.0915232599,
+                [2] = 0.4397623837,
+                [3] = 0.7082363993,
+                [4] = 0.4994868173,
+                [5] = 5067,
+                [6] = "妮莱茵·赫罗尔",
+            },
+            [2] = 
+            {
+                [1] = 0.1367208660,
+                [2] = 0.4199975133,
+                [3] = 0.7154644008,
+                [4] = 0.4963260191,
+                [5] = 5057,
+                [6] = "埃罗纳·贝伦达",
+            },
+        },
+        ["alikr/imperviousvault_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.7380447984,
+                [2] = 0.5244148374,
+                [3] = 0.1571475999,
+                [4] = 0.3986387921,
+                [5] = 3566,
+                [6] = "法哈拉杰德王",
+            },
+        },
+        ["alikr/bergama_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.7871129513,
+                [2] = 0.2588266134,
+                [3] = 0.1955292030,
+                [4] = 0.4200608113,
+                [5] = 3482,
+                [6] = "伽罗德",
+            },
+            [2] = 
+            {
+                [1] = 0.5982815027,
+                [2] = 0.4475831985,
+                [3] = 0.1914944037,
+                [4] = 0.4240940110,
+                [5] = 3172,
+                [6] = "贾尼阿斯",
+            },
+            [3] = 
+            {
+                [1] = 0.6545546651,
+                [2] = 0.2142910659,
+                [3] = 0.1926968036,
+                [4] = 0.4191092114,
+                [5] = 2251,
+                [6] = "卡迪姆",
+            },
+            [4] = 
+            {
+                [1] = 0.8777003884,
+                [2] = 0.2991313934,
+                [3] = 0.1974648029,
+                [4] = 0.4209220116,
+                [5] = 2344,
+                [6] = "莱塔",
+            },
+        },
+        ["stormhaven/alcairecastle_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.5173459053,
+                [2] = 0.6722764373,
+                [3] = 0.1678412055,
+                [4] = 0.2917124012,
+                [5] = 2552,
+                [6] = "法赫特夫人",
+            },
+            [2] = 
+            {
+                [1] = 0.4031224847,
+                [2] = 0.4347376823,
+                [3] = 0.1658512051,
+                [4] = 0.2875740011,
+                [5] = 2566,
+                [6] = "拉卡納公爵夫人",
+            },
+            [3] = 
+            {
+                [1] = 0.4044311643,
+                [2] = 0.4306049943,
+                [3] = 0.1658740049,
+                [4] = 0.2875020014,
+                [5] = 2576,
+                [6] = "拿瑟奈爾公爵",
+            },
+        },
+        ["alikr/shorecave_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.5990512967,
+                [2] = 0.6290189028,
+                [3] = 0.1531432011,
+                [4] = 0.3937312063,
+                [5] = 2146,
+                [6] = "阿扎王子",
+            },
+        },
+        ["reapersmarch/reapersmarch_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4409461021,
+                [2] = 0.4965234101,
+                [3] = 0.4494051850,
+                [4] = 0.6098704054,
+                [5] = 6648,
+                [6] = "Sleek Creek House Courtyard",
+            },
+        },
+        ["stonefalls/bleakrock_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.2585973740,
+                [2] = 0.3971271515,
+                [3] = 0.6775147720,
+                [4] = 0.2625336000,
+                [5] = 4016,
+                [6] = "中士塞娜",
+            },
+            [2] = 
+            {
+                [1] = 0.2739754915,
+                [2] = 0.5166243911,
+                [3] = 0.6778059720,
+                [4] = 0.2647963999,
+                [5] = 3987,
+                [6] = "中士塞娜",
+            },
+            [3] = 
+            {
+                [1] = 0.3061259091,
+                [2] = 0.2492606640,
+                [3] = 0.6784147723,
+                [4] = 0.2597336001,
+                [5] = 3988,
+                [6] = "布拉-那图",
+            },
+            [4] = 
+            {
+                [1] = 0.4927334189,
+                [2] = 0.2271440625,
+                [3] = 0.6819483723,
+                [4] = 0.2593148001,
+                [5] = 3995,
+                [6] = "萝伦达",
+            },
+            [5] = 
+            {
+                [1] = 0.6961977482,
+                [2] = 0.2818335593,
+                [3] = 0.6858011730,
+                [4] = 0.2603504005,
+                [5] = 3996,
+                [6] = "强盗字条",
+            },
+            [6] = 
+            {
+                [1] = 0.6653358936,
+                [2] = 0.3737008870,
+                [3] = 0.6852167729,
+                [4] = 0.2620900003,
+                [5] = 3992,
+                [6] = "猎人达尔吉",
+            },
+            [7] = 
+            {
+                [1] = 0.6257498860,
+                [2] = 0.5972750187,
+                [3] = 0.6844671722,
+                [4] = 0.2663236002,
+                [5] = 3985,
+                [6] = "霍克尼尔",
+            },
+            [8] = 
+            {
+                [1] = 0.4900718331,
+                [2] = 0.3861850500,
+                [3] = 0.6818979725,
+                [4] = 0.2623264004,
+                [5] = 3986,
+                [6] = "莫拉",
+            },
+        },
+        ["bangkorai/bangkorai_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4596019089,
+                [2] = 0.3013931513,
+                [3] = 0.2904156053,
+                [4] = 0.3084543969,
+                [5] = 3530,
+                [6] = "命运女巫黛尔菲克",
+            },
+            [2] = 
+            {
+                [1] = 0.4604485631,
+                [2] = 0.3052508533,
+                [3] = 0.2905256043,
+                [4] = 0.3089555973,
+                [5] = 4899,
+                [6] = "尤吉恩·盖尔克罗夫特队长",
+            },
+            [3] = 
+            {
+                [1] = 0.6989516616,
+                [2] = 0.1782176942,
+                [3] = 0.3215124044,
+                [4] = 0.2924511948,
+                [5] = 1834,
+                [6] = "命运女巫芙蕾达",
+            },
+            [4] = 
+            {
+                [1] = 0.6584350467,
+                [2] = 0.1491479576,
+                [3] = 0.3162484047,
+                [4] = 0.2886743965,
+                [5] = 1835,
+                [6] = "命运女巫莎妮娅",
+            },
+            [5] = 
+            {
+                [1] = 0.6611474752,
+                [2] = 0.2284016609,
+                [3] = 0.3166008088,
+                [4] = 0.2989711963,
+                [5] = 4766,
+                [6] = "雷诺瓦·里昂席勒",
+            },
+            [6] = 
+            {
+                [1] = 0.6028355360,
+                [2] = 0.1464540213,
+                [3] = 0.3090248049,
+                [4] = 0.2883243949,
+                [5] = 4891,
+                [6] = "命运女巫拉善",
+            },
+            [7] = 
+            {
+                [1] = 0.4388910234,
+                [2] = 0.5437939763,
+                [3] = 0.2877248055,
+                [4] = 0.3399475975,
+                [5] = 4938,
+                [6] = "命运女巫林奈尔",
+            },
+            [8] = 
+            {
+                [1] = 0.2906697989,
+                [2] = 0.6293098927,
+                [3] = 0.2684676072,
+                [4] = 0.3510579966,
+                [5] = 4970,
+                [6] = "卡瑟尼亚",
+            },
+            [9] = 
+            {
+                [1] = 0.3259648085,
+                [2] = 0.6414741278,
+                [3] = 0.2730532055,
+                [4] = 0.3526383984,
+                [5] = 4969,
+                [6] = "纳詹",
+            },
+            [10] = 
+            {
+                [1] = 0.5602807999,
+                [2] = 0.7213035226,
+                [3] = 0.3034960084,
+                [4] = 0.3630099932,
+                [5] = 4989,
+                [6] = "吉安雅克·奥里斯",
+            },
+            [11] = 
+            {
+                [1] = 0.6534320712,
+                [2] = 0.4902757108,
+                [3] = 0.3155984081,
+                [4] = 0.3329943973,
+                [5] = 4982,
+                [6] = "图尔珊·戴尔",
+            },
+            [12] = 
+            {
+                [1] = 0.5836763382,
+                [2] = 0.6518064737,
+                [3] = 0.3065356036,
+                [4] = 0.3539807975,
+                [5] = 3963,
+                [6] = "达玛尔",
+            },
+            [13] = 
+            {
+                [1] = 0.6484598517,
+                [2] = 0.6205538511,
+                [3] = 0.3149524074,
+                [4] = 0.3499203942,
+                [5] = 3496,
+                [6] = "甲虫马兹拉赫",
+            },
+            [14] = 
+            {
+                [1] = 0.6300703287,
+                [2] = 0.6557934880,
+                [3] = 0.3125632037,
+                [4] = 0.3544987984,
+                [5] = 4986,
+                [6] = "华杜什队长",
+            },
+            [15] = 
+            {
+                [1] = 0.5273040533,
+                [2] = 0.5828789473,
+                [3] = 0.2992116034,
+                [4] = 0.3450255952,
+                [5] = 6023,
+                [6] = "先眼教团快信",
+            },
+            [16] = 
+            {
+                [1] = 0.4721509814,
+                [2] = 0.5493049622,
+                [3] = 0.2920460059,
+                [4] = 0.3406635958,
+                [5] = 4912,
+                [6] = "至高王埃默里克",
+            },
+            [17] = 
+            {
+                [1] = 0.5171195269,
+                [2] = 0.4915841818,
+                [3] = 0.2978884094,
+                [4] = 0.3331643965,
+                [5] = 4900,
+                [6] = "疯眼",
+            },
+            [18] = 
+            {
+                [1] = 0.3916072845,
+                [2] = 0.8554701805,
+                [3] = 0.2815816075,
+                [4] = 0.3804411941,
+                [5] = 4898,
+                [6] = "拉汉纳尔",
+            },
+            [19] = 
+            {
+                [1] = 0.3806714714,
+                [2] = 0.7323747873,
+                [3] = 0.2801608047,
+                [4] = 0.3644483941,
+                [5] = 3317,
+                [6] = "克拉丽斯·劳伦特夫人",
+            },
+            [20] = 
+            {
+                [1] = 0.5459491014,
+                [2] = 0.6022228599,
+                [3] = 0.3016340054,
+                [4] = 0.3475387951,
+                [5] = 4978,
+                [6] = "至高王埃默里克",
+            },
+            [21] = 
+            {
+                [1] = 0.4417327344,
+                [2] = 0.8388263583,
+                [3] = 0.2880940063,
+                [4] = 0.3782787954,
+                [5] = 4959,
+                [6] = "至高王埃默里克",
+            },
+            [22] = 
+            {
+                [1] = 0.4886716604,
+                [2] = 0.1401056051,
+                [3] = 0.2941924056,
+                [4] = 0.2874995959,
+                [5] = 1802,
+                [6] = "赫拉德·基莎蒂",
+            },
+            [23] = 
+            {
+                [1] = 0.4564307928,
+                [2] = 0.1702098250,
+                [3] = 0.2900036075,
+                [4] = 0.2914107965,
+                [5] = 3335,
+                [6] = "尤贝拉·布吕尔中士",
+            },
+            [24] = 
+            {
+                [1] = 0.4532719553,
+                [2] = 0.4246517122,
+                [3] = 0.2895932050,
+                [4] = 0.3244683960,
+                [5] = 3533,
+                [6] = "掘墓者洛特",
+            },
+            [25] = 
+            {
+                [1] = 0.5162451267,
+                [2] = 0.3996428549,
+                [3] = 0.2977748055,
+                [4] = 0.3212191951,
+                [5] = 4881,
+                [6] = "命运女巫迪玛拉",
+            },
+        },
+        ["stonefalls/ebonheart_base_0"] = 
+        {
+            [1] = 
+            {
+                [1] = 0.4742273390,
+                [2] = 0.7549706101,
+                [3] = 0.7385404056,
+                [4] = 0.4561360121,
+                [5] = 3662,
+                [6] = "赫拉尔加·斯通克鲁什",
+            },
+            [2] = 
+            {
+                [1] = 0.5416041613,
+                [2] = 0.6169497967,
+                [3] = 0.7405696068,
+                [4] = 0.4519792115,
+                [5] = 3863,
+                [6] = "纳里尔·赫勒兰",
+            },
+            [3] = 
+            {
+                [1] = 0.5242320299,
+                [2] = 0.4148327112,
+                [3] = 0.7400464069,
+                [4] = 0.4458920107,
+                [5] = 3645,
+                [6] = "扎沙-加",
+            },
+            [4] = 
+            {
+                [1] = 0.4820766747,
+                [2] = 0.8545415998,
+                [3] = 0.7387768056,
+                [4] = 0.4591348115,
+                [5] = 3667,
+                [6] = "侍祭马德拉纳",
+            },
+            [5] = 
+            {
+                [1] = 0.3844846189,
+                [2] = 0.7945094705,
+                [3] = 0.7358376060,
+                [4] = 0.4573268118,
+                [5] = 3639,
+                [6] = "尼尔西斯",
+            },
+            [6] = 
+            {
+                [1] = 0.5833610296,
+                [2] = 0.8350178599,
+                [3] = 0.7418272068,
+                [4] = 0.4585468111,
+                [5] = 3865,
+                [6] = "莎莉·库伦",
+            },
+        },
+    },
+    ["version"] = 4,
+    ["quest_info"] = 
+    {
+        [3584] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10016,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3585] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10005,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3587] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10006,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3588] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10007,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3589] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10008,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3590] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13590,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3591] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13583,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3592] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3594] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6668] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6157] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4622] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3602] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4638] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3615] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10010,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3616] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10011,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3617] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10012,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3618] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10012,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3621] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3622] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13520,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3626] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13626,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3627] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13626,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3631] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3632] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10018,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3633] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10019,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3634] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10020,
+            [6] = 1,
+            [7] = 10,
+        },
+        [5171] = 
+        {
+            [1] = 6,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 3,
+        },
+        [6196] = 
+        {
+            [1] = 3,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6199] = 
+        {
+            [1] = 3,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6712] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3642] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13642,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3643] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13642,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3645] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3646] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13646,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3647] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13646,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4672] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10078,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6218] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3662] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2130] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10075,
+            [6] = 1,
+            [7] = 10,
+        },
+        [6227] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6740] = 
+        {
+            [1] = 5,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [6741] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [3670] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3671] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10017,
+            [6] = 0,
+            [7] = 10,
+        },
+        [2146] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10076,
+            [6] = 1,
+            [7] = 10,
+        },
+        [6756] = 
+        {
+            [1] = 1,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6250] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [6763] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6252] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+        },
+        [3695] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10022,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3696] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10023,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4721] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3698] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10024,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3187] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3190] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10080,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4731] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6780] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6269] = 
+        {
+            [1] = 5,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [5762] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 5,
+        },
+        [6789] = 
+        {
+            [1] = 16,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 11,
+        },
+        [2184] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10081,
+            [6] = 1,
+            [7] = 10,
+        },
+        [5770] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 5,
+        },
+        [2187] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5772] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 5,
+        },
+        [4751] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2192] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10082,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4754] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3734] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10013,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3735] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10014,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4760] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3737] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10015,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6299] = 
+        {
+            [1] = 14,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6813] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4766] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6816] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6818] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6821] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3751] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13751,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5288] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 3,
+            [7] = 2,
+        },
+        [6825] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2222] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10086,
+            [6] = 1,
+            [7] = 10,
+        },
+        [2240] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10087,
+            [6] = 0,
+            [7] = 10,
+        },
+        [2251] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10084,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3788] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10024,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3789] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10023,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6350] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [2255] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3280] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10096,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4817] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3794] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13699,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6359] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3806] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13699,
+            [5] = 10003,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3296] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10089,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3303] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4841] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6380] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3826] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10025,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4852] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3317] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5368] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3837] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10026,
+            [6] = 1,
+            [7] = 10,
+        },
+        [5374] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4863] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4864] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5377] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3333] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10074,
+            [6] = 0,
+            [7] = 10,
+        },
+        [5894] = 
+        {
+            [1] = 6,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 3,
+        },
+        [3335] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [1802] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 11802,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5388] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5389] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3854] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5392] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4881] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5394] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5395] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5396] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3863] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3865] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4891] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10101,
+            [6] = 1,
+            [7] = 10,
+        },
+        [3868] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10027,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4894] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10028,
+            [6] = 0,
+            [7] = 10,
+        },
+        [5409] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101034,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4898] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4899] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10098,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4900] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3367] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2344] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [1834] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10100,
+            [6] = 1,
+            [7] = 10,
+        },
+        [1835] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5935] = 
+        {
+            [1] = 14,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4912] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10103,
+            [6] = 1,
+            [7] = 10,
+        },
+        [6451] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2356] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10088,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3381] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4918] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10107,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3383] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3385] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2364] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3902] = 
+        {
+            [1] = 5,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4927] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14945,
+            [5] = 10003,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4928] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14945,
+            [5] = 10004,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4929] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14945,
+            [5] = 10005,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5958] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4938] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3915] = 
+        {
+            [1] = 5,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3917] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5972] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5974] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5975] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5976] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5977] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5978] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5979] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5980] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5981] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5982] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4959] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10105,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4960] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10106,
+            [6] = 1,
+            [7] = 10,
+        },
+        [5985] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6498] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5987] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5988] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5989] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5990] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6503] = 
+        {
+            [1] = 6,
+            [2] = 1,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 3,
+        },
+        [2408] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10077,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4969] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4970] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3438] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6512] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4978] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10104,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4980] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4981] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6518] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4986] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3963] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3964] = 
+        {
+            [1] = 5,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4989] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6017] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3970] = 
+        {
+            [1] = 5,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6020] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6021] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101032,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+        },
+        [6023] = 
+        {
+            [1] = 14,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3985] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3986] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3987] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13990,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3988] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3991] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13990,
+            [5] = 10005,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3992] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13990,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3482] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5531] = 
+        {
+            [1] = 3,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 15531,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3996] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3999] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4002] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13990,
+            [5] = 10004,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3172] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3566] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10094,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6352] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [3496] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6569] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3281] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10097,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6452] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [2998] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10093,
+            [6] = 0,
+            [7] = 10,
+        },
+        [5037] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5038] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5039] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4016] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13990,
+            [5] = 10003,
+            [6] = 0,
+            [7] = 10,
+        },
+        [2997] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10092,
+            [6] = 1,
+            [7] = 10,
+        },
+        [5040] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4839] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3305] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5045] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4022] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4023] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4024] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3752] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13751,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6586] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5051] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5052] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3699] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13699,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3697] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5991] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3520] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13520,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5057] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10029,
+            [6] = 0,
+            [7] = 10,
+        },
+        [2403] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10090,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6083] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6084] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5984] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4038] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6495] = 
+        {
+            [1] = 0,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4956] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4041] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3530] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10099,
+            [6] = 0,
+            [7] = 10,
+        },
+        [5067] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10029,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6743] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 2,
+        },
+        [3533] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3667] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4686] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10079,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4982] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [1489] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5986] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6099] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6100] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3029] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3353] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6103] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4887] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6105] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [1799] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10095,
+            [6] = 1,
+            [7] = 10,
+        },
+        [4926] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14945,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3860] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [1804] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 11802,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [1294] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5087] = 
+        {
+            [1] = 0,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 15033,
+            [5] = 10004,
+            [6] = 0,
+            [7] = 3,
+        },
+        [2016] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10104,
+            [6] = 0,
+            [7] = 10,
+        },
+        [2017] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10105,
+            [6] = 0,
+            [7] = 10,
+        },
+        [2018] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10106,
+            [6] = 0,
+            [7] = 10,
+        },
+        [4067] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3344] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6718] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6192] = 
+        {
+            [1] = 6,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 3,
+        },
+        [4659] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3639] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3648] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6101] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101034,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4051] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10004,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6228] = 
+        {
+            [1] = 4,
+            [2] = 2,
+            [3] = 101039,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5983] = 
+        {
+            [1] = 4,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5102] = 
+        {
+            [1] = 0,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 15033,
+            [5] = 10004,
+            [6] = 0,
+            [7] = 3,
+        },
+        [2161] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6090] = 
+        {
+            [1] = 6,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 3,
+        },
+        [4988] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10102,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3995] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13990,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 10,
+        },
+        [3736] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5282] = 
+        {
+            [1] = 15,
+            [2] = 2,
+            [3] = 101038,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 5,
+            [7] = 2,
+        },
+        [2404] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 14466,
+            [5] = 10091,
+            [6] = 0,
+            [7] = 0,
+        },
+        [5865] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3598] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13590,
+            [5] = 10002,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6648] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4026] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 14023,
+            [5] = 10003,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6650] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [4816] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101038,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 10,
+        },
+        [6582] = 
+        {
+            [1] = 1,
+            [2] = 2,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [3581] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 10001,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 0,
+        },
+        [6654] = 
+        {
+            [1] = 6,
+            [2] = 1,
+            [3] = 101033,
+            [4] = 10000,
+            [5] = 10000,
+            [6] = 0,
+            [7] = 3,
+        },
+        [3583] = 
+        {
+            [1] = 0,
+            [2] = 0,
+            [3] = 101039,
+            [4] = 13583,
+            [5] = 10001,
+            [6] = 0,
+            [7] = 0,
+        },
+    },
+    ["libVersion"] = 260,
+    ["quest_names"] = 
+    {
+        [5249] = "铁匠资格认证",
+        [5636] = "誓约任务：谜城遗迹",
+        [6789] = "失落的象征",
+        [4296] = "冷港的靈魂懺悔者",
+        [4681] = "蛇魔大君",
+        [5450] = "來自奧辛紐姆的邀請",
+        [4301] = "拯救圣物",
+        [6350] = "誓约任务：月墓神庙",
+        [5071] = "庫裡紐爾的邀請函",
+        [4816] = "对死者的祝福",
+        [6097] = "穿過黑暗的面紗",
+        [6743] = "誓约任务：船工之憾地牢",
+        [6170] = "神聖委託",
+        [6171] = "珠宝制作资格认证",
+        [4767] = "闯世者的一员",
+        [5409] = "厨师委托",
+        [5412] = "厨师委托",
+        [5413] = "厨师委托",
+        [6503] = "凯恩之盾战役",
+        [5289] = "厨师认证",
+        [5418] = "炼金术士的委托",
+        [4523] = "血荆棘阴谋",
+        [5935] = "失蹤的預言",
+        [6512] = "平息苦痛風暴",
+        [3953] = "贪婪魔鼠的城堡",
+        [2730] = "侦察王冠农场",
+        [2957] = "攻占艾丽斯维尔农场",
+        [2749] = "侦察王冠锯木厂",
+        [2504] = "阿祖拉的圣物",
+        [3035] = "命运女巫和女巫集会",
+        [6628] = "遗物与流言",
+        [6648] = "粉碎和分散",
+        [4967] = "無畏者公會的一員",
+        [2682] = "侦察法拉格特要塞",
+        [4219] = "巨蛇灯塔",
+        [5737] = "石落的锻莫圣物",
+        [5949] = "為了榮耀",
+        [3006] = "血荆棘刺客",
+        [6783] = "礁石掠夺者",
     },
     ["strored_data"] = 
     {
     },
     ["client_lang"] = "zh",
     ["effective_lang"] = "en",
-    ["reward_info"] = 
-    {
-        [6825] = 
-        {
-            [1] = 1,
-            [2] = 7,
-        },
-        [6763] = 
-        {
-            [1] = 1,
-            [2] = 7,
-        },
-        [6740] = 
-        {
-            [1] = 1,
-            [2] = 7,
-            [3] = 9,
-        },
-        [6821] = 
-        {
-            [1] = 1,
-            [2] = 7,
-        },
-        [6789] = 
-        {
-            [1] = 1,
-            [2] = 7,
-        },
-    },
 }

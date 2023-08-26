@@ -6,21 +6,7 @@ PithkaSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["runOnce"] = 
-                {
-                    ["arenaBug"] = true,
-                },
                 ["version"] = 1,
-                ["state"] = 
-                {
-                    ["trifectaSummary"] = "~ Trifecta Summary ~",
-                    ["showWatermark"] = true,
-                    ["dungeonSummary"] = "~ Dungeon Summary ~",
-                    ["currentScreen"] = "dungeon",
-                    ["title"] = "",
-                    ["trialSummary"] = "~ Trial Summary ~",
-                    ["showExtra"] = true,
-                },
                 ["currentToons"] = 
                 {
                     ["NA Megaserver"] = 
@@ -33,26 +19,31 @@ PithkaSavedVariables =
                         [6] = "Douli D",
                     },
                 },
-                ["options"] = 
+                ["runOnce"] = 
                 {
+                    ["arenaBug"] = true,
                 },
                 ["scores"] = 
                 {
-                    ["AS"] = 
+                    ["CR"] = 
                     {
-                        ["D Good"] = 69952,
+                        ["D Good"] = 47569,
+                    },
+                    ["HOF"] = 
+                    {
+                        ["D Good"] = 134606,
+                    },
+                    ["MOL"] = 
+                    {
+                        ["D Good"] = 65662,
                     },
                     ["SO"] = 
                     {
                         ["D Good"] = 136235,
                     },
-                    ["CR"] = 
+                    ["BRP"] = 
                     {
-                        ["D Good"] = 47569,
-                    },
-                    ["MOL"] = 
-                    {
-                        ["D Good"] = 65662,
+                        ["D Good"] = 29333,
                     },
                     ["HRC"] = 
                     {
@@ -62,22 +53,31 @@ PithkaSavedVariables =
                     {
                         ["D Good"] = 562991,
                     },
-                    ["AA"] = 
-                    {
-                        ["D Good"] = 134768,
-                    },
                     ["DSA"] = 
                     {
                         ["D Good"] = 17580,
                     },
-                    ["BRP"] = 
+                    ["AS"] = 
                     {
-                        ["D Good"] = 29333,
+                        ["D Good"] = 69952,
                     },
-                    ["HOF"] = 
+                    ["AA"] = 
                     {
-                        ["D Good"] = 134606,
+                        ["D Good"] = 134768,
                     },
+                },
+                ["options"] = 
+                {
+                },
+                ["state"] = 
+                {
+                    ["trifectaSummary"] = "~ Trifecta Summary ~",
+                    ["title"] = "",
+                    ["showExtra"] = true,
+                    ["currentScreen"] = "dungeon",
+                    ["showWatermark"] = true,
+                    ["dungeonSummary"] = "~ Dungeon Summary ~",
+                    ["trialSummary"] = "~ Trial Summary ~",
                 },
             },
         },

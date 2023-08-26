@@ -7,37 +7,37 @@ PersonalAssistantRepair_SavedVariables =
             ["$AccountWide"] = 
             {
                 ["profileCounter"] = 1,
-                ["savedVarsVersion"] = 20524,
-                ["version"] = 1,
                 [1] = 
                 {
+                    ["autoRepairEnabled"] = true,
+                    ["name"] = "Profile 1",
+                    ["silentMode"] = false,
+                    ["RepairEquipped"] = 
+                    {
+                        ["repairWithRepairKit"] = false,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithGold"] = true,
+                        ["defaultRepairKit"] = 0,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
+                    },
+                    ["RechargeWeapons"] = 
+                    {
+                        ["defaultSoulGem"] = 1,
+                        ["useSoulGems"] = true,
+                        ["lowSoulGemWarning"] = false,
+                        ["lowSoulGemThreshold"] = 10,
+                    },
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 75,
                     },
-                    ["name"] = "Profile 1",
-                    ["RepairEquipped"] = 
-                    {
-                        ["defaultRepairKit"] = 0,
-                        ["repairWithGold"] = true,
-                        ["repairWithRepairKit"] = false,
-                        ["lowRepairKitWarning"] = true,
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["lowRepairKitThreshold"] = 10,
-                        ["repairWithGoldDurabilityThreshold"] = 75,
-                    },
-                    ["RechargeWeapons"] = 
-                    {
-                        ["useSoulGems"] = true,
-                        ["lowSoulGemWarning"] = false,
-                        ["defaultSoulGem"] = 1,
-                        ["lowSoulGemThreshold"] = 10,
-                    },
-                    ["autoRepairEnabled"] = true,
-                    ["silentMode"] = false,
-                    ["autoRepairInventoryEnabled"] = true,
                 },
+                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
             },
         },
     },
