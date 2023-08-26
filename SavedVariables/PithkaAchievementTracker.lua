@@ -6,7 +6,59 @@ PithkaSavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["scores"] = 
+                {
+                    ["SO"] = 
+                    {
+                        ["D Good"] = 136235,
+                    },
+                    ["HOF"] = 
+                    {
+                        ["D Good"] = 134606,
+                    },
+                    ["MSA"] = 
+                    {
+                        ["D Good"] = 562991,
+                    },
+                    ["AA"] = 
+                    {
+                        ["D Good"] = 134768,
+                    },
+                    ["AS"] = 
+                    {
+                        ["D Good"] = 69952,
+                    },
+                    ["CR"] = 
+                    {
+                        ["D Good"] = 47569,
+                    },
+                    ["DSA"] = 
+                    {
+                        ["D Good"] = 17580,
+                    },
+                    ["HRC"] = 
+                    {
+                        ["D Good"] = 89324,
+                    },
+                    ["BRP"] = 
+                    {
+                        ["D Good"] = 29333,
+                    },
+                    ["MOL"] = 
+                    {
+                        ["D Good"] = 65662,
+                    },
+                },
+                ["state"] = 
+                {
+                    ["showWatermark"] = true,
+                    ["showExtra"] = true,
+                    ["trialSummary"] = "~ Trial Summary ~",
+                    ["currentScreen"] = "dungeon",
+                    ["trifectaSummary"] = "~ Trifecta Summary ~",
+                    ["title"] = "",
+                    ["dungeonSummary"] = "~ Dungeon Summary ~",
+                },
                 ["currentToons"] = 
                 {
                     ["NA Megaserver"] = 
@@ -19,66 +71,14 @@ PithkaSavedVariables =
                         [6] = "Douli D",
                     },
                 },
+                ["options"] = 
+                {
+                },
                 ["runOnce"] = 
                 {
                     ["arenaBug"] = true,
                 },
-                ["scores"] = 
-                {
-                    ["CR"] = 
-                    {
-                        ["D Good"] = 47569,
-                    },
-                    ["HOF"] = 
-                    {
-                        ["D Good"] = 134606,
-                    },
-                    ["MOL"] = 
-                    {
-                        ["D Good"] = 65662,
-                    },
-                    ["SO"] = 
-                    {
-                        ["D Good"] = 136235,
-                    },
-                    ["BRP"] = 
-                    {
-                        ["D Good"] = 29333,
-                    },
-                    ["HRC"] = 
-                    {
-                        ["D Good"] = 89324,
-                    },
-                    ["MSA"] = 
-                    {
-                        ["D Good"] = 562991,
-                    },
-                    ["DSA"] = 
-                    {
-                        ["D Good"] = 17580,
-                    },
-                    ["AS"] = 
-                    {
-                        ["D Good"] = 69952,
-                    },
-                    ["AA"] = 
-                    {
-                        ["D Good"] = 134768,
-                    },
-                },
-                ["options"] = 
-                {
-                },
-                ["state"] = 
-                {
-                    ["trifectaSummary"] = "~ Trifecta Summary ~",
-                    ["title"] = "",
-                    ["showExtra"] = true,
-                    ["currentScreen"] = "dungeon",
-                    ["showWatermark"] = true,
-                    ["dungeonSummary"] = "~ Dungeon Summary ~",
-                    ["trialSummary"] = "~ Trial Summary ~",
-                },
+                ["version"] = 1,
             },
         },
     },

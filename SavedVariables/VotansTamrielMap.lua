@@ -7,9 +7,9 @@ VotansTamrielMap_Data =
             ["$AccountWide"] = 
             {
                 ["version"] = 1,
-                ["opacity"] = 50,
-                ["titleFont"] = "GAMEPAD_LIGHT_FONT",
                 ["hidePins"] = true,
+                ["titleFont"] = "GAMEPAD_LIGHT_FONT",
+                ["opacity"] = 50,
                 ["color"] = "Alliance",
             },
         },

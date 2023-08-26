@@ -4,7 +4,7 @@ DefaultGuildBankVars =
     {
         ["@forever9409"] = 
         {
-            ["8796093073962423"] = 
+            ["8796093073961853"] = 
             {
                 ["NA Megaserver"] = 
                 {
@@ -13,6 +13,15 @@ DefaultGuildBankVars =
                     ["dgb_enabled"] = true,
                 },
                 ["$LastCharacterName"] = "Douli D",
+            },
+            ["$AccountWide"] = 
+            {
+                ["NA Megaserver"] = 
+                {
+                    ["version"] = 1,
+                    ["dgb_enabled"] = true,
+                    ["defaultGuildId"] = 836891,
+                },
             },
             ["8796093067296067"] = 
             {
@@ -24,14 +33,15 @@ DefaultGuildBankVars =
                 },
                 ["$LastCharacterName"] = "D Good",
             },
-            ["$AccountWide"] = 
+            ["8796093073962423"] = 
             {
                 ["NA Megaserver"] = 
                 {
                     ["version"] = 1,
+                    ["accountWide"] = true,
                     ["dgb_enabled"] = true,
-                    ["defaultGuildId"] = 836891,
                 },
+                ["$LastCharacterName"] = "Douli D",
             },
             ["8796093067519895"] = 
             {
@@ -42,16 +52,6 @@ DefaultGuildBankVars =
                     ["dgb_enabled"] = true,
                 },
                 ["$LastCharacterName"] = "D Ruba",
-            },
-            ["8796093073961853"] = 
-            {
-                ["NA Megaserver"] = 
-                {
-                    ["version"] = 1,
-                    ["accountWide"] = true,
-                    ["dgb_enabled"] = true,
-                },
-                ["$LastCharacterName"] = "Douli D",
             },
         },
     },

@@ -2,32 +2,32 @@ FishyQRparamsvar =
 {
     ["Default"] = 
     {
-        ["@forever9409"] = 
-        {
-            ["$AccountWide"] = 
-            {
-                ["enabled_on_looking"] = true,
-                ["pixelsize"] = 5,
-                ["run_var"] = false,
-                ["posy"] = 608,
-                ["maxpixels"] = 25,
-                ["updatetime"] = 500,
-                ["version"] = 2,
-                ["posx"] = -12,
-                ["change_scene"] = true,
-            },
-        },
         ["@forever9409d"] = 
         {
             ["$AccountWide"] = 
             {
+                ["run_var"] = true,
                 ["pixelsize"] = 3,
                 ["maxpixels"] = 25,
-                ["updatetime"] = 100,
                 ["version"] = 1,
-                ["run_var"] = true,
                 ["posx"] = 0,
                 ["posy"] = 0,
+                ["updatetime"] = 100,
+            },
+        },
+        ["@forever9409"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["run_var"] = false,
+                ["version"] = 2,
+                ["posx"] = -12,
+                ["updatetime"] = 500,
+                ["enabled_on_looking"] = true,
+                ["maxpixels"] = 25,
+                ["pixelsize"] = 5,
+                ["posy"] = 608,
+                ["change_scene"] = true,
             },
         },
     },

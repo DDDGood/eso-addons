@@ -8,257 +8,257 @@ OSIStore =
             {
                 [64] = 
                 {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["show"] = true,
                 },
                 [1] = 
                 {
                     ["icon"] = "esoui/art/icons/mapkey/mapkey_groupleader.dds",
-                    ["priority"] = false,
-                    ["show"] = true,
                     ["size"] = 128,
                     ["usesize"] = false,
+                    ["priority"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 0,
                         [3] = 1,
                     },
+                    ["show"] = true,
                 },
                 [2] = 
                 {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_tank.dds",
-                    ["priority"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 0,
                     },
+                    ["priority"] = false,
+                    ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_tank.dds",
+                    ["show"] = true,
                 },
                 [3] = 
                 {
-                    ["show"] = false,
-                    ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_dps.dds",
-                    ["priority"] = false,
                     ["color"] = 
                     {
                         [1] = 0,
                         [2] = 0,
                         [3] = 1,
                     },
+                    ["priority"] = false,
+                    ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_dps.dds",
+                    ["show"] = false,
                 },
                 [4] = 
                 {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_healer.dds",
-                    ["priority"] = false,
                     ["color"] = 
                     {
                         [1] = 0,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["priority"] = false,
+                    ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_healer.dds",
+                    ["show"] = true,
                 },
                 [5] = 
                 {
-                    ["show"] = false,
-                    ["icon"] = "esoui/art/tutorial/gamepad/gp_lfg_veteranldungeon.dds",
-                    ["priority"] = false,
                     ["color"] = 
                     {
                         [1] = 0,
                         [2] = 1,
                         [3] = 0,
                     },
+                    ["priority"] = false,
+                    ["icon"] = "esoui/art/tutorial/gamepad/gp_lfg_veteranldungeon.dds",
+                    ["show"] = false,
                 },
+                ["grstatus"] = false,
                 ["gwdead"] = false,
-                ["flstatus"] = false,
-                ["raidallow"] = false,
-                ["gwuse"] = false,
-                ["wmroles"] = false,
-                ["hodorprio"] = false,
-                ["scaling"] = true,
-                ["cache"] = 
-                {
-                },
-                ["offset"] = 3,
-                ["wmuse"] = false,
                 ["flunique"] = false,
-                ["alpha"] = 1,
-                ["raidforce"] = false,
-                ["fluse"] = false,
-                ["customuse"] = false,
-                ["wmdead"] = false,
-                ["version"] = 1,
-                ["interval"] = 30,
-                ["cwuse"] = true,
-                [65] = 
+                ["gwunique"] = false,
+                ["hodoruse"] = false,
+                ["offset"] = 3,
+                ["scaling"] = true,
+                [54] = 
                 {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
-                },
-                [100] = 
-                {
-                    ["priority"] = false,
-                    ["icon"] = "esoui/art/icons/mapkey/mapkey_groupboss.dds",
+                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_armory.dds",
                     ["show"] = true,
-                    ["colrez"] = 
+                },
+                ["cwsize"] = 20,
+                ["hodoranim"] = true,
+                [55] = 
+                {
+                    ["color"] = 
                     {
                         [1] = 1,
-                        [2] = 0.5000000000,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["icon"] = "esoui/art/crafting/gamepad/gp_crafting_menuicon_deconstruct.dds",
+                    ["show"] = true,
+                },
+                ["alpha"] = 1,
+                ["raidallow"] = false,
+                ["gruse"] = false,
+                ["wmdead"] = false,
+                ["cache"] = 
+                {
+                },
+                ["raidforce"] = false,
+                ["gwroles"] = false,
+                ["gwcrown"] = true,
+                ["wmsize"] = 32,
+                ["save"] = false,
+                ["flstatus"] = false,
+                ["fadeout"] = true,
+                [53] = 
+                {
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["icon"] = "esoui/art/icons/mapkey/mapkey_fence.dds",
+                    ["show"] = true,
+                },
+                ["iconsize"] = 68,
+                ["cwunique"] = true,
+                ["interval"] = 30,
+                ["ignore"] = true,
+                ["cwuse"] = true,
+                ["wmroles"] = false,
+                ["wmunique"] = false,
+                ["fluse"] = false,
+                ["version"] = 1,
+                ["gwuse"] = false,
+                ["customuse"] = false,
+                [51] = 
+                {
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_bank.dds",
+                    ["show"] = true,
+                },
+                [52] = 
+                {
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_vendor.dds",
+                    ["show"] = true,
+                },
+                ["hodorprio"] = false,
+                ["wmuse"] = false,
+                ["grunique"] = false,
+                [100] = 
+                {
+                    ["icon"] = "esoui/art/icons/mapkey/mapkey_groupboss.dds",
+                    ["priority"] = false,
+                    ["offset"] = 0.5000000000,
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 0,
                         [3] = 0,
                     },
-                    ["offset"] = 0.5000000000,
+                    ["useoff"] = true,
+                    ["show"] = true,
                     ["colrdy"] = 
                     {
                         [1] = 0.5000000000,
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["useoff"] = true,
-                    ["color"] = 
+                    ["colrez"] = 
                     {
                         [1] = 1,
-                        [2] = 0,
+                        [2] = 0.5000000000,
                         [3] = 0,
                     },
                 },
-                [55] = 
-                {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/crafting/gamepad/gp_crafting_menuicon_deconstruct.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
-                ["ignore"] = true,
-                ["showOwnIcon"] = false,
-                ["gwunique"] = false,
-                [54] = 
-                {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_armory.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
-                ["save"] = false,
-                ["cwsize"] = 20,
-                ["fadeout"] = true,
-                ["gruse"] = false,
-                ["hodoranim"] = true,
-                ["grstatus"] = false,
-                ["wmsize"] = 32,
-                ["cwunique"] = true,
-                ["gwcrown"] = true,
-                [51] = 
-                {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_bank.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
-                [52] = 
-                {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_vendor.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
-                [53] = 
-                {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/icons/mapkey/mapkey_fence.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
-                ["gwroles"] = false,
-                ["iconsize"] = 68,
-                ["hodoruse"] = false,
-                ["wmunique"] = false,
                 ["fadedist"] = 7.5000000000,
-                ["grunique"] = false,
-                [60] = 
+                ["showOwnIcon"] = false,
+                [65] = 
                 {
-                    ["show"] = false,
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
                     ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
                     ["dead"] = false,
+                    ["show"] = true,
+                },
+                [60] = 
+                {
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["show"] = false,
                 },
                 [61] = 
                 {
-                    ["show"] = false,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["show"] = false,
                 },
                 [62] = 
                 {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["show"] = true,
                 },
                 [63] = 
                 {
-                    ["show"] = true,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["show"] = true,
                 },
             },
         },
