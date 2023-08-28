@@ -22,7 +22,7 @@ local FALGRAVN_BLOOTBALL 	= 136548 --132934 -- dont move Shit
 local FALGRAVN_PULSE		= 134854 -- If This Fades Visible of Stacsk can be off
 local FALGRAVN_HM			= 137215 -- Lord Falgraven HM
 local FALGRAVN_PRISONER_F	= 137315 -- Debuff count on prissoners if fail..
-
+local FALGRAVN_BLOPSYNERGIE = 129936 -- Execration synergie
 local FALGRAVN_PULSE_STACK  = 134856 -- Stacks Count on player self
 
 local FALGRAVN_SACRIFICE	= 139620 -- Saved the guy
@@ -55,11 +55,12 @@ table.insert(FALGRAVN_IDS, { en = "FPSE", id = FALGRAVN_PRISONER_F,		event = EVE
 table.insert(FALGRAVN_IDS, { en = "FMC", id = FALGRAVN_M_CLEAVE, 		event = EVENT_COMBAT_EVENT, 	result = ACTION_RESULT_BEGIN }) -- Mini Blood Cleave
 table.insert(FALGRAVN_IDS, { en = "TLA", id = FALGRAVN_TORTURER_LA, 	event = EVENT_COMBAT_EVENT, 	result = ACTION_RESULT_BEGIN }) -- Torturer LA
 table.insert(FALGRAVN_IDS, { en = "FTE", id = FALGRAVN_TORTURER_ESC, 	event = EVENT_COMBAT_EVENT, 	result = -1 }) -- Torturer comes down
+table.insert(FALGRAVN_IDS, { en = "FTE", id = FALGRAVN_BLOPSYNERGIE,	event = EVENT_EFFECT_CHANGED, 	result = 0 })
 
 -- Icon Lightning
 local ICON_LBOLT = "/esoui/art/icons/ability_skeevatonschock.dds"
 local ICON_PRISON = "/esoui/art/icons/ability_rogue_035.dds"
-
+local ICON_EXECRATION = "/esoui/art/icons/ability_necromancer_016.dds"
 
 local PRISONERS_LIST = { }
 local function ResetPrisonersList()
@@ -440,6 +441,19 @@ local function OnEffectChanged(eventCode, changeType, effectSlot, effectName, un
 					TorturerCount = TorturerCount - 1
 					BSCHTKA.UpdateTorturerIcon(Name, 3) 
 				end	
+			end
+		end
+	end
+	-- Execration debuff on Player
+	if abilityId == FALGRAVN_BLOPSYNERGIE then
+		local displayName = zo_strformat("<<1>>", GetUnitDisplayName(unitTag))	 
+		if changeType == EFFECT_RESULT_GAINED then
+			if OSI and OSI.CreatePositionIcon and BSCHTKA.SV_ACC.EXECRATION_ICON then
+				OSI.SetMechanicIconForUnit(displayName, ICON_PRISON, 2 * OSI.GetIconSize())
+			end
+		elseif changeType == EFFECT_RESULT_FADED then
+			if OSI and OSI.CreatePositionIcon and BSCHTKA.SV_ACC.EXECRATION_ICON then
+				OSI.RemoveMechanicIconForUnit( displayName )
 			end
 		end
 	end

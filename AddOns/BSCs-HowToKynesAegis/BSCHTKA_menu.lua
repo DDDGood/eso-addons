@@ -704,6 +704,18 @@ local function AddFalgravnSetting()
         width = "half",
 	})	
 	AddDivider(optionsTable)
+	AddTexture(optionsTable, 129936, "")
+	table.insert(optionsTable, {
+		type = "checkbox",
+		name = "Execration Icon On Player", 
+		tooltip = "The player who did take the Blop Synergie..",
+		getFunc = function() return BSCHTKA.SV_ACC.EXECRATION_ICON end,
+		setFunc = function(value) 
+			BSCHTKA.SV_ACC.EXECRATION_ICON = value
+		end,
+        width = "half",
+	})	
+	AddDivider(optionsTable)
 	table.insert(optionsTable, {
 		type = "checkbox",
 		name = "Position Icon (Blood Ball)", 

@@ -2,457 +2,457 @@ RNVars =
 {
     ["Default"] = 
     {
-        ["@forever9409"] = 
-        {
-            ["$AccountWide"] = 
-            {
-                ["rockgrove"] = 
-                {
-                    ["bahsei_embrace_of_death"] = 0,
-                    ["oaxiltso_noxious_sludge"] = 0,
-                    ["sulxan_soulweaver_astral_shield"] = false,
-                    ["oaxiltso_annihilator_cinder_cleave"] = 0,
-                    ["prime_meteor"] = false,
-                    ["havocrel_barbarian_hasted_assault"] = false,
-                    ["sulxan_reaver_sundering_strike"] = 0,
-                    ["sulxan_soulweaver_soul_remnant"] = false,
-                    ["oaxiltso_savage_blitz"] = false,
-                },
-                ["kynesAegis"] = 
-                {
-                    ["yandir_fireshaman_meteor"] = 0,
-                    ["tidebreaker_crashing_wall"] = false,
-                    ["bitter_knight_sanguine_prison"] = false,
-                    ["falgravn_ichor_eruption_time_before"] = 3,
-                    ["yandir_totem_spawn"] = 0,
-                    ["vrol_firemage_meteor"] = 0,
-                    ["bloodknight_blood_fountain"] = false,
-                    ["falgravn_ichor_eruption"] = false,
-                },
-                ["helra"] = 
-                {
-                    ["yokeda_meteor"] = 1,
-                    ["warrior_stoneform"] = 1,
-                },
-                ["general"] = 
-                {
-                    ["last_pet"] = 0,
-                    ["buffFood_reminder"] = true,
-                    ["default_sound"] = "Champion_PointsCommitted",
-                    ["vanity_pets"] = true,
-                    ["announcement_position"] = 
-                    {
-                        [1] = 0,
-                        [2] = -120,
-                        [3] = 128,
-                    },
-                    ["use_center_screen_announce"] = 1,
-                    ["unlock_status_icon"] = false,
-                    ["notifications_scale"] = 100,
-                    ["useDisplayName"] = false,
-                    ["status_display"] = 
-                    {
-                        [1] = 100,
-                        [2] = 400,
-                        [3] = 128,
-                    },
-                    ["no_assistants"] = false,
-                    ["buffFood_reminder_interval"] = 60,
-                },
-                ["ultimate"] = 
-                {
-                    ["enabled"] = false,
-                    ["showTanks"] = true,
-                    ["useDisplayName"] = false,
-                    ["override_cost"] = 0,
-                    ["useColor"] = true,
-                    ["showHealers"] = true,
-                    ["hidden"] = false,
-                    ["showDps"] = false,
-                    ["ulti_window"] = 
-                    {
-                        [2] = 600,
-                        [1] = 100,
-                    },
-                },
-                ["cloudrest"] = 
-                {
-                    ["malicious_strike"] = true,
-                    ["sum_shadow_beads"] = false,
-                    ["shadow_realm_cast"] = true,
-                    ["hoarfrost_countdown"] = true,
-                    ["crushing_darkness"] = 1,
-                    ["hoarfrost"] = 1,
-                    ["tentacle_spawn"] = false,
-                    ["nocturnals_favor"] = 1,
-                    ["olorime_spears"] = true,
-                    ["break_amulet"] = true,
-                    ["roaring_flare"] = 2,
-                    ["voltaic_overload"] = 1,
-                    ["hoarfrost_shed"] = true,
-                    ["heavy_attack"] = 1,
-                    ["baneful_barb"] = 1,
-                    ["chilling_comet"] = true,
-                    ["voltaic_overload_time"] = 10000,
-                    ["track_roaring_flare"] = false,
-                    ["shadow_splash"] = false,
-                },
-                ["version"] = 4,
-                ["archive"] = 
-                {
-                    ["stormatro_lightningstorm"] = false,
-                    ["call_lightning"] = 1,
-                    ["stoneatro_bigquake"] = false,
-                    ["overcharge"] = 0,
-                    ["stormatro_impendingstorm"] = false,
-                    ["stoneatro_boulderstorm"] = false,
-                },
-                ["dragonstar"] = 
-                {
-                    ["arena8_ice_charge"] = 1,
-                    ["arena6_drain_resource"] = 1,
-                    ["arena7_unstable_core"] = true,
-                    ["arena8_fire_charge"] = 1,
-                    ["general_crystal_blast"] = true,
-                    ["arena2_crushing_shock"] = true,
-                    ["general_taking_aim"] = false,
-                },
-                ["dreadsailReef"] = 
-                {
-                    ["imminent_debuffs"] = false,
-                    ["reef_guardian_reef_heart"] = false,
-                    ["taleria_rapid_deluge"] = 0,
-                    ["reef_guardian_reef_heart_result"] = false,
-                    ["brothers_heavy_attack"] = 0,
-                    ["dome_activation"] = false,
-                },
-                ["countdown"] = 
-                {
-                    ["textScale"] = 100,
-                    ["useColor"] = false,
-                    ["timerScale"] = 100,
-                    ["timerPrecise"] = 10,
-                },
-                ["addonVersion"] = "2.24.1",
-                ["dbg"] = 
-                {
-                    ["tracker"] = false,
-                    ["devMode"] = false,
-                    ["notify"] = false,
-                    ["spamControl"] = true,
-                    ["myEnemyOnly"] = false,
-                    ["verbose"] = false,
-                    ["enable"] = false,
-                },
-                ["sounds"] = 
-                {
-                },
-                ["mawLorkhaj"] = 
-                {
-                    ["rakkhat_darkbarrage"] = false,
-                    ["zhaj_glyphs"] = false,
-                    ["rakkhat_lunarbastion1"] = 0,
-                    ["suneater_eclipse"] = 1,
-                    ["shattering_strike"] = 0,
-                    ["hulk_armorweakened"] = false,
-                    ["rakkhat_threshingwings"] = true,
-                    ["twinBoss_aspects"] = 2,
-                    ["zhaj_gripoflorkhaj"] = true,
-                    ["rakkhat_unstablevoid_countdown"] = false,
-                    ["zhaj_glyph_window"] = 
-                    {
-                        [2] = 400,
-                        [1] = 100,
-                    },
-                    ["zhaj_glyphs_invert"] = false,
-                    ["rakkhat_lunarbastion2"] = 0,
-                    ["rakkhat_darknessfalls"] = false,
-                    ["rakkhat_unstablevoid"] = 1,
-                    ["twinBoss_aspects_status"] = true,
-                },
-                ["asylum"] = 
-                {
-                    ["felms_teleport_strike"] = 1,
-                    ["olms_trial_by_fire"] = true,
-                    ["olms_gusts_of_steam_slider"] = 1,
-                    ["llothis_soul_stained_corruption"] = false,
-                    ["olms_storm_the_heavens"] = true,
-                    ["olms_protector_spawn"] = true,
-                    ["olms_exhaustive_charges"] = false,
-                    ["llothis_defiling_blast"] = 1,
-                    ["olms_gusts_of_steam"] = true,
-                },
-                ["hallsFab"] = 
-                {
-                    ["committee_overpower_auras_dynamic"] = false,
-                    ["taking_aim"] = 1,
-                    ["taking_aim_duration"] = 5000,
-                    ["pinnacleBoss_conduit_spawn"] = true,
-                    ["committee_fabricant_spawn"] = false,
-                    ["committee_overpower_auras"] = false,
-                    ["venom_injection"] = false,
-                    ["committee_reclaim_achieve"] = false,
-                    ["power_leech"] = false,
-                    ["pinnacleBoss_conduit_drain"] = 0,
-                    ["pinnacleBoss_scalded_display"] = 
-                    {
-                        [2] = 400,
-                        [1] = 100,
-                    },
-                    ["pinnacleBoss_scalded"] = true,
-                    ["draining_ballista"] = 1,
-                    ["conduit_strike"] = true,
-                    ["committee_overpower_auras_duration"] = 9000,
-                    ["taking_aim_dynamic"] = 1,
-                },
-                ["sunspire"] = 
-                {
-                    ["mark_for_death"] = 0,
-                    ["molten_meteor"] = 1,
-                    ["focus_fire"] = 1,
-                    ["breath"] = 1,
-                    ["cataclism"] = true,
-                    ["thrash"] = true,
-                    ["frozen_tomb"] = true,
-                    ["chilling_comet"] = 1,
-                    ["negate_field"] = 1,
-                    ["time_breach"] = false,
-                    ["shock_bolt"] = true,
-                    ["sweeping_breath"] = true,
-                },
-                ["dLog"] = 
-                {
-                },
-                ["useAccountWide"] = true,
-                ["sanctumOphidia"] = 
-                {
-                    ["serpent_world_shaper"] = true,
-                    ["troll_poison"] = 0,
-                    ["serpent_poison"] = 1,
-                    ["magicka_deto"] = true,
-                    ["overcharge"] = 0,
-                    ["call_lightning"] = 1,
-                    ["mantikora_quake"] = false,
-                    ["troll_boulder"] = 0,
-                },
-                ["maelstrom"] = 
-                {
-                    ["stage7_poison"] = true,
-                    ["stage9_synergy"] = true,
-                },
-            },
-        },
         ["@forever9409d"] = 
         {
             ["$AccountWide"] = 
             {
-                ["hallsFab"] = 
+                ["dLog"] = 
                 {
-                    ["committee_overpower_auras_dynamic"] = false,
-                    ["taking_aim"] = 1,
-                    ["taking_aim_duration"] = 5000,
-                    ["pinnacleBoss_conduit_spawn"] = true,
-                    ["committee_fabricant_spawn"] = false,
-                    ["committee_overpower_auras"] = false,
-                    ["venom_injection"] = false,
-                    ["committee_reclaim_achieve"] = false,
-                    ["power_leech"] = false,
-                    ["pinnacleBoss_conduit_drain"] = 0,
-                    ["pinnacleBoss_scalded_display"] = 
-                    {
-                        [2] = 400,
-                        [1] = 100,
-                    },
-                    ["pinnacleBoss_scalded"] = true,
-                    ["draining_ballista"] = 1,
-                    ["conduit_strike"] = true,
-                    ["committee_overpower_auras_duration"] = 9000,
-                    ["taking_aim_dynamic"] = 1,
+                },
+                ["addonVersion"] = "2.18.1",
+                ["countdown"] = 
+                {
+                    ["timerScale"] = 100,
+                    ["useColor"] = false,
+                    ["timerPrecise"] = 10,
+                    ["textScale"] = 100,
+                },
+                ["cloudrest"] = 
+                {
+                    ["olorime_spears"] = false,
+                    ["chilling_comet"] = true,
+                    ["voltaic_overload"] = 1,
+                    ["malicious_strike"] = false,
+                    ["hoarfrost_countdown"] = true,
+                    ["tentacle_spawn"] = false,
+                    ["break_amulet"] = false,
+                    ["roaring_flare"] = 2,
+                    ["hoarfrost_shed"] = true,
+                    ["crushing_darkness"] = 1,
+                    ["shadow_realm_cast"] = false,
+                    ["heavy_attack"] = 0,
+                    ["nocturnals_favor"] = 0,
+                    ["hoarfrost"] = 0,
+                    ["sum_shadow_beads"] = false,
+                    ["baneful_barb"] = 0,
+                    ["track_roaring_flare"] = false,
+                    ["voltaic_overload_time"] = 10000,
                 },
                 ["kynesAegis"] = 
                 {
                     ["yandir_totem_spawn"] = 0,
-                    ["tidebreaker_crashing_wall"] = false,
                     ["bitter_knight_sanguine_prison"] = false,
+                    ["tidebreaker_crashing_wall"] = false,
                     ["bloodknight_blood_fountain"] = false,
                 },
-                ["helra"] = 
-                {
-                    ["yokeda_meteor"] = 1,
-                    ["warrior_stoneform"] = 1,
-                },
+                ["version"] = 4,
                 ["general"] = 
                 {
-                    ["last_pet"] = 0,
-                    ["buffFood_reminder"] = true,
-                    ["default_sound"] = "Champion_PointsCommitted",
-                    ["vanity_pets"] = true,
+                    ["buffFood_reminder_interval"] = 60,
+                    ["unlock_status_icon"] = false,
                     ["announcement_position"] = 
                     {
                         [1] = 0,
                         [2] = -120,
                         [3] = 128,
                     },
-                    ["use_center_screen_announce"] = 1,
-                    ["unlock_status_icon"] = false,
+                    ["no_assistants"] = true,
+                    ["default_sound"] = "Champion_PointsCommitted",
                     ["notifications_scale"] = 100,
-                    ["useDisplayName"] = false,
+                    ["vanity_pets"] = true,
+                    ["use_center_screen_announce"] = 1,
                     ["status_display"] = 
                     {
                         [1] = 100,
                         [2] = 400,
                         [3] = 128,
                     },
-                    ["no_assistants"] = true,
-                    ["buffFood_reminder_interval"] = 60,
+                    ["last_pet"] = 0,
+                    ["buffFood_reminder"] = true,
+                    ["useDisplayName"] = false,
                 },
                 ["ultimate"] = 
                 {
-                    ["enabled"] = false,
-                    ["showTanks"] = true,
-                    ["useDisplayName"] = false,
                     ["override_cost"] = 0,
-                    ["useColor"] = true,
-                    ["showHealers"] = true,
                     ["hidden"] = false,
+                    ["enabled"] = false,
+                    ["useColor"] = true,
                     ["showDps"] = false,
+                    ["showTanks"] = true,
                     ["ulti_window"] = 
                     {
                         [2] = 600,
                         [1] = 100,
                     },
-                },
-                ["cloudrest"] = 
-                {
-                    ["malicious_strike"] = false,
-                    ["sum_shadow_beads"] = false,
-                    ["shadow_realm_cast"] = false,
-                    ["hoarfrost_countdown"] = true,
-                    ["crushing_darkness"] = 1,
-                    ["hoarfrost"] = 0,
-                    ["tentacle_spawn"] = false,
-                    ["nocturnals_favor"] = 0,
-                    ["olorime_spears"] = false,
-                    ["break_amulet"] = false,
-                    ["roaring_flare"] = 2,
-                    ["voltaic_overload"] = 1,
-                    ["hoarfrost_shed"] = true,
-                    ["heavy_attack"] = 0,
-                    ["chilling_comet"] = true,
-                    ["baneful_barb"] = 0,
-                    ["voltaic_overload_time"] = 10000,
-                    ["track_roaring_flare"] = false,
-                },
-                ["version"] = 4,
-                ["dragonstar"] = 
-                {
-                    ["arena8_ice_charge"] = 1,
-                    ["arena6_drain_resource"] = 1,
-                    ["arena7_unstable_core"] = true,
-                    ["arena8_fire_charge"] = 1,
-                    ["general_crystal_blast"] = true,
-                    ["arena2_crushing_shock"] = true,
-                    ["general_taking_aim"] = false,
+                    ["showHealers"] = true,
+                    ["useDisplayName"] = false,
                 },
                 ["archive"] = 
                 {
-                    ["stormatro_lightningstorm"] = false,
                     ["call_lightning"] = 1,
                     ["stoneatro_bigquake"] = false,
+                    ["stoneatro_boulderstorm"] = false,
                     ["overcharge"] = 0,
                     ["stormatro_impendingstorm"] = false,
-                    ["stoneatro_boulderstorm"] = false,
+                    ["stormatro_lightningstorm"] = false,
                 },
-                ["countdown"] = 
+                ["sanctumOphidia"] = 
                 {
-                    ["textScale"] = 100,
-                    ["useColor"] = false,
-                    ["timerScale"] = 100,
-                    ["timerPrecise"] = 10,
+                    ["call_lightning"] = 1,
+                    ["mantikora_quake"] = false,
+                    ["serpent_world_shaper"] = true,
+                    ["troll_poison"] = 0,
+                    ["magicka_deto"] = true,
+                    ["overcharge"] = 0,
+                    ["serpent_poison"] = 1,
+                    ["troll_boulder"] = 0,
                 },
+                ["hallsFab"] = 
+                {
+                    ["taking_aim_duration"] = 5000,
+                    ["taking_aim"] = 1,
+                    ["pinnacleBoss_conduit_drain"] = 0,
+                    ["committee_overpower_auras"] = false,
+                    ["committee_overpower_auras_duration"] = 9000,
+                    ["pinnacleBoss_scalded_display"] = 
+                    {
+                        [2] = 400,
+                        [1] = 100,
+                    },
+                    ["committee_reclaim_achieve"] = false,
+                    ["power_leech"] = false,
+                    ["venom_injection"] = false,
+                    ["pinnacleBoss_scalded"] = true,
+                    ["draining_ballista"] = 1,
+                    ["committee_fabricant_spawn"] = false,
+                    ["conduit_strike"] = true,
+                    ["committee_overpower_auras_dynamic"] = false,
+                    ["taking_aim_dynamic"] = 1,
+                    ["pinnacleBoss_conduit_spawn"] = true,
+                },
+                ["helra"] = 
+                {
+                    ["yokeda_meteor"] = 1,
+                    ["warrior_stoneform"] = 1,
+                },
+                ["useAccountWide"] = true,
                 ["maelstrom"] = 
                 {
                     ["stage7_poison"] = true,
                     ["stage9_synergy"] = true,
                 },
-                ["sounds"] = 
+                ["asylum"] = 
                 {
+                    ["olms_gusts_of_steam_slider"] = 0,
+                    ["olms_storm_the_heavens"] = true,
+                    ["olms_protector_spawn"] = true,
+                    ["olms_exhaustive_charges"] = false,
+                    ["olms_gusts_of_steam"] = true,
+                    ["llothis_soul_stained_corruption"] = false,
+                    ["olms_trial_by_fire"] = true,
+                    ["felms_teleport_strike"] = 1,
+                    ["llothis_defiling_blast"] = 1,
                 },
                 ["mawLorkhaj"] = 
                 {
+                    ["suneater_eclipse"] = 1,
                     ["rakkhat_darkbarrage"] = false,
                     ["zhaj_glyphs"] = false,
-                    ["rakkhat_lunarbastion1"] = 0,
-                    ["suneater_eclipse"] = 1,
-                    ["shattering_strike"] = 0,
                     ["hulk_armorweakened"] = false,
-                    ["rakkhat_threshingwings"] = true,
-                    ["twinBoss_aspects"] = 2,
                     ["zhaj_gripoflorkhaj"] = true,
+                    ["rakkhat_lunarbastion2"] = 0,
+                    ["rakkhat_unstablevoid"] = 1,
+                    ["twinBoss_aspects_status"] = false,
+                    ["rakkhat_darknessfalls"] = false,
+                    ["twinBoss_aspects"] = 2,
                     ["rakkhat_unstablevoid_countdown"] = false,
                     ["zhaj_glyph_window"] = 
                     {
                         [2] = 400,
                         [1] = 100,
                     },
+                    ["rakkhat_threshingwings"] = true,
+                    ["shattering_strike"] = 0,
+                    ["rakkhat_lunarbastion1"] = 0,
                     ["zhaj_glyphs_invert"] = false,
-                    ["rakkhat_lunarbastion2"] = 0,
-                    ["rakkhat_darknessfalls"] = false,
-                    ["rakkhat_unstablevoid"] = 1,
-                    ["twinBoss_aspects_status"] = false,
                 },
-                ["asylum"] = 
-                {
-                    ["felms_teleport_strike"] = 1,
-                    ["olms_trial_by_fire"] = true,
-                    ["olms_gusts_of_steam_slider"] = 0,
-                    ["llothis_soul_stained_corruption"] = false,
-                    ["olms_storm_the_heavens"] = true,
-                    ["olms_protector_spawn"] = true,
-                    ["olms_exhaustive_charges"] = false,
-                    ["llothis_defiling_blast"] = 1,
-                    ["olms_gusts_of_steam"] = true,
-                },
-                ["addonVersion"] = "2.18.1",
                 ["sunspire"] = 
                 {
-                    ["mark_for_death"] = 0,
-                    ["molten_meteor"] = 1,
-                    ["focus_fire"] = 1,
-                    ["breath"] = 1,
-                    ["cataclism"] = true,
                     ["thrash"] = true,
-                    ["frozen_tomb"] = true,
-                    ["chilling_comet"] = 1,
-                    ["negate_field"] = 1,
+                    ["molten_meteor"] = 1,
                     ["time_breach"] = false,
-                    ["shock_bolt"] = true,
+                    ["cataclism"] = true,
+                    ["focus_fire"] = 1,
+                    ["chilling_comet"] = 1,
+                    ["frozen_tomb"] = true,
                     ["sweeping_breath"] = true,
+                    ["breath"] = 1,
+                    ["shock_bolt"] = true,
+                    ["negate_field"] = 1,
+                    ["mark_for_death"] = 0,
                 },
-                ["useAccountWide"] = true,
-                ["dLog"] = 
+                ["dragonstar"] = 
                 {
+                    ["general_taking_aim"] = false,
+                    ["general_crystal_blast"] = true,
+                    ["arena6_drain_resource"] = 1,
+                    ["arena8_ice_charge"] = 1,
+                    ["arena8_fire_charge"] = 1,
+                    ["arena7_unstable_core"] = true,
+                    ["arena2_crushing_shock"] = true,
                 },
-                ["sanctumOphidia"] = 
+                ["sounds"] = 
                 {
-                    ["serpent_world_shaper"] = true,
-                    ["troll_poison"] = 0,
-                    ["serpent_poison"] = 1,
-                    ["magicka_deto"] = true,
-                    ["overcharge"] = 0,
-                    ["call_lightning"] = 1,
-                    ["mantikora_quake"] = false,
-                    ["troll_boulder"] = 0,
                 },
                 ["dbg"] = 
                 {
-                    ["tracker"] = false,
-                    ["devMode"] = false,
-                    ["notify"] = false,
-                    ["spamControl"] = true,
-                    ["myEnemyOnly"] = false,
-                    ["verbose"] = false,
                     ["enable"] = false,
+                    ["devMode"] = false,
+                    ["myEnemyOnly"] = false,
+                    ["spamControl"] = true,
+                    ["verbose"] = false,
+                    ["notify"] = false,
+                    ["tracker"] = false,
+                },
+            },
+        },
+        ["@forever9409"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["dLog"] = 
+                {
+                },
+                ["addonVersion"] = "2.24.1",
+                ["countdown"] = 
+                {
+                    ["timerScale"] = 100,
+                    ["useColor"] = false,
+                    ["timerPrecise"] = 10,
+                    ["textScale"] = 100,
+                },
+                ["dreadsailReef"] = 
+                {
+                    ["brothers_heavy_attack"] = 0,
+                    ["dome_activation"] = false,
+                    ["imminent_debuffs"] = false,
+                    ["reef_guardian_reef_heart_result"] = false,
+                    ["taleria_rapid_deluge"] = 0,
+                    ["reef_guardian_reef_heart"] = false,
+                },
+                ["sounds"] = 
+                {
+                },
+                ["kynesAegis"] = 
+                {
+                    ["falgravn_ichor_eruption"] = false,
+                    ["falgravn_ichor_eruption_time_before"] = 3,
+                    ["bitter_knight_sanguine_prison"] = false,
+                    ["bloodknight_blood_fountain"] = false,
+                    ["yandir_totem_spawn"] = 0,
+                    ["tidebreaker_crashing_wall"] = false,
+                    ["yandir_fireshaman_meteor"] = 0,
+                    ["vrol_firemage_meteor"] = 0,
+                },
+                ["version"] = 4,
+                ["general"] = 
+                {
+                    ["buffFood_reminder_interval"] = 60,
+                    ["unlock_status_icon"] = false,
+                    ["announcement_position"] = 
+                    {
+                        [1] = 0,
+                        [2] = -120,
+                        [3] = 128,
+                    },
+                    ["no_assistants"] = false,
+                    ["default_sound"] = "Champion_PointsCommitted",
+                    ["notifications_scale"] = 100,
+                    ["vanity_pets"] = true,
+                    ["use_center_screen_announce"] = 1,
+                    ["status_display"] = 
+                    {
+                        [1] = 100,
+                        [2] = 400,
+                        [3] = 128,
+                    },
+                    ["last_pet"] = 0,
+                    ["buffFood_reminder"] = true,
+                    ["useDisplayName"] = false,
+                },
+                ["ultimate"] = 
+                {
+                    ["override_cost"] = 0,
+                    ["hidden"] = false,
+                    ["enabled"] = false,
+                    ["useColor"] = true,
+                    ["showDps"] = false,
+                    ["showTanks"] = true,
+                    ["ulti_window"] = 
+                    {
+                        [2] = 600,
+                        [1] = 100,
+                    },
+                    ["showHealers"] = true,
+                    ["useDisplayName"] = false,
+                },
+                ["archive"] = 
+                {
+                    ["call_lightning"] = 1,
+                    ["stoneatro_bigquake"] = false,
+                    ["stoneatro_boulderstorm"] = false,
+                    ["overcharge"] = 0,
+                    ["stormatro_impendingstorm"] = false,
+                    ["stormatro_lightningstorm"] = false,
+                },
+                ["sanctumOphidia"] = 
+                {
+                    ["call_lightning"] = 1,
+                    ["mantikora_quake"] = false,
+                    ["serpent_world_shaper"] = true,
+                    ["troll_poison"] = 0,
+                    ["magicka_deto"] = true,
+                    ["overcharge"] = 0,
+                    ["serpent_poison"] = 1,
+                    ["troll_boulder"] = 0,
+                },
+                ["hallsFab"] = 
+                {
+                    ["taking_aim_duration"] = 5000,
+                    ["taking_aim"] = 1,
+                    ["pinnacleBoss_conduit_drain"] = 0,
+                    ["committee_overpower_auras"] = false,
+                    ["committee_overpower_auras_duration"] = 9000,
+                    ["pinnacleBoss_scalded_display"] = 
+                    {
+                        [2] = 400,
+                        [1] = 100,
+                    },
+                    ["committee_reclaim_achieve"] = false,
+                    ["power_leech"] = false,
+                    ["venom_injection"] = false,
+                    ["pinnacleBoss_scalded"] = true,
+                    ["draining_ballista"] = 1,
+                    ["committee_fabricant_spawn"] = false,
+                    ["conduit_strike"] = true,
+                    ["committee_overpower_auras_dynamic"] = false,
+                    ["taking_aim_dynamic"] = 1,
+                    ["pinnacleBoss_conduit_spawn"] = true,
+                },
+                ["helra"] = 
+                {
+                    ["yokeda_meteor"] = 1,
+                    ["warrior_stoneform"] = 1,
+                },
+                ["useAccountWide"] = true,
+                ["maelstrom"] = 
+                {
+                    ["stage7_poison"] = true,
+                    ["stage9_synergy"] = true,
+                },
+                ["mawLorkhaj"] = 
+                {
+                    ["suneater_eclipse"] = 1,
+                    ["rakkhat_darkbarrage"] = false,
+                    ["zhaj_glyphs"] = false,
+                    ["hulk_armorweakened"] = false,
+                    ["zhaj_gripoflorkhaj"] = true,
+                    ["rakkhat_lunarbastion2"] = 0,
+                    ["rakkhat_unstablevoid"] = 1,
+                    ["twinBoss_aspects_status"] = true,
+                    ["rakkhat_darknessfalls"] = false,
+                    ["twinBoss_aspects"] = 2,
+                    ["rakkhat_unstablevoid_countdown"] = false,
+                    ["zhaj_glyph_window"] = 
+                    {
+                        [2] = 400,
+                        [1] = 100,
+                    },
+                    ["rakkhat_threshingwings"] = true,
+                    ["shattering_strike"] = 0,
+                    ["rakkhat_lunarbastion1"] = 0,
+                    ["zhaj_glyphs_invert"] = false,
+                },
+                ["asylum"] = 
+                {
+                    ["olms_gusts_of_steam_slider"] = 1,
+                    ["olms_storm_the_heavens"] = true,
+                    ["olms_protector_spawn"] = true,
+                    ["olms_exhaustive_charges"] = false,
+                    ["olms_gusts_of_steam"] = true,
+                    ["llothis_soul_stained_corruption"] = false,
+                    ["olms_trial_by_fire"] = true,
+                    ["felms_teleport_strike"] = 1,
+                    ["llothis_defiling_blast"] = 1,
+                },
+                ["rockgrove"] = 
+                {
+                    ["sulxan_soulweaver_astral_shield"] = false,
+                    ["prime_meteor"] = false,
+                    ["oaxiltso_savage_blitz"] = false,
+                    ["bahsei_embrace_of_death"] = 0,
+                    ["sulxan_soulweaver_soul_remnant"] = false,
+                    ["sulxan_reaver_sundering_strike"] = 0,
+                    ["oaxiltso_annihilator_cinder_cleave"] = 0,
+                    ["havocrel_barbarian_hasted_assault"] = false,
+                    ["oaxiltso_noxious_sludge"] = 0,
+                },
+                ["sunspire"] = 
+                {
+                    ["thrash"] = true,
+                    ["molten_meteor"] = 1,
+                    ["time_breach"] = false,
+                    ["cataclism"] = true,
+                    ["focus_fire"] = 1,
+                    ["chilling_comet"] = 1,
+                    ["frozen_tomb"] = true,
+                    ["sweeping_breath"] = true,
+                    ["breath"] = 1,
+                    ["shock_bolt"] = true,
+                    ["negate_field"] = 1,
+                    ["mark_for_death"] = 0,
+                },
+                ["dragonstar"] = 
+                {
+                    ["general_taking_aim"] = false,
+                    ["general_crystal_blast"] = true,
+                    ["arena6_drain_resource"] = 1,
+                    ["arena8_ice_charge"] = 1,
+                    ["arena8_fire_charge"] = 1,
+                    ["arena7_unstable_core"] = true,
+                    ["arena2_crushing_shock"] = true,
+                },
+                ["cloudrest"] = 
+                {
+                    ["olorime_spears"] = true,
+                    ["chilling_comet"] = true,
+                    ["shadow_splash"] = false,
+                    ["voltaic_overload"] = 1,
+                    ["malicious_strike"] = true,
+                    ["hoarfrost_countdown"] = true,
+                    ["tentacle_spawn"] = false,
+                    ["break_amulet"] = true,
+                    ["roaring_flare"] = 2,
+                    ["hoarfrost_shed"] = true,
+                    ["crushing_darkness"] = 1,
+                    ["shadow_realm_cast"] = true,
+                    ["heavy_attack"] = 1,
+                    ["nocturnals_favor"] = 1,
+                    ["hoarfrost"] = 1,
+                    ["sum_shadow_beads"] = false,
+                    ["baneful_barb"] = 1,
+                    ["track_roaring_flare"] = false,
+                    ["voltaic_overload_time"] = 10000,
+                },
+                ["dbg"] = 
+                {
+                    ["enable"] = false,
+                    ["devMode"] = false,
+                    ["myEnemyOnly"] = false,
+                    ["spamControl"] = true,
+                    ["verbose"] = false,
+                    ["notify"] = false,
+                    ["tracker"] = false,
                 },
             },
         },

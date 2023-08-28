@@ -2,498 +2,10 @@ DolgubonsWritCrafterSavedVars =
 {
     ["Default"] = 
     {
-        ["@forever9409d"] = 
-        {
-            ["8796093067402311"] = 
-            {
-                ["lootContainerOnReceipt"] = true,
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = true,
-                [5] = true,
-                [6] = true,
-                [7] = true,
-                ["rewardHandling"] = 
-                {
-                    ["ornate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["intricate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["repair"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["survey"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["recipe"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["master"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["mats"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["soulGem"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["glyph"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                },
-                ["updateChoiceCopies"] = 
-                {
-                },
-                ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
-                ["$LastCharacterName"] = "Silvia C",
-                ["changeReticle"] = true,
-                ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["version"] = 19,
-                ["lootJubileeBoxes"] = true,
-                ["keepNewContainer"] = true,
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
-                ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
-                ["debug"] = false,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["ignoreAuto"] = false,
-                ["styles"] = 
-                {
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    [8] = true,
-                    [9] = true,
-                    [10] = true,
-                    [34] = true,
-                },
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["despawnBanker"] = true,
-                ["OffsetY"] = 0,
-                ["dailyResetWarnType"] = "announcement",
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["tutorial"] = true,
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["craftMultiplier"] = 1,
-                ["hideWhenDone"] = true,
-            },
-            ["$AccountWide"] = 
-            {
-                ["alternateUniverse"] = true,
-                ["identifier"] = 951,
-                ["updateNoticesShown"] = 
-                {
-                },
-                ["updateDefaultCopyValue"] = 
-                {
-                },
-                [6697110] = false,
-                ["version"] = 20,
-                ["total"] = 0,
-                ["writLocations"] = 
-                {
-                    [57] = 
-                    {
-                        [4] = 1000000,
-                        [1] = 10,
-                        [2] = 231085,
-                        [3] = 249391,
-                    },
-                    [849] = 
-                    {
-                        [4] = 1000000,
-                        [1] = 849,
-                        [2] = 215118,
-                        [3] = 512682,
-                    },
-                    [1011] = 
-                    {
-                        [4] = 1000000,
-                        [1] = 1011,
-                        [2] = 146161,
-                        [3] = 341851,
-                    },
-                    [20] = 
-                    {
-                        [4] = 1000000,
-                        [1] = 20,
-                        [2] = 243273,
-                        [3] = 227612,
-                    },
-                    [347] = 
-                    {
-                        [4] = 1000000,
-                        [1] = 347,
-                        [2] = 237668,
-                        [3] = 302699,
-                    },
-                    [382] = 
-                    {
-                        [4] = 1000000,
-                        [1] = 382,
-                        [2] = 122717,
-                        [3] = 187928,
-                    },
-                    [103] = 
-                    {
-                        [4] = 2000000,
-                        [1] = 103,
-                        [2] = 366252,
-                        [3] = 201624,
-                    },
-                },
-                ["accountWideProfile"] = 
-                {
-                    ["lootContainerOnReceipt"] = true,
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    ["rewardHandling"] = 
-                    {
-                        ["ornate"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            ["sameForAllCrafts"] = true,
-                            [6] = 1,
-                            [7] = 1,
-                        },
-                        ["intricate"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            ["sameForAllCrafts"] = true,
-                            [6] = 1,
-                            [7] = 1,
-                        },
-                        ["repair"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            ["sameForAllCrafts"] = true,
-                            [6] = 1,
-                            [7] = 1,
-                        },
-                        ["fragment"] = 
-                        {
-                            [0] = 1,
-                            ["sameForAllCrafts"] = true,
-                        },
-                        ["survey"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 1,
-                            ["sameForAllCrafts"] = true,
-                            [6] = 1,
-                            [7] = 1,
-                        },
-                        ["recipe"] = 
-                        {
-                            [0] = 1,
-                            ["sameForAllCrafts"] = true,
-                        },
-                        ["master"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 1,
-                            [5] = 1,
-                            [6] = 1,
-                            [7] = 1,
-                            ["sameForAllCrafts"] = true,
-                        },
-                        ["mats"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            [3] = 1,
-                            [4] = 1,
-                            [5] = 1,
-                            [6] = 1,
-                            [7] = 1,
-                            ["sameForAllCrafts"] = true,
-                        },
-                        ["soulGem"] = 
-                        {
-                            [0] = 1,
-                            ["sameForAllCrafts"] = true,
-                        },
-                        ["glyph"] = 
-                        {
-                            [0] = 1,
-                            ["sameForAllCrafts"] = true,
-                        },
-                    },
-                    ["updateChoiceCopies"] = 
-                    {
-                    },
-                    ["exitWhenDone"] = true,
-                    ["suppressQuestAnnouncements"] = true,
-                    ["changeReticle"] = true,
-                    ["shouldGrab"] = true,
-                    ["autoAccept"] = true,
-                    ["lootJubileeBoxes"] = true,
-                    ["keepNewContainer"] = true,
-                    ["dailyResetWarnTime"] = 60,
-                    ["autoLoot"] = true,
-                    ["reticleAntiSteal"] = true,
-                    ["delay"] = 100,
-                    ["jewelryWritDestroy"] = false,
-                    ["debug"] = false,
-                    ["showWindow"] = true,
-                    ["keepQuestBuffer"] = false,
-                    ["stealProtection"] = true,
-                    ["ignoreAuto"] = false,
-                    ["styles"] = 
-                    {
-                        [1] = true,
-                        [2] = true,
-                        [3] = true,
-                        [4] = true,
-                        [5] = true,
-                        [6] = true,
-                        [7] = true,
-                        [8] = true,
-                        [9] = true,
-                        [10] = true,
-                        [34] = true,
-                    },
-                    ["EZJewelryDestroy"] = true,
-                    ["useCharacterSettings"] = false,
-                    ["despawnBanker"] = true,
-                    ["OffsetY"] = 0,
-                    ["dailyResetWarnType"] = "announcement",
-                    ["containerDelay"] = 1,
-                    ["autoCloseBank"] = true,
-                    ["tutorial"] = true,
-                    ["mail"] = 
-                    {
-                        ["loot"] = false,
-                        ["delete"] = false,
-                    },
-                    ["autoCraft"] = false,
-                    ["lootOutput"] = false,
-                    ["OffsetX"] = 1150,
-                    ["craftMultiplier"] = 1,
-                    ["hideWhenDone"] = true,
-                },
-                ["rewards"] = 
-                {
-                    [1] = 
-                    {
-                        ["ornate"] = 0,
-                        ["intricate"] = 0,
-                        ["repair"] = 0,
-                        ["fragment"] = 0,
-                        ["survey"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                        ["num"] = 0,
-                        ["master"] = 0,
-                        ["material"] = 0,
-                    },
-                    [2] = 
-                    {
-                        ["ornate"] = 0,
-                        ["intricate"] = 0,
-                        ["repair"] = 0,
-                        ["fragment"] = 0,
-                        ["survey"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                        ["num"] = 0,
-                        ["master"] = 0,
-                        ["material"] = 0,
-                    },
-                    [3] = 
-                    {
-                        ["survey"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                        ["num"] = 0,
-                        ["glyph"] = 0,
-                        ["soulGem"] = 0,
-                        ["master"] = 0,
-                    },
-                    [4] = 
-                    {
-                        ["survey"] = 0,
-                        ["master"] = 0,
-                        ["num"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                    },
-                    [5] = 
-                    {
-                        ["num"] = 0,
-                        ["master"] = 0,
-                        ["fragment"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                    },
-                    [6] = 
-                    {
-                        ["ornate"] = 0,
-                        ["intricate"] = 0,
-                        ["repair"] = 0,
-                        ["fragment"] = 0,
-                        ["survey"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                        ["num"] = 0,
-                        ["master"] = 0,
-                        ["material"] = 0,
-                    },
-                    [7] = 
-                    {
-                        ["num"] = 0,
-                        ["recipe"] = 
-                        {
-                            ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
-                            ["gold"] = 0,
-                            ["blue"] = 0,
-                        },
-                    },
-                },
-                ["skipped"] = 0,
-                ["masterWrits"] = true,
-                ["timeSinceReset"] = 1640828677,
-                ["notifyWiped"] = true,
-            },
-        },
         ["@forever9409"] = 
         {
             ["8796093067296067"] = 
             {
-                ["lootContainerOnReceipt"] = true,
                 [1] = true,
                 [2] = true,
                 [3] = true,
@@ -501,39 +13,41 @@ DolgubonsWritCrafterSavedVars =
                 [5] = true,
                 [6] = true,
                 [7] = true,
+                ["stealProtection"] = true,
+                ["scanForUnopened"] = false,
+                ["exitWhenDone"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
+                ["$LastCharacterName"] = "D Good",
+                ["reticleAntiSteal"] = true,
+                ["hideWhenDone"] = true,
+                ["containerDelay"] = 1,
+                ["dailyResetWarnTime"] = 60,
+                ["OffsetX"] = 1150,
+                ["statusBarX"] = 1421.5000000000,
                 ["rewardHandling"] = 
                 {
-                    ["ornate"] = 
+                    ["soulGem"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["master"] = 
                     {
                         [0] = 1,
                         [1] = 1,
                         [2] = 1,
-                        ["sameForAllCrafts"] = true,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
                         [6] = 1,
                         [7] = 1,
-                    },
-                    ["intricate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["repair"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
                         ["all"] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
                     ["survey"] = 
@@ -553,17 +67,18 @@ DolgubonsWritCrafterSavedVars =
                         [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
-                    ["master"] = 
+                    ["ornate"] = 
                     {
                         [0] = 1,
                         [1] = 1,
                         [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
+                        ["sameForAllCrafts"] = true,
                         [6] = 1,
                         [7] = 1,
-                        ["all"] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
                     ["mats"] = 
@@ -578,93 +93,90 @@ DolgubonsWritCrafterSavedVars =
                         [7] = 1,
                         ["sameForAllCrafts"] = true,
                     },
-                    ["soulGem"] = 
+                    ["intricate"] = 
                     {
                         [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
                         ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
                     },
                     ["glyph"] = 
                     {
                         [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
+                    ["repair"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        ["all"] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                    },
                 },
+                ["autoAccept"] = true,
                 ["skipItemQuests"] = 
                 {
-                    ["|H1:item:45850:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
-                    ["|H1:item:77591:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
                     ["|H1:item:30165:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                    ["|H1:item:77591:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                    ["|H1:item:45850:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
                     ["|H1:item:45831:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
                     ["|H1:item:30152:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
                 },
+                ["autoCraft"] = false,
+                ["dailyResetWarnType"] = "announcement",
                 ["updateChoiceCopies"] = 
                 {
                 },
-                ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
-                ["$LastCharacterName"] = "D Good",
-                ["changeReticle"] = true,
+                ["tutorial"] = true,
+                ["debug"] = false,
+                ["transparentStatusBar"] = false,
+                ["despawnBanker"] = true,
+                ["EZJewelryDestroy"] = true,
+                ["craftMultiplier"] = 1,
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["statusBarIcons"] = false,
+                ["styles"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
+                    [8] = true,
+                    [9] = true,
+                    [10] = true,
+                    [34] = true,
+                },
                 ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["statusBarX"] = 1421.5000000000,
-                ["lootJubileeBoxes"] = true,
+                ["autoCloseBank"] = true,
+                ["ignoreAuto"] = false,
+                ["OffsetY"] = 0,
+                ["statusBarInventory"] = true,
+                ["lootOutput"] = false,
+                ["showWindow"] = true,
+                ["autoLoot"] = true,
+                ["showStatusBar"] = true,
+                ["statusBarY"] = 910,
+                ["suppressQuestAnnouncements"] = true,
+                ["jewelryWritDestroy"] = false,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
                 ["keepNewContainer"] = true,
+                ["lootJubileeBoxes"] = true,
                 ["transmuteBlock"] = 
                 {
                 },
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
-                ["scanForUnopened"] = false,
-                ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
-                ["statusBarY"] = 910,
-                ["showStatusBar"] = true,
-                ["statusBarInventory"] = true,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["OffsetY"] = 0,
-                ["ignoreAuto"] = false,
-                ["tutorial"] = true,
-                ["styles"] = 
-                {
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    [8] = true,
-                    [9] = true,
-                    [10] = true,
-                    [34] = true,
-                },
-                ["statusBarIcons"] = false,
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["debug"] = false,
-                ["craftMultiplier"] = 1,
-                ["version"] = 19,
-                ["despawnBanker"] = true,
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["dailyResetWarnType"] = "announcement",
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["transparentStatusBar"] = false,
-                ["hideWhenDone"] = true,
             },
             ["8796093067492993"] = 
             {
-                ["lootContainerOnReceipt"] = true,
                 [1] = true,
                 [2] = true,
                 [3] = true,
@@ -672,113 +184,40 @@ DolgubonsWritCrafterSavedVars =
                 [5] = true,
                 [6] = true,
                 [7] = true,
-                ["rewardHandling"] = 
-                {
-                    ["ornate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["intricate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["repair"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["survey"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["recipe"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["master"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["mats"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["soulGem"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["glyph"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                },
-                ["updateChoiceCopies"] = 
-                {
-                },
+                ["stealProtection"] = true,
                 ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
                 ["$LastCharacterName"] = "D D D D D",
-                ["changeReticle"] = true,
-                ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["version"] = 19,
-                ["lootJubileeBoxes"] = true,
-                ["keepNewContainer"] = true,
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
                 ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
+                ["dailyResetWarnTime"] = 60,
+                ["lootJubileeBoxes"] = true,
+                ["autoAccept"] = true,
+                ["updateChoiceCopies"] = 
+                {
+                },
                 ["debug"] = false,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["ignoreAuto"] = false,
+                ["hideWhenDone"] = true,
+                ["craftMultiplier"] = 1,
+                ["OffsetX"] = 1150,
+                ["dailyResetWarnType"] = "announcement",
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["autoCraft"] = false,
+                ["tutorial"] = true,
+                ["shouldGrab"] = true,
+                ["autoCloseBank"] = true,
+                ["containerDelay"] = 1,
+                ["OffsetY"] = 0,
+                ["despawnBanker"] = true,
+                ["lootOutput"] = false,
+                ["EZJewelryDestroy"] = true,
+                ["autoLoot"] = true,
                 ["styles"] = 
                 {
                     [1] = true,
@@ -793,83 +232,16 @@ DolgubonsWritCrafterSavedVars =
                     [10] = true,
                     [34] = true,
                 },
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["despawnBanker"] = true,
-                ["OffsetY"] = 0,
-                ["dailyResetWarnType"] = "announcement",
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["tutorial"] = true,
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["craftMultiplier"] = 1,
-                ["hideWhenDone"] = true,
-            },
-            ["8796093067519895"] = 
-            {
-                ["lootContainerOnReceipt"] = true,
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = true,
-                [5] = true,
-                [6] = true,
-                [7] = true,
+                ["ignoreAuto"] = false,
+                ["suppressQuestAnnouncements"] = true,
+                ["showWindow"] = true,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
+                ["jewelryWritDestroy"] = false,
+                ["keepNewContainer"] = true,
                 ["rewardHandling"] = 
                 {
-                    ["ornate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["intricate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["repair"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        ["all"] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["survey"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["all"] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["recipe"] = 
+                    ["soulGem"] = 
                     {
                         [0] = 1,
                         ["sameForAllCrafts"] = true,
@@ -884,7 +256,36 @@ DolgubonsWritCrafterSavedVars =
                         [5] = 1,
                         [6] = 1,
                         [7] = 1,
-                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["survey"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["recipe"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["ornate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
                     ["mats"] = 
@@ -899,80 +300,49 @@ DolgubonsWritCrafterSavedVars =
                         [7] = 1,
                         ["sameForAllCrafts"] = true,
                     },
-                    ["soulGem"] = 
+                    ["intricate"] = 
                     {
                         [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
                         ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
                     },
                     ["glyph"] = 
                     {
                         [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
+                    ["repair"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
                 },
-                ["updateChoiceCopies"] = 
-                {
-                },
-                ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
-                ["$LastCharacterName"] = "D Ruba",
-                ["changeReticle"] = true,
-                ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["version"] = 19,
-                ["lootJubileeBoxes"] = true,
-                ["keepNewContainer"] = true,
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
-                ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
-                ["debug"] = false,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["ignoreAuto"] = false,
-                ["styles"] = 
-                {
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    [8] = true,
-                    [9] = true,
-                    [10] = true,
-                    [34] = true,
-                },
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["despawnBanker"] = true,
-                ["OffsetY"] = 0,
-                ["dailyResetWarnType"] = "announcement",
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["tutorial"] = true,
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["craftMultiplier"] = 1,
-                ["hideWhenDone"] = true,
             },
             ["$AccountWide"] = 
             {
-                ["alternateUniverse"] = true,
-                ["skin"] = "default",
-                ["updateNoticesShown"] = 
-                {
-                },
                 ["unlockedGoat"] = false,
+                ["masterWrits"] = false,
+                ["skin"] = "default",
+                ["timeSinceReset"] = 1640316779,
+                ["identifier"] = 927,
+                ["luckyProgress"] = 
+                {
+                    ["shootingOnLocation"] = 0,
+                    ["rngesus"] = 0,
+                    ["lootGut"] = 0,
+                    ["cheeseNerd"] = 0,
+                    ["readInstructions"] = 0,
+                    ["luckCompletion"] = 0,
+                    ["cheeseCompletion"] = 0,
+                    ["gutDestruction"] = 0,
+                },
                 ["writLocations"] = 
                 {
                     [849] = 
@@ -1024,19 +394,19 @@ DolgubonsWritCrafterSavedVars =
                         [3] = 302699,
                         [4] = 1000000,
                     },
-                    [382] = 
-                    {
-                        [1] = 382,
-                        [2] = 122717,
-                        [3] = 187928,
-                        [4] = 1000000,
-                    },
                     [1086] = 
                     {
                         [4] = 640000,
                         [1] = 681,
                         [2] = 456555,
                         [3] = 139933,
+                    },
+                    [382] = 
+                    {
+                        [1] = 382,
+                        [2] = 122717,
+                        [3] = 187928,
+                        [4] = 1000000,
                     },
                     [383] = 
                     {
@@ -1046,105 +416,93 @@ DolgubonsWritCrafterSavedVars =
                         [3] = 236878,
                     },
                 },
-                ["luckyProgress"] = 
-                {
-                    ["shootingOnLocation"] = 0,
-                    ["lootGut"] = 0,
-                    ["rngesus"] = 0,
-                    ["cheeseCompletion"] = 0,
-                    ["readInstructions"] = 0,
-                    ["gutDestruction"] = 0,
-                    ["luckCompletion"] = 0,
-                    ["cheeseNerd"] = 0,
-                },
-                ["skipped"] = 0,
-                ["identifier"] = 927,
+                ["alternateUniverse"] = true,
                 ["rewards"] = 
                 {
                     [1] = 
                     {
-                        ["intricate"] = 71,
+                        ["material"] = 95,
                         [23171] = 6,
                         [23204] = 4,
                         [23173] = 6,
                         [4486] = 11,
                         [4456] = 4,
+                        ["fragment"] = 0,
                         [810] = 1,
                         [30219] = 6,
-                        ["lead"] = 1,
-                        [813] = 8,
-                        ["master"] = 14,
-                        [30221] = 5,
-                        [23149] = 5,
-                        ["ornate"] = 39,
-                        ["fragment"] = 0,
-                        [23219] = 5,
-                        ["voucher"] = 264,
-                        [23221] = 12,
-                        ["material"] = 94,
-                        [16291] = 11,
-                        ["survey"] = 16,
+                        [813] = 9,
+                        [23203] = 12,
                         ["repair"] = 55,
-                        [4442] = 9,
+                        [54173] = 39,
+                        ["ornate"] = 40,
+                        ["master"] = 14,
+                        [23219] = 5,
+                        ["num"] = 125,
+                        [23221] = 12,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
                             ["gold"] = 0,
                             ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
                         },
-                        ["num"] = 124,
+                        ["voucher"] = 264,
+                        ["survey"] = 16,
+                        [16291] = 11,
+                        [4442] = 9,
+                        ["intricate"] = 71,
+                        ["lead"] = 1,
                         [23165] = 5,
-                        [54173] = 39,
-                        [23203] = 12,
+                        [23149] = 5,
+                        [30221] = 5,
                     },
                     [2] = 
                     {
+                        ["material"] = 47,
                         [54177] = 12,
-                        ["intricate"] = 26,
                         [23171] = 7,
-                        [23173] = 15,
+                        [23173] = 16,
                         [4456] = 4,
+                        ["fragment"] = 0,
                         [30219] = 5,
                         [30221] = 7,
-                        ["ornate"] = 28,
                         ["repair"] = 23,
-                        ["voucher"] = 278,
-                        [23221] = 7,
+                        ["master"] = 11,
                         ["survey"] = 8,
-                        ["material"] = 46,
+                        [23221] = 7,
+                        [23219] = 3,
                         [4442] = 6,
+                        ["intricate"] = 27,
+                        ["num"] = 68,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
                             ["gold"] = 0,
                             ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
                         },
-                        ["num"] = 67,
-                        ["master"] = 11,
-                        ["fragment"] = 0,
-                        [23219] = 3,
+                        ["voucher"] = 278,
+                        ["ornate"] = 28,
                     },
                     [3] = 
                     {
-                        ["survey"] = 15,
-                        ["num"] = 97,
+                        ["glyph"] = 84,
+                        ["soulGem"] = 176,
                         ["master"] = 1,
+                        ["survey"] = 15,
+                        ["voucher"] = 7,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
                             ["gold"] = 0,
                             ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
                         },
-                        ["voucher"] = 7,
-                        ["glyph"] = 84,
-                        ["soulGem"] = 176,
                         [45854] = 24,
+                        ["num"] = 97,
                     },
                     [4] = 
                     {
@@ -1165,29 +523,29 @@ DolgubonsWritCrafterSavedVars =
                         [30164] = 15,
                         [77589] = 15,
                         [77590] = 3,
+                        [75357] = 3,
+                        [75365] = 114,
+                        ["num"] = 55,
+                        [883] = 3,
+                        [77587] = 6,
+                        [64501] = 114,
+                        [30166] = 9,
+                        [30155] = 3,
+                        [77584] = 15,
+                        [30165] = 9,
+                        [77585] = 9,
+                        [77583] = 3,
+                        ["survey"] = 6,
+                        ["voucher"] = 10,
+                        ["master"] = 2,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
                             ["gold"] = 0,
                             ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
                         },
-                        ["num"] = 55,
-                        ["master"] = 2,
-                        [75365] = 114,
-                        [883] = 3,
-                        ["voucher"] = 10,
-                        [64501] = 114,
-                        [75357] = 3,
-                        ["survey"] = 6,
-                        [77583] = 3,
-                        [77585] = 9,
-                        [30165] = 9,
-                        [77584] = 15,
-                        [30155] = 3,
-                        [30166] = 9,
-                        [77587] = 6,
                     },
                     [5] = 
                     {
@@ -1197,137 +555,144 @@ DolgubonsWritCrafterSavedVars =
                         [34308] = 60,
                         [34309] = 60,
                         [34311] = 50,
+                        ["fragment"] = 2,
                         [26954] = 70,
+                        ["voucher"] = 12,
                         [34321] = 50,
-                        [33756] = 50,
+                        ["master"] = 6,
                         [34323] = 60,
                         [34324] = 70,
-                        ["master"] = 6,
-                        [33758] = 50,
-                        ["num"] = 107,
+                        [34305] = 80,
                         [33752] = 40,
                         [34329] = 30,
                         [34330] = 30,
                         [33755] = 60,
-                        [27100] = 95,
+                        [33756] = 50,
                         [34333] = 60,
-                        [34334] = 30,
+                        [33758] = 50,
                         [34335] = 90,
-                        [28639] = 60,
+                        [33754] = 30,
+                        [27035] = 95,
                         [28636] = 40,
-                        [33768] = 120,
                         [27043] = 110,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 1,
-                            ["green"] = 78,
                             ["gold"] = 0,
                             ["blue"] = 13,
+                            ["purple"] = 1,
+                            ["green"] = 78,
                         },
-                        [34345] = 50,
-                        [29030] = 50,
-                        [34349] = 30,
                         [27048] = 40,
-                        [27049] = 85,
+                        [29030] = 50,
+                        [34348] = 60,
+                        [33768] = 120,
+                        [34345] = 50,
                         [34346] = 20,
                         [33771] = 80,
                         [33772] = 50,
-                        [33773] = 50,
+                        [34349] = 30,
                         [33774] = 40,
-                        [34347] = 40,
-                        [26802] = 97,
+                        ["num"] = 107,
+                        [33773] = 50,
                         [27057] = 75,
-                        [27058] = 90,
+                        [26802] = 97,
                         [27059] = 95,
-                        ["voucher"] = 12,
-                        ["fragment"] = 2,
+                        [34347] = 40,
                         [27052] = 65,
+                        [27058] = 90,
                         [27063] = 70,
                         [27064] = 70,
-                        [34348] = 60,
+                        [27049] = 85,
                         [28666] = 75,
                         [28603] = 60,
                         [28604] = 90,
-                        [27035] = 95,
-                        [33754] = 30,
-                        [34305] = 80,
+                        [28639] = 60,
+                        [34334] = 30,
+                        [27100] = 95,
                     },
                     [6] = 
                     {
-                        ["intricate"] = 104,
+                        ["material"] = 101,
                         [23203] = 7,
                         [23204] = 5,
                         [23173] = 6,
                         [4486] = 6,
                         [4456] = 10,
+                        ["fragment"] = 0,
                         [810] = 1,
                         [30219] = 4,
-                        [813] = 8,
-                        [16291] = 9,
-                        ["master"] = 15,
-                        [30221] = 11,
-                        ["ornate"] = 7,
-                        [23149] = 2,
-                        [23219] = 11,
-                        ["voucher"] = 189,
-                        [23221] = 9,
-                        ["fragment"] = 0,
-                        ["material"] = 100,
-                        ["survey"] = 11,
+                        [813] = 9,
                         ["repair"] = 67,
-                        [4442] = 7,
+                        [54181] = 27,
+                        [23171] = 9,
+                        ["master"] = 15,
+                        [23219] = 11,
+                        ["ornate"] = 8,
+                        [23221] = 9,
+                        ["num"] = 124,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
                             ["gold"] = 0,
                             ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
                         },
-                        ["num"] = 123,
+                        ["voucher"] = 189,
+                        ["survey"] = 11,
+                        [4442] = 7,
+                        ["intricate"] = 104,
+                        [23149] = 2,
                         [23165] = 6,
-                        [23171] = 9,
-                        [54181] = 27,
+                        [30221] = 11,
+                        [16291] = 9,
                     },
                     [7] = 
                     {
-                        ["intricate"] = 98,
-                        ["material"] = 87,
+                        ["material"] = 88,
                         ["soulGem"] = 34,
-                        [135151] = 12,
-                        [135152] = 41,
-                        [135153] = 37,
-                        [135154] = 21,
-                        ["voucher"] = 1576,
-                        [135157] = 3,
-                        [135158] = 27,
-                        [135159] = 32,
-                        [135160] = 34,
                         ["recipe"] = 
                         {
                             ["white"] = 0,
-                            ["purple"] = 0,
-                            ["green"] = 0,
                             ["gold"] = 0,
                             ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
                         },
-                        ["num"] = 110,
-                        ["master"] = 14,
+                        ["voucher"] = 1576,
+                        [135151] = 12,
+                        [135152] = 41,
+                        [135153] = 38,
+                        [135154] = 21,
                         ["survey"] = 10,
                         [135156] = 1,
+                        [135157] = 3,
+                        [135158] = 27,
+                        [135159] = 33,
+                        [135160] = 34,
+                        ["intricate"] = 99,
+                        ["master"] = 14,
+                        ["num"] = 111,
                     },
                 },
-                ["updateDefaultCopyValue"] = 
+                ["updateNoticesShown"] = 
                 {
                 },
+                ["cheesyProgress"] = 
+                {
+                    ["cheesyDestruction"] = 0,
+                    ["cheeseNerd"] = 0,
+                    ["music"] = 0,
+                    ["cheeseProfession"] = 0,
+                    ["cheeseCompletion"] = 1,
+                    ["sheoVisit"] = 1,
+                },
                 [6697110] = false,
+                ["total"] = 687,
                 ["version"] = 20,
-                ["unlockedCheese"] = false,
-                ["timeSinceReset"] = 1640316779,
                 ["accountWideProfile"] = 
                 {
-                    ["lootContainerOnReceipt"] = true,
                     [1] = true,
                     [2] = true,
                     [3] = true,
@@ -1335,39 +700,62 @@ DolgubonsWritCrafterSavedVars =
                     [5] = true,
                     [6] = true,
                     [7] = true,
+                    ["stealProtection"] = true,
+                    ["scanForUnopened"] = false,
+                    ["exitWhenDone"] = true,
+                    ["changeReticle"] = true,
+                    ["mail"] = 
+                    {
+                        ["delete"] = false,
+                        ["loot"] = false,
+                    },
+                    ["lootContainerOnReceipt"] = true,
+                    ["reticleAntiSteal"] = true,
+                    ["hideWhenDone"] = true,
+                    ["dailyResetWarnTime"] = 60,
+                    ["styles"] = 
+                    {
+                        [1] = true,
+                        [2] = true,
+                        [3] = true,
+                        [4] = true,
+                        [5] = true,
+                        [6] = true,
+                        [7] = true,
+                        [8] = true,
+                        [9] = true,
+                        [10] = true,
+                        [34] = true,
+                    },
+                    ["statusBarX"] = 1421.5000000000,
+                    ["OffsetX"] = 1150,
+                    ["autoAccept"] = true,
+                    ["skipItemQuests"] = 
+                    {
+                        ["|H1:item:30165:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                        ["|H1:item:77591:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                        ["|H1:item:45850:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                        ["|H1:item:45831:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                        ["|H1:item:30152:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
+                    },
                     ["rewardHandling"] = 
                     {
-                        ["ornate"] = 
+                        ["soulGem"] = 
+                        {
+                            [0] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["master"] = 
                         {
                             [0] = 1,
                             [1] = 1,
                             [2] = 1,
-                            ["sameForAllCrafts"] = true,
+                            [3] = 1,
+                            [4] = 1,
+                            [5] = 1,
                             [6] = 1,
                             [7] = 1,
-                        },
-                        ["intricate"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            ["sameForAllCrafts"] = true,
-                            [6] = 1,
-                            [7] = 1,
-                        },
-                        ["repair"] = 
-                        {
-                            [0] = 1,
-                            [1] = 1,
-                            [2] = 1,
-                            ["sameForAllCrafts"] = true,
                             ["all"] = 1,
-                            [6] = 1,
-                            [7] = 1,
-                        },
-                        ["fragment"] = 
-                        {
-                            [0] = 1,
                             ["sameForAllCrafts"] = true,
                         },
                         ["survey"] = 
@@ -1387,17 +775,18 @@ DolgubonsWritCrafterSavedVars =
                             [0] = 1,
                             ["sameForAllCrafts"] = true,
                         },
-                        ["master"] = 
+                        ["ornate"] = 
                         {
                             [0] = 1,
                             [1] = 1,
                             [2] = 1,
-                            [3] = 1,
-                            [4] = 1,
-                            [5] = 1,
+                            ["sameForAllCrafts"] = true,
                             [6] = 1,
                             [7] = 1,
-                            ["all"] = 1,
+                        },
+                        ["fragment"] = 
+                        {
+                            [0] = 1,
                             ["sameForAllCrafts"] = true,
                         },
                         ["mats"] = 
@@ -1412,53 +801,904 @@ DolgubonsWritCrafterSavedVars =
                             [7] = 1,
                             ["sameForAllCrafts"] = true,
                         },
-                        ["soulGem"] = 
+                        ["intricate"] = 
                         {
                             [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
                             ["sameForAllCrafts"] = true,
+                            [6] = 1,
+                            [7] = 1,
                         },
                         ["glyph"] = 
                         {
                             [0] = 1,
                             ["sameForAllCrafts"] = true,
                         },
+                        ["repair"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            ["sameForAllCrafts"] = true,
+                            ["all"] = 1,
+                            [6] = 1,
+                            [7] = 1,
+                        },
                     },
-                    ["skipItemQuests"] = 
-                    {
-                        ["|H1:item:45850:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
-                        ["|H1:item:77591:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
-                        ["|H1:item:30165:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
-                        ["|H1:item:45831:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
-                        ["|H1:item:30152:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0|h|h"] = true,
-                    },
+                    ["autoCraft"] = true,
                     ["updateChoiceCopies"] = 
                     {
                     },
-                    ["exitWhenDone"] = true,
-                    ["suppressQuestAnnouncements"] = true,
-                    ["changeReticle"] = true,
+                    ["tutorial"] = false,
+                    ["debug"] = false,
+                    ["transparentStatusBar"] = false,
+                    ["containerDelay"] = 1,
+                    ["craftMultiplier"] = 1,
+                    ["dailyResetWarnType"] = "announcement",
+                    ["despawnBanker"] = true,
+                    ["useCharacterSettings"] = false,
+                    ["statusBarIcons"] = false,
+                    ["EZJewelryDestroy"] = true,
                     ["shouldGrab"] = true,
-                    ["autoAccept"] = true,
-                    ["statusBarX"] = 1421.5000000000,
-                    ["lootJubileeBoxes"] = true,
+                    ["autoCloseBank"] = true,
+                    ["OffsetY"] = 0,
+                    ["ignoreAuto"] = false,
+                    ["statusBarInventory"] = true,
+                    ["lootOutput"] = false,
+                    ["showWindow"] = true,
+                    ["autoLoot"] = true,
+                    ["showStatusBar"] = true,
+                    ["statusBarY"] = 910,
+                    ["suppressQuestAnnouncements"] = true,
+                    ["jewelryWritDestroy"] = false,
+                    ["delay"] = 100,
+                    ["keepQuestBuffer"] = false,
                     ["keepNewContainer"] = true,
+                    ["lootJubileeBoxes"] = true,
                     ["transmuteBlock"] = 
                     {
                     },
-                    ["dailyResetWarnTime"] = 60,
-                    ["autoLoot"] = true,
-                    ["scanForUnopened"] = false,
-                    ["reticleAntiSteal"] = true,
-                    ["delay"] = 100,
-                    ["jewelryWritDestroy"] = false,
-                    ["statusBarY"] = 910,
-                    ["showStatusBar"] = true,
-                    ["showWindow"] = true,
-                    ["keepQuestBuffer"] = false,
+                },
+                ["updateDefaultCopyValue"] = 
+                {
+                },
+                ["rightClick"] = true,
+                ["notifyWiped"] = true,
+                ["skipped"] = 0,
+                ["unlockedCheese"] = false,
+            },
+            ["8796093067501469"] = 
+            {
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = true,
+                [5] = true,
+                [6] = true,
+                [7] = true,
+                ["stealProtection"] = true,
+                ["exitWhenDone"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
+                ["$LastCharacterName"] = "D D Good",
+                ["reticleAntiSteal"] = true,
+                ["dailyResetWarnTime"] = 60,
+                ["lootJubileeBoxes"] = true,
+                ["autoAccept"] = true,
+                ["updateChoiceCopies"] = 
+                {
+                },
+                ["debug"] = false,
+                ["hideWhenDone"] = true,
+                ["craftMultiplier"] = 1,
+                ["OffsetX"] = 1150,
+                ["dailyResetWarnType"] = "announcement",
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["autoCraft"] = false,
+                ["tutorial"] = true,
+                ["shouldGrab"] = true,
+                ["autoCloseBank"] = true,
+                ["containerDelay"] = 1,
+                ["OffsetY"] = 0,
+                ["despawnBanker"] = true,
+                ["lootOutput"] = false,
+                ["EZJewelryDestroy"] = true,
+                ["autoLoot"] = true,
+                ["styles"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
+                    [8] = true,
+                    [9] = true,
+                    [10] = true,
+                    [34] = true,
+                },
+                ["ignoreAuto"] = false,
+                ["suppressQuestAnnouncements"] = true,
+                ["showWindow"] = true,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
+                ["jewelryWritDestroy"] = false,
+                ["keepNewContainer"] = true,
+                ["rewardHandling"] = 
+                {
+                    ["soulGem"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["master"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["survey"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["recipe"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["ornate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["mats"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["intricate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["glyph"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["repair"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        ["all"] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                },
+            },
+            ["8796093067521783"] = 
+            {
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = true,
+                [5] = true,
+                [6] = true,
+                [7] = true,
+                ["stealProtection"] = true,
+                ["exitWhenDone"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
+                ["$LastCharacterName"] = "D-Good",
+                ["reticleAntiSteal"] = true,
+                ["dailyResetWarnTime"] = 60,
+                ["lootJubileeBoxes"] = true,
+                ["autoAccept"] = true,
+                ["updateChoiceCopies"] = 
+                {
+                },
+                ["debug"] = false,
+                ["hideWhenDone"] = true,
+                ["craftMultiplier"] = 1,
+                ["OffsetX"] = 1150,
+                ["dailyResetWarnType"] = "announcement",
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["autoCraft"] = false,
+                ["tutorial"] = true,
+                ["shouldGrab"] = true,
+                ["autoCloseBank"] = true,
+                ["containerDelay"] = 1,
+                ["OffsetY"] = 0,
+                ["despawnBanker"] = true,
+                ["lootOutput"] = false,
+                ["EZJewelryDestroy"] = true,
+                ["autoLoot"] = true,
+                ["styles"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
+                    [8] = true,
+                    [9] = true,
+                    [10] = true,
+                    [34] = true,
+                },
+                ["ignoreAuto"] = false,
+                ["suppressQuestAnnouncements"] = true,
+                ["showWindow"] = true,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
+                ["jewelryWritDestroy"] = false,
+                ["keepNewContainer"] = true,
+                ["rewardHandling"] = 
+                {
+                    ["soulGem"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["master"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["survey"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["recipe"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["ornate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["mats"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["intricate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["glyph"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["repair"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        ["all"] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                },
+            },
+            ["8796093067519895"] = 
+            {
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = true,
+                [5] = true,
+                [6] = true,
+                [7] = true,
+                ["stealProtection"] = true,
+                ["exitWhenDone"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
+                ["$LastCharacterName"] = "D Ruba",
+                ["reticleAntiSteal"] = true,
+                ["dailyResetWarnTime"] = 60,
+                ["lootJubileeBoxes"] = true,
+                ["autoAccept"] = true,
+                ["updateChoiceCopies"] = 
+                {
+                },
+                ["debug"] = false,
+                ["hideWhenDone"] = true,
+                ["craftMultiplier"] = 1,
+                ["OffsetX"] = 1150,
+                ["dailyResetWarnType"] = "announcement",
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["autoCraft"] = false,
+                ["tutorial"] = true,
+                ["shouldGrab"] = true,
+                ["autoCloseBank"] = true,
+                ["containerDelay"] = 1,
+                ["OffsetY"] = 0,
+                ["despawnBanker"] = true,
+                ["lootOutput"] = false,
+                ["EZJewelryDestroy"] = true,
+                ["autoLoot"] = true,
+                ["styles"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
+                    [8] = true,
+                    [9] = true,
+                    [10] = true,
+                    [34] = true,
+                },
+                ["ignoreAuto"] = false,
+                ["suppressQuestAnnouncements"] = true,
+                ["showWindow"] = true,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
+                ["jewelryWritDestroy"] = false,
+                ["keepNewContainer"] = true,
+                ["rewardHandling"] = 
+                {
+                    ["soulGem"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["master"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["survey"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["all"] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["recipe"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["ornate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["mats"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["intricate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["glyph"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["repair"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        ["all"] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                },
+            },
+            ["8796093067506849"] = 
+            {
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = true,
+                [5] = true,
+                [6] = true,
+                [7] = true,
+                ["stealProtection"] = true,
+                ["exitWhenDone"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
+                ["$LastCharacterName"] = "D Ruba",
+                ["reticleAntiSteal"] = true,
+                ["dailyResetWarnTime"] = 60,
+                ["lootJubileeBoxes"] = true,
+                ["autoAccept"] = true,
+                ["updateChoiceCopies"] = 
+                {
+                },
+                ["debug"] = false,
+                ["hideWhenDone"] = true,
+                ["craftMultiplier"] = 1,
+                ["OffsetX"] = 1150,
+                ["dailyResetWarnType"] = "announcement",
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["autoCraft"] = false,
+                ["tutorial"] = true,
+                ["shouldGrab"] = true,
+                ["autoCloseBank"] = true,
+                ["containerDelay"] = 1,
+                ["OffsetY"] = 0,
+                ["despawnBanker"] = true,
+                ["lootOutput"] = false,
+                ["EZJewelryDestroy"] = true,
+                ["autoLoot"] = true,
+                ["styles"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
+                    [8] = true,
+                    [9] = true,
+                    [10] = true,
+                    [34] = true,
+                },
+                ["ignoreAuto"] = false,
+                ["suppressQuestAnnouncements"] = true,
+                ["showWindow"] = true,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
+                ["jewelryWritDestroy"] = false,
+                ["keepNewContainer"] = true,
+                ["rewardHandling"] = 
+                {
+                    ["soulGem"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["master"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["survey"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["recipe"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["ornate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["mats"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
+                        [6] = 1,
+                        [7] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["intricate"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                    ["glyph"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["repair"] = 
+                    {
+                        [0] = 1,
+                        [1] = 1,
+                        [2] = 1,
+                        ["sameForAllCrafts"] = true,
+                        [6] = 1,
+                        [7] = 1,
+                    },
+                },
+            },
+        },
+        ["@forever9409d"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["rewards"] = 
+                {
+                    [1] = 
+                    {
+                        ["material"] = 0,
+                        ["master"] = 0,
+                        ["survey"] = 0,
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["ornate"] = 0,
+                        ["fragment"] = 0,
+                        ["intricate"] = 0,
+                        ["num"] = 0,
+                        ["repair"] = 0,
+                    },
+                    [2] = 
+                    {
+                        ["material"] = 0,
+                        ["master"] = 0,
+                        ["survey"] = 0,
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["ornate"] = 0,
+                        ["fragment"] = 0,
+                        ["intricate"] = 0,
+                        ["num"] = 0,
+                        ["repair"] = 0,
+                    },
+                    [3] = 
+                    {
+                        ["glyph"] = 0,
+                        ["soulGem"] = 0,
+                        ["master"] = 0,
+                        ["survey"] = 0,
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["num"] = 0,
+                    },
+                    [4] = 
+                    {
+                        ["num"] = 0,
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["master"] = 0,
+                        ["survey"] = 0,
+                    },
+                    [5] = 
+                    {
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["fragment"] = 0,
+                        ["master"] = 0,
+                        ["num"] = 0,
+                    },
+                    [6] = 
+                    {
+                        ["material"] = 0,
+                        ["master"] = 0,
+                        ["survey"] = 0,
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["ornate"] = 0,
+                        ["fragment"] = 0,
+                        ["intricate"] = 0,
+                        ["num"] = 0,
+                        ["repair"] = 0,
+                    },
+                    [7] = 
+                    {
+                        ["recipe"] = 
+                        {
+                            ["white"] = 0,
+                            ["gold"] = 0,
+                            ["blue"] = 0,
+                            ["purple"] = 0,
+                            ["green"] = 0,
+                        },
+                        ["num"] = 0,
+                    },
+                },
+                ["updateNoticesShown"] = 
+                {
+                },
+                ["masterWrits"] = true,
+                ["writLocations"] = 
+                {
+                    [57] = 
+                    {
+                        [4] = 1000000,
+                        [1] = 10,
+                        [2] = 231085,
+                        [3] = 249391,
+                    },
+                    [849] = 
+                    {
+                        [4] = 1000000,
+                        [1] = 849,
+                        [2] = 215118,
+                        [3] = 512682,
+                    },
+                    [1011] = 
+                    {
+                        [4] = 1000000,
+                        [1] = 1011,
+                        [2] = 146161,
+                        [3] = 341851,
+                    },
+                    [20] = 
+                    {
+                        [4] = 1000000,
+                        [1] = 20,
+                        [2] = 243273,
+                        [3] = 227612,
+                    },
+                    [347] = 
+                    {
+                        [4] = 1000000,
+                        [1] = 347,
+                        [2] = 237668,
+                        [3] = 302699,
+                    },
+                    [382] = 
+                    {
+                        [4] = 1000000,
+                        [1] = 382,
+                        [2] = 122717,
+                        [3] = 187928,
+                    },
+                    [103] = 
+                    {
+                        [4] = 2000000,
+                        [1] = 103,
+                        [2] = 366252,
+                        [3] = 201624,
+                    },
+                },
+                [6697110] = false,
+                ["total"] = 0,
+                ["timeSinceReset"] = 1640828677,
+                ["identifier"] = 951,
+                ["accountWideProfile"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
                     ["stealProtection"] = true,
-                    ["statusBarInventory"] = true,
-                    ["ignoreAuto"] = false,
+                    ["exitWhenDone"] = true,
+                    ["changeReticle"] = true,
+                    ["mail"] = 
+                    {
+                        ["delete"] = false,
+                        ["loot"] = false,
+                    },
+                    ["lootContainerOnReceipt"] = true,
+                    ["reticleAntiSteal"] = true,
+                    ["dailyResetWarnTime"] = 60,
+                    ["lootJubileeBoxes"] = true,
+                    ["autoAccept"] = true,
+                    ["updateChoiceCopies"] = 
+                    {
+                    },
+                    ["debug"] = false,
+                    ["hideWhenDone"] = true,
+                    ["craftMultiplier"] = 1,
+                    ["dailyResetWarnType"] = "announcement",
+                    ["OffsetX"] = 1150,
+                    ["useCharacterSettings"] = false,
+                    ["autoCraft"] = false,
+                    ["tutorial"] = true,
+                    ["shouldGrab"] = true,
+                    ["autoCloseBank"] = true,
+                    ["containerDelay"] = 1,
                     ["OffsetY"] = 0,
+                    ["despawnBanker"] = true,
+                    ["lootOutput"] = false,
+                    ["EZJewelryDestroy"] = true,
+                    ["autoLoot"] = true,
                     ["styles"] = 
                     {
                         [1] = true,
@@ -1473,44 +1713,109 @@ DolgubonsWritCrafterSavedVars =
                         [10] = true,
                         [34] = true,
                     },
-                    ["statusBarIcons"] = false,
-                    ["EZJewelryDestroy"] = true,
-                    ["useCharacterSettings"] = false,
-                    ["dailyResetWarnType"] = "announcement",
-                    ["despawnBanker"] = true,
-                    ["debug"] = false,
-                    ["craftMultiplier"] = 1,
-                    ["containerDelay"] = 1,
-                    ["autoCloseBank"] = true,
-                    ["tutorial"] = false,
-                    ["mail"] = 
+                    ["ignoreAuto"] = false,
+                    ["suppressQuestAnnouncements"] = true,
+                    ["showWindow"] = true,
+                    ["delay"] = 100,
+                    ["keepQuestBuffer"] = false,
+                    ["jewelryWritDestroy"] = false,
+                    ["keepNewContainer"] = true,
+                    ["rewardHandling"] = 
                     {
-                        ["loot"] = false,
-                        ["delete"] = false,
+                        ["soulGem"] = 
+                        {
+                            [0] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["master"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                            [4] = 1,
+                            [5] = 1,
+                            [6] = 1,
+                            [7] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["survey"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                            [4] = 1,
+                            ["sameForAllCrafts"] = true,
+                            [6] = 1,
+                            [7] = 1,
+                        },
+                        ["recipe"] = 
+                        {
+                            [0] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["ornate"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            ["sameForAllCrafts"] = true,
+                            [6] = 1,
+                            [7] = 1,
+                        },
+                        ["fragment"] = 
+                        {
+                            [0] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["mats"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            [3] = 1,
+                            [4] = 1,
+                            [5] = 1,
+                            [6] = 1,
+                            [7] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["intricate"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            ["sameForAllCrafts"] = true,
+                            [6] = 1,
+                            [7] = 1,
+                        },
+                        ["glyph"] = 
+                        {
+                            [0] = 1,
+                            ["sameForAllCrafts"] = true,
+                        },
+                        ["repair"] = 
+                        {
+                            [0] = 1,
+                            [1] = 1,
+                            [2] = 1,
+                            ["sameForAllCrafts"] = true,
+                            [6] = 1,
+                            [7] = 1,
+                        },
                     },
-                    ["autoCraft"] = true,
-                    ["lootOutput"] = false,
-                    ["OffsetX"] = 1150,
-                    ["transparentStatusBar"] = false,
-                    ["hideWhenDone"] = true,
                 },
-                ["rightClick"] = true,
-                ["cheesyProgress"] = 
+                ["updateDefaultCopyValue"] = 
                 {
-                    ["cheesyDestruction"] = 0,
-                    ["cheeseNerd"] = 0,
-                    ["cheeseCompletion"] = 1,
-                    ["cheeseProfession"] = 0,
-                    ["sheoVisit"] = 1,
-                    ["music"] = 0,
                 },
-                ["masterWrits"] = false,
+                ["version"] = 20,
                 ["notifyWiped"] = true,
-                ["total"] = 683,
+                ["skipped"] = 0,
+                ["alternateUniverse"] = true,
             },
-            ["8796093067506849"] = 
+            ["8796093067402311"] = 
             {
-                ["lootContainerOnReceipt"] = true,
                 [1] = true,
                 [2] = true,
                 [3] = true,
@@ -1518,38 +1823,78 @@ DolgubonsWritCrafterSavedVars =
                 [5] = true,
                 [6] = true,
                 [7] = true,
+                ["stealProtection"] = true,
+                ["exitWhenDone"] = true,
+                ["changeReticle"] = true,
+                ["mail"] = 
+                {
+                    ["delete"] = false,
+                    ["loot"] = false,
+                },
+                ["lootContainerOnReceipt"] = true,
+                ["$LastCharacterName"] = "Silvia C",
+                ["reticleAntiSteal"] = true,
+                ["dailyResetWarnTime"] = 60,
+                ["lootJubileeBoxes"] = true,
+                ["autoAccept"] = true,
+                ["updateChoiceCopies"] = 
+                {
+                },
+                ["debug"] = false,
+                ["hideWhenDone"] = true,
+                ["craftMultiplier"] = 1,
+                ["OffsetX"] = 1150,
+                ["dailyResetWarnType"] = "announcement",
+                ["useCharacterSettings"] = false,
+                ["version"] = 19,
+                ["autoCraft"] = false,
+                ["tutorial"] = true,
+                ["shouldGrab"] = true,
+                ["autoCloseBank"] = true,
+                ["containerDelay"] = 1,
+                ["OffsetY"] = 0,
+                ["despawnBanker"] = true,
+                ["lootOutput"] = false,
+                ["EZJewelryDestroy"] = true,
+                ["autoLoot"] = true,
+                ["styles"] = 
+                {
+                    [1] = true,
+                    [2] = true,
+                    [3] = true,
+                    [4] = true,
+                    [5] = true,
+                    [6] = true,
+                    [7] = true,
+                    [8] = true,
+                    [9] = true,
+                    [10] = true,
+                    [34] = true,
+                },
+                ["ignoreAuto"] = false,
+                ["suppressQuestAnnouncements"] = true,
+                ["showWindow"] = true,
+                ["delay"] = 100,
+                ["keepQuestBuffer"] = false,
+                ["jewelryWritDestroy"] = false,
+                ["keepNewContainer"] = true,
                 ["rewardHandling"] = 
                 {
-                    ["ornate"] = 
+                    ["soulGem"] = 
+                    {
+                        [0] = 1,
+                        ["sameForAllCrafts"] = true,
+                    },
+                    ["master"] = 
                     {
                         [0] = 1,
                         [1] = 1,
                         [2] = 1,
-                        ["sameForAllCrafts"] = true,
+                        [3] = 1,
+                        [4] = 1,
+                        [5] = 1,
                         [6] = 1,
                         [7] = 1,
-                    },
-                    ["intricate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["repair"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
                     ["survey"] = 
@@ -1568,16 +1913,18 @@ DolgubonsWritCrafterSavedVars =
                         [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
-                    ["master"] = 
+                    ["ornate"] = 
                     {
                         [0] = 1,
                         [1] = 1,
                         [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
+                        ["sameForAllCrafts"] = true,
                         [6] = 1,
                         [7] = 1,
+                    },
+                    ["fragment"] = 
+                    {
+                        [0] = 1,
                         ["sameForAllCrafts"] = true,
                     },
                     ["mats"] = 
@@ -1591,93 +1938,6 @@ DolgubonsWritCrafterSavedVars =
                         [6] = 1,
                         [7] = 1,
                         ["sameForAllCrafts"] = true,
-                    },
-                    ["soulGem"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["glyph"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                },
-                ["updateChoiceCopies"] = 
-                {
-                },
-                ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
-                ["$LastCharacterName"] = "D Ruba",
-                ["changeReticle"] = true,
-                ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["version"] = 19,
-                ["lootJubileeBoxes"] = true,
-                ["keepNewContainer"] = true,
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
-                ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
-                ["debug"] = false,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["ignoreAuto"] = false,
-                ["styles"] = 
-                {
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    [8] = true,
-                    [9] = true,
-                    [10] = true,
-                    [34] = true,
-                },
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["despawnBanker"] = true,
-                ["OffsetY"] = 0,
-                ["dailyResetWarnType"] = "announcement",
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["tutorial"] = true,
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["craftMultiplier"] = 1,
-                ["hideWhenDone"] = true,
-            },
-            ["8796093067521783"] = 
-            {
-                ["lootContainerOnReceipt"] = true,
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = true,
-                [5] = true,
-                [6] = true,
-                [7] = true,
-                ["rewardHandling"] = 
-                {
-                    ["ornate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
                     },
                     ["intricate"] = 
                     {
@@ -1688,158 +1948,10 @@ DolgubonsWritCrafterSavedVars =
                         [6] = 1,
                         [7] = 1,
                     },
-                    ["repair"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        ["all"] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["survey"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["all"] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["recipe"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["master"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["all"] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["mats"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["soulGem"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
                     ["glyph"] = 
                     {
                         [0] = 1,
                         ["sameForAllCrafts"] = true,
-                    },
-                },
-                ["updateChoiceCopies"] = 
-                {
-                },
-                ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
-                ["$LastCharacterName"] = "D-Good",
-                ["changeReticle"] = true,
-                ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["version"] = 19,
-                ["lootJubileeBoxes"] = true,
-                ["keepNewContainer"] = true,
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
-                ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
-                ["debug"] = false,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["ignoreAuto"] = false,
-                ["styles"] = 
-                {
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    [8] = true,
-                    [9] = true,
-                    [10] = true,
-                    [34] = true,
-                },
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["despawnBanker"] = true,
-                ["OffsetY"] = 0,
-                ["dailyResetWarnType"] = "announcement",
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["tutorial"] = true,
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["craftMultiplier"] = 1,
-                ["hideWhenDone"] = true,
-            },
-            ["8796093067501469"] = 
-            {
-                ["lootContainerOnReceipt"] = true,
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = true,
-                [5] = true,
-                [6] = true,
-                [7] = true,
-                ["rewardHandling"] = 
-                {
-                    ["ornate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
-                    },
-                    ["intricate"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        ["sameForAllCrafts"] = true,
-                        [6] = 1,
-                        [7] = 1,
                     },
                     ["repair"] = 
                     {
@@ -1847,122 +1959,10 @@ DolgubonsWritCrafterSavedVars =
                         [1] = 1,
                         [2] = 1,
                         ["sameForAllCrafts"] = true,
-                        ["all"] = 1,
                         [6] = 1,
                         [7] = 1,
                     },
-                    ["fragment"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["survey"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["all"] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["recipe"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["master"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["all"] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["mats"] = 
-                    {
-                        [0] = 1,
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                        [4] = 1,
-                        [5] = 1,
-                        [6] = 1,
-                        [7] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["soulGem"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
-                    ["glyph"] = 
-                    {
-                        [0] = 1,
-                        ["sameForAllCrafts"] = true,
-                    },
                 },
-                ["updateChoiceCopies"] = 
-                {
-                },
-                ["exitWhenDone"] = true,
-                ["suppressQuestAnnouncements"] = true,
-                ["$LastCharacterName"] = "D D Good",
-                ["changeReticle"] = true,
-                ["shouldGrab"] = true,
-                ["autoAccept"] = true,
-                ["version"] = 19,
-                ["lootJubileeBoxes"] = true,
-                ["keepNewContainer"] = true,
-                ["dailyResetWarnTime"] = 60,
-                ["autoLoot"] = true,
-                ["reticleAntiSteal"] = true,
-                ["delay"] = 100,
-                ["jewelryWritDestroy"] = false,
-                ["debug"] = false,
-                ["showWindow"] = true,
-                ["keepQuestBuffer"] = false,
-                ["stealProtection"] = true,
-                ["ignoreAuto"] = false,
-                ["styles"] = 
-                {
-                    [1] = true,
-                    [2] = true,
-                    [3] = true,
-                    [4] = true,
-                    [5] = true,
-                    [6] = true,
-                    [7] = true,
-                    [8] = true,
-                    [9] = true,
-                    [10] = true,
-                    [34] = true,
-                },
-                ["EZJewelryDestroy"] = true,
-                ["useCharacterSettings"] = false,
-                ["despawnBanker"] = true,
-                ["OffsetY"] = 0,
-                ["dailyResetWarnType"] = "announcement",
-                ["containerDelay"] = 1,
-                ["autoCloseBank"] = true,
-                ["tutorial"] = true,
-                ["mail"] = 
-                {
-                    ["loot"] = false,
-                    ["delete"] = false,
-                },
-                ["autoCraft"] = false,
-                ["lootOutput"] = false,
-                ["OffsetX"] = 1150,
-                ["craftMultiplier"] = 1,
-                ["hideWhenDone"] = true,
             },
         },
     },

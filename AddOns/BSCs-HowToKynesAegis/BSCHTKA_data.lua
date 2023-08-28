@@ -8,7 +8,7 @@ BSCHTKA.SavedVar = "BSCHTKASaved"
 BSCHTKA.NameSpaced = "BloodStainChild666's How To How To Kynes Aegis"
 BSCHTKA.Author = "@BloodStainChild666"
 BSCHTKA.NameMenu = "BSCs-HowToKynesAegis"
-BSCHTKA.VersionDisplay = "2.1.1"
+BSCHTKA.VersionDisplay = "2.1.2"
 
 -- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 local ico_r = "odysupporticons/icons/squares/square_red.dds"		-- 

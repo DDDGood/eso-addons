@@ -4,22 +4,13 @@ PersonalAssistant_SavedVariables =
     {
         ["@forever9409"] = 
         {
-            ["$AccountWide"] = 
+            ["Douli D"] = 
             {
-                ["version"] = 1,
-                ["Debug"] = 
-                {
-                },
-                ["savedVarsVersion"] = 20501,
-            },
-            ["D Good"] = 
-            {
-                ["version"] = 1,
-                ["Loot"] = 
+                ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Repair"] = 
+                ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -27,29 +18,67 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
+                ["General"] = 
+                {
+                    ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
+                },
+                ["debug"] = false,
+                ["Repair"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+            },
+            ["$AccountWide"] = 
+            {
+                ["version"] = 1,
+                ["savedVarsVersion"] = 20501,
+                ["Debug"] = 
+                {
+                },
+            },
+            ["D Good"] = 
+            {
                 ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
+                ["Loot"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Integration"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
                 },
                 ["debug"] = false,
-                ["Integration"] = 
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
             },
             ["D Ruba"] = 
             {
-                ["version"] = 1,
-                ["Loot"] = 
+                ["Junk"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Repair"] = 
+                ["Loot"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -57,47 +86,18 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["General"] = 
-                {
-                    ["welcomeMessage"] = true,
-                    ["jumpOutside"] = false,
-                },
-                ["debug"] = false,
                 ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },
-            },
-            ["Douli D"] = 
-            {
                 ["version"] = 1,
-                ["Loot"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Repair"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Junk"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
                 ["General"] = 
                 {
-                    ["welcomeMessage"] = true,
                     ["jumpOutside"] = false,
+                    ["welcomeMessage"] = true,
                 },
                 ["debug"] = false,
-                ["Integration"] = 
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },

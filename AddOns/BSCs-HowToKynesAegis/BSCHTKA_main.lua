@@ -340,6 +340,7 @@ local defaultSV_ACC = {
 	CONNECT_TIME_FALGRAVN = true,
 	INSTABILITY_ICON = false,
 	PRISON_ICON = false,
+	EXECRATION_ICON = false, 
 
 	PRISON_FALGRAVN = true,
 	
@@ -404,6 +405,9 @@ local function OnCombatEvent_DIED( _, result, _, _, _, _, sourceName, sourceType
 		BSCHTKA:PrintDebug(output)
 		ALERT_LIST[targetUnitId] = nil
 	end	
+	if BSCHTKA.PosionTotemID == sourceUnitId or BSCHTKA.PosionTotemID == targetUnitId then
+		BSCHTKA.PosionTotemID = -1
+	end
 end
 function BSCHTKA.init(event, addonName)	
 	if addonName ~= BSCHTKA.Name then
