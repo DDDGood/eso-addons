@@ -1,182 +1,226 @@
 AddonSelectorSavedVars =
 {
+    ["Default"] = 
+    {
+        ["@forever9409"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["packChangedBeforeReloadUI"] = false,
+                ["showGlobalPacks"] = true,
+                ["addonPacks"] = 
+                {
+                },
+                ["selectedPackNameForCharacters"] = 
+                {
+                },
+                ["version"] = 1,
+                ["searchExcludeFilename"] = false,
+                ["searchSaveHistory"] = false,
+                ["searchHistoryMaxEntries"] = 10,
+                ["showSubMenuAtGlobalPacks"] = true,
+                ["autoReloadUI"] = false,
+                ["svMigrationToServerDone"] = false,
+                ["saveGroupedByCharacterName"] = false,
+                ["showGroupedByCharacterName"] = false,
+                ["selectAllSave"] = 
+                {
+                },
+                ["addonPacksOfChar"] = 
+                {
+                },
+                ["lastLoadedPackNameForCharacters"] = 
+                {
+                },
+                ["searchHistory"] = 
+                {
+                },
+            },
+        },
+    },
     ["NA Megaserver"] = 
     {
         ["AllAccounts"] = 
         {
             ["$AccountWide"] = 
             {
-                ["lastLoadedPackNameForCharacters"] = 
-                {
-                    ["8796093067296067"] = 
-                    {
-                        ["timestamp"] = 1692754277,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                    ["8796093073962423"] = 
-                    {
-                        ["timestamp"] = 1693024216,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                    ["8796093073961853"] = 
-                    {
-                        ["timestamp"] = 1691769324,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                    ["8796093067519895"] = 
-                    {
-                        ["timestamp"] = 1691626834,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                },
-                ["searchHistoryMaxEntries"] = 10,
+                ["packChangedBeforeReloadUI"] = false,
+                ["showGlobalPacks"] = true,
                 ["addonPacks"] = 
                 {
                     ["日常"] = 
                     {
-                        ["PersonalAssistantRepair"] = "P|rersonalA|rssistant R|repair",
-                        ["MapPins"] = "Map Pins|r",
-                        ["Roomba"] = "Roomba",
-                        ["LibSets"] = "LibSets",
-                        ["LibMainMenu-2.0"] = "LibMainMenu-2.0",
-                        ["LibLootSummary"] = "LibLootSummary",
-                        ["QuestMap"] = "Quest Map v3.15",
-                        ["LibQuestData"] = "LibQuestData",
+                        ["PersonalAssistantJunk"] = "P|rersonalA|rssistant J|runk",
+                        ["GrimFocusCounter"] = "Grim Focus Counter",
+                        ["WritWorthy"] = "WritWorthy 7.3.7",
+                        ["PersonalAssistantIntegration"] = "P|rersonalA|rssistant I|rntegration",
                         ["LibCharacterKnowledge"] = "LibCharacterKnowledge",
-                        ["LibSFUtils"] = "LibSFUtils",
-                        ["AccountSettings"] = "Account|r Settings|r",
-                        ["LibZone"] = "LibZone",
-                        ["FishyQR"] = "Fishy QR",
-                        ["AwesomeGuildStore"] = "AwesomeGuildStore",
-                        ["LibLanguage"] = "LibLanguage",
-                        ["VotansTamrielMap"] = "Votan's Tamriel Map",
-                        ["CrutchAlerts"] = "CrutchAlerts",
                         ["LibCombatAlerts"] = "LibCombatAlerts",
+                        ["LibMapPing"] = "LibMapPing",
+                        ["LibQuestData"] = "LibQuestData",
+                        ["MapPins"] = "Map Pins|r",
                         ["OdySupportIcons"] = "OdySupportIcons",
-                        ["LibSavedVars"] = "LibSavedVars",
+                        ["LibDialog"] = "LibDialog",
                         ["CombatAlerts"] = "Code's Combat Alerts",
-                        ["Postmaster"] = "Postmaster",
-                        ["WeaveDelays"] = "WeaveDelays",
+                        ["FishingStateMachine"] = "FishingStateMachine",
+                        ["WizardsWardrobe"] = "Wizard's Wardrobe",
+                        ["PersonalAssistant"] = "P|rersonalA|rssistant",
                         ["CombatMetricsFightData"] = "CombatMetricsFightData",
+                        ["LibPromises"] = "LibPromises",
+                        ["LibCustomMenu"] = "LibCustomMenu",
+                        ["LibDateTime"] = "LibDateTime",
+                        ["WeaveDelays"] = "WeaveDelays",
+                        ["DefaultGuildBank"] = "DefaultGuildBank",
                         ["BeamMeUp"] = "BeamMeUp|r - Teleporter",
+                        ["PersonalAssistantBanking"] = "P|rersonalA|rssistant B|ranking",
+                        ["BanditsUserInterface"] = "Bandits|r User Interface",
+                        ["LibCombat"] = "LibCombat",
+                        ["LibChatMessage"] = "LibChatMessage",
+                        ["LibMapData"] = "LibMapData",
+                        ["PersonalAssistantRepair"] = "P|rersonalA|rssistant R|repair",
+                        ["libAddonKeybinds"] = "libAddonKeybinds",
+                        ["Roomba"] = "Roomba",
+                        ["AwesomeGuildStore"] = "AwesomeGuildStore",
+                        ["DariansUtilities"] = "DariansUtilities",
+                        ["LibLazyCrafting"] = "LibLazyCrafting v3.085",
+                        ["LibZone"] = "LibZone",
+                        ["LibSets"] = "LibSets",
+                        ["AddonSelector"] = "Addon Selector",
+                        ["TamrielTradeCentre"] = "Tamriel Trade Centre",
+                        ["LibPrice"] = "LibPrice 7.41",
+                        ["TCFontPatch"] = "簡轉繁字型 v18",
+                        ["CombatMetronome"] = "CombatMetronome",
+                        ["LibLanguage"] = "LibLanguage",
+                        ["LibSFUtils"] = "LibSFUtils",
+                        ["VotansTamrielMap"] = "Votan's Tamriel Map",
+                        ["LibMainMenu-2.0"] = "LibMainMenu-2.0",
+                        ["LibGPS"] = "LibGPS",
+                        ["LibDebugLogger"] = "LibDebugLogger",
+                        ["AccountSettings"] = "Account|r Settings|r",
                         ["LibTextFilter"] = "LibTextFilter",
                         ["PersonalAssistantLoot"] = "P|rersonalA|rssistant L|root",
-                        ["LibGPS"] = "LibGPS",
-                        ["AddonSelector"] = "Addon Selector",
-                        ["LibChatMessage"] = "LibChatMessage",
-                        ["LibMapPing"] = "LibMapPing",
-                        ["EnglishTooltips"] = "English Tooltips",
-                        ["TamrielTradeCentre"] = "Tamriel Trade Centre",
-                        ["libAddonKeybinds"] = "libAddonKeybinds",
-                        ["PersonalAssistant"] = "P|rersonalA|rssistant",
-                        ["PersonalAssistantIntegration"] = "P|rersonalA|rssistant I|rntegration",
-                        ["LibMapData"] = "LibMapData",
-                        ["FishingStateMachine"] = "FishingStateMachine",
-                        ["LibLazyCrafting"] = "LibLazyCrafting v3.085",
-                        ["LibCustomMenu"] = "LibCustomMenu",
-                        ["WizardsWardrobe"] = "Wizard's Wardrobe",
-                        ["LibCombat"] = "LibCombat",
-                        ["DefaultGuildBank"] = "DefaultGuildBank",
-                        ["PersonalAssistantJunk"] = "P|rersonalA|rssistant J|runk",
-                        ["LibPromises"] = "LibPromises",
-                        ["ActionDurationReminder"] = "Action Duration Reminder",
-                        ["WritWorthy"] = "WritWorthy 7.3.7",
-                        ["LibDateTime"] = "LibDateTime",
-                        ["CombatMetronome"] = "CombatMetronome",
-                        ["LibGetText"] = "LibGetText",
-                        ["TCFontPatch"] = "簡轉繁字型 v18",
-                        ["LibDebugLogger"] = "LibDebugLogger",
-                        ["DariansUtilities"] = "DariansUtilities",
-                        ["LibMapPins-1.0"] = "LibMapPins|r 1.0 r38|r",
-                        ["D_AGS_TTCFilter"] = "D - AGS TTC Filter",
-                        ["LibPrice"] = "LibPrice 7.41",
-                        ["PersonalAssistantBanking"] = "P|rersonalA|rssistant B|ranking",
-                        ["GrimFocusCounter"] = "Grim Focus Counter",
-                        ["LibHarvensAddonSettings"] = "LibHarvensAddonSettings",
-                        ["LibDialog"] = "LibDialog",
+                        ["QuestMap"] = "Quest Map v3.15",
+                        ["CrutchAlerts"] = "CrutchAlerts",
+                        ["Postmaster"] = "Postmaster",
                         ["LibAddonMenu-2.0"] = "LibAddonMenu-2.0",
-                        ["BanditsUserInterface"] = "Bandits|r User Interface",
+                        ["LibSavedVars"] = "LibSavedVars",
+                        ["LibGetText"] = "LibGetText",
+                        ["FishyQR"] = "Fishy QR",
+                        ["LibMapPins-1.0"] = "LibMapPins|r 1.0 r38|r",
+                        ["EnglishTooltips"] = "English Tooltips",
+                        ["D_AGS_TTCFilter"] = "D - AGS TTC Filter",
+                        ["ActionDurationReminder"] = "Action Duration Reminder",
+                        ["LibLootSummary"] = "LibLootSummary",
+                        ["LibHarvensAddonSettings"] = "LibHarvensAddonSettings",
                     },
                 },
-                ["saveGroupedByCharacterName"] = false,
+                ["selectedPackNameForCharacters"] = 
+                {
+                    ["8796093073961853"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1691769324,
+                        ["packName"] = "日常",
+                    },
+                    ["8796093067296067"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1692754277,
+                        ["packName"] = "日常",
+                    },
+                    ["8796093073962423"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1693024216,
+                        ["packName"] = "日常",
+                    },
+                    ["8796093067519895"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1691626834,
+                        ["packName"] = "日常",
+                    },
+                },
+                ["version"] = 1,
+                ["searchExcludeFilename"] = false,
+                ["searchSaveHistory"] = false,
+                ["searchHistoryMaxEntries"] = 10,
+                ["showSubMenuAtGlobalPacks"] = true,
+                ["autoReloadUI"] = false,
                 ["lastMassMarkingSavedProfile"] = 
                 {
-                    ["GrimFocusCounter"] = "Grim Focus Counter",
-                    ["LibQuestData"] = "LibQuestData",
-                    ["LibLootSummary"] = "LibLootSummary",
-                    ["LibCharacterKnowledge"] = "LibCharacterKnowledge",
-                    ["CrutchAlerts"] = "CrutchAlerts",
-                    ["LibCombatAlerts"] = "LibCombatAlerts",
-                    ["LibSavedVars"] = "LibSavedVars",
-                    ["BeamMeUp"] = "BeamMeUp|r - Teleporter",
-                    ["LibHandler"] = "LibHandler",
-                    ["LibMapPing"] = "LibMapPing",
-                    ["EnglishTooltips"] = "English Tooltips",
-                    ["LibGetText"] = "LibGetText",
-                    ["DefaultGuildBank"] = "DefaultGuildBank",
-                    ["PersonalAssistantJunk"] = "P|rersonalA|rssistant J|runk",
-                    ["LibDebugLogger"] = "LibDebugLogger",
-                    ["TCFontPatch"] = "簡轉繁字型 v18",
-                    ["LibPrice"] = "LibPrice 7.41",
-                    ["LibUnits2"] = "LibUnits2",
-                    ["LibHarvensAddonSettings"] = "LibHarvensAddonSettings",
-                    ["LibDialog"] = "LibDialog",
-                    ["LibAddonMenu-2.0"] = "LibAddonMenu-2.0",
-                    ["PersonalAssistantRepair"] = "P|rersonalA|rssistant R|repair",
                     ["LibDelayedHandler"] = "LibDelayedHandler",
-                    ["LibSets"] = "LibSets",
-                    ["LibMainMenu-2.0"] = "LibMainMenu-2.0",
-                    ["ActionDurationReminder"] = "Action Duration Reminder",
-                    ["LibUnitTracker"] = "LibUnitTracker",
-                    ["AccountSettings"] = "Account|r Settings|r",
-                    ["LibZone"] = "LibZone",
+                    ["WritWorthy"] = "WritWorthy 7.3.7",
+                    ["LibCombatAlerts"] = "LibCombatAlerts",
+                    ["EzStalking"] = "Easy Stalking",
+                    ["OdySupportIcons"] = "OdySupportIcons",
+                    ["DariansUtilities"] = "DariansUtilities",
+                    ["CombatAlerts"] = "Code's Combat Alerts",
+                    ["LibLazyCrafting"] = "LibLazyCrafting v3.085",
+                    ["BSCs-HowToKynesAegis"] = "BSC's How To Kynes Aegis|r",
+                    ["LibDateTime"] = "LibDateTime",
+                    ["DefaultGuildBank"] = "DefaultGuildBank",
+                    ["LibCombat"] = "LibCombat",
+                    ["LibUnits2"] = "LibUnits2",
                     ["AwesomeGuildStore"] = "AwesomeGuildStore",
+                    ["Postmaster"] = "Postmaster",
+                    ["AddonSelector"] = "Addon Selector",
+                    ["LibCustomMenu"] = "LibCustomMenu",
+                    ["TCFontPatch"] = "簡轉繁字型 v18",
                     ["LibLanguage"] = "LibLanguage",
                     ["VotansTamrielMap"] = "Votan's Tamriel Map",
-                    ["Roomba"] = "Roomba",
-                    ["CombatAlerts"] = "Code's Combat Alerts",
-                    ["WeaveDelays"] = "WeaveDelays",
-                    ["PersonalAssistantIntegration"] = "P|rersonalA|rssistant I|rntegration",
-                    ["OdySupportIcons"] = "OdySupportIcons",
-                    ["AddonSelector"] = "Addon Selector",
-                    ["TamrielTradeCentre"] = "Tamriel Trade Centre",
-                    ["libAddonKeybinds"] = "libAddonKeybinds",
-                    ["LibChatMessage"] = "LibChatMessage",
-                    ["RaidNotifier"] = "RaidNotifier|r",
-                    ["PersonalAssistant"] = "P|rersonalA|rssistant",
-                    ["Postmaster"] = "Postmaster",
-                    ["LibLazyCrafting"] = "LibLazyCrafting v3.085",
-                    ["LibCustomMenu"] = "LibCustomMenu",
+                    ["LibMainMenu-2.0"] = "LibMainMenu-2.0",
+                    ["AccountSettings"] = "Account|r Settings|r",
                     ["LibTextFilter"] = "LibTextFilter",
-                    ["LibSFUtils"] = "LibSFUtils",
-                    ["QuestMap"] = "Quest Map v3.15",
-                    ["PersonalAssistantLoot"] = "P|rersonalA|rssistant L|root",
-                    ["LibPromises"] = "LibPromises",
-                    ["LibGPS"] = "LibGPS",
-                    ["WritWorthy"] = "WritWorthy 7.3.7",
-                    ["CombatMetrics"] = "CombatMetrics",
-                    ["CombatMetronome"] = "CombatMetronome",
-                    ["EzStalking"] = "Easy Stalking",
-                    ["CombatMetricsFightData"] = "CombatMetricsFightData",
-                    ["LibMapData"] = "LibMapData",
-                    ["DariansUtilities"] = "DariansUtilities",
-                    ["LibMapPins-1.0"] = "LibMapPins|r 1.0 r38|r",
+                    ["PersonalAssistantIntegration"] = "P|rersonalA|rssistant I|rntegration",
+                    ["LibUnitTracker"] = "LibUnitTracker",
+                    ["PersonalAssistant"] = "P|rersonalA|rssistant",
+                    ["LibHarvensAddonSettings"] = "LibHarvensAddonSettings",
+                    ["PersonalAssistantJunk"] = "P|rersonalA|rssistant J|runk",
+                    ["GrimFocusCounter"] = "Grim Focus Counter",
+                    ["LibMapPing"] = "LibMapPing",
                     ["D_AGS_TTCFilter"] = "D - AGS TTC Filter",
-                    ["MapPins"] = "Map Pins|r",
-                    ["PersonalAssistantBanking"] = "P|rersonalA|rssistant B|ranking",
-                    ["LibDateTime"] = "LibDateTime",
-                    ["LibCombat"] = "LibCombat",
-                    ["BSCs-HowToKynesAegis"] = "BSC's How To Kynes Aegis|r",
                     ["WizardsWardrobe"] = "Wizard's Wardrobe",
+                    ["LibPromises"] = "LibPromises",
                     ["BanditsUserInterface"] = "Bandits|r User Interface",
+                    ["LibMapData"] = "LibMapData",
+                    ["PersonalAssistantRepair"] = "P|rersonalA|rssistant R|repair",
+                    ["Roomba"] = "Roomba",
+                    ["PersonalAssistantBanking"] = "P|rersonalA|rssistant B|ranking",
+                    ["RaidNotifier"] = "RaidNotifier|r",
+                    ["LibZone"] = "LibZone",
+                    ["LibGetText"] = "LibGetText",
+                    ["LibDialog"] = "LibDialog",
+                    ["LibAddonMenu-2.0"] = "LibAddonMenu-2.0",
+                    ["LibPrice"] = "LibPrice 7.41",
+                    ["CombatMetricsFightData"] = "CombatMetricsFightData",
+                    ["ActionDurationReminder"] = "Action Duration Reminder",
+                    ["WeaveDelays"] = "WeaveDelays",
+                    ["LibSFUtils"] = "LibSFUtils",
+                    ["BeamMeUp"] = "BeamMeUp|r - Teleporter",
+                    ["CombatMetrics"] = "CombatMetrics",
+                    ["LibGPS"] = "LibGPS",
+                    ["LibDebugLogger"] = "LibDebugLogger",
+                    ["LibQuestData"] = "LibQuestData",
+                    ["LibChatMessage"] = "LibChatMessage",
+                    ["CombatMetronome"] = "CombatMetronome",
+                    ["QuestMap"] = "Quest Map v3.15",
+                    ["CrutchAlerts"] = "CrutchAlerts",
+                    ["LibHandler"] = "LibHandler",
+                    ["libAddonKeybinds"] = "libAddonKeybinds",
+                    ["LibSavedVars"] = "LibSavedVars",
+                    ["TamrielTradeCentre"] = "Tamriel Trade Centre",
+                    ["MapPins"] = "Map Pins|r",
+                    ["LibMapPins-1.0"] = "LibMapPins|r 1.0 r38|r",
+                    ["EnglishTooltips"] = "English Tooltips",
+                    ["PersonalAssistantLoot"] = "P|rersonalA|rssistant L|root",
+                    ["LibCharacterKnowledge"] = "LibCharacterKnowledge",
+                    ["LibSets"] = "LibSets",
+                    ["LibLootSummary"] = "LibLootSummary",
                 },
-                ["searchExcludeFilename"] = false,
+                ["svMigrationToServerDone"] = true,
                 ["lastMassMarkingSavedProfileTime"] = 1693140454,
-                ["autoReloadUI"] = false,
+                ["showGroupedByCharacterName"] = false,
                 ["selectAllSave"] = 
                 {
                     [1] = false,
@@ -289,84 +333,40 @@ AddonSelectorSavedVars =
                     [108] = false,
                     [109] = false,
                 },
-                ["svMigrationToServerDone"] = true,
                 ["addonPacksOfChar"] = 
-                {
-                },
-                ["searchHistory"] = 
-                {
-                },
-                ["version"] = 1,
-                ["selectedPackNameForCharacters"] = 
-                {
-                    ["8796093067296067"] = 
-                    {
-                        ["timestamp"] = 1692754277,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                    ["8796093073962423"] = 
-                    {
-                        ["timestamp"] = 1693024216,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                    ["8796093073961853"] = 
-                    {
-                        ["timestamp"] = 1691769324,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                    ["8796093067519895"] = 
-                    {
-                        ["timestamp"] = 1691626834,
-                        ["packName"] = "日常",
-                        ["charName"] = "$G",
-                    },
-                },
-                ["searchSaveHistory"] = false,
-                ["showGlobalPacks"] = true,
-                ["showGroupedByCharacterName"] = false,
-                ["packChangedBeforeReloadUI"] = false,
-                ["showSubMenuAtGlobalPacks"] = true,
-            },
-        },
-    },
-    ["Default"] = 
-    {
-        ["@forever9409"] = 
-        {
-            ["$AccountWide"] = 
-            {
-                ["lastLoadedPackNameForCharacters"] = 
-                {
-                },
-                ["searchHistoryMaxEntries"] = 10,
-                ["addonPacks"] = 
                 {
                 },
                 ["saveGroupedByCharacterName"] = false,
-                ["searchExcludeFilename"] = false,
-                ["autoReloadUI"] = false,
-                ["showGlobalPacks"] = true,
-                ["svMigrationToServerDone"] = false,
-                ["addonPacksOfChar"] = 
+                ["lastLoadedPackNameForCharacters"] = 
                 {
+                    ["8796093073961853"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1691769324,
+                        ["packName"] = "日常",
+                    },
+                    ["8796093067296067"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1692754277,
+                        ["packName"] = "日常",
+                    },
+                    ["8796093073962423"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1693024216,
+                        ["packName"] = "日常",
+                    },
+                    ["8796093067519895"] = 
+                    {
+                        ["charName"] = "$G",
+                        ["timestamp"] = 1691626834,
+                        ["packName"] = "日常",
+                    },
                 },
                 ["searchHistory"] = 
                 {
                 },
-                ["version"] = 1,
-                ["selectedPackNameForCharacters"] = 
-                {
-                },
-                ["searchSaveHistory"] = false,
-                ["showGroupedByCharacterName"] = false,
-                ["selectAllSave"] = 
-                {
-                },
-                ["packChangedBeforeReloadUI"] = false,
-                ["showSubMenuAtGlobalPacks"] = true,
             },
         },
     },

@@ -6,7 +6,17 @@ PersonalAssistant_SavedVariables =
         {
             ["Douli D"] = 
             {
+                ["debug"] = false,
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
                 ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -14,37 +24,37 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
                 },
-                ["debug"] = false,
-                ["Repair"] = 
+                ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },
             },
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
                 ["savedVarsVersion"] = 20501,
+                ["version"] = 1,
                 ["Debug"] = 
                 {
                 },
             },
             ["D Good"] = 
             {
+                ["debug"] = false,
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
                 ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -52,29 +62,29 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
                 },
-                ["debug"] = false,
-                ["Repair"] = 
+                ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },
             },
             ["D Ruba"] = 
             {
+                ["debug"] = false,
+                ["Banking"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["version"] = 1,
                 ["Junk"] = 
+                {
+                    ["activeProfile"] = 1,
+                },
+                ["Repair"] = 
                 {
                     ["activeProfile"] = 1,
                 },
@@ -82,22 +92,12 @@ PersonalAssistant_SavedVariables =
                 {
                     ["activeProfile"] = 1,
                 },
-                ["Banking"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["Integration"] = 
-                {
-                    ["activeProfile"] = 1,
-                },
-                ["version"] = 1,
                 ["General"] = 
                 {
-                    ["jumpOutside"] = false,
                     ["welcomeMessage"] = true,
+                    ["jumpOutside"] = false,
                 },
-                ["debug"] = false,
-                ["Repair"] = 
+                ["Integration"] = 
                 {
                     ["activeProfile"] = 1,
                 },

@@ -8,15 +8,15 @@ OSIStore =
             {
                 [64] = 
                 {
-                    ["show"] = true,
-                    ["dead"] = false,
                     ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["show"] = true,
                 },
                 [1] = 
                 {
@@ -26,9 +26,9 @@ OSIStore =
                         [2] = 0,
                         [3] = 1,
                     },
+                    ["size"] = 128,
                     ["usesize"] = false,
                     ["show"] = true,
-                    ["size"] = 128,
                     ["icon"] = "esoui/art/icons/mapkey/mapkey_groupleader.dds",
                     ["priority"] = false,
                 },
@@ -40,8 +40,8 @@ OSIStore =
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["show"] = true,
                     ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_tank.dds",
+                    ["show"] = true,
                     ["priority"] = false,
                 },
                 [3] = 
@@ -52,8 +52,8 @@ OSIStore =
                         [2] = 0,
                         [3] = 1,
                     },
-                    ["show"] = false,
                     ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_dps.dds",
+                    ["show"] = false,
                     ["priority"] = false,
                 },
                 [4] = 
@@ -64,8 +64,8 @@ OSIStore =
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["show"] = true,
                     ["icon"] = "esoui/art/lfg/gamepad/lfg_roleicon_healer.dds",
+                    ["show"] = true,
                     ["priority"] = false,
                 },
                 [5] = 
@@ -76,32 +76,54 @@ OSIStore =
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["show"] = false,
                     ["icon"] = "esoui/art/tutorial/gamepad/gp_lfg_veteranldungeon.dds",
+                    ["show"] = false,
                     ["priority"] = false,
                 },
-                ["gwunique"] = false,
-                ["cwuse"] = true,
-                ["cwunique"] = true,
-                ["grunique"] = false,
-                ["gruse"] = false,
-                ["gwdead"] = false,
-                ["hodorprio"] = false,
-                ["flstatus"] = false,
-                ["ignore"] = true,
-                ["grstatus"] = false,
+                ["raidforce"] = false,
                 ["wmunique"] = false,
                 ["flunique"] = false,
-                ["cache"] = 
-                {
-                },
-                ["raidforce"] = false,
-                ["iconsize"] = 68,
-                ["fluse"] = false,
+                ["version"] = 1,
+                ["raidallow"] = false,
+                ["gwroles"] = false,
                 ["save"] = false,
-                ["fadeout"] = true,
                 ["wmdead"] = false,
+                ["grstatus"] = false,
+                ["customuse"] = false,
+                [63] = 
+                {
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["show"] = true,
+                },
+                ["showOwnIcon"] = false,
+                ["wmuse"] = false,
+                ["gwcrown"] = true,
+                ["cwsize"] = 20,
+                ["fadeout"] = true,
+                [62] = 
+                {
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["show"] = true,
+                },
+                ["offset"] = 3,
+                ["hodorprio"] = false,
+                ["interval"] = 30,
                 ["wmroles"] = false,
+                ["iconsize"] = 68,
                 [100] = 
                 {
                     ["color"] = 
@@ -110,70 +132,40 @@ OSIStore =
                         [2] = 0,
                         [3] = 0,
                     },
-                    ["show"] = true,
-                    ["colrez"] = 
-                    {
-                        [1] = 1,
-                        [2] = 0.5000000000,
-                        [3] = 0,
-                    },
-                    ["useoff"] = true,
-                    ["offset"] = 0.5000000000,
                     ["colrdy"] = 
                     {
                         [1] = 0.5000000000,
                         [2] = 1,
                         [3] = 0,
                     },
+                    ["colrez"] = 
+                    {
+                        [1] = 1,
+                        [2] = 0.5000000000,
+                        [3] = 0,
+                    },
+                    ["show"] = true,
+                    ["offset"] = 0.5000000000,
                     ["icon"] = "esoui/art/icons/mapkey/mapkey_groupboss.dds",
+                    ["useoff"] = true,
                     ["priority"] = false,
                 },
-                ["gwcrown"] = true,
-                ["raidallow"] = false,
                 [65] = 
                 {
-                    ["show"] = true,
-                    ["dead"] = false,
                     ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
-                },
-                [53] = 
-                {
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["icon"] = "esoui/art/icons/mapkey/mapkey_fence.dds",
                     ["show"] = true,
                 },
-                ["scaling"] = true,
-                ["customuse"] = false,
-                ["gwuse"] = false,
-                ["version"] = 1,
-                ["gwroles"] = false,
-                ["interval"] = 30,
-                ["alpha"] = 1,
-                ["showOwnIcon"] = false,
-                ["wmsize"] = 32,
-                ["hodoranim"] = true,
-                [51] = 
-                {
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_bank.dds",
-                    ["show"] = true,
-                },
+                ["gwunique"] = false,
+                ["fadedist"] = 7.5000000000,
+                ["fluse"] = false,
+                ["grunique"] = false,
                 [52] = 
                 {
                     ["color"] = 
@@ -185,7 +177,37 @@ OSIStore =
                     ["icon"] = "esoui/art/icons/servicemappins/servicepin_vendor.dds",
                     ["show"] = true,
                 },
-                ["fadedist"] = 7.5000000000,
+                ["cwunique"] = true,
+                ["scaling"] = true,
+                [51] = 
+                {
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["icon"] = "esoui/art/icons/servicemappins/servicepin_bank.dds",
+                    ["show"] = true,
+                },
+                ["alpha"] = 1,
+                ["cache"] = 
+                {
+                },
+                ["wmsize"] = 32,
+                ["gwuse"] = false,
+                ["cwuse"] = true,
+                [53] = 
+                {
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["icon"] = "esoui/art/icons/mapkey/mapkey_fence.dds",
+                    ["show"] = true,
+                },
                 [54] = 
                 {
                     ["color"] = 
@@ -208,58 +230,36 @@ OSIStore =
                     ["icon"] = "esoui/art/crafting/gamepad/gp_crafting_menuicon_deconstruct.dds",
                     ["show"] = true,
                 },
-                ["hodoruse"] = false,
-                ["cwsize"] = 20,
-                ["wmuse"] = false,
-                ["offset"] = 3,
+                ["flstatus"] = false,
+                ["gruse"] = false,
+                ["ignore"] = true,
+                ["hodoranim"] = true,
                 [60] = 
                 {
-                    ["show"] = false,
-                    ["dead"] = false,
                     ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
                     ["color"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["show"] = false,
                 },
                 [61] = 
                 {
+                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
+                    ["dead"] = false,
+                    ["color"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
                     ["show"] = false,
-                    ["dead"] = false,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
                 },
-                [62] = 
-                {
-                    ["show"] = true,
-                    ["dead"] = false,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
-                [63] = 
-                {
-                    ["show"] = true,
-                    ["dead"] = false,
-                    ["icon"] = "esoui/art/mappins/activecompanion_pin.dds",
-                    ["color"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                },
+                ["gwdead"] = false,
+                ["hodoruse"] = false,
             },
         },
     },
