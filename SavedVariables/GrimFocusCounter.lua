@@ -6,57 +6,57 @@ GrimFocusCounterVariables =
         {
             ["$AccountWide"] = 
             {
-                ["positionLeft"] = 800,
-                ["selectedTexture"] = 7,
-                ["debugMode"] = 0,
                 ["fadeInactive"] = false,
-                ["lockedToReticle"] = true,
-                ["alwaysShow"] = false,
-                ["fadeAmount"] = 90,
-                ["showEmptyStacks"] = false,
-                ["overlay"] = 
-                {
-                    ["default"] = false,
-                    ["inactive"] = false,
-                    ["proc"] = false,
-                    ["four"] = false,
-                },
-                ["version"] = 1,
-                ["size"] = 70,
                 ["hideOutOfCombat"] = true,
+                ["size"] = 70,
+                ["unlocked"] = true,
+                ["lockedToReticle"] = true,
                 ["colors"] = 
                 {
-                    ["default"] = 
-                    {
-                        ["g"] = 1,
-                        ["r"] = 1,
-                        ["b"] = 1,
-                        ["a"] = 1,
-                    },
                     ["inactive"] = 
                     {
-                        ["g"] = 1,
+                        ["a"] = 1,
                         ["r"] = 1,
                         ["b"] = 1,
-                        ["a"] = 1,
+                        ["g"] = 1,
                     },
-                    ["proc"] = 
+                    ["default"] = 
                     {
-                        ["g"] = 1,
+                        ["a"] = 1,
                         ["r"] = 1,
                         ["b"] = 1,
-                        ["a"] = 1,
+                        ["g"] = 1,
                     },
                     ["four"] = 
                     {
-                        ["g"] = 1,
+                        ["a"] = 1,
                         ["r"] = 1,
                         ["b"] = 1,
+                        ["g"] = 1,
+                    },
+                    ["proc"] = 
+                    {
                         ["a"] = 1,
+                        ["r"] = 1,
+                        ["b"] = 1,
+                        ["g"] = 1,
                     },
                 },
-                ["unlocked"] = true,
+                ["alwaysShow"] = false,
+                ["positionLeft"] = 800,
+                ["selectedTexture"] = 7,
+                ["fadeAmount"] = 90,
+                ["showEmptyStacks"] = false,
                 ["positionTop"] = 600,
+                ["version"] = 1,
+                ["debugMode"] = 0,
+                ["overlay"] = 
+                {
+                    ["inactive"] = false,
+                    ["default"] = false,
+                    ["four"] = false,
+                    ["proc"] = false,
+                },
             },
         },
     },

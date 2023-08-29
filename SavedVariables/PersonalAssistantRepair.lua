@@ -6,38 +6,38 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["savedVarsVersion"] = 20524,
+                ["version"] = 1,
                 [1] = 
                 {
-                    ["autoRepairEnabled"] = true,
                     ["name"] = "Profile 1",
+                    ["silentMode"] = false,
+                    ["autoRepairEnabled"] = true,
                     ["RechargeWeapons"] = 
                     {
+                        ["defaultSoulGem"] = 1,
                         ["lowSoulGemWarning"] = false,
                         ["useSoulGems"] = true,
                         ["lowSoulGemThreshold"] = 10,
-                        ["defaultSoulGem"] = 1,
                     },
                     ["RepairInventory"] = 
                     {
-                        ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithGold"] = true,
                     },
-                    ["silentMode"] = false,
                     ["autoRepairInventoryEnabled"] = true,
                     ["RepairEquipped"] = 
                     {
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithGoldDurabilityThreshold"] = 75,
-                        ["lowRepairKitThreshold"] = 10,
-                        ["repairWithGold"] = true,
                         ["lowRepairKitWarning"] = true,
-                        ["defaultRepairKit"] = 0,
                         ["repairWithRepairKit"] = true,
+                        ["defaultRepairKit"] = 0,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["repairWithGold"] = true,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
                     },
                 },
                 ["profileCounter"] = 1,
-                ["version"] = 1,
+                ["savedVarsVersion"] = 20524,
             },
         },
     },
