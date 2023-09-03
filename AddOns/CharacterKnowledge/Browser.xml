@@ -107,7 +107,7 @@
 					<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="$(parent)List" offsetY="6" />
 				</Label>
 
-				<Control name="$(parent)CharacterDrop" inherits="ExtendedJournalFooterComboBox">
+				<Control name="$(parent)CharacterDrop" inherits="ExtendedJournalFooterScrollableComboBox">
 					<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="$(parent)List" offsetX="300" offsetY="6" />
 				</Control>
 

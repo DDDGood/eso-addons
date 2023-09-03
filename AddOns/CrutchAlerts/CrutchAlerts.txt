@@ -1,11 +1,11 @@
 ## Title: CrutchAlerts
 ## This addon is a crutch
 ## Author: Kyzeragon
-## Version: 0.17.3
-## APIVersion: 101038
+## Version: 0.19.1
+## APIVersion: 101039
 
 ## DependsOn: LibAddonMenu-2.0>=31
-## OptionalDependsOn: OdySupportIcons LibFilteredChatPanel
+## OptionalDependsOn: OdySupportIcons LibFilteredChatPanel LibDialog
 
 ## SavedVariables: CrutchAlertsSavedVariables
 
@@ -18,6 +18,7 @@ trials/mawOfLorkhaj.xml
 trials/asylumsanctorium.lua
 trials/cloudrest.lua
 trials/dreadsailReef.lua
+trials/hallsOfFabrication.lua
 trials/kynesAegis.lua
 trials/mawOfLorkhaj.lua
 trials/rockgrove.lua
@@ -27,6 +28,12 @@ trials/maelstromArena.lua
 trials/vateshranHollows.lua
 
 dungeons/ShipwrightsRegret.lua
+
+bosshealthbar/BossHealthBar.lua
+bosshealthbar/BossHealthBar.xml
+bosshealthbar/TrialThresholds.lua
+bosshealthbar/DungeonThresholds.lua
+bosshealthbar/ArenaThresholds.lua
 
 src/util.lua
 src/messaging.lua

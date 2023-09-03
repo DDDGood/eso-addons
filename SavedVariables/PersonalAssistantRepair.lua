@@ -6,37 +6,37 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["profileCounter"] = 1,
                 [1] = 
                 {
-                    ["name"] = "Profile 1",
-                    ["silentMode"] = false,
-                    ["autoRepairEnabled"] = true,
                     ["RechargeWeapons"] = 
                     {
-                        ["defaultSoulGem"] = 1,
                         ["lowSoulGemWarning"] = false,
                         ["useSoulGems"] = true,
                         ["lowSoulGemThreshold"] = 10,
+                        ["defaultSoulGem"] = 1,
                     },
+                    ["name"] = "Profile 1",
+                    ["autoRepairEnabled"] = true,
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithGold"] = true,
                     },
-                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairEquipped"] = 
                     {
+                        ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["defaultRepairKit"] = 0,
+                        ["repairWithGold"] = true,
                         ["lowRepairKitWarning"] = true,
                         ["repairWithRepairKit"] = true,
-                        ["defaultRepairKit"] = 0,
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithGold"] = true,
                         ["lowRepairKitThreshold"] = 10,
-                        ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithRepairKitThreshold"] = 10,
                     },
+                    ["silentMode"] = false,
                 },
-                ["profileCounter"] = 1,
+                ["version"] = 1,
                 ["savedVarsVersion"] = 20524,
             },
         },

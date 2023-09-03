@@ -91,6 +91,12 @@ Crutch.filter = {
 
 
 ---------------------------------------------------------------------
+-- Some abilities show up as immediately "stopped" even though they're not interruptible
+Crutch.uninterruptible = {
+    [184540] = true, -- Chain Pull (Exarchanic Yaseyla)
+}
+
+---------------------------------------------------------------------
 -- Needs testing
 Crutch.testing = {
     -- [ 54027] = true, -- Divine Leap (initial hitValue shows 1500 which is the cast)
@@ -287,6 +293,9 @@ Crutch.others = {
     [ 90876] = true, -- Direct Current (Pinnacle Factotum interruptible)
     [ 91454] = true, -- Stomp (Assembly General)
     [ 91781] = true, -- Lightning Spear (Pinnacle Factotum conduit)
+    [ 94736] = true, -- Overheating Aura (Reducer)
+    [ 94757] = true, -- Overloading Aura (Reactor)
+    [ 91019] = true, -- Phase 1.1 (Assembly General)
 
 -- Rockgrove
     [149089] = true, -- Astral Shield (Sul-Xan Soulweaver)
@@ -312,6 +321,8 @@ Crutch.others = {
 -- Sanity's Edge
     [200544] = true, -- Charge (Wamasu during trash)
     [191133] = true, -- Charge (Wamasu during boss?)
+    [183855] = true, -- The Ritual (Ansuul maze)
+    [184802] = true, -- True Shot (Contramagis Archer)
 
 ---------------------------------------------------------------------
 -- Dungeons
@@ -363,6 +374,7 @@ Crutch.others = {
     [172410] = true, -- Crumble (Archdruid Devyric rock pillar things)
     [171127] = true, -- Guttural Roar (5 seconds channel of the cone probably)
     [170650] = true, -- Wild Stampede (Static Stampede, GAINED / DURATION tho)
+    [116859] = true, -- Crush (Monstrous Bear)
 
 ---------------------------------------------------------------------
 -- Overland

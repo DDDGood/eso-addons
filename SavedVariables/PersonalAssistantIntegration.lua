@@ -6,21 +6,16 @@ PersonalAssistantIntegration_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 1,
+                ["profileCounter"] = 1,
                 [1] = 
                 {
-                    ["LazyWritCrafter"] = 
-                    {
-                        ["compatibility"] = true,
-                    },
-                    ["name"] = "Profile 1",
                     ["FCOItemSaver"] = 
                     {
                         ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["Research"] = 
+                        ["Intricate"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -28,9 +23,21 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
-                        ["SellGuildStore"] = 
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
+                        },
+                        ["Research"] = 
                         {
                             ["itemMoveMode"] = 0,
+                        },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Locked"] = 
+                        {
+                            ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
                         },
                         ["GearSets"] = 
                         {
@@ -43,25 +50,18 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
-                        },
-                        ["Locked"] = 
-                        {
-                            ["preventAutoSell"] = false,
-                            ["preventMoving"] = false,
-                        },
-                        ["DynamicIcons"] = 
-                        {
-                        },
-                        ["Intricate"] = 
+                        ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
                     },
+                    ["name"] = "Profile 1",
+                    ["LazyWritCrafter"] = 
+                    {
+                        ["compatibility"] = true,
+                    },
                 },
-                ["profileCounter"] = 1,
+                ["version"] = 1,
                 ["savedVarsVersion"] = 20524,
             },
         },

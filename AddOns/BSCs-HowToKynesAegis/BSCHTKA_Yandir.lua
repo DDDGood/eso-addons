@@ -17,7 +17,7 @@ local GRYPHON_SPAWN_TIME = 60	-- 1 Minute Until Gryfon spawn
 
 local YANDIR_IDS = { }
 table.insert(YANDIR_IDS, { id = TOTEM_POISION, 		event = EVENT_COMBAT_EVENT, result = ACTION_RESULT_BEGIN, ftarget = -1 })		 -- Posion Totem: Doge after 4,3 sec
-table.insert(YANDIR_IDS, { id = TOTEM_POISION_CP, 	event = EVENT_COMBAT_EVENT, result = -1, ftarget = -1 })		 -- Posion Totem: Doge after 4,3 sec
+table.insert(YANDIR_IDS, { id = TOTEM_POISION_CP, 	event = EVENT_COMBAT_EVENT, result = ACTION_RESULT_EFFECT_GAINED, ftarget = -1 })		 -- Posion Totem: Doge after 4,3 sec
 table.insert(YANDIR_IDS, { id = TOTEM_GARGYL, 		event = EVENT_COMBAT_EVENT, result = ACTION_RESULT_BEGIN, ftarget = -1  })  	 -- Gargyl Totem: Block after 5 sec
 table.insert(YANDIR_IDS, { id = YANDIR_HEALING, 	event = EVENT_COMBAT_EVENT, result = ACTION_RESULT_BEGIN, ftarget = -1  })	 	 -- After 10 sec? Cast Healing on Add
 table.insert(YANDIR_IDS, { id = YANDIR_JUMP, 		event = EVENT_COMBAT_EVENT, result = ACTION_RESULT_BEGIN, ftarget = -1  })
@@ -37,6 +37,9 @@ function BSCHTKA:Yandir_Reset()
 	BSCHTKA.bGRYPHON_SKIP = false
 	BSCHTKA.bGRYPHON_SKIP_TIME = -1 
 	BSCHTKA.bGRYPHON_SKIP_FAILHP = 0
+	BSCHTKA.PosionTotemID = -1
+	BSCHTKA.PosionTotemIDSC = -1
+	BSCHTKA.BTotemCall = false
 end
 -- UI Info
 function BSCHTKA:Yandir_UpdateUI()
@@ -61,6 +64,8 @@ function BSCHTKA:Yandir_UpdateUI()
 	end
 end
 BSCHTKA.PosionTotemID = -1
+--BSCHTKA.PosionTotemIDSC = -1
+BSCHTKA.BTotemCall = false
 local function OnCombatEvent( _, result, _, _, _, _, sourceName, sourceType, targetName, targetType, hitValue, powerType, damageType, log, sourceUnitId, targetUnitId, abilityId, overflow )
 	if abilityId == TOTEM_POISION and BSCHTKA.SV_ACC.POISION_TOTEM then -- Posion Totem
 		local cid = -1
@@ -71,21 +76,15 @@ local function OnCombatEvent( _, result, _, _, _, _, sourceName, sourceType, tar
 		end
 		BSCHTKA:AddAlertsList(targetUnitId, cid)
 		BSCHTKA.PosionTotemID = targetUnitId
-		zo_callLater(
-			function() 
-				if BSCHTKA.PosionTotemID ~= -1 and IsUnitInCombat('player') then
-					if BSCHTKA.SV_ACC.USE_COLOR then
-						cid = CombatAlerts.AlertCast( abilityId, sourceName, 4200, { -3, 0, false, { unpack(BSCHTKA.SV_ACC.C_POISION_TOTEM) }, { BSCHTKA.SV_ACC.C_POISION_TOTEM[1], BSCHTKA.SV_ACC.C_POISION_TOTEM[2], BSCHTKA.SV_ACC.C_POISION_TOTEM[3], 1 } } )
-					else 
-						cid = CombatAlerts.AlertCast( abilityId, sourceName, 4200, { -3, 0, false, { 0, 0.8, 0, 0.4 }, { 0, 0.8, 0, 0.8 } } )
-					end
-				end
-			end, 
-		30000)
+		--BSCHTKA.PosionTotemIDSC = sourceUnitId
 	elseif abilityId == TOTEM_POISION_CP and BSCHTKA.SV_ACC.POISION_TOTEM then -- Posion Totem CD start for next
+		if BSCHTKA.BTotemCall then return end
+		BSCHTKA.BTotemCall = true
 		zo_callLater(
 			function() 
+				--if BSCHTKA.PosionTotemID ~= -1 and BSCHTKA.PosionTotemIDSC ~= -1 and IsUnitInCombat('player') then
 				if BSCHTKA.PosionTotemID ~= -1 and IsUnitInCombat('player') then
+					BSCHTKA.BTotemCall = false
 					if BSCHTKA.SV_ACC.USE_COLOR then
 						cid = CombatAlerts.AlertCast( abilityId, sourceName, 4300, { -3, 0, false, { unpack(BSCHTKA.SV_ACC.C_POISION_TOTEM) }, { BSCHTKA.SV_ACC.C_POISION_TOTEM[1], BSCHTKA.SV_ACC.C_POISION_TOTEM[2], BSCHTKA.SV_ACC.C_POISION_TOTEM[3], 1 } } )
 					else 
@@ -93,7 +92,7 @@ local function OnCombatEvent( _, result, _, _, _, _, sourceName, sourceType, tar
 					end
 				end
 			end, 
-		25800)	
+		26800)	
 	elseif abilityId == TOTEM_GARGYL and BSCHTKA.SV_ACC.GARGYL_TOTEM then -- Gargyl Totem
 		local cid = -1
 		if BSCHTKA.SV_ACC.USE_COLOR then

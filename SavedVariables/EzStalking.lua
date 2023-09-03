@@ -6,50 +6,26 @@ EzStalking_SavedVars =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 2,
                 ["log"] = 
                 {
-                    ["enabled"] = true,
-                    ["trials"] = true,
-                    ["remember_zone"] = false,
-                    ["normal_difficulty"] = false,
-                    ["use_dialog"] = true,
-                    ["imperial_city"] = false,
-                    ["dungeons"] = true,
-                    ["housing"] = false,
-                    ["battlegrounds"] = false,
-                    ["cyrodiil"] = false,
                     ["arenas"] = true,
-                },
-                ["indicator"] = 
-                {
-                    ["enabled"] = false,
-                    ["unlocked_color"] = 
-                    {
-                        [4] = 0.7000000000,
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["position"] = 
-                    {
-                        ["x"] = 500,
-                        ["y"] = 500,
-                    },
-                    ["locked"] = true,
-                    ["color"] = 
-                    {
-                        [4] = 0.7000000000,
-                        [1] = 1,
-                        [2] = 0,
-                        [3] = 0,
-                    },
+                    ["battlegrounds"] = false,
+                    ["dungeons"] = true,
+                    ["trials"] = true,
+                    ["enabled"] = true,
+                    ["cyrodiil"] = false,
+                    ["remember_zone"] = false,
+                    ["housing"] = false,
+                    ["normal_difficulty"] = false,
+                    ["imperial_city"] = false,
+                    ["use_dialog"] = true,
                 },
                 ["zone_id"] = 
                 {
                     [1] = 
                     {
                         [1196] = true,
+                        [1344] = true,
                         [1263] = true,
                     },
                     [2] = 
@@ -57,32 +33,57 @@ EzStalking_SavedVars =
                     },
                     [3] = 
                     {
-                        [380] = true,
                         [1010] = true,
+                        [283] = true,
+                        [380] = true,
+                        [1301] = true,
                         [11] = true,
                     },
                 },
-                ["account_wide"] = true,
                 ["upload_reminder"] = false,
+                ["indicator"] = 
+                {
+                    ["color"] = 
+                    {
+                        [4] = 0.7000000000,
+                        [1] = 1,
+                        [2] = 0,
+                        [3] = 0,
+                    },
+                    ["unlocked_color"] = 
+                    {
+                        [4] = 0.7000000000,
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["enabled"] = false,
+                    ["position"] = 
+                    {
+                        ["x"] = 500,
+                        ["y"] = 500,
+                    },
+                    ["locked"] = true,
+                },
+                ["account_wide"] = true,
+                ["version"] = 2,
             },
             ["8796093067296067"] = 
             {
-                ["version"] = 2,
                 ["log"] = 
                 {
-                    ["enabled"] = true,
-                    ["trials"] = true,
-                    ["remember_zone"] = false,
-                    ["normal_difficulty"] = false,
-                    ["use_dialog"] = false,
-                    ["imperial_city"] = false,
-                    ["dungeons"] = true,
-                    ["housing"] = false,
-                    ["battlegrounds"] = false,
-                    ["cyrodiil"] = false,
                     ["arenas"] = false,
+                    ["battlegrounds"] = false,
+                    ["dungeons"] = true,
+                    ["trials"] = true,
+                    ["enabled"] = true,
+                    ["cyrodiil"] = false,
+                    ["remember_zone"] = false,
+                    ["housing"] = false,
+                    ["normal_difficulty"] = false,
+                    ["imperial_city"] = false,
+                    ["use_dialog"] = false,
                 },
-                ["account_wide"] = false,
                 ["zone_id"] = 
                 {
                     [1] = 
@@ -95,22 +96,10 @@ EzStalking_SavedVars =
                     {
                     },
                 },
+                ["upload_reminder"] = false,
+                ["$LastCharacterName"] = "D Good",
                 ["indicator"] = 
                 {
-                    ["enabled"] = true,
-                    ["unlocked_color"] = 
-                    {
-                        [4] = 0.7000000000,
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["position"] = 
-                    {
-                        ["x"] = 500,
-                        ["y"] = 500,
-                    },
-                    ["locked"] = true,
                     ["color"] = 
                     {
                         [4] = 0.7000000000,
@@ -118,9 +107,23 @@ EzStalking_SavedVars =
                         [2] = 0,
                         [3] = 0,
                     },
+                    ["unlocked_color"] = 
+                    {
+                        [4] = 0.7000000000,
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["enabled"] = true,
+                    ["position"] = 
+                    {
+                        ["x"] = 500,
+                        ["y"] = 500,
+                    },
+                    ["locked"] = true,
                 },
-                ["$LastCharacterName"] = "D Good",
-                ["upload_reminder"] = false,
+                ["account_wide"] = false,
+                ["version"] = 2,
             },
         },
     },

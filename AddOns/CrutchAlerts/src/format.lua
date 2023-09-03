@@ -55,6 +55,11 @@ Crutch.format = {
     [ 48240] = 10, -- Boulder Storm (Stone Atronach)
     [ 49098] = 10, -- Big Quake (Stone Atronach)
 
+-- Halls of Fabrication
+    [ 91019] = 430, -- Phase 1.1 (Assembly General)
+    [ 94736] = 500, -- Overheating Aura (Reducer)
+    [ 94757] = 500, -- Overloading Aura (Reactor)
+
 -- Kyne's Aegis
     [133515] = 100204.5, -- Chaurus Totem seems to send out first projectile ~4.5 seconds after spawn
 
@@ -79,7 +84,10 @@ Crutch.format = {
     [182393] = 14.5, -- Immolation Trap (Valinna)
 
 -- Earthen Root Enclave
-    [172410] = 100003.3, -- Crumble (Archdruid Devyric rock pillar things)
+    [172410] = 200003.3, -- Crumble (Archdruid Devyric rock pillar things)
+
+-- Sanity's Edge
+    [183855] = 45, -- The Ritual (Ansuul maze)
 }
 
 

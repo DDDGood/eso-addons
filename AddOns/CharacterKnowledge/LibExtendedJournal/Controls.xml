@@ -34,7 +34,7 @@
 			</OnMouseUp>
 			<Controls>
 				<Label name="$(parent)Caption" inherits="ExtendedJournalFooterLabel">
-					<Anchor point="LEFT" />
+					<Anchor point="TOPLEFT" />
 				</Label>
 				<Label name="$(parent)SelectedItemText" inherits="ExtendedJournalFooterLabel">
 					<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="$(parent)Caption" offsetX="4" />
@@ -42,6 +42,27 @@
 				<Label name="$(parent)Change" text="SI_LEJ_CHANGE" inherits="ExtendedJournalFooterLabel">
 					<Anchor point="LEFT" relativePoint="RIGHT" relativeTo="$(parent)SelectedItemText" offsetX="4" />
 				</Label>
+			</Controls>
+		</Control>
+
+		<Control name="ExtendedJournalFooterScrollableComboBox" inherits="ExtendedJournalFooterComboBox" mouseEnabled="true" virtual="true">
+			<OnInitialized>
+				ZO_ScrollableComboBox:New(self)
+			</OnInitialized>
+			<Controls>
+				<Control name="$(parent)Dropdown" mouseEnabled="true" tier="HIGH" hidden="true">
+					<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT" relativeTo="$(parent)Caption" />
+					<Anchor point="RIGHT" constrains="X" />
+					<Controls>
+						<Backdrop name="$(parent)BG" inherits="ZO_DefaultBackdrop">
+							<AnchorFill />
+						</Backdrop>
+						<Control name="$(parent)Scroll" inherits="ZO_ScrollList">
+							<Anchor point="TOPLEFT" offsetY="ZO_SCROLLABLE_COMBO_BOX_LIST_PADDING_Y" />
+							<Anchor point="BOTTOMRIGHT" offsetY="-ZO_SCROLLABLE_COMBO_BOX_LIST_PADDING_Y" />
+						</Control>
+					</Controls>
+				</Control>
 			</Controls>
 		</Control>
 

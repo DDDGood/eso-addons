@@ -25,7 +25,7 @@ function Crutch:CreateSettingsMenu()
     local optionsData = {
         {
             type = "checkbox",
-            name = "Unlock",
+            name = "Unlock UI",
             tooltip = "Unlock the frames for moving",
             default = false,
             getFunc = function() return Crutch.unlock end,
@@ -47,6 +47,14 @@ function Crutch:CreateSettingsMenu()
                     Crutch.UpdateSpearsDisplay(3, 2, 1)
                 else
                     Crutch.UpdateSpearsDisplay(0, 0, 0)
+                end
+
+                CrutchAlertsBossHealthBarContainer:SetMovable(value)
+                CrutchAlertsBossHealthBarContainer:SetMouseEnabled(value)
+                if (value) then
+                    Crutch.BossHealthBar.ShowOrHideBars(true, false)
+                else
+                    Crutch.BossHealthBar.ShowOrHideBars()
                 end
             end,
             width = "full",
@@ -190,6 +198,26 @@ function Crutch:CreateSettingsMenu()
                 },
             }
         },
+-- boss health bar
+        {
+            type = "submenu",
+            name = "Vertical Boss Health Bar Settings",
+            controls = {
+                {
+                    type = "checkbox",
+                    name = "Show boss health bar",
+                    tooltip = "Show vertical boss health bars with markers for percentage based mechanics",
+                    default = true,
+                    getFunc = function() return Crutch.savedOptions.bossHealthBar.enabled end,
+                    setFunc = function(value)
+                        Crutch.savedOptions.bossHealthBar.enabled = value
+                        Crutch.BossHealthBar.Initialize()
+                    end,
+                    width = "full",
+                },
+            }
+        },
+-- subtitles
         {
             type = "submenu",
             name = "Miscellaneous Settings",
@@ -396,6 +424,39 @@ function Crutch:CreateSettingsMenu()
                     disabled = function() return not Crutch.savedOptions.dreadsailreef.alertVolatileStacks end,
                 },
             }
+        },
+        {
+            type = "submenu",
+            name = "Halls of Fabrication",
+            controls = {
+                {
+                    type = "checkbox",
+                    name = "Show safe spot for triplets",
+                    tooltip = "In the triplets fight, shows an icon in the world that is outside of Shock Field. Requires OdySupportIcons",
+                    default = true,
+                    getFunc = function() return Crutch.savedOptions.hallsoffabrication.showTripletsIcon end,
+                    setFunc = function(value)
+                        Crutch.savedOptions.hallsoffabrication.showTripletsIcon = value
+                        Crutch.OnPlayerActivated()
+                    end,
+                    width = "full",
+                    disabled = function() return OSI == nil end,
+                },
+                {
+                    type = "slider",
+                    name = "Triplets icon size",
+                    min = 20,
+                    max = 300,
+                    step = 10,
+                    default = 150,
+                    width = full,
+                    getFunc = function() return Crutch.savedOptions.hallsoffabrication.tripletsIconSize end,
+                    setFunc = function(value)
+                        Crutch.savedOptions.hallsoffabrication.tripletsIconSize = value
+                        Crutch.OnPlayerActivated()
+                    end,
+                },
+            },
         },
         {
             type = "submenu",

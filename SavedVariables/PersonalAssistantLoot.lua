@@ -6,91 +6,91 @@ PersonalAssistantLoot_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 2,
+                ["profileCounter"] = 1,
                 [1] = 
                 {
+                    ["InventorySpace"] = 
+                    {
+                        ["lowInventorySpaceThreshold"] = 10,
+                        ["lowInventorySpaceWarning"] = true,
+                    },
+                    ["name"] = "Profile 1",
                     ["LootEvents"] = 
                     {
-                        ["LootRecipes"] = 
+                        ["LootApparelWeapons"] = 
                         {
-                            ["unknownRecipeMsg"] = true,
+                            ["uncollectedSetMsg"] = true,
+                            ["unknownTraitMsg"] = true,
                         },
-                        ["lootEventsEnabled"] = true,
                         ["LootCompanionItems"] = 
                         {
                             ["qualityThreshold"] = 4,
                         },
-                        ["LootApparelWeapons"] = 
-                        {
-                            ["unknownTraitMsg"] = true,
-                            ["uncollectedSetMsg"] = true,
-                        },
                         ["LootStyles"] = 
                         {
-                            ["unknownMotifMsg"] = true,
                             ["unknownStylePageMsg"] = true,
+                            ["unknownMotifMsg"] = true,
+                        },
+                        ["lootEventsEnabled"] = true,
+                        ["LootRecipes"] = 
+                        {
+                            ["unknownRecipeMsg"] = true,
                         },
                     },
-                    ["name"] = "Profile 1",
-                    ["silentMode"] = false,
                     ["ItemIcons"] = 
                     {
+                        ["SetCollection"] = 
+                        {
+                            ["iconSizeList"] = 16,
+                            ["iconXOffsetGrid"] = -2,
+                            ["iconYOffsetGrid"] = -2,
+                            ["iconYOffsetList"] = 0,
+                            ["iconXOffsetList"] = 20,
+                            ["showUncollectedIcon"] = true,
+                            ["iconSizeGrid"] = 16,
+                        },
+                        ["ApparelWeapons"] = 
+                        {
+                            ["showKnownIcon"] = false,
+                            ["showUnknownIcon"] = true,
+                        },
+                        ["iconYOffsetList"] = 0,
+                        ["iconXOffsetGrid"] = 2,
+                        ["itemIconsEnabled"] = true,
+                        ["iconSizeGrid"] = 16,
+                        ["iconSizeList"] = 16,
+                        ["iconTooltipShown"] = true,
+                        ["iconYOffsetGrid"] = -2,
                         ["CompanionItems"] = 
                         {
-                            ["showCompanionItemIcon"] = true,
-                            ["iconXOffsetList"] = 0,
-                            ["iconSizeGrid"] = 16,
-                            ["iconYOffsetList"] = 0,
                             ["iconSizeList"] = 16,
                             ["iconXOffsetGrid"] = 2,
                             ["iconYOffsetGrid"] = -2,
+                            ["iconYOffsetList"] = 0,
+                            ["showCompanionItemIcon"] = true,
+                            ["iconXOffsetList"] = 0,
+                            ["iconSizeGrid"] = 16,
+                        },
+                        ["Recipes"] = 
+                        {
+                            ["showKnownIcon"] = false,
+                            ["showUnknownIcon"] = true,
+                        },
+                        ["iconXOffsetList"] = 0,
+                        ["StylePageContainers"] = 
+                        {
+                            ["showKnownIcon"] = false,
+                            ["showUnknownIcon"] = true,
                         },
                         ["Motifs"] = 
                         {
                             ["showKnownIcon"] = false,
                             ["showUnknownIcon"] = true,
                         },
-                        ["iconYOffsetList"] = 0,
-                        ["iconYOffsetGrid"] = -2,
-                        ["iconSizeList"] = 16,
-                        ["Recipes"] = 
-                        {
-                            ["showKnownIcon"] = false,
-                            ["showUnknownIcon"] = true,
-                        },
-                        ["iconSizeGrid"] = 16,
-                        ["SetCollection"] = 
-                        {
-                            ["showUncollectedIcon"] = true,
-                            ["iconXOffsetList"] = 20,
-                            ["iconSizeGrid"] = 16,
-                            ["iconYOffsetList"] = 0,
-                            ["iconXOffsetGrid"] = -2,
-                            ["iconSizeList"] = 16,
-                            ["iconYOffsetGrid"] = -2,
-                        },
-                        ["iconXOffsetList"] = 0,
-                        ["itemIconsEnabled"] = true,
-                        ["StylePageContainers"] = 
-                        {
-                            ["showKnownIcon"] = false,
-                            ["showUnknownIcon"] = true,
-                        },
-                        ["iconXOffsetGrid"] = 2,
-                        ["ApparelWeapons"] = 
-                        {
-                            ["showKnownIcon"] = false,
-                            ["showUnknownIcon"] = true,
-                        },
-                        ["iconTooltipShown"] = true,
                     },
-                    ["InventorySpace"] = 
-                    {
-                        ["lowInventorySpaceThreshold"] = 10,
-                        ["lowInventorySpaceWarning"] = true,
-                    },
+                    ["silentMode"] = false,
                 },
-                ["profileCounter"] = 1,
+                ["version"] = 2,
                 ["savedVarsVersion"] = 20524,
             },
         },

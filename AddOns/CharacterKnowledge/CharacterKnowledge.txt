@@ -7,10 +7,10 @@
 ## Title: Character Knowledge
 ## Description: Tracks the knowledge of recipes, furnishing plans, and motifs across different characters, accounts, and servers.
 ## Author: @code65536
-## Version: 1.3.13
-## APIVersion: 101038 101039
+## Version: 1.3.14
+## APIVersion: 101039
 ## SavedVariables: CharacterKnowledgeSavedVariables
-## DependsOn: LibCharacterKnowledge>=8 LibExtendedJournal>=9
+## DependsOn: LibCharacterKnowledge>=20 LibExtendedJournal>=16
 ## OptionalDependsOn: AdvancedFilters LibAddonMenu-2.0
 
 l10n/default.lua
@@ -24,6 +24,9 @@ AdvancedFiltersPlugin.lua
 Bindings.xml
 
 ; Changelog:
+;
+; Version 1.3.14 (2023/08/28)
+; * The character selection in the browser UI is now scrollable
 ;
 ; Version 1.3.13 (2023/07/27)
 ; * Added support for Update 39

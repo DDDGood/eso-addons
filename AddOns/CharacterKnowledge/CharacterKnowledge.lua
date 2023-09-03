@@ -5,7 +5,7 @@ CharacterKnowledge = {
 	name = "CharacterKnowledge",
 
 	title = GetString(SI_CK_TITLE),
-	version = "1.3.13",
+	version = "1.3.14",
 	url = "https://www.esoui.com/downloads/info2938.html",
 
 	-- Default settings

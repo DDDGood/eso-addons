@@ -407,6 +407,8 @@ local function OnCombatEvent_DIED( _, result, _, _, _, _, sourceName, sourceType
 	end	
 	if BSCHTKA.PosionTotemID == sourceUnitId or BSCHTKA.PosionTotemID == targetUnitId then
 		BSCHTKA.PosionTotemID = -1
+		--BSCHTKA.PosionTotemIDSC = -1		
+		BSCHTKA.BTotemCall = false
 	end
 end
 function BSCHTKA.init(event, addonName)	

@@ -2,7 +2,7 @@
 #AcknowledgedOutOfDateAddonsVersion 101039
 #AddOnsEnabled 1
 #Default
-LibLootSummary 0
+HarvestMapAD 0
 GS13Data 0
 GS08Data 0
 LibTextFilter 0
@@ -113,8 +113,8 @@ GS14Data 0
 GS12Data 0
 GS06Data 0
 GS01Data 0
+LibLootSummary 0
 CraftStoreFixedAndImproved 0
-HarvestMapAD 0
 #NA Megaserver-Douli D
 EzStalking 0
 LibTextFilter 1
@@ -224,8 +224,8 @@ CraftStoreFixedAndImproved 1
 #NA Megaserver-D Good
 GroupLootNotifier 1
 CustomCompassPins 0
-GS06Data 0
-CraftStoreFixedAndImproved 0
+LibLootSummary 1
+GS01Data 0
 AccountSettings 1
 GS13Data 0
 EzStalking 1
@@ -254,7 +254,7 @@ VotansTamrielMap 1
 ActionDurationReminder 1
 libChat2 0
 GS11Data 0
-HodorReflexes 0
+HodorReflexes 1
 Postmaster 1
 EnglishTooltips 1
 LibFilters-3.0 0
@@ -274,13 +274,13 @@ NodeDetection 0
 TheQuestingGuide 0
 LibUnitTracker 1
 MapPins 1
-pChat 0
-LibMediaProvider-1.0 0
+pChat 1
+LibMediaProvider-1.0 1
 LibExecutionQueue 0
 QuestMap 1
 DefaultGuildBank 1
 LibDebugLogger 1
-QcellDreadsailReefHelper 0
+QcellDreadsailReefHelper 1
 LibSFUtils 1
 PerfectPixel 0
 PotionMaker 0
@@ -325,7 +325,7 @@ GS04Data 0
 EsoZH 0
 LibMarify 0
 LibStub 0
-LibDataShare 0
+LibDataShare 1
 LibBinaryEncode 0
 LibChatMessage 1
 FourMusketeers 0
@@ -380,12 +380,13 @@ LibMapData 1
 LibMainMenu-2.0 1
 LibMapPing 1
 LibCharacterKnowledge 1
+LibAddonMenuSoundSlider 1
 CombatMetronome 1
 GS14Data 0
 AgsInvididualItemPriceFilter 0
 BSCs-HowToKynesAegis 1
 GS12Data 0
+GS06Data 0
+CraftStoreFixedAndImproved 0
 HarvestMapAD 0
 LibMotif 0
-LibLootSummary 1
-GS01Data 0

@@ -8,9 +8,9 @@
 ## Description: Common framework for addons that provide a UI similar to the in-game journal
 ## Author: @code65536
 ## IsLibrary: true
-## Version: 1.3.6
-## AddOnVersion: 15
-## APIVersion: 101038 101039
+## Version: 1.4.0
+## AddOnVersion: 16
+## APIVersion: 101039
 
 l10n/default.lua
 l10n/$(language).lua
@@ -22,6 +22,9 @@ SortFilterList.lua
 Bindings.xml
 
 ; Changelog:
+;
+; Version 1.4.0 (2023/08/28)
+; * Added ExtendedJournalFooterScrollableComboBox
 ;
 ; Version 1.3.6 (2023/07/27)
 ; * API version bump for Update 39

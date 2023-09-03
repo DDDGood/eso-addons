@@ -6,7 +6,7 @@
 CrutchAlerts = CrutchAlerts or {}
 local Crutch = CrutchAlerts
 Crutch.name = "CrutchAlerts"
-Crutch.version = "0.17.3"
+Crutch.version = "0.19.1"
 
 Crutch.registered = {
     begin = false,
@@ -66,6 +66,10 @@ local defaultOptions = {
         x = GuiRoot:GetWidth() / 4,
         y = GuiRoot:GetHeight() / 4,
     },
+    bossHealthBarDisplay = {
+        x = -GuiRoot:GetWidth() / 4,
+        y = -100,
+    },
     debugLine = false,
     debugChatSpam = false,
     debugOther = false,
@@ -85,6 +89,11 @@ local defaultOptions = {
         useNonNoneBlacklist = true,
         useNoneBlacklist = true,
     },
+    bossHealthBar = {
+        enabled = true,
+        firstTime = true,
+        -- TODO: scale
+    },
     asylumsanctorium = {
         dingSelfCone = true,
         dingOthersCone = false,
@@ -100,6 +109,10 @@ local defaultOptions = {
         staticThreshold = 7,
         alertVolatileStacks = true,
         volatileThreshold = 6,
+    },
+    hallsoffabrication = {
+        showTripletsIcon = true,
+        tripletsIconSize = 150,
     },
     kynesaegis = {
         showSpearIcon = true,
@@ -170,6 +183,11 @@ function CrutchAlerts:SavePosition()
     x, y = CrutchAlertsMawOfLorkhaj:GetCenter()
     Crutch.savedOptions.cursePadsDisplay.x = x - oX
     Crutch.savedOptions.cursePadsDisplay.y = y - oY
+
+    x = CrutchAlertsBossHealthBarContainer:GetLeft()
+    y = CrutchAlertsBossHealthBarContainer:GetTop()
+    Crutch.savedOptions.bossHealthBarDisplay.x = x - oX
+    Crutch.savedOptions.bossHealthBarDisplay.y = y - oY
 end
 
 ---------------------------------------------------------------------
@@ -212,7 +230,20 @@ end
 Crutch.OnPlayerActivated = OnPlayerActivated
 
 ---------------------------------------------------------------------
+-- First time player activated
+---------------------------------------------------------------------
+local function OnPlayerActivatedFirstTime()
+    EVENT_MANAGER:UnregisterForEvent(Crutch.name .. "ActivatedFirstTime", EVENT_PLAYER_ACTIVATED)
+
+    if (Crutch.savedOptions.bossHealthBar.firstTime) then
+        Crutch.BossHealthBar.DisplayWarning()
+        Crutch.savedOptions.bossHealthBar.firstTime = false
+    end
+end
+
+---------------------------------------------------------------------
 -- Initialize 
+---------------------------------------------------------------------
 local function Initialize()
     -- Settings and saved variables
     Crutch.savedOptions = ZO_SavedVars:NewAccountWide("CrutchAlertsSavedVariables", 1, "Options", defaultOptions)
@@ -245,12 +276,16 @@ local function Initialize()
     Crutch.RegisterEffectChanged() -- TODO: only do this when in group?
     Crutch.InitializeDebug()
 
+    -- Boss health bar
+    Crutch.BossHealthBar.Initialize()
+
     -- Debug chat panel
     if (LibFilteredChatPanel) then
         crutchLFCPFilter = LibFilteredChatPanel:CreateFilter(Crutch.name, "/esoui/art/ava/ava_rankicon64_volunteer.dds", {0.7, 0.7, 0.5}, false)
     end
 
     -- Register for when entering zone
+    EVENT_MANAGER:RegisterForEvent(Crutch.name .. "ActivatedFirstTime", EVENT_PLAYER_ACTIVATED, OnPlayerActivatedFirstTime)
     EVENT_MANAGER:RegisterForEvent(Crutch.name .. "Activated", EVENT_PLAYER_ACTIVATED, OnPlayerActivated)
 
     zoneUnregisters = {
@@ -260,7 +295,7 @@ local function Initialize()
         -- [639 ] = true,  -- Sanctum Ophidia
         [677 ] = Crutch.UnregisterMaelstromArena,  -- Maelstrom Arena
         [725 ] = Crutch.UnregisterMawOfLorkhaj,  -- Maw of Lorkhaj
-        -- [975 ] = true,  -- Halls of Fabrication
+        [975 ] = Crutch.UnregisterHallsOfFabrication,  -- Halls of Fabrication
         [1000] = Crutch.UnregisterAsylumSanctorium,  -- Asylum Sanctorium
         [1051] = Crutch.UnregisterCloudrest,  -- Cloudrest
         -- [1082] = true,  -- Blackrose Prison
@@ -280,7 +315,7 @@ local function Initialize()
         -- [639 ] = true,  -- Sanctum Ophidia
         [677 ] = Crutch.RegisterMaelstromArena,  -- Maelstrom Arena
         [725 ] = Crutch.RegisterMawOfLorkhaj,  -- Maw of Lorkhaj
-        -- [975 ] = true,  -- Halls of Fabrication
+        [975 ] = Crutch.RegisterHallsOfFabrication,  -- Halls of Fabrication
         [1000] = Crutch.RegisterAsylumSanctorium,  -- Asylum Sanctorium
         [1051] = Crutch.RegisterCloudrest,  -- Cloudrest
         -- [1082] = true,  -- Blackrose Prison
