@@ -8,149 +8,149 @@ CrutchAlertsSavedVariables =
             {
                 ["Options"] = 
                 {
-                    ["dragonstar"] = 
+                    ["version"] = 1,
+                    ["debugOther"] = false,
+                    ["vateshran"] = 
+                    {
+                        ["showMissedAdds"] = false,
+                    },
+                    ["maelstrom"] = 
                     {
                         ["normalDamageTaken"] = false,
+                        ["stage3Boss"] = "Equip boss setup!",
+                        ["stage4Boss"] = "Equip boss setup!",
+                        ["stage1Boss"] = "Equip boss setup!",
+                        ["stage6Boss"] = "Equip boss setup!",
+                        ["stage7Boss"] = "Equip boss setup!",
+                        ["stage5Boss"] = "Equip boss setup!",
+                        ["stage9Boss"] = "Equip boss setup!",
+                        ["showRounds"] = true,
+                        ["stage2Boss"] = "Equip boss setup!",
+                        ["stage8Boss"] = "",
                     },
-                    ["rockgrove"] = 
+                    ["mawoflorkhaj"] = 
                     {
-                        ["sludgeSides"] = true,
+                        ["showPads"] = true,
                     },
-                    ["general"] = 
+                    ["sunspire"] = 
                     {
-                        ["hitValueUseWhitelist"] = true,
-                        ["hitValueBelowThreshold"] = 75,
-                        ["showProminent"] = true,
-                        ["useNoneBlacklist"] = true,
-                        ["beginHideSelf"] = false,
-                        ["showBegin"] = true,
-                        ["beginHideArcanist"] = false,
-                        ["useNonNoneBlacklist"] = true,
-                        ["showOthers"] = true,
-                        ["showGained"] = true,
-                        ["hitValueAboveThreshold"] = 60000,
-                    },
-                    ["cloudrest"] = 
-                    {
-                        ["showSpears"] = true,
-                        ["spearsSound"] = true,
-                        ["showFlaresSides"] = true,
-                        ["deathIconColor"] = true,
-                    },
-                    ["version"] = 1,
-                    ["bossHealthBar"] = 
-                    {
-                        ["firstTime"] = false,
-                        ["enabled"] = true,
+                        ["yolLeftIcons"] = false,
+                        ["showLokkIcons"] = true,
+                        ["yolIconsSize"] = 150,
+                        ["lokkIconsSize"] = 150,
+                        ["showYolIcons"] = true,
+                        ["lokkIconsSoloHeal"] = false,
                     },
                     ["spearsDisplay"] = 
                     {
                         ["x"] = 640,
                         ["y"] = 0,
                     },
-                    ["debugUi"] = false,
                     ["dreadsailreef"] = 
                     {
                         ["alertVolatileStacks"] = true,
-                        ["volatileThreshold"] = 6,
-                        ["staticThreshold"] = 7,
                         ["alertStaticStacks"] = true,
+                        ["staticThreshold"] = 7,
+                        ["volatileThreshold"] = 6,
                     },
-                    ["instance"] = 
+                    ["debugChatSpam"] = false,
+                    ["rockgrove"] = 
                     {
-                        ["hof"] = true,
-                        ["rg"] = true,
-                        ["ss"] = true,
-                        ["ka"] = true,
-                        ["vh"] = true,
-                        ["ma"] = true,
-                        ["so"] = true,
-                        ["mol"] = true,
-                        ["brp"] = true,
-                        ["aa"] = true,
-                        ["cr"] = true,
-                        ["as"] = true,
-                        ["hrc"] = true,
-                    },
-                    ["subtitlesIgnoredZones"] = 
-                    {
-                    },
-                    ["showSubtitles"] = true,
-                    ["mawoflorkhaj"] = 
-                    {
-                        ["showPads"] = true,
-                    },
-                    ["cursePadsDisplay"] = 
-                    {
-                        ["x"] = 640,
-                        ["y"] = 270,
-                    },
-                    ["debugLine"] = false,
-                    ["shipwrightsRegret"] = 
-                    {
-                        ["showBombStacks"] = true,
-                    },
-                    ["hallsoffabrication"] = 
-                    {
-                        ["tripletsIconSize"] = 150,
-                        ["showTripletsIcon"] = true,
-                    },
-                    ["display"] = 
-                    {
-                        ["x"] = 0,
-                        ["y"] = 360,
-                    },
-                    ["debugOther"] = false,
-                    ["maelstrom"] = 
-                    {
-                        ["stage1Boss"] = "Equip boss setup!",
-                        ["showRounds"] = true,
-                        ["stage7Boss"] = "Equip boss setup!",
-                        ["stage2Boss"] = "Equip boss setup!",
-                        ["stage5Boss"] = "Equip boss setup!",
-                        ["stage3Boss"] = "Equip boss setup!",
-                        ["stage6Boss"] = "Equip boss setup!",
-                        ["stage8Boss"] = "",
-                        ["normalDamageTaken"] = false,
-                        ["stage4Boss"] = "Equip boss setup!",
-                        ["stage9Boss"] = "Equip boss setup!",
-                    },
-                    ["damageableDisplay"] = 
-                    {
-                        ["x"] = 0,
-                        ["y"] = 216,
+                        ["sludgeSides"] = true,
                     },
                     ["asylumsanctorium"] = 
                     {
-                        ["dingOthersCone"] = false,
                         ["dingSelfCone"] = true,
+                        ["dingOthersCone"] = false,
+                    },
+                    ["kynesaegis"] = 
+                    {
+                        ["showFalgravnIcons"] = true,
+                        ["showPrisonIcon"] = true,
+                        ["showSpearIcon"] = true,
+                        ["falgravnIconsSize"] = 150,
                     },
                     ["bossHealthBarDisplay"] = 
                     {
                         ["x"] = -640,
                         ["y"] = -100,
                     },
-                    ["sunspire"] = 
+                    ["display"] = 
                     {
-                        ["showLokkIcons"] = true,
-                        ["yolLeftIcons"] = false,
-                        ["yolIconsSize"] = 150,
-                        ["showYolIcons"] = true,
-                        ["lokkIconsSoloHeal"] = false,
-                        ["lokkIconsSize"] = 150,
+                        ["x"] = 0,
+                        ["y"] = 360,
                     },
-                    ["kynesaegis"] = 
+                    ["dragonstar"] = 
                     {
-                        ["showPrisonIcon"] = true,
-                        ["falgravnIconsSize"] = 150,
-                        ["showSpearIcon"] = true,
-                        ["showFalgravnIcons"] = true,
+                        ["normalDamageTaken"] = false,
                     },
-                    ["vateshran"] = 
+                    ["general"] = 
                     {
-                        ["showMissedAdds"] = false,
+                        ["hitValueUseWhitelist"] = true,
+                        ["hitValueBelowThreshold"] = 75,
+                        ["beginHideSelf"] = false,
+                        ["showProminent"] = true,
+                        ["showOthers"] = true,
+                        ["showGained"] = true,
+                        ["hitValueAboveThreshold"] = 60000,
+                        ["useNonNoneBlacklist"] = true,
+                        ["showBegin"] = true,
+                        ["useNoneBlacklist"] = true,
+                        ["beginHideArcanist"] = false,
                     },
-                    ["debugChatSpam"] = false,
+                    ["hallsoffabrication"] = 
+                    {
+                        ["tripletsIconSize"] = 150,
+                        ["showTripletsIcon"] = true,
+                    },
+                    ["debugUi"] = false,
+                    ["cloudrest"] = 
+                    {
+                        ["deathIconColor"] = true,
+                        ["showFlaresSides"] = true,
+                        ["showSpears"] = true,
+                        ["spearsSound"] = true,
+                    },
+                    ["cursePadsDisplay"] = 
+                    {
+                        ["x"] = 640,
+                        ["y"] = 270,
+                    },
+                    ["instance"] = 
+                    {
+                        ["so"] = true,
+                        ["hof"] = true,
+                        ["cr"] = true,
+                        ["ma"] = true,
+                        ["as"] = true,
+                        ["brp"] = true,
+                        ["rg"] = true,
+                        ["ka"] = true,
+                        ["aa"] = true,
+                        ["hrc"] = true,
+                        ["ss"] = true,
+                        ["mol"] = true,
+                        ["vh"] = true,
+                    },
+                    ["debugLine"] = false,
+                    ["subtitlesIgnoredZones"] = 
+                    {
+                    },
+                    ["showSubtitles"] = true,
+                    ["damageableDisplay"] = 
+                    {
+                        ["x"] = 0,
+                        ["y"] = 216,
+                    },
+                    ["bossHealthBar"] = 
+                    {
+                        ["firstTime"] = false,
+                        ["enabled"] = true,
+                    },
+                    ["shipwrightsRegret"] = 
+                    {
+                        ["showBombStacks"] = true,
+                    },
                 },
             },
         },

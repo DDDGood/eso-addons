@@ -1,6 +1,6 @@
 ## Title: LibDialog
 ## Author: Baertram
-## APIVersion: 100034 100035 100036 100037 100038 100039 100032
+## APIVersion: 100031 100032
 ## IsLibrary: true
 ## AddOnVersion: 126
 ## Version: 1.26

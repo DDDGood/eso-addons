@@ -1,6 +1,6 @@
 ## Title: LibMainMenu-2.0
 ## Author: Ayantir & Baertram & votan
-## APIVersion: 100034 100035 100036 100037 100038 100039
+## APIVersion: 100033 100034
 ## Version: 4.4.0
 ## AddOnVersion: 40400
 ## IsLibrary: true

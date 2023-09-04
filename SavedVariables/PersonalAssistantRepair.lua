@@ -6,37 +6,37 @@ PersonalAssistantRepair_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["profileCounter"] = 1,
+                ["version"] = 1,
                 [1] = 
                 {
                     ["RechargeWeapons"] = 
                     {
+                        ["lowSoulGemThreshold"] = 10,
                         ["lowSoulGemWarning"] = false,
                         ["useSoulGems"] = true,
-                        ["lowSoulGemThreshold"] = 10,
                         ["defaultSoulGem"] = 1,
                     },
-                    ["name"] = "Profile 1",
                     ["autoRepairEnabled"] = true,
-                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithGold"] = true,
                     },
+                    ["autoRepairInventoryEnabled"] = true,
                     ["RepairEquipped"] = 
                     {
-                        ["repairWithGoldDurabilityThreshold"] = 75,
                         ["defaultRepairKit"] = 0,
-                        ["repairWithGold"] = true,
                         ["lowRepairKitWarning"] = true,
-                        ["repairWithRepairKit"] = true,
                         ["lowRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = true,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
                         ["repairWithRepairKitThreshold"] = 10,
+                        ["repairWithGold"] = true,
                     },
                     ["silentMode"] = false,
+                    ["name"] = "Profile 1",
                 },
-                ["version"] = 1,
+                ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,
             },
         },

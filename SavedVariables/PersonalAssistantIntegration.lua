@@ -6,38 +6,13 @@ PersonalAssistantIntegration_SavedVariables =
         {
             ["$AccountWide"] = 
             {
-                ["profileCounter"] = 1,
+                ["version"] = 1,
                 [1] = 
                 {
                     ["FCOItemSaver"] = 
                     {
-                        ["Improvement"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Intricate"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
-                        },
-                        ["Research"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
                         ["DynamicIcons"] = 
                         {
-                        },
-                        ["Locked"] = 
-                        {
-                            ["preventMoving"] = false,
-                            ["preventAutoSell"] = false,
                         },
                         ["GearSets"] = 
                         {
@@ -54,14 +29,44 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
+                        },
+                        ["Intricate"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Locked"] = 
+                        {
+                            ["preventAutoSell"] = false,
+                            ["preventMoving"] = false,
+                        },
+                        ["Improvement"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                     },
                     ["name"] = "Profile 1",
                     ["LazyWritCrafter"] = 
                     {
                         ["compatibility"] = true,
                     },
+                    ["CharacterKnowledge"] = 
+                    {
+                        ["enabled"] = false,
+                        ["characterName"] = "D Good",
+                    },
                 },
-                ["version"] = 1,
+                ["profileCounter"] = 1,
                 ["savedVarsVersion"] = 20524,
             },
         },

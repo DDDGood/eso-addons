@@ -4,155 +4,16 @@ HodorReflexesSV =
     {
         ["@forever9409"] = 
         {
-            ["8796093067519895"] = 
-            {
-                ["$LastCharacterName"] = "D Ruba",
-                ["share"] = 
-                {
-                    ["selfishMode"] = false,
-                    ["myIconPathFull"] = "",
-                    ["enabled"] = true,
-                    ["enableAnimations"] = true,
-                    ["styleColosColor"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["enableHornIcon"] = true,
-                    ["version"] = 1,
-                    ["myIconColor2"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["hornCountdownType"] = "horn_self",
-                    ["accountWide"] = false,
-                    ["enableColoredNames"] = true,
-                    ["hornIconScale"] = 1,
-                    ["enableUltimateShare"] = 0,
-                    ["styleHornColor"] = 
-                    {
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["myIconGradient"] = false,
-                    ["colosPriority"] = "default",
-                    ["enableColosShare"] = false,
-                    ["hornCountdownColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 1,
-                        [2] = 0.5000000000,
-                        [3] = 0,
-                    },
-                    ["enableColosIcons"] = true,
-                    ["enableColosCountdown"] = true,
-                    ["styleTimerBlink"] = true,
-                    ["disablePvP"] = true,
-                    ["styleTotalDamageColor"] = "faffb2",
-                    ["enableMapPins"] = false,
-                    ["styleZeroTimerOpacity"] = 0.7000000000,
-                    ["enableAnimIcons"] = true,
-                    ["colosSupportRange"] = true,
-                    ["colosCountdownColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 1,
-                        [2] = 0,
-                        [3] = 1,
-                    },
-                    ["enableUltimateList"] = false,
-                    ["myIconNameFormatted"] = "",
-                    ["enableUltimateIcons"] = true,
-                    ["enableDamageList"] = 0,
-                    ["myIconColor1"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["damageRowColor"] = 
-                    {
-                        [4] = 0.3600000000,
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["styleDamageHeaderOpacity"] = 0.8000000000,
-                    ["styleBossDamageColor"] = "b2ffb2",
-                    ["colosCountdownBossOnly"] = true,
-                    ["enableDamageShare"] = false,
-                    ["styleForceColor"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["styleDamageRowOddOpacity"] = 0.4500000000,
-                    ["colosCountdownText"] = "ULT",
-                    ["styleDamageRowEvenOpacity"] = 0.6500000000,
-                    ["styleDamageNumFont"] = "gamepad",
-                    ["myIconNameRaw"] = "",
-                    ["enableDamageIcons"] = true,
-                    ["enableColosList"] = false,
-                },
-            },
             ["8796093067501469"] = 
             {
                 ["$LastCharacterName"] = "D D Good",
                 ["share"] = 
                 {
-                    ["selfishMode"] = false,
-                    ["myIconPathFull"] = "",
-                    ["enabled"] = true,
-                    ["enableAnimations"] = true,
-                    ["styleColosColor"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["enableHornIcon"] = true,
-                    ["version"] = 1,
-                    ["myIconColor2"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["hornCountdownType"] = "horn_self",
-                    ["accountWide"] = false,
-                    ["enableColoredNames"] = true,
-                    ["hornIconScale"] = 1,
-                    ["enableUltimateShare"] = 0,
-                    ["styleHornColor"] = 
-                    {
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["myIconGradient"] = false,
-                    ["colosPriority"] = "default",
-                    ["enableColosShare"] = false,
-                    ["hornCountdownColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 1,
-                        [2] = 0.5000000000,
-                        [3] = 0,
-                    },
-                    ["enableColosIcons"] = true,
-                    ["enableColosCountdown"] = true,
-                    ["styleTimerBlink"] = true,
-                    ["disablePvP"] = true,
+                    ["enableDamageIcons"] = true,
                     ["styleTotalDamageColor"] = "faffb2",
-                    ["enableMapPins"] = false,
-                    ["styleZeroTimerOpacity"] = 0.7000000000,
-                    ["enableAnimIcons"] = true,
-                    ["colosSupportRange"] = true,
+                    ["colosCountdownText"] = "ULT",
+                    ["colosCountdownBossOnly"] = true,
+                    ["styleTimerBlink"] = true,
                     ["colosCountdownColor"] = 
                     {
                         [4] = 1,
@@ -160,108 +21,59 @@ HodorReflexesSV =
                         [2] = 0,
                         [3] = 1,
                     },
-                    ["enableUltimateList"] = false,
+                    ["myIconPathFull"] = "",
+                    ["hornIconScale"] = 1,
+                    ["enableDamageList"] = 0,
+                    ["colosSupportRange"] = true,
+                    ["enableColosShare"] = false,
+                    ["myIconGradient"] = false,
+                    ["enableUltimateShare"] = 0,
+                    ["enableColosCountdown"] = true,
+                    ["styleDamageNumFont"] = "gamepad",
+                    ["enableMapPins"] = false,
+                    ["version"] = 1,
+                    ["colosPriority"] = "default",
+                    ["styleDamageRowOddOpacity"] = 0.4500000000,
+                    ["enableDamageShare"] = false,
                     ["myIconNameFormatted"] = "",
                     ["enableUltimateIcons"] = true,
-                    ["enableDamageList"] = 0,
-                    ["myIconColor1"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["damageRowColor"] = 
-                    {
-                        [4] = 0.3600000000,
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["styleDamageHeaderOpacity"] = 0.8000000000,
-                    ["styleBossDamageColor"] = "b2ffb2",
-                    ["colosCountdownBossOnly"] = true,
-                    ["enableDamageShare"] = false,
-                    ["styleForceColor"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["styleDamageRowOddOpacity"] = 0.4500000000,
-                    ["colosCountdownText"] = "ULT",
+                    ["enableColosIcons"] = true,
                     ["styleDamageRowEvenOpacity"] = 0.6500000000,
-                    ["styleDamageNumFont"] = "gamepad",
-                    ["myIconNameRaw"] = "",
-                    ["enableDamageIcons"] = true,
                     ["enableColosList"] = false,
-                },
-            },
-            ["$AccountWide"] = 
-            {
-                ["vote"] = 
-                {
-                    ["version"] = 1,
-                    ["countdownDuration"] = 5,
-                    ["enableChatMessages"] = true,
-                    ["enabled"] = false,
-                },
-                ["version"] = 1,
-                ["confirmExitInstance"] = true,
-                ["integrity"] = 
-                {
-                    ["version"] = 1,
-                    ["scannedIcons"] = 0,
-                    ["failedList"] = 
-                    {
-                    },
-                    ["timeStamp"] = 0,
-                    ["failed"] = 0,
-                },
-                ["toxicMode"] = true,
-                ["share"] = 
-                {
-                    ["selfishMode"] = false,
-                    ["myIconPathFull"] = "HodorReflexes/esologo.dds",
-                    ["enabled"] = true,
-                    ["enableAnimations"] = true,
                     ["styleColosColor"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 0,
                     },
+                    ["enabled"] = true,
                     ["enableHornIcon"] = true,
-                    ["showAtronachPercentValue"] = 1,
-                    ["showAtronachRawValue"] = 1,
-                    ["version"] = 1,
+                    ["enableAnimations"] = true,
+                    ["styleDamageHeaderOpacity"] = 0.8000000000,
+                    ["enableAnimIcons"] = true,
                     ["myIconColor2"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["hornCountdownType"] = "horn_self",
                     ["accountWide"] = false,
-                    ["enableColoredNames"] = true,
-                    ["hornIconScale"] = 1,
-                    ["enableAtronachShare"] = false,
-                    ["enableUltimateShare"] = 0,
-                    ["showColosPercentValue"] = 1,
-                    ["colosSupportRange"] = true,
-                    ["enableMiscUltimateIcons"] = true,
-                    ["showHornPercentValue"] = 1,
-                    ["enableUltimateIcons"] = true,
+                    ["myIconColor1"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
                     ["styleHornColor"] = 
                     {
                         [1] = 0,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["myIconGradient"] = false,
-                    ["colosPriority"] = "default",
-                    ["enableColosShare"] = false,
-                    ["enableMiscUltimateShare"] = false,
-                    ["showColosRawValue"] = 1,
+                    ["styleBossDamageColor"] = "b2ffb2",
+                    ["enableColoredNames"] = true,
+                    ["hornCountdownType"] = "horn_self",
+                    ["selfishMode"] = false,
                     ["hornCountdownColor"] = 
                     {
                         [4] = 1,
@@ -269,38 +81,12 @@ HodorReflexesSV =
                         [2] = 0.5000000000,
                         [3] = 0,
                     },
-                    ["myIconColor1"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["enableColosIcons"] = true,
-                    ["enableColosCountdown"] = true,
-                    ["styleTimerBlink"] = false,
-                    ["disablePvP"] = true,
-                    ["enableMiscUltimateList"] = false,
-                    ["styleTotalDamageColor"] = "faffb2",
-                    ["enableMapPins"] = false,
-                    ["styleBerserkColor"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["styleZeroTimerOpacity"] = 0.7000000000,
                     ["styleForceColor"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["enableAnimIcons"] = true,
-                    ["enableAtronachList"] = false,
-                    ["enableAtronachIcons"] = true,
-                    ["enableDamageShare"] = false,
-                    ["enableUltimateList"] = false,
-                    ["myIconNameFormatted"] = "forever9409",
                     ["damageRowColor"] = 
                     {
                         [4] = 0.3600000000,
@@ -308,9 +94,22 @@ HodorReflexesSV =
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["enableDamageList"] = 0,
-                    ["lastIconsVersion"] = "1.13.1",
-                    ["styleDamageNumFont"] = "gamepad",
+                    ["enableUltimateList"] = false,
+                    ["disablePvP"] = true,
+                    ["styleZeroTimerOpacity"] = 0.7000000000,
+                    ["myIconNameRaw"] = "",
+                },
+            },
+            ["8796093067519895"] = 
+            {
+                ["$LastCharacterName"] = "D Ruba",
+                ["share"] = 
+                {
+                    ["enableDamageIcons"] = true,
+                    ["styleTotalDamageColor"] = "faffb2",
+                    ["colosCountdownText"] = "ULT",
+                    ["colosCountdownBossOnly"] = true,
+                    ["styleTimerBlink"] = true,
                     ["colosCountdownColor"] = 
                     {
                         [4] = 1,
@@ -318,28 +117,83 @@ HodorReflexesSV =
                         [2] = 0,
                         [3] = 1,
                     },
-                    ["styleBossDamageColor"] = "b2ffb2",
-                    ["colosCountdownBossOnly"] = true,
-                    ["showHornRawValue"] = 1,
-                    ["styleDamageHeaderOpacity"] = 0.8000000000,
+                    ["myIconPathFull"] = "",
+                    ["hornIconScale"] = 1,
+                    ["enableDamageList"] = 0,
+                    ["colosSupportRange"] = true,
+                    ["enableColosShare"] = false,
+                    ["myIconGradient"] = false,
+                    ["enableUltimateShare"] = 0,
+                    ["enableColosCountdown"] = true,
+                    ["styleDamageNumFont"] = "gamepad",
+                    ["enableMapPins"] = false,
+                    ["version"] = 1,
+                    ["colosPriority"] = "default",
                     ["styleDamageRowOddOpacity"] = 0.4500000000,
-                    ["colosCountdownText"] = "ULT",
+                    ["enableDamageShare"] = false,
+                    ["myIconNameFormatted"] = "",
+                    ["enableUltimateIcons"] = true,
+                    ["enableColosIcons"] = true,
                     ["styleDamageRowEvenOpacity"] = 0.6500000000,
-                    ["styleAtronachColor"] = 
+                    ["enableColosList"] = false,
+                    ["styleColosColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["enabled"] = true,
+                    ["enableHornIcon"] = true,
+                    ["enableAnimations"] = true,
+                    ["styleDamageHeaderOpacity"] = 0.8000000000,
+                    ["enableAnimIcons"] = true,
+                    ["myIconColor2"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["accountWide"] = false,
+                    ["myIconColor1"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["styleHornColor"] = 
                     {
                         [1] = 0,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["myIconNameRaw"] = "forever9409",
-                    ["enableDamageIcons"] = true,
-                    ["enableColosList"] = false,
-                },
-                ["disableIncompatibleDependencyWarning"] = false,
-                ["events"] = 
-                {
-                    ["enabled"] = true,
-                    ["version"] = 1,
+                    ["styleBossDamageColor"] = "b2ffb2",
+                    ["enableColoredNames"] = true,
+                    ["hornCountdownType"] = "horn_self",
+                    ["selfishMode"] = false,
+                    ["hornCountdownColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 1,
+                        [2] = 0.5000000000,
+                        [3] = 0,
+                    },
+                    ["styleForceColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["damageRowColor"] = 
+                    {
+                        [4] = 0.3600000000,
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["enableUltimateList"] = false,
+                    ["disablePvP"] = true,
+                    ["styleZeroTimerOpacity"] = 0.7000000000,
+                    ["myIconNameRaw"] = "",
                 },
             },
             ["8796093067296067"] = 
@@ -347,91 +201,15 @@ HodorReflexesSV =
                 ["$LastCharacterName"] = "D Good",
                 ["share"] = 
                 {
-                    ["myIconPathFull"] = "",
-                    ["enableHornIcon"] = false,
-                    ["showAtronachPercentValue"] = 1,
-                    ["hornIconCenterY"] = 38,
-                    ["enableColoredNames"] = true,
-                    ["colosCountdownCenterY"] = 37,
-                    ["showColosPercentValue"] = 1,
-                    ["damageTop"] = 41,
-                    ["myIconGradient"] = false,
-                    ["colosPriority"] = "default",
-                    ["enableColosShare"] = false,
-                    ["enableMiscUltimateShare"] = false,
-                    ["ultimateLeft"] = 45,
-                    ["enableColosIcons"] = true,
-                    ["styleTimerBlink"] = true,
-                    ["hornCountdownCenterY"] = 957,
-                    ["showHornRawValue"] = 1,
-                    ["colosSupportRange"] = true,
-                    ["enableUltimateList"] = false,
-                    ["myIconNameFormatted"] = "",
-                    ["styleDamageHeaderOpacity"] = 0.8000000000,
-                    ["styleBossDamageColor"] = "b2ffb2",
-                    ["colosCountdownBossOnly"] = true,
-                    ["damageRowColor"] = 
-                    {
-                        [4] = 0.3600000000,
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 0,
-                    },
-                    ["colosCountdownText"] = "ULT",
-                    ["enableColosList"] = false,
-                    ["selfishMode"] = false,
-                    ["enableUltimateIcons"] = true,
-                    ["enabled"] = true,
-                    ["enableAnimations"] = true,
-                    ["damageLeft"] = 648,
-                    ["showAtronachRawValue"] = 1,
-                    ["version"] = 1,
                     ["myIconColor2"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["hornCountdownType"] = "horn_self",
-                    ["accountWide"] = false,
-                    ["enableAtronachShare"] = false,
-                    ["enableUltimateShare"] = true,
-                    ["hornIconCenterX"] = 1929,
-                    ["styleHornColor"] = 
-                    {
-                        [1] = 0,
-                        [2] = 1,
-                        [3] = 1,
-                    },
-                    ["showColosRawValue"] = 1,
-                    ["hornCountdownColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 1,
-                        [2] = 0.5000000000,
-                        [3] = 0,
-                    },
-                    ["showHornPercentValue"] = 1,
-                    ["enableColosCountdown"] = false,
-                    ["disablePvP"] = true,
-                    ["enableMiscUltimateList"] = false,
                     ["styleTotalDamageColor"] = "faffb2",
-                    ["enableMapPins"] = false,
-                    ["styleZeroTimerOpacity"] = 0.7000000000,
-                    ["enableAnimIcons"] = true,
-                    ["colosCountdownCenterX"] = 1797,
-                    ["ultimateTop"] = 276,
-                    ["styleDamageNumFont"] = "gamepad",
-                    ["enableDamageShare"] = true,
-                    ["styleDamageRowEvenOpacity"] = 0.6500000000,
-                    ["enableDamageList"] = 2,
-                    ["enableAtronachList"] = false,
-                    ["styleForceColor"] = 
-                    {
-                        [1] = 1,
-                        [2] = 1,
-                        [3] = 0,
-                    },
+                    ["showAtronachRawValue"] = 1,
+                    ["enableAnimations"] = true,
                     ["colosCountdownColor"] = 
                     {
                         [4] = 1,
@@ -439,38 +217,260 @@ HodorReflexesSV =
                         [2] = 0,
                         [3] = 1,
                     },
-                    ["styleColosColor"] = 
+                    ["enableMiscUltimateIcons"] = true,
+                    ["ultimateLeft"] = 45,
+                    ["styleZeroTimerOpacity"] = 0.7000000000,
+                    ["damageLeft"] = 648,
+                    ["hornIconCenterX"] = 1929,
+                    ["showColosRawValue"] = 1,
+                    ["enableUltimateShare"] = true,
+                    ["enableColosCountdown"] = false,
+                    ["enableMapPins"] = false,
+                    ["enableAtronachList"] = false,
+                    ["colosPriority"] = "default",
+                    ["showHornRawValue"] = 1,
+                    ["styleDamageRowOddOpacity"] = 0.4500000000,
+                    ["enableDamageShare"] = true,
+                    ["myIconNameFormatted"] = "",
+                    ["enableColosList"] = false,
+                    ["styleDamageHeaderOpacity"] = 0.8000000000,
+                    ["enableAnimIcons"] = true,
+                    ["styleHornColor"] = 
                     {
-                        [1] = 1,
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["hornCountdownType"] = "horn_self",
+                    ["ultimateTop"] = 276,
+                    ["enableUltimateList"] = false,
+                    ["enableUltimateIcons"] = true,
+                    ["showAtronachPercentValue"] = 1,
+                    ["enableColoredNames"] = true,
+                    ["colosCountdownText"] = "ULT",
+                    ["colosCountdownBossOnly"] = true,
+                    ["styleTimerBlink"] = true,
+                    ["myIconPathFull"] = "",
+                    ["hornIconScale"] = 1,
+                    ["enableDamageList"] = 2,
+                    ["damageRowColor"] = 
+                    {
+                        [4] = 0.3600000000,
+                        [1] = 0,
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["enableAtronachIcons"] = true,
+                    ["enableColosShare"] = false,
                     ["styleBerserkColor"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 0,
                     },
-                    ["hornIconScale"] = 1,
-                    ["styleDamageRowOddOpacity"] = 0.4500000000,
+                    ["myIconGradient"] = false,
+                    ["enableAtronachIcons"] = true,
+                    ["showColosPercentValue"] = 1,
+                    ["styleDamageNumFont"] = "gamepad",
+                    ["colosCountdownCenterY"] = 37,
+                    ["version"] = 1,
+                    ["enableMiscUltimateShare"] = false,
+                    ["styleBossDamageColor"] = "b2ffb2",
+                    ["showHornPercentValue"] = 1,
+                    ["hornIconCenterY"] = 38,
+                    ["enableDamageIcons"] = true,
+                    ["hornCountdownCenterX"] = 2339,
+                    ["enableHornIcon"] = false,
+                    ["damageTop"] = 41,
+                    ["enabled"] = true,
+                    ["accountWide"] = false,
+                    ["colosSupportRange"] = true,
+                    ["enableColosIcons"] = true,
                     ["myIconColor1"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["enableMiscUltimateIcons"] = true,
+                    ["myIconNameRaw"] = "",
+                    ["styleDamageRowEvenOpacity"] = 0.6500000000,
+                    ["enableAtronachShare"] = false,
                     ["styleAtronachColor"] = 
                     {
                         [1] = 0,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["myIconNameRaw"] = "",
-                    ["enableDamageIcons"] = true,
-                    ["hornCountdownCenterX"] = 2339,
+                    ["disablePvP"] = true,
+                    ["hornCountdownColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 1,
+                        [2] = 0.5000000000,
+                        [3] = 0,
+                    },
+                    ["styleForceColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["hornCountdownCenterY"] = 957,
+                    ["enableMiscUltimateList"] = false,
+                    ["selfishMode"] = false,
+                    ["styleColosColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["colosCountdownCenterX"] = 1797,
                 },
+            },
+            ["$AccountWide"] = 
+            {
+                ["events"] = 
+                {
+                    ["version"] = 1,
+                    ["enabled"] = true,
+                },
+                ["share"] = 
+                {
+                    ["enableDamageIcons"] = true,
+                    ["showAtronachPercentValue"] = 1,
+                    ["enableColoredNames"] = true,
+                    ["colosCountdownText"] = "ULT",
+                    ["colosCountdownBossOnly"] = true,
+                    ["styleTimerBlink"] = false,
+                    ["colosCountdownColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 1,
+                        [2] = 0,
+                        [3] = 1,
+                    },
+                    ["enableMiscUltimateIcons"] = true,
+                    ["myIconGradient"] = false,
+                    ["lastIconsVersion"] = "1.13.1",
+                    ["myIconPathFull"] = "HodorReflexes/esologo.dds",
+                    ["hornIconScale"] = 1,
+                    ["styleColosColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["styleTotalDamageColor"] = "faffb2",
+                    ["enableDamageList"] = 0,
+                    ["colosSupportRange"] = true,
+                    ["enabled"] = true,
+                    ["enableColosShare"] = false,
+                    ["styleBerserkColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["showColosRawValue"] = 1,
+                    ["enableAtronachIcons"] = true,
+                    ["enableUltimateShare"] = 0,
+                    ["enableAnimations"] = true,
+                    ["enableAnimIcons"] = true,
+                    ["myIconColor2"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["enableColosCountdown"] = true,
+                    ["styleDamageNumFont"] = "gamepad",
+                    ["styleBossDamageColor"] = "b2ffb2",
+                    ["enableAtronachList"] = false,
+                    ["version"] = 1,
+                    ["colosPriority"] = "default",
+                    ["accountWide"] = false,
+                    ["showHornRawValue"] = 1,
+                    ["styleDamageRowOddOpacity"] = 0.4500000000,
+                    ["enableDamageShare"] = false,
+                    ["myIconNameFormatted"] = "forever9409",
+                    ["enableMiscUltimateShare"] = false,
+                    ["styleZeroTimerOpacity"] = 0.7000000000,
+                    ["styleDamageRowEvenOpacity"] = 0.6500000000,
+                    ["enableColosList"] = false,
+                    ["showAtronachRawValue"] = 1,
+                    ["styleAtronachColor"] = 
+                    {
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["enableHornIcon"] = true,
+                    ["damageRowColor"] = 
+                    {
+                        [4] = 0.3600000000,
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["styleDamageHeaderOpacity"] = 0.8000000000,
+                    ["enableColosIcons"] = true,
+                    ["enableMapPins"] = false,
+                    ["enableUltimateIcons"] = true,
+                    ["myIconColor1"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["styleHornColor"] = 
+                    {
+                        [1] = 0,
+                        [2] = 1,
+                        [3] = 1,
+                    },
+                    ["showColosPercentValue"] = 1,
+                    ["enableAtronachShare"] = false,
+                    ["hornCountdownType"] = "horn_self",
+                    ["selfishMode"] = false,
+                    ["hornCountdownColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 1,
+                        [2] = 0.5000000000,
+                        [3] = 0,
+                    },
+                    ["styleForceColor"] = 
+                    {
+                        [1] = 1,
+                        [2] = 1,
+                        [3] = 0,
+                    },
+                    ["disablePvP"] = true,
+                    ["enableUltimateList"] = false,
+                    ["myIconNameRaw"] = "forever9409",
+                    ["enableMiscUltimateList"] = false,
+                    ["showHornPercentValue"] = 1,
+                },
+                ["vote"] = 
+                {
+                    ["version"] = 1,
+                    ["countdownDuration"] = 5,
+                    ["enableChatMessages"] = true,
+                    ["enabled"] = false,
+                },
+                ["confirmExitInstance"] = true,
+                ["disableIncompatibleDependencyWarning"] = false,
+                ["version"] = 1,
+                ["integrity"] = 
+                {
+                    ["version"] = 1,
+                    ["failed"] = 0,
+                    ["timeStamp"] = 0,
+                    ["scannedIcons"] = 0,
+                    ["failedList"] = 
+                    {
+                    },
+                },
+                ["toxicMode"] = true,
             },
         },
     },
