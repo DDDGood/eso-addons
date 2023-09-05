@@ -2,4 +2,9 @@
 #AcknowledgedOutOfDateAddonsVersion 101039
 #AddOnsEnabled 1
 #NA Megaserver-D Good
+LibCustomMenu 1
+LibDialog 0
 DolgubonsLazyWritCreator 0
+AddonSelector 0
+LibLazyCrafting 1
+LibAddonMenu-2.0 1

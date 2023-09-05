@@ -4,31 +4,20 @@ WritWorthyVars =
     {
         ["@forever9409"] = 
         {
-            ["D Good"] = 
+            ["Douli D"] = 
             {
                 ["enable_station_colors"] = false,
-                ["enable_mat_list_chat"] = "Off",
                 ["enable_lib_price"] = true,
-                ["enable_mat_list_tooltip"] = "Off",
-                ["writ_unique_id"] = 
-                {
-                },
-                ["enable_mat_price_tooltip"] = true,
-                ["lang"] = false,
+                ["enable_mat_list_chat"] = "Off",
                 ["enable_mm_fallback"] = false,
                 ["version"] = 1,
                 ["enable_banked_vouchers"] = false,
-            },
-            ["$AccountWide"] = 
-            {
-                ["version"] = 1,
-                ["position"] = 
+                ["writ_unique_id"] = 
                 {
-                    [4] = 599,
-                    [1] = 50,
-                    [2] = 49,
-                    [3] = 1175,
                 },
+                ["lang"] = false,
+                ["enable_mat_list_tooltip"] = "Off",
+                ["enable_mat_price_tooltip"] = true,
             },
             ["D D Good"] = 
             {
@@ -37,27 +26,38 @@ WritWorthyVars =
                 {
                 },
             },
-            ["Douli D"] = 
-            {
-                ["enable_station_colors"] = false,
-                ["enable_mat_list_chat"] = "Off",
-                ["enable_lib_price"] = true,
-                ["enable_mat_list_tooltip"] = "Off",
-                ["writ_unique_id"] = 
-                {
-                },
-                ["enable_mat_price_tooltip"] = true,
-                ["lang"] = false,
-                ["enable_mm_fallback"] = false,
-                ["version"] = 1,
-                ["enable_banked_vouchers"] = false,
-            },
             ["D Ruba"] = 
             {
                 ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+            },
+            ["D Good"] = 
+            {
+                ["enable_station_colors"] = false,
+                ["enable_lib_price"] = true,
+                ["enable_mat_list_chat"] = "Off",
+                ["enable_mm_fallback"] = false,
+                ["version"] = 1,
+                ["enable_banked_vouchers"] = false,
+                ["writ_unique_id"] = 
+                {
+                },
+                ["lang"] = false,
+                ["enable_mat_list_tooltip"] = "Off",
+                ["enable_mat_price_tooltip"] = true,
+            },
+            ["$AccountWide"] = 
+            {
+                ["position"] = 
+                {
+                    [4] = 599,
+                    [1] = 50,
+                    [2] = 49,
+                    [3] = 1175,
+                },
+                ["version"] = 1,
             },
         },
     },

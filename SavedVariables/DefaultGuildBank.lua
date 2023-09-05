@@ -4,25 +4,25 @@ DefaultGuildBankVars =
     {
         ["@forever9409"] = 
         {
-            ["8796093067519895"] = 
-            {
-                ["$LastCharacterName"] = "D Ruba",
-                ["NA Megaserver"] = 
-                {
-                    ["version"] = 1,
-                    ["accountWide"] = true,
-                    ["dgb_enabled"] = true,
-                },
-            },
             ["8796093073961853"] = 
             {
-                ["$LastCharacterName"] = "Douli D",
                 ["NA Megaserver"] = 
                 {
                     ["version"] = 1,
                     ["accountWide"] = true,
                     ["dgb_enabled"] = true,
                 },
+                ["$LastCharacterName"] = "Douli D",
+            },
+            ["8796093073962423"] = 
+            {
+                ["NA Megaserver"] = 
+                {
+                    ["version"] = 1,
+                    ["accountWide"] = true,
+                    ["dgb_enabled"] = true,
+                },
+                ["$LastCharacterName"] = "Douli D",
             },
             ["$AccountWide"] = 
             {
@@ -35,23 +35,23 @@ DefaultGuildBankVars =
             },
             ["8796093067296067"] = 
             {
+                ["NA Megaserver"] = 
+                {
+                    ["version"] = 1,
+                    ["accountWide"] = true,
+                    ["dgb_enabled"] = true,
+                },
                 ["$LastCharacterName"] = "D Good",
-                ["NA Megaserver"] = 
-                {
-                    ["version"] = 1,
-                    ["accountWide"] = true,
-                    ["dgb_enabled"] = true,
-                },
             },
-            ["8796093073962423"] = 
+            ["8796093067519895"] = 
             {
-                ["$LastCharacterName"] = "Douli D",
                 ["NA Megaserver"] = 
                 {
                     ["version"] = 1,
                     ["accountWide"] = true,
                     ["dgb_enabled"] = true,
                 },
+                ["$LastCharacterName"] = "D Ruba",
             },
         },
     },

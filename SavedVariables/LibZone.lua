@@ -2818,11 +2818,6 @@ LibZone_SV_Data =
                         ["parentZone"] = 1414,
                         ["zoneIndex"] = 949,
                     },
-                    ["lastZoneCheckAPIVersion"] = 
-                    {
-                        ["en"] = 101039,
-                        ["zh"] = 101039,
-                    },
                     [1392] = 
                     {
                         ["parentZone"] = 537,
@@ -2908,15 +2903,15 @@ LibZone_SV_Data =
                         ["parentZone"] = 1318,
                         ["zoneIndex"] = 900,
                     },
-                    [628] = 
-                    {
-                        ["parentZone"] = 20,
-                        ["zoneIndex"] = 363,
-                    },
                     [1421] = 
                     {
                         ["parentZone"] = 1414,
                         ["zoneIndex"] = 963,
+                    },
+                    [628] = 
+                    {
+                        ["parentZone"] = 20,
+                        ["zoneIndex"] = 363,
                     },
                     [1282] = 
                     {
@@ -2928,20 +2923,25 @@ LibZone_SV_Data =
                         ["parentZone"] = 1414,
                         ["zoneIndex"] = 946,
                     },
-                    [632] = 
-                    {
-                        ["parentZone"] = 888,
-                        ["zoneIndex"] = 364,
-                    },
                     [1342] = 
                     {
                         ["parentZone"] = 1282,
                         ["zoneIndex"] = 902,
                     },
-                    [1336] = 
+                    [632] = 
+                    {
+                        ["parentZone"] = 888,
+                        ["zoneIndex"] = 364,
+                    },
+                    [981] = 
+                    {
+                        ["parentZone"] = 980,
+                        ["zoneIndex"] = 590,
+                    },
+                    [1330] = 
                     {
                         ["parentZone"] = 1318,
-                        ["zoneIndex"] = 899,
+                        ["zoneIndex"] = 893,
                     },
                     [635] = 
                     {
@@ -2988,11 +2988,6 @@ LibZone_SV_Data =
                         ["parentZone"] = 584,
                         ["zoneIndex"] = 373,
                     },
-                    [1330] = 
-                    {
-                        ["parentZone"] = 1318,
-                        ["zoneIndex"] = 893,
-                    },
                     [1027] = 
                     {
                         ["parentZone"] = 1011,
@@ -3013,15 +3008,15 @@ LibZone_SV_Data =
                         ["parentZone"] = 1011,
                         ["zoneIndex"] = 640,
                     },
-                    [649] = 
-                    {
-                        ["parentZone"] = 584,
-                        ["zoneIndex"] = 374,
-                    },
                     [1312] = 
                     {
                         ["parentZone"] = 849,
                         ["zoneIndex"] = 877,
+                    },
+                    [649] = 
+                    {
+                        ["parentZone"] = 584,
+                        ["zoneIndex"] = 374,
                     },
                     [1311] = 
                     {
@@ -3092,6 +3087,11 @@ LibZone_SV_Data =
                     {
                         ["parentZone"] = 1286,
                         ["zoneIndex"] = 857,
+                    },
+                    [1336] = 
+                    {
+                        ["parentZone"] = 1318,
+                        ["zoneIndex"] = 899,
                     },
                     [1285] = 
                     {
@@ -3578,11 +3578,7 @@ LibZone_SV_Data =
                         ["parentZone"] = 103,
                         ["zoneIndex"] = 424,
                     },
-                    [1237] = 
-                    {
-                        ["parentZone"] = 383,
-                        ["zoneIndex"] = 810,
-                    },
+                    ["version"] = 8.6000000000,
                     [763] = 
                     {
                         ["parentZone"] = 816,
@@ -3608,7 +3604,11 @@ LibZone_SV_Data =
                         ["parentZone"] = 816,
                         ["zoneIndex"] = 429,
                     },
-                    ["version"] = 8.6000000000,
+                    [1236] = 
+                    {
+                        ["parentZone"] = 383,
+                        ["zoneIndex"] = 809,
+                    },
                     [769] = 
                     {
                         ["parentZone"] = 823,
@@ -3754,11 +3754,6 @@ LibZone_SV_Data =
                         ["parentZone"] = 1161,
                         ["zoneIndex"] = 752,
                     },
-                    [1161] = 
-                    {
-                        ["parentZone"] = 1161,
-                        ["zoneIndex"] = 744,
-                    },
                     [1065] = 
                     {
                         ["parentZone"] = 726,
@@ -3778,6 +3773,11 @@ LibZone_SV_Data =
                     {
                         ["parentZone"] = 1261,
                         ["zoneIndex"] = 820,
+                    },
+                    [1170] = 
+                    {
+                        ["parentZone"] = 1160,
+                        ["zoneIndex"] = 750,
                     },
                     [1150] = 
                     {
@@ -4184,11 +4184,6 @@ LibZone_SV_Data =
                         ["parentZone"] = 888,
                         ["zoneIndex"] = 499,
                     },
-                    [1170] = 
-                    {
-                        ["parentZone"] = 1160,
-                        ["zoneIndex"] = 750,
-                    },
                     [1055] = 
                     {
                         ["parentZone"] = 108,
@@ -4203,6 +4198,11 @@ LibZone_SV_Data =
                     {
                         ["parentZone"] = 1161,
                         ["zoneIndex"] = 763,
+                    },
+                    [1161] = 
+                    {
+                        ["parentZone"] = 1161,
+                        ["zoneIndex"] = 744,
                     },
                     [888] = 
                     {
@@ -4324,10 +4324,10 @@ LibZone_SV_Data =
                         ["parentZone"] = 888,
                         ["zoneIndex"] = 523,
                     },
-                    [1236] = 
+                    [1237] = 
                     {
                         ["parentZone"] = 383,
-                        ["zoneIndex"] = 809,
+                        ["zoneIndex"] = 810,
                     },
                     [913] = 
                     {
@@ -4669,10 +4669,10 @@ LibZone_SV_Data =
                         ["parentZone"] = 980,
                         ["zoneIndex"] = 589,
                     },
-                    [981] = 
+                    ["lastZoneCheckAPIVersion"] = 
                     {
-                        ["parentZone"] = 980,
-                        ["zoneIndex"] = 590,
+                        ["en"] = 101039,
+                        ["zh"] = 101039,
                     },
                     [982] = 
                     {
@@ -4900,18 +4900,18 @@ LibZone_Localized_SV_Data =
                 ["ZoneData"] = 
                 {
                     ["version"] = 8.6000000000,
+                    ["zh"] = 
+                    {
+                        [1468] = "凯勒桑-鲁恩",
+                        [1437] = "暗影女王的环树迷宫",
+                        ["lastUpdate"] = 1693893522,
+                        ["APIVersionAtLastUpdate"] = 101039,
+                    },
                     ["en"] = 
                     {
                         [1468] = "Kelesan'ruhn",
                         [1437] = "Shadow Queen's Labyrinth",
                         ["lastUpdate"] = 1693745764,
-                        ["APIVersionAtLastUpdate"] = 101039,
-                    },
-                    ["zh"] = 
-                    {
-                        [1468] = "凯勒桑-鲁恩",
-                        [1437] = "暗影女王的环树迷宫",
-                        ["lastUpdate"] = 1693814325,
                         ["APIVersionAtLastUpdate"] = 101039,
                     },
                 },
