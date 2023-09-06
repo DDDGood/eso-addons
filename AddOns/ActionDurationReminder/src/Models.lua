@@ -151,9 +151,10 @@ m.newAction -- #(#number:slotNum,#number:weaponPairIndex,#boolean:weaponPairUlti
     local i,j,numStr = action.description:find(pattern,offset)
     if not i then break end
     offset = j
-    local n =  tonumber((numStr:gsub(',','.')))*1000
-    if n%1000==0 then
-      action.descriptionNums[n/1000] = true
+    local n =  tonumber((numStr:gsub(',','.')))
+    if not n then break end
+    if (n*1000)%1000==0 then
+      action.descriptionNums[n] = true
     end
   end
 
@@ -938,7 +939,7 @@ mAction.saveEffect -- #(#Action:self, #Effect:effect)->(#Effect)
 
   -- ignore abnormal long duration effect
   if self.duration and self.duration >=10000
-    and effect.duration > self.duration * 1.5
+    and effect.duration > self.duration * 3  -- changed from 1.5 to 3 because of Everlasting Sweep could extend the duration based enemies hit
     and effect.duration ~= self.descriptionDuration
   then
     return
